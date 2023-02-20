@@ -1,0 +1,255 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.ocelot.base_pose.v1.0": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat4": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HTop": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HSide": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "BHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Ponytail": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBun": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEar": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEar": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightHorn": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEye": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEye": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftArm": {
+          "position": [ "3 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "LeftArm2": {
+          "position": [ "3 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "RightArm": {
+          "position": [ "-3 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "RightArm2": {
+          "position": [ "-3 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "RightLeg": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "waist": {
+          "rotation": [ "-this", "-this", "-this" ]
+        }
+      }
+    },
+    "animation.cmm.ocelot.setup.v1.0": {
+      "loop": true,
+      "bones": {
+        "Tail1": {
+          "rotation": [ "51.57 - this", 0, 0 ]
+        },
+        "Tail2": {
+          "rotation": [ "-this", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.ocelot.sit.v1.0": {
+      "loop": true,
+      "bones": {
+        "Tail1": {
+          "rotation": [ "99.0 - this", 0, 0 ],
+          "position": [ 0, 0, 1 ]
+        },
+        "Tail2": {
+          "rotation": [ "153.0 - this", 0, 0 ],
+          "position": [ 0, 5.5, 3.5 ]
+        },
+        "Skirt1": {
+          "rotation": [ -60, 0, 0 ],
+          "position": [ 0, 0.5, 1 ]
+        },
+        "RightLeg": {
+          "rotation": [ -90, 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ -90, 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -90, 0, 0 ],
+          "position": [ 0, 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ -90, 0, 0 ],
+          "position": [ 0, 0, 0 ]
+        },
+        "root": {
+          "position": [ 0, -6, 0 ]
+        }
+      }
+    },
+    "animation.cmm.ocelot.sneak.v1.0": {
+      "loop": true,
+      "bones": {
+        "Hat": {
+          "rotation": [ "-15 - this", 0, 0 ]
+        },
+        "Hair": {
+          "rotation": [ "-15 - this", 0, 0 ]
+        },
+        "Head": {
+          "rotation": [ "-15 - this", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "-10 - this", 0, 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ "-10 - this", 0, 0 ]
+        },
+        "Tail1": {
+          "rotation": [ "90.0 - this", 0, 0 ],
+          "position": [ 0, -1, 1 ]
+        },
+        "Tail2": {
+          "rotation": [ "99.0 + 45.0 * math.cos(query.modified_distance_moved * 57.3) * query.modified_move_speed - this", 0, 0 ],
+          "position": [ 0, 4, 3 ]
+        },
+        "Skirt1": {
+          "rotation": [ "-13 - this", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "-13 - this", 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-13 - this", 0, 0 ]
+        },
+        "root": {
+          "rotation": [ "15.0 - this", 0, 0 ],
+          "position": [ 0, "-10.5 - this", 0 ]
+        }
+      }
+    },
+    "animation.cmm.ocelot.sprint.v1.0": {
+      "loop": true,
+      "bones": {
+        "Tail1": {
+          "rotation": [ "90.0 - this", 0, 0 ]
+        },
+        "Tail2": {
+          "rotation": [ "99.0 + 18.0 * math.cos(query.modified_distance_moved * 57.3) * query.modified_move_speed", 0, 0 ],
+          "position": [ 0, 5, 2 ]
+        }
+      }
+    },
+    "animation.cmm.ocelot.walk.v1.0": {
+      "loop": true,
+      "bones": {
+        "Tail2": {
+          "rotation": [ "99.0 + 45.0 * math.cos(query.modified_distance_moved * 57.3) * query.modified_move_speed", 0, 0 ]
+        }
+      }
+    }
+  }
+}

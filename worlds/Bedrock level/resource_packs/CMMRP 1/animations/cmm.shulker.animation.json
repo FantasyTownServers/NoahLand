@@ -1,0 +1,33 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.shulker.look_at_target.default": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        }
+      }
+    },
+    "animation.cmm.shulker.facing": {
+      "anim_time_update": "query.modified_distance_moved",
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [ "variable.shulker.xoffset", "variable.shulker.yoffset", "variable.shulker.zoffset" ],
+          "rotation": [ "variable.shulker.xprerotation", 0, "variable.shulker.zprerotation" ]
+        }
+      }
+    },
+    "animation.cmm.shulker.move": {
+      "anim_time_update": "query.modified_distance_moved",
+      "loop": true,
+      "bones": {
+        "ShulkerLid": {
+          "position" : [ 0.0, "3.6 - math.sin(variable.shulker.lidpositionfactor * 1.16) * 3.6 + (variable.shulker.lidpositionfactor > 180 ? math.sin(query.life_time * 114.6) * 0.7 + 1.5: 0.0)", 0.0 ],
+          "rotation" : [ 0.0, "variable.shulker.peekamount > 0.3 ? math.pow(variable.shulker.lidrotationfactor, 4) * 22.5 : 0.0", 0.0 ]
+        }
+      }
+    }
+  }
+}

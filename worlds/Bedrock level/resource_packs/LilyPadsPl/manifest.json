@@ -1,0 +1,35 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "With this pack, Lily pads will have 3d flowers and a bunch of variations! By §4Fused §8Bolt §r.Tap on the GEAR icon to see the texture options",
+        "name": "Lily Pads Plus!",
+        "uuid": "8d7fbb3a-453e-46f8-8c53-13a1ca1ded6c",
+        "version": [1, 0, 1],
+        "min_engine_version": [1, 2, 6]
+    },
+    "modules": [
+        {
+            "description": "Lily pads with flowers By Fused Bolt",
+            "type": "resources",
+            "uuid": "b9857a79-5081-4562-bfde-56058430dfac",
+            "version": [1, 0, 1]
+      }
+   ],
+   "subpacks": [
+   {
+      "folder_name": "other",
+      "name": "Use Texture/s of Lily Pads from another Texture Pack",
+      "memory_tier": 1
+      },
+   {
+      "folder_name": "vanilla",
+      "name": "Vanilla Lily Pads",
+      "memory_tier": 1
+      },
+   {
+      "folder_name": "fused",
+      "name": "Fused's Lily Pads",
+      "memory_tier": 1
+      }
+   ]
+}

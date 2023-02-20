@@ -1,0 +1,216 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.agent.base_pose.v1.0": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Mask": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat4": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HTop": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HSide": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "BHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Ponytail": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HFront": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HFront2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HFront3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBun": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEar": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEar": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightHorn": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEye": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEye": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HighTwinTails": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LowTwinTails": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "PonyTail": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "ThickPonyTail": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftArm": {
+          "position": [ "2.9 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "LeftArm2": {
+          "position": [ "2.9 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "RightArm": {
+          "position": [ "-2.9 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "RightArm2": {
+          "position": [ "-2.9 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "RightLeg": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "waist": {
+          "rotation": [ "-this", "-this", "-this" ]
+        }
+      }
+    },
+    "animation.cmm.agent.move.v1.0": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [ 0, "variable.agent.easein * (math.sin(query.life_time * 114.6 * variable.agent.movespeedscalar) + 1.0) * 1.12", 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ "((-0.2 + 1.5 * (math.abs(math.mod(query.modified_distance_moved, 13) - 6.5) - 3.25) / 3.25) * query.modified_move_speed) * 57.3 - variable.agent.armxrotationfactor", 0, "-variable.agent.armzrotation" ]
+        },
+        "LeftArm2": {
+          "rotation": [ "((-0.2 + 1.5 * (math.abs(math.mod(query.modified_distance_moved, 13) - 6.5) - 3.25) / 3.25) * query.modified_move_speed) * 57.3 - variable.agent.armxrotationfactor", 0, "-variable.agent.armzrotation" ]
+        },
+        "LeftLeg": {
+          "rotation": [ "((-1.5 * (math.abs(math.mod(query.modified_distance_moved, 13) - 6.5) - 3.25) / 3.25) * query.modified_move_speed) * 57.3 + (variable.agent.ishovering * variable.agent.legxrotationfactor)", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "((-1.5 * (math.abs(math.mod(query.modified_distance_moved, 13) - 6.5) - 3.25) / 3.25) * query.modified_move_speed) * 57.3 + (variable.agent.ishovering * variable.agent.legxrotationfactor)", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "((-0.2 - 1.5 * (math.abs(math.mod(query.modified_distance_moved, 13) - 6.5) - 3.25) / 3.25) * query.modified_move_speed) * 57.3 + variable.agent.armxrotationfactor", 0, "variable.agent.armzrotation" ]
+        },
+        "RightArm2": {
+          "rotation": [ "((-0.2 - 1.5 * (math.abs(math.mod(query.modified_distance_moved, 13) - 6.5) - 3.25) / 3.25) * query.modified_move_speed) * 57.3 + variable.agent.armxrotationfactor", 0, "variable.agent.armzrotation" ]
+        },
+        "RightLeg": {
+          "rotation": [ "((1.5 * (math.abs(math.mod(query.modified_distance_moved, 13) - 6.5) - 3.25) / 3.25) * query.modified_move_speed) * 57.3 - (variable.agent.ishovering * variable.agent.legxrotationfactor)", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "((1.5 * (math.abs(math.mod(query.modified_distance_moved, 13) - 6.5) - 3.25) / 3.25) * query.modified_move_speed) * 57.3 - (variable.agent.ishovering * variable.agent.legxrotationfactor)", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.agent.swing_arms.v1.0": {
+      "loop": true,
+      "bones": {
+        "RightArm": {
+          "rotation": [ "(-2.0 + 1.5 * (math.abs(math.mod(variable.agent.swinganimationtick - query.frame_alpha, variable.agent.swinganimationduration) - variable.agent.swinganimationduration * 0.5) - variable.agent.swinganimationduration * 0.25) / (variable.agent.swinganimationduration * 0.25)) * 57.3", 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "(-2.0 + 1.5 * (math.abs(math.mod(variable.agent.swinganimationtick - query.frame_alpha, variable.agent.swinganimationduration) - variable.agent.swinganimationduration * 0.5) - variable.agent.swinganimationduration * 0.25) / (variable.agent.swinganimationduration * 0.25)) * 57.3", 0, 0 ]
+        }
+      }
+    }
+  }
+}

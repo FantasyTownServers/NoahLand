@@ -1,0 +1,1285 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.player.attack.positions": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "Hair": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "Hat": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "Hat1": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "Hat2": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "Hat3": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "Hat4": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "HTop": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "HSide": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "BHair": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "Ponytail": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "HBack": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "HBack1": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "HBack2": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "RHair": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "HRight": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "HRight2": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "HRight3": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "LHair": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "HLeft": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "HLeft2": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "HLeft3": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "Hood1": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "Hood2": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "Hood3": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "HBun": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "RightEar": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "RightHorn": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "LeftEar": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "RightEye": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        },
+        "LeftEye": {
+          "rotation": [ 0.0, 0, 0.0 ]
+        }
+      }
+    },
+    "animation.cmm.player.attack.rotations": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [ 0, "variable.attack_Body_rot_y", 0 ]
+        },
+        "Head": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "Hair": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "Hat": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "Hat1": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "Hat2": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "Hat3": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "Hat4": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "HTop": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "HSide": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "BHair": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "Ponytail": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "HBack": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "HBack1": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "HBack2": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "RHair": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "HRight": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "HRight2": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "HRight3": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "LHair": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "HLeft": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "HLeft2": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "HLeft3": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "Hood1": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "Hood2": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "Hood3": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "HBun": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "RightEar": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "RightHorn": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "LeftEar": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "RightEye": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "LeftEye": {
+          "rotation": [ 0, "-variable.attack_Body_rot_y", 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ "-(math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180) * 1.2 + math.sin(variable.attack_time * 180)) * 10.0", 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ "-(math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180) * 1.2 + math.sin(variable.attack_time * 180)) * 10.0", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "-(math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180) * 1.2 + math.sin(variable.attack_time * 180)) * 30.0", "-(math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180) ? (-90.0 * math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180)) + 30.0 : 0.0)", 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "-(math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180) * 1.2 + math.sin(variable.attack_time * 180)) * 30.0", "-(math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180) ? (-90.0 * math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180)) + 30.0 : 0.0)", 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.base_pose.upside_down": {
+      "loop": true,
+      "bones": {
+        "waist": {
+          "position": [ 0, 8, 0 ],
+          "rotation" : [ 0, 0, 180 ]
+        }
+      }
+    },
+    "animation.cmm.player.bob": {
+      "bones": {
+        "LeftArm": {
+          "rotation": [ 0, 0, "-((math.cos(query.life_time * 103.2) * 2.865) + 2.865)" ]
+        },
+        "LeftArm2": {
+          "rotation": [ 0, 0, "-((math.cos(query.life_time * 103.2) * 2.865) + 2.865)" ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-math.sin(query.life_time * 76.8) * 2.865", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "-math.sin(query.life_time * 76.8) * 2.865", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ 0, 0, "(math.cos(query.life_time * 103.2) * 2.865) + 2.865" ]
+        },
+        "RightArm2": {
+          "rotation": [ 0, 0, "(math.cos(query.life_time * 103.2) * 2.865) + 2.865" ]
+        }
+      },
+      "loop": true
+    },
+    "animation.cmm.player.bob.stationary": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ 0, 0, "-((math.cos(query.life_time * 103.2) * 2.865) + 2.865)" ]
+        },
+        "LeftArm2": {
+          "rotation": [ 0, 0, "-((math.cos(query.life_time * 103.2) * 2.865) + 2.865)" ]
+        },
+        "RightArm": {
+          "rotation": [ 0, 0, "(math.cos(query.life_time * 103.2) * 2.865) + 2.865" ]
+        },
+        "RightArm2": {
+          "rotation": [ 0, 0, "(math.cos(query.life_time * 103.2) * 2.865) + 2.865" ]
+        }
+      }
+    },
+    "animation.cmm.player.bow_equipped": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation" : [ "-90.0 + query.target_x_rotation - query.is_sneaking * 15.0 - this", "27.5 + query.target_y_rotation", 0 ]
+        },
+        "LeftArm2": {
+          "rotation" : [ "-90.0 + query.target_x_rotation - query.is_sneaking * 15.0 - this", "27.5 + query.target_y_rotation", 0 ]
+        },
+        "RightArm": {
+          "rotation" : [ "-90.0 + query.target_x_rotation - query.is_sneaking * 15.0 - this", "-5.0 + query.target_y_rotation", 0 ]
+        },
+        "RightArm2": {
+          "rotation" : [ "-90.0 + query.target_x_rotation - query.is_sneaking * 15.0 - this", "-5.0 + query.target_y_rotation", 0 ]
+        },
+        "rightitem": {
+          "rotation": [ 0, -10, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.cape": {
+      "loop": true,
+      "bones": {
+        "Cape": {
+          "position": [ 0, "-query.cape_height_offset", 0 ],
+          "rotation": [ "math.lerp(0.0, -126.0, query.cape_flap_amount) - 6.0", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.crossbow_equipped": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "position": [ 0, 0, 0.5 ],
+          "rotation": [ "-this - 65.0 - (1.0 - variable.item_use_normalized) * 5.0", "-this + (1.0 - variable.item_use_normalized) * 30.0", "-this + 20.0 + (1.0 - variable.item_use_normalized) * 10.0" ]
+        },
+        "LeftArm2": {
+          "position": [ 0, 0, 0.5 ],
+          "rotation": [ "-this - 65.0 - (1.0 - variable.item_use_normalized) * 5.0", "-this + (1.0 - variable.item_use_normalized) * 30.0", "-this + 20.0 + (1.0 - variable.item_use_normalized) * 10.0" ]
+        },
+        "RightArm": {
+          "rotation": [ "- 60.0 - this", "- 45.0 - this", "- 2.5 - this" ]
+        },
+        "RightArm2": {
+          "rotation": [ "- 60.0 - this", "- 45.0 - this", "- 2.5 - this" ]
+        }
+      }
+    },
+    "animation.cmm.player.crossbow_hold": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ "query.is_swimming ? 0.0 : -93.0 + query.target_x_rotation - query.is_sneaking * 27.0 -this", "query.is_swimming ? 0.0 : 42.0 + math.clamp(query.target_y_rotation, -45.0, 5.0) -this", "query.is_sneaking * -15.0" ]
+        },
+        "LeftArm2": {
+          "rotation": [ "query.is_swimming ? 0.0 : -93.0 + query.target_x_rotation - query.is_sneaking * 27.0 -this", "query.is_swimming ? 0.0 : 42.0 + math.clamp(query.target_y_rotation, -45.0, 5.0) -this", "query.is_sneaking * -15.0" ]
+        },
+        "RightArm": {
+          "rotation": [ "query.is_swimming ? 0.0 : -93.0 + query.target_x_rotation - query.is_sneaking * 27.0 -this", "query.is_swimming ? 0.0 : math.clamp(query.target_y_rotation, -60.0, 45.0) -this", 0.0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "query.is_swimming ? 0.0 : -93.0 + query.target_x_rotation - query.is_sneaking * 27.0 -this", "query.is_swimming ? 0.0 : math.clamp(query.target_y_rotation, -60.0, 45.0) -this", 0.0 ]
+        }
+      }
+    },
+    "animation.cmm.player.glide": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ "variable.tcos0", 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ "variable.tcos0", 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "variable.tcos1 * 1.4", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "variable.tcos1 * 1.4", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "variable.tcos1", 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "variable.tcos1", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "variable.tcos0 * 1.4", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "variable.tcos0 * 1.4", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.holding": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ "variable.is_holding_left ? (-this * 0.5 - 18.0) : 0.0", 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ "variable.is_holding_left ? (-this * 0.5 - 18.0) : 0.0", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "variable.is_holding_right ? (-this * 0.5 - 18.0) : 0.0", 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "variable.is_holding_right ? (-this * 0.5 - 18.0) : 0.0", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.holding.zombie": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ 0, 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ 0, 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ 0, 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ 0, 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.look_at_target.inverted": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "Hair": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "Hat": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "Hat1": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "Hat2": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "Hat3": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "Hat4": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "HTop": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "HSide": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "BHair": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "Ponytail": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "HBack": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "HBack1": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "HBack2": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "RHair": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "HRight": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "HRight2": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "HRight3": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "LHair": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "HLeft2": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "HLeft3": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "Hood1": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "Hood2": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "Hood3": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "HBun": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "RightEar": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "RightHorn": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "LeftEar": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "RightEye": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        },
+        "LeftEye": {
+          "rotation": [ "-query.target_x_rotation", "-query.target_y_rotation", 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.look_at_target.ui": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "Hair": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "Hat": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "Hat1": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "Hat2": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "Hat3": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "Hat4": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "HTop": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "HSide": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "BHair": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "Ponytail": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "HBack": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "HBack1": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "HBack2": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "RHair": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "HRight": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "HRight2": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "HRight3": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "LHair": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "HLeft2": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "HLeft3": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "Hood1": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "Hood2": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "Hood3": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "HBun": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "RightEar": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "RightHorn": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "LeftEar": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "RightEye": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "LeftEye": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.move.arms": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ "variable.tcos0", 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ "variable.tcos0", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "variable.tcos1", 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "variable.tcos1", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.move.arms.single": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ "-variable.tcos1", 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ "-variable.tcos1", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "-variable.tcos1", 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "-variable.tcos1", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.move.arms.stationary": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ 0, 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ 0, 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ 0, 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ 0, 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.move.arms.statue_of_liberty": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation" : [ "variable.tcos0", 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation" : [ "variable.tcos0", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "variable.is_holding_right || math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180) > 0.0  ? -variable.tcos0 : 180.0", 0.0, "variable.is_holding_right || math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180) > 0.0 ? 0.0 : -17.2" ]
+        },
+        "RightArm2": {
+          "rotation": [ "variable.is_holding_right || math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180) > 0.0  ? -variable.tcos0 : 180.0", 0.0, "variable.is_holding_right || math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180) > 0.0 ? 0.0 : -17.2" ]
+        }
+      }
+    },
+    "animation.cmm.player.move.arms.zombie": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ -90, 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ -90, 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ -90, 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ -90, 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.move.legs": {
+      "loop": true,
+      "bones": {
+        "LeftLeg": {
+          "rotation": [ "variable.tcos1 * 1.4", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "variable.tcos1 * 1.4", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "variable.tcos0 * 1.4", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "variable.tcos0 * 1.4", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.move.legs.inverted": {
+      "loop": true,
+      "bones": {
+        "LeftLeg": {
+          "position" : [ 0.0, 8.0, 0.0 ],
+          "rotation": [ "variable.tcos0", 0, 180 ]
+        },
+        "LeftLeg2": {
+          "position" : [ 0.0, 8.0, 0.0 ],
+          "rotation": [ "variable.tcos0", 0, 180 ]
+        },
+        "RightLeg": {
+          "position" : [ 0.0, 8.0, 0.0 ],
+          "rotation": [ "-variable.tcos1", 0, 180 ]
+        },
+        "RightLeg2": {
+          "position" : [ 0.0, 8.0, 0.0 ],
+          "rotation": [ "-variable.tcos1", 0, 180 ]
+        }
+      }
+    },
+    "animation.cmm.player.move.legs.single": {
+      "loop": true,
+      "bones": {
+        "LeftLeg": {
+          "rotation": [ "variable.tcos0", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "variable.tcos0", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "variable.tcos0", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "variable.tcos0", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.move.legs.stationary": {
+      "loop": true,
+      "bones": {
+        "LeftLeg": {
+          "rotation": [ 0, 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ 0, 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ 0, 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ 0, 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.riding.arms": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ -36, 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ -36, 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ -36, 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ -36, 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.riding.arms.zombie": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ 45, 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ 45, 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ 45, 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ 45, 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.riding.legs": {
+      "loop": true,
+      "bones": {
+        "LeftLeg": {
+          "rotation": [ "-72.0 - this", "-18.0 - this", "-this" ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "-72.0 - this", "-18.0 - this", "-this" ]
+        },
+        "RightLeg": {
+          "rotation": [ "-72.0 - this", "18.0 - this", "-this" ]
+        },
+        "RightLeg2": {
+          "rotation": [ "-72.0 - this", "18.0 - this", "-this" ]
+        }
+      }
+    },
+    "animation.cmm.player.shield_block_main_hand": {
+      "loop": true,
+      "bones": {
+        "RightArm": {
+          "rotation": [ -20, -30, -25 ]
+        },
+        "RightArm2": {
+          "rotation": [ -20, -30, -25 ]
+        },
+        "rightitem": {
+          "position": [ -1, -3, 0 ],
+          "rotation": [ 0, -60, -45 ]
+        }
+      }
+    },
+    "animation.cmm.player.shield_block_off_hand": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ -20, 20, 20 ]
+        },
+        "LeftArm2": {
+          "rotation": [ -20, 20, 20 ]
+        },
+        "leftitem": {
+          "position": [ "1.0 + query.item_is_charged * 1.5", "-3.0 + query.item_is_charged", 0 ],
+          "rotation": [ "query.item_is_charged * 30.0", "70.0 - query.item_is_charged * 60.0", "65.0 - query.item_is_charged * 15.0" ]
+        }
+      }
+    },
+    "animation.cmm.player.sleeping": {
+      "loop": true,
+      "override_previous_animation": true,
+      "bones": {
+        "Head": {
+          "rotation": [ "30.0 - this", "-this", "-this" ]
+        },
+        "Hat": {
+          "rotation": [ "30.0 - this", "-this", "-this" ]
+        },
+        "root": {
+          "position": [ "variable.sleep_x * math.cos(query.sleep_rotation) - variable.sleep_y * math.sin(query.sleep_rotation)", 0, "variable.sleep_x * math.sin(query.sleep_rotation) + variable.sleep_y * math.cos(query.sleep_rotation)" ],
+          "rotation": [ -90, "270.0 - query.sleep_rotation - query.Body_y_rotation", 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.sneaking": {
+      "loop": true,
+      "bones": {
+        "Body": {
+          "position": [ 0, -2, 0 ]
+        },
+        "Body2": {
+          "position": [ 0, -2, 0 ]
+        },
+        "Head": {
+          "position": [ 0, -1, 0 ]
+        },
+        "Hair": {
+          "position": [ 0, -1, 0 ]
+        },
+        "Hat": {
+          "position": [ 0, -1, 0 ]
+        },
+        "Hat1": {
+          "position": [ 0, -1, 0 ]
+        },
+        "Hat2": {
+          "position": [ 0, -1, 0 ]
+        },
+        "Hat3": {
+          "position": [ 0, -1, 0 ]
+        },
+        "Hat4": {
+          "position": [ 0, -1, 0 ]
+        },
+        "HTop": {
+          "position": [ 0, -1, 0 ]
+        },
+        "HSide": {
+          "position": [ 0, -1, 0 ]
+        },
+        "BHair": {
+          "position": [ 0, -1, 0 ]
+        },
+        "Ponytail": {
+          "position": [ 0, -1, 0 ]
+        },
+        "HBack": {
+          "position": [ 0, -1, 0 ]
+        },
+        "HBack1": {
+          "position": [ 0, -1, 0 ]
+        },
+        "HBack2": {
+          "position": [ 0, -1, 0 ]
+        },
+        "RHair": {
+          "position": [ 0, -1, 0 ]
+        },
+        "HRight": {
+          "position": [ 0, -1, 0 ]
+        },
+        "HRight2": {
+          "position": [ 0, -1, 0 ]
+        },
+        "HRight3": {
+          "position": [ 0, -1, 0 ]
+        },
+        "LHair": {
+          "position": [ 0, -1, 0 ]
+        },
+        "HLeft": {
+          "position": [ 0, -1, 0 ]
+        },
+        "HLeft2": {
+          "position": [ 0, -1, 0 ]
+        },
+        "HLeft3": {
+          "position": [ 0, -1, 0 ]
+        },
+        "Hood1": {
+          "position": [ 0, -1, 0 ]
+        },
+        "Hood2": {
+          "position": [ 0, -1, 0 ]
+        },
+        "Hood3": {
+          "position": [ 0, -1, 0 ]
+        },
+        "HBun": {
+          "position": [ 0, -1, 0 ]
+        },
+        "RightAntenna": {
+          "position": [ 0, -1, 0 ]
+        },
+        "LeftAntenna": {
+          "position": [ 0, -1, 0 ]
+        },
+        "RightEar": {
+          "position": [ 0, -1, 0 ]
+        },
+        "RightHorn": {
+          "position": [ 0, -1, 0 ]
+        },
+        "LeftEar": {
+          "position": [ 0, -1, 0 ]
+        },
+        "LeftHorn": {
+          "position": [ 0, -1, 0 ]
+        },
+        "RightEye": {
+          "position": [ 0, -1, 0 ]
+        },
+        "LeftEye": {
+          "position": [ 0, -1, 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ -5.7, 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ -5.7, 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -28, 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ -28, 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ -5.7, 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ -5.7, 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ -28, 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ -28, 0, 0 ]
+        },
+        "root": {
+          "position": [ 0, 1.25, 9 ],
+          "rotation": [ "28.0 - this", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.sneaking.inverted": {
+      "loop": true,
+      "bones": {
+        "Body": {
+          "position": [ 0, -2, 0 ]
+        },
+        "Body2": {
+          "position": [ 0, -2, 0 ]
+        },
+        "Head": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "Hair": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "Hat": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "Hat1": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "Hat2": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "Hat3": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "Hat4": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "HTop": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "HSide": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "BHair": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "Ponytail": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "HBack": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "HBack1": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "HBack2": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "RHair": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "HRight": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "HRight2": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "HRight3": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "LHair": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "HLeft": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "HLeft2": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "HLeft3": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "Hood1": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "Hood2": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "Hood3": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "HBun": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "RightAntenna": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "LeftAntenna": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "RightEar": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "RightHorn": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "LeftEar": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "LeftHorn": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "RightEye": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "LeftEye": {
+          "position": [ 0, -1, 0 ],
+          "rotation": [ -28, 0, 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ -5.7, 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ -5.7, 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ 28, 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ 28, 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ -5.7, 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ -5.7, 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ 28, 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ 28, 0, 0 ]
+        },
+        "root": {
+          "position": [ 0, 1.25, -8 ],
+          "rotation": [ "-28.0 - this", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.swim": {
+      "loop": true,
+      "override_previous_animation": true,
+      "animation_length": 1.3,
+      "bones": {
+        "LeftArm": {
+          "rotation": {
+            "0": [ 0, 180, 180 ],
+            "0.7": [ 0, 180, 287.2000122070313 ],
+            "1.1": [ 90, 180, 180 ],
+            "1.3": [ 0, 180, 180 ]
+          }
+        },
+        "LeftArm2": {
+          "rotation": {
+            "0": [ 0, 180, 180 ],
+            "0.7": [ 0, 180, 287.2000122070313 ],
+            "1.1": [ 90, 180, 180 ],
+            "1.3": [ 0, 180, 180 ]
+          }
+        },
+        "RightArm": {
+          "rotation": {
+            "0": [ 0, 180, -180 ],
+            "0.7": [ 0, 180, -287.2000122070313 ],
+            "1.1": [ 90, 180, -180 ],
+            "1.3": [ 0, 180, -180 ]
+          }
+        },
+        "RightArm2": {
+          "rotation": {
+            "0": [ 0, 180, -180 ],
+            "0.7": [ 0, 180, -287.2000122070313 ],
+            "1.1": [ 90, 180, -180 ],
+            "1.3": [ 0, 180, -180 ]
+          }
+        },
+        "root": {
+          "position": [ 0, "(math.sin(query.target_x_rotation) * 24.0 + 3.0) * variable.swim_amount", "(math.cos(query.target_x_rotation) * 24.0 + 9.0) * variable.swim_amount" ],
+          "rotation": [ "variable.swim_amount * (90 + query.target_x_rotation)", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.swim.legs": {
+      "loop": true,
+      "override_previous_animation": true,
+      "bones": {
+        "LeftLeg": {
+          "rotation": [ "math.lerp(0.0, math.cos(query.life_time * 390.0 + 180.0) * 17.2, variable.swim_amount)", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "math.lerp(0.0, math.cos(query.life_time * 390.0 + 180.0) * 17.2, variable.swim_amount)", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "math.lerp(0.0, math.cos(query.life_time * 390.0) * 17.2, variable.swim_amount)", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "math.lerp(0.0, math.cos(query.life_time * 390.0) * 17.2, variable.swim_amount)", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.swim.legs.single": {
+      "loop": true,
+      "override_previous_animation": true,
+      "bones": {
+        "LeftLeg": {
+          "rotation": [ "math.lerp(0.0, math.cos(query.life_time * 390.0) * 17.2, variable.swim_amount)", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "math.lerp(0.0, math.cos(query.life_time * 390.0) * 17.2, variable.swim_amount)", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "math.lerp(0.0, math.cos(query.life_time * 390.0) * 17.2, variable.swim_amount)", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "math.lerp(0.0, math.cos(query.life_time * 390.0) * 17.2, variable.swim_amount)", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.player.swim.legs.stationary": {
+      "loop": true,
+      "bones": {
+        "LeftLeg": {
+          "rotation": [ 0, 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ 0, 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ 0, 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ 0, 0, 0 ]
+        }
+      }
+    }
+  }
+}

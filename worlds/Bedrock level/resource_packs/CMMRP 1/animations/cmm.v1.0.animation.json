@@ -1,0 +1,1305 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.attack.rotations.v1.0": {
+      "loop": true,
+      "bones": {
+        "Body": {
+          "rotation": [ 0, "(math.sin(math.sqrt(variable.attack_time) * 360) * 11.46) - this", 0 ]
+        },
+        "Body2": {
+          "rotation": [ 0, "(math.sin(math.sqrt(variable.attack_time) * 360) * 11.46) - this", 0 ]
+        },
+        "Body3": {
+          "rotation": [ 0, "(math.sin(math.sqrt(variable.attack_time) * 360) * 11.46) - this", 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ "(math.sin(math.sqrt(variable.attack_time) * 360) * 11.46)", 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ "(math.sin(math.sqrt(variable.attack_time) * 360) * 11.46)", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "math.sin(1.0 - math.pow(1.0 - variable.attack_time, 3.0) * 180.0) * (variable.is_brandishing_spear ? -1.0 : 1.0 )", "variable.is_brandishing_spear ? 0.0 : (math.sin(math.sqrt(variable.attack_time) * 360) * 11.46) * 2.0", 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "math.sin(1.0 - math.pow(1.0 - variable.attack_time, 3.0) * 180.0) * (variable.is_brandishing_spear ? -1.0 : 1.0 )", "variable.is_brandishing_spear ? 0.0 : (math.sin(math.sqrt(variable.attack_time) * 360) * 11.46) * 2.0", 0 ]
+        }
+      }
+    },
+    "animation.cmm.base_pose.v1.0": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Mask": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat4": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HTop": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HSide": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "BHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Ponytail": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HFront": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HFront2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HFront3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBun": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEar": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEar": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightHorn": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEye": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEye": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HighTwinTails": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LowTwinTails": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "PonyTail": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "ThickPonyTail": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftArm": {
+          "position": [ "3.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "LeftArm2": {
+          "position": [ "3.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "RightArm": {
+          "position": [ "-3.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "RightArm2": {
+          "position": [ "-3.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "RightLeg": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "waist": {
+          "rotation": [ "-this", "-this", "-this" ]
+        }
+      }
+    },
+    "animation.cmm.baby_base_pose.v1.0": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Mask": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat4": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HTop": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HSide": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "BHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Ponytail": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBun": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEar": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEar": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightHorn": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEye": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEye": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HighTwinTails": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LowTwinTails": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "PonyTail": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "ThickPonyTail": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftArm": {
+          "position": [ "2.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "LeftArm2": {
+          "position": [ "2.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "RightArm": {
+          "position": [ "-2.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "RightArm2": {
+          "position": [ "-2.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "RightLeg": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "waist": {
+          "rotation": [ "-this", "-this", "-this" ]
+        }
+      }
+    },
+    "animation.cmm.bob.v1.0": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ 0, 0, "-(math.cos(query.life_time * 103.2) * 2.865) - 2.865" ]
+        },
+        "LeftArm2": {
+          "rotation": [ 0, 0, "-(math.cos(query.life_time * 103.2) * 2.865) - 2.865" ]
+        },
+        "RightArm": {
+          "rotation": [ 0, 0, "(math.cos(query.life_time * 103.2) * 2.865) + 2.865" ]
+        },
+        "RightArm2": {
+          "rotation": [ 0, 0, "(math.cos(query.life_time * 103.2) * 2.865) + 2.865" ]
+        }
+      }
+    },
+    "animation.cmm.bow_and_arrow.v1.0": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ "query.target_x_rotation - 90.0 - math.sin(query.life_time * 76.8) * 2.865 - this", "query.target_y_rotation + 28.65", "-(math.cos(query.life_time * 103.2) * 2.865) - 2.865" ]
+        },
+        "LeftArm2": {
+          "rotation": [ "query.target_x_rotation - 90.0 - math.sin(query.life_time * 76.8) * 2.865 - this", "query.target_y_rotation + 28.65", "-(math.cos(query.life_time * 103.2) * 2.865) - 2.865" ]
+        },
+        "RightArm": {
+          "rotation": [ "query.target_x_rotation - 90.0 + math.sin(query.life_time * 76.8) * 2.865 - this", "query.target_y_rotation - 5.73", "(math.cos(query.life_time * 103.2) * 2.865) + 2.865" ]
+        },
+        "RightArm2": {
+          "rotation": [ "query.target_x_rotation - 90.0 + math.sin(query.life_time * 76.8) * 2.865 - this", "query.target_y_rotation - 5.73", "(math.cos(query.life_time * 103.2) * 2.865) + 2.865" ]
+        }
+      }
+    },
+    "animation.cmm.brandish_spear.v1.0": {
+      "loop": true,
+      "bones": {
+        "RightArm": {
+          "rotation": [ "this * -0.5 - 157.5 - 22.5 * variable.charge_amount", "-this - (math.sin(math.sqrt(variable.attack_time) * 360) * 11.46)", 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "this * -0.5 - 157.5 - 22.5 * variable.charge_amount", "-this - (math.sin(math.sqrt(variable.attack_time) * 360) * 11.46)", 0 ]
+        }
+      }
+    },
+    "animation.cmm.charging.v1.0": {
+      "loop": true,
+      "bones": {
+        "RightArm": {
+          "rotation": [ "22.5 * variable.charge_amount - this", "-this", 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "22.5 * variable.charge_amount - this", "-this", 0 ]
+        }
+      }
+    },
+    "animation.cmm.damage_nearby_mobs.v1.0": {
+      "loop": true,
+      "override_previous_animation": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ -45, 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ -45, 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ 45, 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ 45, 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ 45, 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ 45, 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ -45, 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ -45, 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.holding": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ "variable.is_holding_left ? (-this * 0.5 - 18.0) : 0.0", 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ "variable.is_holding_left ? (-this * 0.5 - 18.0) : 0.0", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "variable.is_holding_right ? (-this * 0.5 - 18.0) : 0.0", 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "variable.is_holding_right ? (-this * 0.5 - 18.0) : 0.0", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.look_at_target.default.v1.0": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "Mask": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "Hair": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "Hat": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "Hat1": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "Hat2": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "Hat3": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "Hat4": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HTop": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HSide": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "BHair": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "Ponytail": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HBack": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HBack1": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HBack2": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "RHair": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HRight": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HRight2": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HRight3": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "LHair": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HLeft": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HLeft2": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HLeft3": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HFront": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HFront2": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HFront3": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "Hood1": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "Hood2": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "Hood3": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HBun": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "RightEar": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "LeftEar": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "RightHorn": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "RightEye": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "LeftEye": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "HighTwinTails": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "LowTwinTails": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "PonyTail": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "ThickPonyTail": {
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0.0 ]
+        },
+        "Neck": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck1": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck2": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck3": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        }
+      }
+    },
+    "animation.cmm.look_at_target.gliding.v1.0": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Mask": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hair": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hat": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hat1": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hat2": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hat3": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hat4": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HTop": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HSide": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "BHair": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Ponytail": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HBack": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HBack1": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HBack2": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "RHair": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HRight": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HRight2": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HRight3": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "LHair": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HLeft": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HLeft2": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HLeft3": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HFront": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HFront2": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HFront3": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hood1": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hood2": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hood3": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HBun": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "RightEar": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "LeftEar": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "RightHorn": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "RightEye": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "LeftEye": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HighTwinTails": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "LowTwinTails": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "PonyTail": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "ThickPonyTail": {
+          "rotation": [ -45.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Neck": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck1": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck2": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck3": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        }
+      }
+    },
+    "animation.cmm.look_at_target.swimming.v1.0": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "Mask": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "Hair": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "Hat": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "Hat1": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "Hat2": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "Hat3": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "Hat4": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HTop": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HSide": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "BHair": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "Ponytail": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HBack": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HBack1": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HBack2": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "RHair": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HRight": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HRight2": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HRight3": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "LHair": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HLeft": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HLeft2": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HLeft3": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HFront": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HFront2": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HFront3": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "Hood1": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "Hood2": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "Hood3": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HBun": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "RightEar": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "LeftEar": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "RightHorn": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "RightEye": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "LeftEye": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "HighTwinTails": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "LowTwinTails": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "PonyTail": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "ThickPonyTail": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0.0 ]
+        },
+        "Neck": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck1": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck2": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck3": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        }
+      }
+    },
+    "animation.cmm.jump.arms.v1.0": {
+      "loop": true,
+      "bones": {
+        "RightArm": {
+          "rotation": [ -132.8, 32.41, -5.73 ]
+        },
+        "RightArm2": {
+          "rotation": [ -132.8, 32.41, -5.73 ]
+        },
+        "LeftArm": {
+          "rotation": [ -132.8, -32.41, 5.73 ]
+        },
+        "LeftArm2": {
+          "rotation": [ -132.8, -32.41, 5.73 ]
+        }
+      }
+    },
+    "animation.cmm.move.v1.0": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ "variable.tcos0", 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ "variable.tcos0", 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "variable.tcos0 * -1.4", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "variable.tcos0 * -1.4", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "-variable.tcos0", 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "-variable.tcos0", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "variable.tcos0 * 1.4", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "variable.tcos0 * 1.4", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.move.legs.v1.0": {
+      "loop": true,
+      "bones": {
+        "LeftLeg": {
+          "rotation": [ "variable.tcos0 * -1.4", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "variable.tcos0 * -1.4", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "variable.tcos0 * 1.4", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "variable.tcos0 * 1.4", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.walk.v1.0": {
+      "anim_time_update" : "query.modified_distance_moved",
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) *  57.3", 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) *  57.3", 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) *  57.3 * -1.4", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) *  57.3 * -1.4", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "-math.cos(query.anim_time * 38.17) *  57.3", 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "-math.cos(query.anim_time * 38.17) *  57.3", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) *  57.3 * 1.4", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) *  57.3 * 1.4", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.walk.legs.v1.0": {
+      "anim_time_update" : "query.modified_distance_moved",
+      "loop": true,
+      "bones": {
+        "LeftLeg": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) *  57.3 * -1.4", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) *  57.3 * -1.4", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) *  57.3 * 1.4", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) *  57.3 * 1.4", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.riding.arms.v1.0": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ -36, 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ -36, 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ -36, 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ -36, 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.riding.legs.v1.0": {
+      "loop": true,
+      "override_previous_animation": true,
+      "bones": {
+        "LeftLeg": {
+          "rotation": [ -72, -18, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ -72, -18, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ -72, 18, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ -72, 18, 0 ]
+        }
+      }
+    },
+    "animation.cmm.sneaking.v1.0": {
+      "loop": true,
+      "bones": {
+        "Body": {
+          "rotation": [ "0.5 - this", 0.0, 0.0 ]
+        },
+        "Body2": {
+          "rotation": [ "0.5 - this", 0.0, 0.0 ]
+        },
+        "Body3": {
+          "rotation": [ "0.5 - this", 0.0, 0.0 ]
+        },
+        "RightArm": {
+          "rotation": [ 72.0, 0.0, 0.0 ]
+        },
+        "RightArm2": {
+          "rotation": [ 72.0, 0.0, 0.0 ]
+        },
+        "LeftArm": {
+          "rotation": [ 72.0, 0.0, 0.0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ 72.0, 0.0, 0.0 ]
+        },
+        "RightLeg": {
+          "position": [ 0.0, -3.0, 4.0 ]
+        },
+        "RightLeg2": {
+          "position": [ 0.0, -3.0, 4.0 ]
+        },
+        "LeftLeg": {
+          "position": [ 0.0, -3.0, 4.0 ]
+        },
+        "LeftLeg2": {
+          "position": [ 0.0, -3.0, 4.0 ]
+        },
+        "Head": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "Mask": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "Hair": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "Hat": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "Hat1": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "Hat2": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "Hat3": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "Hat4": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HTop": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HSide": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "BHair": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "Ponytail": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HBack": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HBack1": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HBack2": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "RHair": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HRight": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HRight2": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HRight3": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "LHair": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HLeft": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HLeft2": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HLeft3": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HFront": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HFront2": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HFront3": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "Hood1": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "Hood2": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "Hood3": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HBun": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "RightAntenna": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "LeftAntenna": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "RightEar": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "LeftEar": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "RightEarMule": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "LeftEarMule": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "RightHorn": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "LeftHorn": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "RightEye": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "LeftEye": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "HighTwinTails": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "LowTwinTails": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "PonyTail": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        },
+        "ThickPonyTail": {
+          "position": [ 0.0, 1.0, 0.0 ]
+        }
+      }
+    },
+    "animation.cmm.swimming.v1.0": {
+      "animation_length": 1.3,
+      "loop": true,
+      "bones": {
+        "RightArm": {
+          "rotation": {
+            "0.7": {
+              "pre": [ "math.lerp(this, 11.25 * math.mod(query.modified_distance_moved, 26.0), variable.right_arm_swim_amount)", "math.lerp(this, 180.0, variable.right_arm_swim_amount)", "math.lerp(this, 72.77 + 13.4 * math.mod(query.modified_distance_moved, 26.0), variable.right_arm_swim_amount)" ],
+              "post": [ "math.lerp(this, 0.0, variable.right_arm_swim_amount)", "math.lerp(this, 180.0, variable.right_arm_swim_amount)", "math.lerp(this, -0.1019 * (-65.0 * math.mod(query.modified_distance_moved, 26.0) + math.mod(query.modified_distance_moved, 26.0) * math.mod(query.modified_distance_moved, 26.0)), variable.right_arm_swim_amount)" ]
+            },
+            "1.1": [ "math.lerp(this, 11.25 * math.mod(query.modified_distance_moved, 26.0), variable.right_arm_swim_amount)", "math.lerp(this, 180.0, variable.right_arm_swim_amount)", "math.lerp(this, 72.77 + 13.4 * math.mod(query.modified_distance_moved, 26.0), variable.right_arm_swim_amount)" ],
+            "1.3": {
+              "pre": [ "math.lerp(this, 90.0 - (22.5 * math.mod(query.modified_distance_moved, 26.0)), variable.right_arm_swim_amount)", "math.lerp(this, 180.0, variable.right_arm_swim_amount)", "math.lerp(this, 180.0, variable.right_arm_swim_amount)" ],
+              "post": [ "math.lerp(this, 11.25 * math.mod(query.modified_distance_moved, 26.0), variable.right_arm_swim_amount)", "math.lerp(this, 180.0, variable.right_arm_swim_amount)", "math.lerp(this, 72.77 + 13.4 * math.mod(query.modified_distance_moved, 26.0), variable.right_arm_swim_amount)" ]
+            }
+          }
+        },
+        "RightArm2": {
+          "rotation": {
+            "0.7": {
+              "pre": [ "math.lerp(this, 11.25 * math.mod(query.modified_distance_moved, 26.0), variable.right_arm_swim_amount)", "math.lerp(this, 180.0, variable.right_arm_swim_amount)", "math.lerp(this, 72.77 + 13.4 * math.mod(query.modified_distance_moved, 26.0), variable.right_arm_swim_amount)" ],
+              "post": [ "math.lerp(this, 0.0, variable.right_arm_swim_amount)", "math.lerp(this, 180.0, variable.right_arm_swim_amount)", "math.lerp(this, -0.1019 * (-65.0 * math.mod(query.modified_distance_moved, 26.0) + math.mod(query.modified_distance_moved, 26.0) * math.mod(query.modified_distance_moved, 26.0)), variable.right_arm_swim_amount)" ]
+            },
+            "1.1": [ "math.lerp(this, 11.25 * math.mod(query.modified_distance_moved, 26.0), variable.right_arm_swim_amount)", "math.lerp(this, 180.0, variable.right_arm_swim_amount)", "math.lerp(this, 72.77 + 13.4 * math.mod(query.modified_distance_moved, 26.0), variable.right_arm_swim_amount)" ],
+            "1.3": {
+              "pre": [ "math.lerp(this, 90.0 - (22.5 * math.mod(query.modified_distance_moved, 26.0)), variable.right_arm_swim_amount)", "math.lerp(this, 180.0, variable.right_arm_swim_amount)", "math.lerp(this, 180.0, variable.right_arm_swim_amount)" ],
+              "post": [ "math.lerp(this, 11.25 * math.mod(query.modified_distance_moved, 26.0), variable.right_arm_swim_amount)", "math.lerp(this, 180.0, variable.right_arm_swim_amount)", "math.lerp(this, 72.77 + 13.4 * math.mod(query.modified_distance_moved, 26.0), variable.right_arm_swim_amount)" ]
+            }
+          }
+        },
+        "LeftArm": {
+          "rotation": {
+            "0.7": {
+              "pre": [ "math.lerp(this, 11.25 * math.mod(query.modified_distance_moved, 26.0), variable.left_arm_swim_amount)", "math.lerp(this, 180.0, variable.left_arm_swim_amount)", "math.lerp(this, 72.77 + 13.4 * math.mod(query.modified_distance_moved, 26.0), variable.left_arm_swim_amount)" ],
+              "post": [ "math.lerp(this, 0.0, variable.left_arm_swim_amount)", "math.lerp(this, 180.0, variable.left_arm_swim_amount)", "math.lerp(this, 180.0 - 0.01877 * (-65.0 * math.mod(query.modified_distance_moved, 26.0) + math.mod(query.modified_distance_moved, 26.0) * math.mod(query.modified_distance_moved, 26.0)), variable.left_arm_swim_amount)" ]
+            },
+            "1.1": [ "math.lerp(this, 11.25 * math.mod(query.modified_distance_moved, 26.0), variable.left_arm_swim_amount)", "math.lerp(this, 180.0, variable.left_arm_swim_amount)", "math.lerp(this, 72.77 + 13.4 * math.mod(query.modified_distance_moved, 26.0), variable.left_arm_swim_amount)" ],
+            "1.3": {
+              "pre": [ "math.lerp(this, 90.0 - (22.5 * math.mod(query.modified_distance_moved, 26.0)), variable.left_arm_swim_amount)", "math.lerp(this, 180.0, variable.left_arm_swim_amount)", "math.lerp(this, 180.0, variable.left_arm_swim_amount)" ],
+              "post": [ "math.lerp(this, 11.25 * math.mod(query.modified_distance_moved, 26.0), variable.left_arm_swim_amount)", "math.lerp(this, 180.0, variable.left_arm_swim_amount)", "math.lerp(this, 72.77 + 13.4 * math.mod(query.modified_distance_moved, 26.0), variable.left_arm_swim_amount)" ]
+            }
+          }
+        },
+        "LeftArm2": {
+          "rotation": {
+            "0.7": {
+              "pre": [ "math.lerp(this, 11.25 * math.mod(query.modified_distance_moved, 26.0), variable.left_arm_swim_amount)", "math.lerp(this, 180.0, variable.left_arm_swim_amount)", "math.lerp(this, 72.77 + 13.4 * math.mod(query.modified_distance_moved, 26.0), variable.left_arm_swim_amount)" ],
+              "post": [ "math.lerp(this, 0.0, variable.left_arm_swim_amount)", "math.lerp(this, 180.0, variable.left_arm_swim_amount)", "math.lerp(this, 180.0 - 0.01877 * (-65.0 * math.mod(query.modified_distance_moved, 26.0) + math.mod(query.modified_distance_moved, 26.0) * math.mod(query.modified_distance_moved, 26.0)), variable.left_arm_swim_amount)" ]
+            },
+            "1.1": [ "math.lerp(this, 11.25 * math.mod(query.modified_distance_moved, 26.0), variable.left_arm_swim_amount)", "math.lerp(this, 180.0, variable.left_arm_swim_amount)", "math.lerp(this, 72.77 + 13.4 * math.mod(query.modified_distance_moved, 26.0), variable.left_arm_swim_amount)" ],
+            "1.3": {
+              "pre": [ "math.lerp(this, 90.0 - (22.5 * math.mod(query.modified_distance_moved, 26.0)), variable.left_arm_swim_amount)", "math.lerp(this, 180.0, variable.left_arm_swim_amount)", "math.lerp(this, 180.0, variable.left_arm_swim_amount)" ],
+              "post": [ "math.lerp(this, 11.25 * math.mod(query.modified_distance_moved, 26.0), variable.left_arm_swim_amount)", "math.lerp(this, 180.0, variable.left_arm_swim_amount)", "math.lerp(this, 72.77 + 13.4 * math.mod(query.modified_distance_moved, 26.0), variable.left_arm_swim_amount)" ]
+            }
+          }
+        },
+        "RightLeg": {
+          "rotation": [ "math.lerp(this, math.cos(query.modified_distance_moved * 19.5) * 17.2, variable.left_arm_swim_amount)", 0.0, 0.0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "math.lerp(this, math.cos(query.modified_distance_moved * 19.5) * 17.2, variable.left_arm_swim_amount)", 0.0, 0.0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "math.lerp(this, math.cos(query.modified_distance_moved * 19.5 + 180.0) * 17.2, variable.left_arm_swim_amount)", 0.0, 0.0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "math.lerp(this, math.cos(query.modified_distance_moved * 19.5 + 180.0) * 17.2, variable.left_arm_swim_amount)", 0.0, 0.0 ]
+        }
+      }
+    },
+    "animation.cmm.use_item_progress.v1.0": {
+      "loop": true,
+      "bones": {
+        "RightArm": {
+          "rotation": [ "variable.use_item_startup_progress * -60.0 + variable.use_item_interval_progress * 11.25", "variable.use_item_startup_progress * -22.5 + variable.use_item_interval_progress * 11.25", "variable.use_item_startup_progress * -5.625 + variable.use_item_interval_progress * 11.25" ]
+        },
+        "RightArm2": {
+          "rotation": [ "variable.use_item_startup_progress * -60.0 + variable.use_item_interval_progress * 11.25", "variable.use_item_startup_progress * -22.5 + variable.use_item_interval_progress * 11.25", "variable.use_item_startup_progress * -5.625 + variable.use_item_interval_progress * 11.25" ]
+        }
+      }
+    }
+  }
+}

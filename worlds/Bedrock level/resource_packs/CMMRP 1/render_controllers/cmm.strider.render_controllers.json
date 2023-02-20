@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cmm.strider": {
+      "arrays": {
+        "geometries": {
+          "Array.geos": [ "Geometry.default", "Geometry.baby" ]
+        },
+        "textures": {
+          "Array.base": [
+            "Texture.default",
+            "Texture.suffocated"
+          ],
+          "Array.base_baby": [
+            "Texture.baby",
+            "Texture.suffocated_baby"
+          ]
+        }
+      },
+      "geometry": "Array.geos[query.is_baby]",
+      "part_visibility": [ { "Saddle*": "query.is_saddled" } ],
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "query.is_baby ? Array.base_baby[query.is_shaking] : Array.base[query.is_shaking]" ]
+    }
+  }
+}

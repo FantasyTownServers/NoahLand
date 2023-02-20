@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.drowned.attack.rotations.v1.0": {
+      "loop": true,
+      "bones": {
+        "Body": {
+          "rotation" : [ 0, "math.sin(math.sqrt(variable.attack_time) * 360.0) * 11.46", 0 ]
+        },
+        "Body2": {
+          "rotation" : [ 0, "math.sin(math.sqrt(variable.attack_time) * 360.0) * 11.46", 0 ]
+        },
+        "Body3": {
+          "rotation" : [ 0, "math.sin(math.sqrt(variable.attack_time) * 360.0) * 11.46", 0 ]
+        },
+        "LeftArm": {
+          "rotation" : [ "-(math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0) + math.sin(variable.attack_time * 180.0)) * 5.73", 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation" : [ "-(math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0) + math.sin(variable.attack_time * 180.0)) * 5.73", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation" : [ "-(math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0) * 34.38 + math.sin(variable.attack_time * 180.0) * 28.65) * (variable.is_brandishing_spear ? -2.5 : 1.0 )", "variable.is_brandishing_spear ? 0.0 : math.sin(math.sqrt(variable.attack_time) * 360.0) * 22.92", 0 ]
+        },
+        "RightArm2": {
+          "rotation" : [ "-(math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0) * 34.38 + math.sin(variable.attack_time * 180.0) * 28.65) * (variable.is_brandishing_spear ? -2.5 : 1.0 )", "variable.is_brandishing_spear ? 0.0 : math.sin(math.sqrt(variable.attack_time) * 360.0) * 22.92", 0 ]
+        }
+      }
+    }
+  }
+}

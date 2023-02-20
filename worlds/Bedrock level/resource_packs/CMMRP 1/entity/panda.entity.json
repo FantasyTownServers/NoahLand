@@ -1,0 +1,72 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:panda",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "cmm.panda" },
+      "textures": {
+        "default": "textures/cmm/panda/panda",
+        "default_baby": "textures/cmm/panda/panda_baby",
+        "lazy": "textures/cmm/panda/panda_lazy",
+        "lazy_baby": "textures/cmm/panda/panda_baby_lazy",
+        "worried": "textures/cmm/panda/panda_worried",
+        "worried_baby": "textures/cmm/panda/panda_baby_worried",
+        "playful": "textures/cmm/panda/panda_playful",
+        "playful_baby": "textures/cmm/panda/panda_baby_playful",
+        "brown": "textures/cmm/panda/panda_brown",
+        "brown_baby": "textures/cmm/panda/panda_baby_brown",
+        "weak": "textures/cmm/panda/panda_sneezy",
+        "weak_baby": "textures/cmm/panda/panda_baby_sneezy",
+        "aggressive": "textures/cmm/panda/panda_aggressive",
+        "aggressive_baby": "textures/cmm/panda/panda_baby_aggressive"
+      },
+      "geometry": {
+        "default": "geometry.cmm.panda.v1.8",
+        "baby": "geometry.cmm.panda.baby.v1.8"
+      },
+      "animations": {
+        "look_at_target_default": "animation.cmm.look_at_target.default",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming",
+        "sneezing": "animation.cmm.panda.sneezing",
+        "unhappy": "animation.cmm.panda.unhappy",
+        "walk": "animation.cmm.walk",
+        "rolling": "animation.cmm.panda.rolling",
+        "baby_rolling": "animation.cmm.panda.baby.rolling",
+        "sitting": "animation.cmm.panda.sitting",
+        "baby_sitting": "animation.cmm.panda.baby.sitting",
+        "lying": "animation.cmm.panda.lying",
+        "baby_lying": "animation.cmm.panda.baby.lying",
+        "riding.arms": "animation.cmm.riding.arms",
+        "riding.legs": "animation.cmm.riding.legs",
+        "brandish_spear": "animation.cmm.brandish_spear",
+        "charging": "animation.cmm.charging",
+        "attack.rotations": "animation.cmm.attack.rotations",
+        "bob": "animation.cmm.bob",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs",
+        "swimming": "animation.cmm.swimming",
+        "use_item_progress": "animation.cmm.use_item_progress"
+      },
+      "animation_controllers": [
+        { "walk": "controller.animation.cmm.panda.move" },
+        { "sneezing": "controller.animation.cmm.panda.sneezing" },
+        { "unhappy": "controller.animation.cmm.panda.unhappy" },
+        { "riding": "controller.animation.cmm.riding" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" }
+      ],
+      "render_controllers": [ "controller.render.cmm.panda" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 54
+      }
+    }
+  }
+}

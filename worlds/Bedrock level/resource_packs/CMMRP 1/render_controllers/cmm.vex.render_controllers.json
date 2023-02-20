@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cmm.vex": {
+      "arrays": {
+        "textures": {
+          "Array.default": [
+            "Texture.default",
+            "Texture.default2",
+            "Texture.default3",
+            "Texture.default4"
+          ],
+          "Array.charging": [
+            "Texture.charging",
+            "Texture.charging2",
+            "Texture.charging3",
+            "Texture.charging4"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "query.is_charging ? Array.charging[query.variant] : Array.default[query.variant]" ]
+    }
+  }
+}

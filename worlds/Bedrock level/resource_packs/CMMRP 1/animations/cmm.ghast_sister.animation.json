@@ -1,0 +1,43 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.ghast_sister.bob": {
+      "loop": true,
+      "bones": {
+        "BHair": {
+          "rotation": [ "(math.cos(query.life_time * 116.1) * 7.19) + 7.19", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ 0, 0, "(math.cos(query.life_time * 116.1) * 7.19) + 7.19" ]
+        },
+        "LeftArm": {
+          "rotation": [ 0, 0, "((math.cos(query.life_time * 116.1) * 7.19) + 7.19) *-1.0" ]
+        },
+        "Skirt1": {
+          "rotation": [ "math.sin(query.life_time * 116.1) * -4.2975", 0, 0 ]
+        },
+        "Skirt2": {
+          "rotation": [ "math.sin(query.life_time * 116.1) * -5.3925", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "math.sin(query.life_time * 116.1) * -5.3925", "15.0 - this", 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "math.sin(query.life_time * 116.1) * -5.3925", "-15.0 - this", 0 ]
+        }
+      }
+    },
+
+    "animation.cmm.ghast_sister.move": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ "variable.tcos0", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "-variable.tcos0", 0, 0 ]
+        }
+      }
+    }
+  }
+}

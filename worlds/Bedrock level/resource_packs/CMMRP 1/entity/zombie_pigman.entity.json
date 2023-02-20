@@ -1,0 +1,60 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:zombie_pigman",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "cmm.zombie" },
+      "textures": {
+        "default": "textures/cmm/piglin/zombie_piglin",
+        "baby": "textures/cmm/piglin/zombie_piglin_baby"
+      },
+      "geometry": {
+        "default": "geometry.cmm.zombie_piglin.v1.8",
+        "baby": "geometry.cmm.zombie_piglin.baby.v1.8"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ]
+      },
+      "animations": {
+        "look_at_target_default": "animation.cmm.look_at_target.default",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming",
+        "move": "animation.cmm.move",
+        "riding.arms": "animation.cmm.riding.arms",
+        "riding.legs": "animation.cmm.riding.legs",
+        "brandish_spear": "animation.cmm.brandish_spear",
+        "charging": "animation.cmm.charging",
+        "attack.rotations": "animation.cmm.attack.rotations",
+        "bob": "animation.cmm.bob",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs",
+        "bow_and_arrow": "animation.cmm.bow_and_arrow",
+        "swimming": "animation.cmm.swimming",
+        "use_item_progress": "animation.cmm.use_item_progress",
+        "zombie_attack_bare_hand": "animation.cmm.zombie.attack_bare_hand"
+      },
+      "animation_controllers": [
+        { "look_at_target": " controller.animation.cmm.look_at_target" },
+        { "move": "controller.animation.cmm.move" },
+        { "riding": "controller.animation.cmm.riding" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "bow_and_arrow": "controller.animation.cmm.bow_and_arrow" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" },
+        { "zombie_attack_bare_hand": "controller.animation.cmm.zombie.attack_bare_hand" }
+      ],
+      "render_controllers": [ "controller.render.cmm.zombie_piglin" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 13
+      }
+    }
+  }
+}

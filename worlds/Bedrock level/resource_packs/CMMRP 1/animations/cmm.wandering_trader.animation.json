@@ -1,0 +1,14 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.wandering_trader.cape": {
+      "loop": true,
+      "anim_time_update": "query.modified_distance_moved",
+      "bones": {
+        "cape": {
+          "rotation": [ "22.5+math.cos(query.anim_time*90*0.35)*-22.5", 0, 0 ]
+        }
+      }
+    }
+  }
+}

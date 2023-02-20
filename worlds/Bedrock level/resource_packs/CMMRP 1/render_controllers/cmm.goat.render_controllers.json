@@ -1,0 +1,25 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cmm.goat": {
+      "arrays": {
+        "geometries": {
+          "Array.geos": [ "Geometry.default", "Geometry.baby" ]
+        },
+        "textures": {
+          "Array.skins": [
+            "Texture.default",
+            "Texture.baby"
+          ]
+        }
+      },
+      "geometry": "Array.geos[query.is_baby]",
+      "part_visibility": [
+        { "RightGoatHorn": "variable.goat_has_right_horn" },
+        { "LeftGoatHorn": "variable.goat_has_left_horn" }
+      ],
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.is_baby]" ]
+    }
+  }
+}

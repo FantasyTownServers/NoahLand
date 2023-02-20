@@ -1,0 +1,63 @@
+﻿{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.phantom.base_pose": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ -45, "query.target_y_rotation", 0 ]
+        },
+        "Neck": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck1": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ "-Math.sin(query.life_time * 154.8) * 5.73", 0, "((15+math.cos(query.life_time * 154.8) * 11.46) + 11.46) *-1.0" ]
+        },
+        "RightArm": {
+          "rotation": [ "-Math.sin(query.life_time * 154.8) * 5.73", 0, "(15+math.cos(query.life_time * 154.8) * 11.46) + 11.46" ]
+        },
+        "RightLeg": {
+          "rotation": [ "-Math.sin(query.life_time * 115.2) * 5.73", "Math.sin(query.life_time * 115.2) * 5.73", "(math.cos(query.life_time * 115.2) * 5.73) + 5.73" ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-Math.sin(query.life_time * 115.2) * 5.73", "-Math.sin(query.life_time * 115.2) * 5.73", "((math.cos(query.life_time * 115.2) * 5.73) + 5.73) *-1.0" ]
+        },
+        "root": {
+          "position" : [ 0, "-20 - this", 0 ],
+          "rotation" : [ "(90 - query.target_x_rotation)", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.phantom.move": {
+      "loop": true,
+      "start_delay": "math.random(0, 2.417)",
+      "animation_length": 2.417,
+      "bones": {
+        "Tail": {
+          "rotation": [ "-75.0 +  -5.0 * Math.cos(297.9380535 * query.anim_time) - 5.0", 0, 0 ]
+        },
+        "TailTip": {
+          "rotation": [ "-5.0 * Math.cos(297.9380535 * query.anim_time) - 5.0", 0, 0 ]
+        },
+        "RightWing": {
+          "rotation": [ 0, "32.0 * Math.cos(148.9690267 * query.anim_time)", 0 ]
+        },
+        "RightWingTip": {
+          "rotation": [ 0, "32.0 * Math.cos(148.9690267 * query.anim_time)", 0 ]
+        },
+        "LeftWing": {
+          "rotation": [ 0, "-32.0 * Math.cos(148.9690267 * query.anim_time)", 0 ]
+        },
+        "LeftWingTip": {
+          "rotation": [ 0, "-32.0 * Math.cos(148.9690267 * query.anim_time)", 0 ]
+        }
+      },
+      "sound_effects": {
+        "1.4": { "effect": "flap" }
+      }
+    }
+  }
+}

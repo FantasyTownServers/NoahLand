@@ -1,0 +1,18 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "By DHF_Believer 普普通通的无缝玻璃。",
+        "name": "无缝玻璃",
+        "uuid": "35f982ec-c75a-4411-bbc1-05722bdb4df1",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 13, 0]
+    },
+    "modules": [
+        {
+            "description": "By DHF_Believer 普普通通的无缝玻璃。",
+            "type": "resources",
+            "uuid": "4839fb73-c8ad-4974-87ba-339e7fe12b16",
+            "version": [1, 0, 0]
+        }
+    ]
+}

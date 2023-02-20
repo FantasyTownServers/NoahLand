@@ -1,0 +1,79 @@
+{
+    "ColorLog": true,
+    "DebugMode": false,
+    "Language": "system",
+    "LogLevel": 4,
+    "Modules": {
+        "AddonsHelper": {
+            "autoInstallPath": "plugins/AddonsHelper",
+            "enabled": true
+        },
+        "AntiGive": {
+            "command": "kick {player}",
+            "enabled": true
+        },
+        "CheckRunningBDS": {
+            "enabled": true
+        },
+        "CrashLogger": {
+            "enabled": true,
+            "path": "plugins\\LiteLoader\\CrashLogger_Daemon.exe"
+        },
+        "EconomyCore": {
+            "enabled": true
+        },
+        "ErrorStackTraceback": {
+            "cacheSymbol": false,
+            "enabled": true
+        },
+        "FixAbility": {
+            "enabled": true
+        },
+        "FixBDSCrash": {
+            "enabled": true
+        },
+        "FixDisconnectBug": {
+            "enabled": true
+        },
+        "FixListenPort": {
+            "enabled": false
+        },
+        "FixMcBug": {
+            "enabled": true
+        },
+        "ForceUtf8Input": {
+            "enabled": false
+        },
+        "OutputFilter": {
+            "enabled": false,
+            "filterRegex": [],
+            "onlyFilterConsoleOutput": true
+        },
+        "ParticleAPI": {
+            "enabled": false
+        },
+        "PermissionAPI": {
+            "enabled": true
+        },
+        "SimpleServerLogger": {
+            "enabled": true
+        },
+        "TpdimCommand": {
+            "enabled": true
+        },
+        "UnlockCmd": {
+            "enabled": true
+        },
+        "UnoccupyPort19132": {
+            "enabled": true
+        },
+        "WelcomeText": {
+            "enabled": true
+        }
+    },
+    "ScriptEngine": {
+        "alwaysLaunch": false,
+        "enabled": true
+    },
+    "Version": 1
+}

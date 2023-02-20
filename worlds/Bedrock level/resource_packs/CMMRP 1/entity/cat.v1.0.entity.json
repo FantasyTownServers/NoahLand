@@ -1,0 +1,82 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:cat",
+      "materials": { "default": "cmm.cat" },
+      "geometry": {
+        "default": "geometry.cmm.cat"
+      },
+      "textures": {
+        "white": "textures/cmm/cat/white",
+        "black": "textures/cmm/cat/tuxedo",
+        "red": "textures/cmm/cat/redtabby",
+        "siamese": "textures/cmm/cat/siamesecat",
+        "british": "textures/cmm/cat/britishshorthair",
+        "calico": "textures/cmm/cat/calico",
+        "persian": "textures/cmm/cat/persian",
+        "ragdoll": "textures/cmm/cat/ragdoll",
+        "tabby": "textures/cmm/cat/tabby",
+        "jellie": "textures/cmm/cat/jellie", 
+        "all_black": "textures/cmm/cat/allblackcat",
+        "white_tame": "textures/cmm/cat/white_tame",
+        "black_tame": "textures/cmm/cat/tuxedo_tame",
+        "red_tame": "textures/cmm/cat/redtabby_tame",
+        "siamese_tame": "textures/cmm/cat/siamesecat_tame",
+        "british_tame": "textures/cmm/cat/britishshorthair_tame",
+        "calico_tame": "textures/cmm/cat/calico_tame",
+        "persian_tame": "textures/cmm/cat/persian_tame",
+        "ragdoll_tame": "textures/cmm/cat/ragdoll_tame",
+        "tabby_tame": "textures/cmm/cat/tabby_tame",
+        "all_black_tame": "textures/cmm/cat/allblackcat_tame",
+        "jellie_tame":  "textures/cmm/cat/jellie_tame"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 28.65;"
+        ]
+      },
+      "animations": {
+        "cmm_base_pose": "animation.cmm.cat.base_pose.v1.0",
+        "setup": "animation.cmm.cat.setup.v1.0",
+        "look_at_target_default": "animation.cmm.look_at_target.default.v1.0",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming.v1.0",
+        "move": "animation.cmm.move.v1.0",
+        "walk": "animation.cmm.cat.walk.v1.0",
+        "sprint": "animation.cmm.cat.sprint.v1.0",
+        "riding.arms": "animation.cmm.riding.arms.v1.0",
+        "riding.legs": "animation.cmm.riding.legs.v1.0",
+        "sit": "animation.cmm.cat.sit.v1.0",
+        "sneak": "animation.cmm.cat.sneak.v1.0",
+        "brandish_spear": "animation.cmm.brandish_spear.v1.0",
+        "charging": "animation.cmm.charging.v1.0",
+        "attack.rotations": "animation.cmm.attack.rotations.v1.0",
+        "bob": "animation.cmm.bob.v1.0",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs.v1.0",
+        "swimming": "animation.cmm.swimming.v1.0",
+        "use_item_progress": "animation.cmm.use_item_progress.v1.0"
+      },
+      "animation_controllers": [
+        { "cmm_base_pose": "controller.animation.cmm.base_pose" },
+        { "setup": "controller.animation.cmm.cat.setup.v1.0" },
+        { "look_at_target": "controller.animation.cmm.look_at_target" },
+        { "move": "controller.animation.cmm.cat.move.v1.0" },
+        { "riding": "controller.animation.cmm.riding" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" }
+      ],
+      "render_controllers": [ "controller.render.cmm.cat" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 53
+      }
+    }
+  }
+}

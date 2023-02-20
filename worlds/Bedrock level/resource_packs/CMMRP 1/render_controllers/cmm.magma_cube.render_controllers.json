@@ -1,0 +1,26 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cmm.magma_cube": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.large",
+            "Texture.medium",
+            "Texture.small"
+          ]
+        },
+        "geometries": {
+          "Array.geos": [
+            "Geometry.large",
+            "Geometry.medium",
+            "Geometry.small"
+          ]
+        }
+      },
+      "geometry": "Array.geos[query.mark_variant]",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.mark_variant]" ]
+    }
+  }
+}

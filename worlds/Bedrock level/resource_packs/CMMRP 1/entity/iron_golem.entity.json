@@ -1,0 +1,55 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:iron_golem",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "cmm.iron_golem" },
+      "textures": {
+        "default": "textures/cmm/iron_golem"
+      },
+      "geometry": {
+        "default": "geometry.cmm.irongolem.v1.8"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.modified_tcos0 = Math.clamp(((Math.cos(query.modified_distance_moved * 13.5) * Math.min(query.modified_move_speed, 0.6) / variable.gliding_speed_value) * 25.0), -12.5, 12.5);"
+        ],
+        "scale": "1.35"
+      },
+      "animations": {
+        "look_at_target_default": "animation.cmm.look_at_target.default",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming",
+        "walk": "animation.cmm.iron_golem.walk",
+        "walk_to_target": "animation.cmm.iron_golem.walk_to_target",
+        "move": "animation.cmm.iron_golem.move",
+        "move_to_target": "animation.cmm.iron_golem.move_to_target",
+        "riding.arms": "animation.cmm.riding.arms",
+        "riding.legs": "animation.cmm.riding.legs",
+        "brandish_spear": "animation.cmm.brandish_spear",
+        "charging": "animation.cmm.charging",
+        "attack": "animation.cmm.iron_golem.attack",
+        "bob": "animation.cmm.bob.v3",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs",
+        "swimming": "animation.cmm.swimming",
+        "use_item_progress": "animation.cmm.use_item_progress",
+        "flower": "animation.cmm.iron_golem.flower"
+      },
+      "animation_controllers": [
+        { "look_at_target": "controller.animation.cmm.look_at_target" },
+        { "move_controller": "controller.animation.cmm.iron_golem.move" },
+        { "arm_controller": "controller.animation.cmm.iron_golem.arm_movement"},
+        { "riding": "controller.animation.cmm.riding" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" }
+      ],
+      "render_controllers": [ "controller.render.cmm.iron_golem" ],
+      "enable_attachables": true
+    }
+  }
+}

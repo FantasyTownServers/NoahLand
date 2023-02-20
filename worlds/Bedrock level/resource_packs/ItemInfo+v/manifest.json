@@ -1,0 +1,61 @@
+// This file was modified by HonKit26113 (@HonKit1103). Do not distribute without permission!
+{
+    "format_version": 2,
+    "header": {
+        "description": "Pack made by HonKit26113.\nVersion 1.9 released March 24, 2022.",
+        "name": "Item Info+ v1.9",
+        "uuid": "1f487343-bb10-455a-9c37-3177c125a1d5",
+        "version": [
+            1,
+            9,
+            0
+        ],
+        "min_engine_version": [
+            1,
+            16,
+            0
+        ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "e6fc5ce3-c31d-4709-9c22-71796c38587a",
+            "version": [
+                1,
+                9,
+                0
+            ]
+        }
+    ],
+    "subpacks": [
+    	{
+    		"folder_name": "lessdetails",
+    		"name": "\n§6Hunger & Saturation Points Only§r\n§oOnly Shows Hunger & Saturation Points Given On Food Items.§r\n\nNote: All Saturation bars are rounded to the nearest multiple of 0.5.",
+    		"memory_tier": 1
+    	},
+    	{
+    		"folder_name": "mceicons",
+    		"name": "§bMinecraft Earth Style Icons§r \n§6Detailed Item Names§r\n§oShows Hunger, Saturation & Armor Points, Time To Use Consumables, Max Item Durability, Tools Default Attack Damage, Mob HP & Hostility on Spawn Eggs, Duration of Music Discs, and Banner & Firework Pattern, Enchantment & Light Level Icons.§r",
+    		"memory_tier": 2
+    	},
+    	{
+    		"folder_name": "newpack",
+    		"name": "§aVanilla Style Icons§r \n§6Detailed Item Names§r\n§oShows Hunger, Saturation & Armor Points, Time To Use Consumables, Max Item Durability, Tools Default Attack Damage, Mob HP & Hostility on Spawn Eggs, Duration of Music Discs, and Banner & Firework Pattern, Enchantment & Light Level Icons.§r",
+    		"memory_tier": 3
+    	}
+    ],
+    "settings": [
+        {
+            "type": "label",
+            "text": " You must restart Minecraft for the changes to take effect! " // space is deliberate
+        },
+        {
+            "type": "label",
+            "text": " Subpacks can only be changed while in the main menu." // space is deliberate
+        },
+        {
+            "type": "label",
+            "text": " Follow §b@HonKit1103§r on Twitter for update news and announcements!" // space is deliberate
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+  "entity_sounds": {
+    "entities": {
+      "cmm:ghast_sister": {
+        "volume": 600.0,
+        "pitch": [ 0.8, 1.2 ],
+        "events": {
+          "scream": "mob.ghast.affectionate_scream",
+          "warn": "mob.ghast_sister.charge",
+          "shoot": {
+            "sound": "mob.ghast.fireball",
+            "volume": 0.7
+          },
+          "ambient": "mob.ghast_sister.moan",
+          "hurt": "mob.ghast_sister.scream",
+          "death": "mob.ghast_sister.death"
+        }
+      }
+    }
+  }
+}

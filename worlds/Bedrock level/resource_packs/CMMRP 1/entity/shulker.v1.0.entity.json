@@ -1,0 +1,85 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:shulker",
+      "materials": { "default": "cmm.shulker" },
+      "textures": {
+        "undyed": "textures/cmm/shulker/shulker_undyed",
+        "white": "textures/cmm/shulker/shulker_white",
+        "orange": "textures/cmm/shulker/shulker_orange",
+        "magenta": "textures/cmm/shulker/shulker_magenta",
+        "light_blue": "textures/cmm/shulker/shulker_light_blue",
+        "yellow": "textures/cmm/shulker/shulker_yellow",
+        "lime": "textures/cmm/shulker/shulker_lime",
+        "pink": "textures/cmm/shulker/shulker_pink",
+        "gray": "textures/cmm/shulker/shulker_gray",
+        "silver": "textures/cmm/shulker/shulker_silver",
+        "cyan": "textures/cmm/shulker/shulker_cyan",
+        "purple": "textures/cmm/shulker/shulker_purple",
+        "blue": "textures/cmm/shulker/shulker_blue",
+        "brown": "textures/cmm/shulker/shulker_brown",
+        "green": "textures/cmm/shulker/shulker_green",
+        "red": "textures/cmm/shulker/shulker_red",
+        "black": "textures/cmm/shulker/shulker_black"
+      },
+      "geometry": {
+        "default": "geometry.cmm.shulker"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 34
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.Shulker.LidPositionFactor = 180 * (0.5 + variable.Shulker.PeekAmount);",
+          "variable.Shulker.LidRotationFactor = -1 + Math.sin(180 * (0.5 + variable.Shulker.PeekAmount));",
+          "variable.Shulker.UpFacing = variable.Shulker.FacingDirection == 1;",
+          "variable.Shulker.NorthFacing = variable.Shulker.FacingDirection == 2;",
+          "variable.Shulker.SouthFacing = variable.Shulker.FacingDirection == 3;",
+          "variable.Shulker.WestFacing = variable.Shulker.FacingDirection == 4;",
+          "variable.Shulker.EastFacing = variable.Shulker.FacingDirection == 5;",
+          "variable.Shulker.XPreRotation = variable.Shulker.UpFacing * 180 + variable.Shulker.NorthFacing * 90 - variable.Shulker.SouthFacing * 90;",
+          "variable.Shulker.ZPreRotation = variable.Shulker.NorthFacing * 180 + variable.Shulker.WestFacing * 90 - variable.Shulker.EastFacing * 90;",
+          "variable.Shulker.XOffset = -variable.Shulker.WestFacing * 7.99 + variable.Shulker.EastFacing * 7.99;",
+          "variable.Shulker.YOffset = variable.Shulker.UpFacing * 16 + variable.Shulker.NorthFacing * 7.99 + variable.Shulker.SouthFacing * 7.99 + variable.Shulker.WestFacing * 7.99 + variable.Shulker.EastFacing * 7.99;",
+          "variable.Shulker.ZOffset = variable.Shulker.NorthFacing * 7.99 - variable.Shulker.SouthFacing * 7.99;",
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 28.65;"
+        ]
+      },
+      "animations": {
+        "facing": "animation.cmm.shulker.facing",
+        "cmm_base_pose": "animation.cmm.base_pose.v1.0",
+        "look_at_target_default": "animation.cmm.look_at_target.default.v1.0",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming.v1.0",
+        "move": "animation.cmm.shulker.move",
+        "riding.arms": "animation.cmm.riding.arms.v1.0",
+        "riding.legs": "animation.cmm.riding.legs.v1.0",
+        "brandish_spear": "animation.cmm.brandish_spear.v1.0",
+        "charging": "animation.cmm.charging.v1.0",
+        "attack.rotations": "animation.cmm.attack.rotations.v1.0",
+        "bob": "animation.cmm.bob.v1.0",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs.v1.0",
+        "swimming": "animation.cmm.swimming.v1.0",
+        "use_item_progress": "animation.cmm.use_item_progress.v1.0"
+      },
+      "animation_controllers": [
+        { "facing": "controller.animation.shulker.facing" },
+        { "cmm_base_pose": "controller.animation.cmm.base_pose" },
+        { "look_at_target": "controller.animation.cmm.look_at_target" },
+        { "move": "controller.animation.cmm.shulker.move" },
+        { "riding": "controller.animation.cmm.riding" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" }
+      ],
+      "render_controllers": [ "controller.render.shulker" ],
+      "enable_attachables": true
+    }
+  }
+}

@@ -1,0 +1,128 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.cmm.ravager.look_at_target.default": {
+			"loop": true,
+			"bones": {
+				"Head": {
+					"rotation": ["query.target_x_rotation", "query.target_y_rotation", 0]
+				},
+				"Mitsuami": {
+					"rotation": ["-query.target_x_rotation", 0, 0]
+				},
+				"Neck": {
+					"rotation": [0, "query.target_y_rotation * 0.5", 0]
+				},
+				"Neck1": {
+					"rotation": [0, "query.target_y_rotation * 0.5", 0]
+				},
+				"HBack": {
+					"rotation": ["-query.target_x_rotation", 0, 0]
+				}
+			}
+		},
+		"animation.cmm.ravager.look_at_target.gliding": {
+			"loop": true,
+			"bones": {
+				"Head": {
+					"rotation": [-45, "query.target_y_rotation", 0]
+				},
+				"Mitsuami": {
+					"rotation": [45, 0, 0]
+				},
+				"Neck": {
+					"rotation": [0, "query.target_y_rotation * 0.5", 0]
+				},
+				"Neck1": {
+					"rotation": [0, "query.target_y_rotation * 0.5", 0]
+				},
+				"HBack": {
+					"rotation": [45, 0, 0]
+				}
+			}
+		},
+		"animation.cmm.ravager.look_at_target.swimming": {
+			"loop": true,
+			"bones": {
+				"Head": {
+					"rotation": ["math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0]
+				},
+				"Mitsuami": {
+					"rotation": ["-math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", 0, 0]
+				},
+				"Neck": {
+					"rotation": [0, "query.target_y_rotation * 0.5", 0]
+				},
+				"Neck1": {
+					"rotation": [0, "query.target_y_rotation * 0.5", 0]
+				},
+				"HBack": {
+					"rotation": ["math.lerp(-query.target_x_rotation, -45.0, variable.swim_amount)", 0, 0]
+				}
+			}
+		},
+		"animation.cmm.ravager.roaring": {
+			"loop": true,
+			"bones": {
+				"Head": {
+					"rotation": ["-20 - this", "(10*math.sin(query.life_time * 750))", 0]
+				},
+				"RightArm": {
+					"rotation": ["47.5+(-10*math.sin(query.life_time * 750))", 0, 0]
+				},
+				"LeftArm": {
+					"rotation": ["47.5+(10*math.sin(query.life_time * 750))", 0, 0]
+				},
+				"root": {
+					"rotation": [25, 0, 0]
+				},
+				"waist": {
+					"rotation": [0, "(10*math.sin(query.life_time * 100))", 0],
+					"position": [0, -1.5, 0]
+				},
+				"RightLeg": {
+					"rotation": [-44.5, 0, 0]
+				},
+				"LeftLeg": {
+					"rotation": [-10, 0, 0]
+				},
+				"HBack": {
+					"rotation": [30, 0, 0]
+				},
+				"ClothFront": {
+					"rotation": [-25, "(10*math.sin(query.life_time * 100))", "(10*math.sin(query.life_time * 100))"]
+				},
+				"ClothBack": {
+					"rotation": [-2.5, 0, "(-10*math.sin(query.life_time * 100))"]
+				}
+			}
+		},
+		"animation.cmm.ravager.stunned": {
+			"loop": true,
+			"bones": {
+				"Head": {
+					"rotation": ["(-10*math.sin(query.life_time * 200))", "(-20*math.sin(query.life_time * 100))", 0]
+				},
+				"RightArm": {
+					"rotation": ["(25*math.sin(query.life_time * 200))", 0, "30+(12.5*math.sin(query.life_time * 100))"]
+				},
+				"LeftArm": {
+					"rotation": ["(25*math.sin(query.life_time * 200))", 0, "-47.5+(25*math.sin(query.life_time * 100))"]
+				},
+				"waist": {
+					"rotation": ["(5*math.sin(query.life_time * 400))", "(10*math.sin(query.life_time * 200))", "(2.5*math.sin(query.life_time * 200))"],
+					"position": [0, -0.25, 0]
+				},
+				"Skirt2": {
+					"rotation": [0, "-(10*math.sin(query.life_time * 200))", 0]
+				},
+				"RightLeg": {
+					"rotation": ["(-25*math.sin(query.life_time * 40))", "-(10*math.sin(query.life_time * 200))", 0]
+				},
+				"LeftLeg": {
+					"rotation": ["(25*math.sin(query.life_time * 40))", "-(10*math.sin(query.life_time * 200))", 0]
+				}
+			}
+		}
+	}
+}

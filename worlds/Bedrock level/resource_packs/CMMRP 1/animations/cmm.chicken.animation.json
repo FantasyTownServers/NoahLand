@@ -1,0 +1,16 @@
+{
+  "format_version" : "1.8.0",
+  "animations": {
+    "animation.cmm.chicken.general": {
+      "loop": true,
+      "bones": {
+        "RightArm": {
+          "rotation": [ 0.0, 0.0, "variable.wing_flap - this" ]
+        },
+        "LeftArm": {
+          "rotation": [ 0.0, 0.0, "-variable.wing_flap - this" ]
+        }
+      }
+    }
+  }
+}

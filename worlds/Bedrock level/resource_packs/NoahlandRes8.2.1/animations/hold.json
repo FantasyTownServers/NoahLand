@@ -1,0 +1,48 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.hold": {
+      "loop": true,
+      "bones": {
+        "pistolRoot": {
+          "rotation": [
+            0,
+            0,
+            0
+          ],
+          "position": [
+            -6,
+            11,
+            -5
+          ],
+          "scale": 0.7
+        }
+      }
+    },
+    "animation.first_person.hold": {
+      "loop": true,
+      "animation_length": 11.96667,
+      "bones": {
+        "pistolRoot": {
+          "rotation": [
+            50,
+            40,
+            -60
+          ],
+          "position": [
+            20,
+            -15,
+            11
+          ]
+        },
+        "pistol": {
+          "rotation": [
+            -2.5,
+            0,
+            0
+          ]
+        }
+      }
+    }
+  }
+}

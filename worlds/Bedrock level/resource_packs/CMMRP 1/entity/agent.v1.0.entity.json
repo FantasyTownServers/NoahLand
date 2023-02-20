@@ -1,0 +1,56 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:agent",
+      "materials": { "default": "cmm.agent" },
+      "textures": {
+        "default": "textures/cmm/agent"
+      },
+      "geometry": {
+        "default": "geometry.cmm.agent"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.Agent.ArmZRotation = (Math.cos(query.life_time * 114.6) + 1.0) * 1.15;",
+          "variable.Agent.ArmXRotationFactor = Math.sin(query.life_time * 80.0) * 4.6;",
+          "variable.Agent.LegXRotationFactor = Math.sin(query.life_time * 46.0) * 1.15;"
+        ]
+      },
+      "animations": {
+        "cmm_base_pose": "animation.cmm.agent.base_pose.v1.0",
+        "look_at_target_default": "animation.cmm.look_at_target.default.v1.0",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming.v1.0",
+        "move": "animation.cmm.agent.move.v1.0",
+        "swing_arms": "animation.cmm.agent.swing_arms.v1.0",
+        "riding.arms": "animation.cmm.riding.arms.v1.0",
+        "riding.legs": "animation.cmm.riding.legs.v1.0",
+        "brandish_spear": "animation.cmm.brandish_spear.v1.0",
+        "charging": "animation.cmm.charging.v1.0",
+        "attack.rotations": "animation.cmm.attack.rotations.v1.0",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs.v1.0",
+        "swimming": "animation.cmm.swimming.v1.0",
+        "use_item_progress": "animation.cmm.use_item_progress.v1.0"
+      },
+      "animation_controllers": [
+        { "cmm_base_pose": "controller.animation.cmm.base_pose" },
+        { "look_at_target": "controller.animation.cmm.look_at_target" },
+        { "move": "controller.animation.cmm.agent.move" },
+        { "riding": "controller.animation.cmm.riding" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" }
+      ],
+      "render_controllers": [ "controller.render.cmm.agent" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 52
+      }
+    }
+  }
+}

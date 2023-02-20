@@ -1,0 +1,56 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cmm.skeleton.base": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "chase_target": "!query.is_item_equipped && variable.has_target"
+            },
+            {
+              "bow_and_arrow": "query.is_item_equipped && variable.has_target"
+            }
+          ]
+        },
+        "chase_target": {
+          "animations": [ "skeleton_attack" ],
+          "transitions": [
+            {
+              "default": "query.is_item_equipped || !variable.has_target"
+            }
+          ]
+        },
+        "bow_and_arrow": {
+          "animations": [ "bow_and_arrow" ],
+          "transitions": [
+            {
+              "default": "!query.is_item_equipped || !variable.has_target"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.skeleton.attack": {
+      "initial_state": "default",
+      "states": {
+        "chase_target": {
+          "animations": [ "skeleton_attack" ],
+          "transitions": [
+            {
+              "default": "!variable.has_target"
+            }
+          ]
+        },
+        "default": {
+          "transitions": [
+            {
+              "chase_target": "variable.has_target"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

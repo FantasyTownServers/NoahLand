@@ -1,0 +1,103 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.villager.look_at_target.default": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "relative_to": { "rotation": "entity" },
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "RightHair": {
+          "rotation": [ "-query.target_x_rotation", 0, 0 ]
+        },
+        "LeftHair": {
+          "rotation": [ "-query.target_x_rotation", 0, 0 ]
+        },
+        "BHair": {
+          "rotation": [ "-query.target_x_rotation", 0, 0 ]
+        },
+        "HBack": {
+          "rotation": [ "-query.target_x_rotation", 0, 0 ]
+        },
+        "Neck": {
+          "relative_to": { "rotation": "entity" },
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck1": {
+          "relative_to": { "rotation": "entity" },
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        }
+      }
+    },
+    "animation.cmm.villager.look_at_target.gliding": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ -45, "query.target_y_rotation", 0 ]
+        },
+        "RightHair": {
+          "rotation": [ 45, 0, 0 ]
+        },
+        "LeftHair": {
+          "rotation": [ 45, 0, 0 ]
+        },
+        "BHair": {
+          "rotation": [ 45, 0, 0 ]
+        },
+        "HBack": {
+          "rotation": [ 45, 0, 0 ]
+        },
+        "Neck": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck1": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        }
+      }
+    },
+    "animation.cmm.villager.look_at_target.swimming": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0 ]
+        },
+        "RightHair": {
+          "rotation": [ "-math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", 0, 0 ]
+        },
+        "LeftHair": {
+          "rotation": [ "-math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", 0, 0 ]
+        },
+        "BHair": {
+          "rotation": [ "-math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", 0, 0 ]
+        },
+        "HBack": {
+          "rotation": [ "-math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", 0, 0 ]
+        },
+        "Neck": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck1": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        }
+      }
+    },
+    "animation.cmm.villager.sleeping": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [ "-90 -this", 0, 0 ],
+          "position": [ 0, "-23 -this", "10 -this" ]
+        }
+      }
+    },
+    "animation.cmm.villager.raise_arms" : {
+      "loop" : true,
+      "bones" : {
+        "RightArm" : {
+          "rotation" : [ "variable.raise_arms * -18", 0, 0 ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,619 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.panda.sneezing.v1.0": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "Mask": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "Hair": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "Hat": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "Hat1": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "Hat2": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "Hat3": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "Hat4": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HTop": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HSide": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "BHair": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "Ponytail": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HBack": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HBack1": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HBack2": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "RHair": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HRight": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HRight2": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HRight3": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "LHair": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HLeft": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HLeft2": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HLeft3": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HFront": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HFront2": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HFront3": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "Hood1": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "Hood2": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "Hood3": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HBun": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "RightAntenna": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "LeftAntenna": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "RightEar": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "LeftEar": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "RightEarMule": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "LeftEarMule": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "RightHorn": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "LeftHorn": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "RightEye": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "LeftEye": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "HighTwinTails": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "LowTwinTails": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "PonyTail": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        },
+        "ThickPonyTail": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.panda.unhappy.v1.0": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "Mask": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "Hair": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "Hat": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "Hat1": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "Hat2": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "Hat3": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "Hat4": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HTop": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HSide": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "BHair": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "Ponytail": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HBack": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HBack1": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HBack2": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "RHair": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HRight": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HRight2": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HRight3": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "LHair": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HLeft": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HLeft2": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HLeft3": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HFront": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HFront2": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HFront3": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "Hood1": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "Hood2": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "Hood3": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HBun": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "RightEar": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "LeftEar": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "RightHorn": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "RightEye": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "LeftEye": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "HighTwinTails": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "LowTwinTails": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "PonyTail": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "ThickPonyTail": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "RightArm": {
+          "rotation": [ -35, 0, 0 ]
+        },
+        "RightForeArm": {
+          "rotation": [ 0, 0, -90 ]
+        },
+        "LeftArm": {
+          "rotation": [ -20, 0, 0 ]
+        },
+        "LeftForeArm": {
+          "rotation": [ 0, 0, 90 ]
+        }
+      }
+    },
+    "animation.cmm.panda.sitting.v1.0": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [ 0, -5.4, 0 ]
+        },
+        "Head": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Mask": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hair": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hat": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hat1": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hat2": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hat3": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hat4": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HTop": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HSide": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "BHair": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Ponytail": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HBack": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HBack1": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HBack2": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RHair": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HRight": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HRight2": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HRight3": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "LHair": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HLeft": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HLeft2": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HLeft3": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HFront": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HFront2": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HFront3": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hood1": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hood2": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hood3": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HBun": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RightEar": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "LeftEar": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RightHorn": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RightEye": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "LeftEye": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HighTwinTails": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "LowTwinTails": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "PonyTail": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "ThickPonyTail": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "(query.is_eating ? (-30 - (5 * math.sin(query.life_time * 750))) : 0) - this", 0, 0 ]
+        },
+        "RightForeArm": {
+          "rotation": [ "(query.is_eating ? (-130 - (10 * math.sin(query.life_time * 800))) : -35) - this", 0, "(query.is_eating ? 0 : -20) - this" ]
+        },
+        "LeftArm": {
+          "rotation": [ "(query.is_eating ? (-30 - (5 * math.sin(query.life_time * 750))) : 0) - this", 0, 0 ]
+        },
+        "LeftForeArm": {
+          "rotation": [ "(query.is_eating ? (-130 - (10 * math.sin(query.life_time * 800))) : -35) - this", 0, "(query.is_eating ? 0 : 20) - this " ]
+        },
+        "RightLeg": {
+          "rotation": [ -40, 0, 0 ]
+        },
+        "RightForeLeg": {
+          "rotation": [ 130, 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -40, 0, 0 ]
+        },
+        "LeftForeLeg": {
+          "rotation": [ 130, 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.panda.baby.sitting.v1.0": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [ 0, -2.35, 0 ]
+        },
+        "Head": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Mask": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hair": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hat": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hat1": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hat2": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hat3": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hat4": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HTop": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HSide": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "BHair": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Ponytail": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HBack": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HBack1": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HBack2": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RHair": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HRight": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HRight2": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HRight3": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "LHair": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HLeft": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HLeft2": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HLeft3": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HFront": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HFront2": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HFront3": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hood1": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hood2": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "Hood3": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HBun": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RightEar": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "LeftEar": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RightHorn": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RightEye": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "LeftEye": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "HighTwinTails": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "LowTwinTails": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "PonyTail": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "ThickPonyTail": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "(query.is_eating ? (-30 - (5 * math.sin(query.life_time * 750))) : 0) - this", 0, 0 ]
+        },
+        "RightForeArm": {
+          "rotation": [ "(query.is_eating ? (-130 - (10 * math.sin(query.life_time * 800))) : -35) - this", 0, "(query.is_eating ? 0 : -20) - this" ]
+        },
+        "LeftArm": {
+          "rotation": [ "(query.is_eating ? (-30 - (5 * math.sin(query.life_time * 750))) : 0) - this", 0, 0 ]
+        },
+        "LeftForeArm": {
+          "rotation": [ "(query.is_eating ? (-130 - (10 * math.sin(query.life_time * 800))) : -35) - this", 0, "(query.is_eating ? 0 : 20) - this " ]
+        },
+        "RightLeg": {
+          "rotation": [ -40, 0, 0 ]
+        },
+        "RightForeLeg": {
+          "rotation": [ 130, 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -40, 0, 0 ]
+        },
+        "LeftForeLeg": {
+          "rotation": [ 130, 0, 0 ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.evoker.look_at_target.default": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "relative_to": { "rotation": "entity" },
+          "rotation": [ "query.target_x_rotation", "query.target_y_rotation", 0 ]
+        },
+        "HFront": {
+          "rotation": [ "-query.target_x_rotation", 0, 0 ]
+        },
+        "HLeft": {
+          "rotation": [ "-query.target_x_rotation", 0, 0 ]
+        },
+        "Hat2": {
+          "rotation": [ "-query.target_x_rotation", 0, 0 ]
+        },
+        "HBack": {
+          "rotation": [ "-query.target_x_rotation", 0, 0 ]
+        },
+        "Neck": {
+          "relative_to": { "rotation": "entity" },
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck1": {
+          "relative_to": { "rotation": "entity" },
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        }
+      }
+    },
+    "animation.cmm.evoker.look_at_target.gliding": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ -45, "query.target_y_rotation", 0 ]
+        },
+        "HFront": {
+          "rotation": [ 45, 0, 0 ]
+        },
+        "HLeft": {
+          "rotation": [ 45, 0, 0 ]
+        },
+        "Hat2": {
+          "rotation": [ 45, 0, 0 ]
+        },
+        "HBack": {
+          "rotation": [ 45, 0, 0 ]
+        },
+        "Neck": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck1": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        }
+      }
+    },
+    "animation.cmm.evoker.look_at_target.swimming": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ "math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", "query.target_y_rotation", 0 ]
+        },
+        "HFront": {
+          "rotation": [ "-math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", 0, 0 ]
+        },
+        "HLeft": {
+          "rotation": [ "-math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", 0, 0 ]
+        },
+        "Hat2": {
+          "rotation": [ "-math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", 0, 0 ]
+        },
+        "HBack": {
+          "rotation": [ "-math.lerp(query.target_x_rotation, -45.0, variable.swim_amount)", 0, 0 ]
+        },
+        "Neck": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        },
+        "Neck1": {
+          "rotation": [ 0, "query.target_y_rotation * 0.5", 0 ]
+        }
+      }
+    },
+    "animation.cmm.evoker.casting": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation" : [ "math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "-135.0 - this" ]
+        },
+        "RightArm": {
+          "rotation" : [ "math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "135.0 - this" ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:parrot",
+      "materials": { "default": "cmm.parrot" },
+      "textures": {
+        "blue": "textures/cmm/parrot/parrot_blue",
+        "green": "textures/cmm/parrot/parrot_green",
+        "red_blue": "textures/cmm/parrot/parrot_red_blue",
+        "yellow_blue": "textures/cmm/parrot/parrot_yellow_blue",
+        "grey": "textures/cmm/parrot/parrot_grey"
+      },
+      "geometry": {
+        "default": "geometry.cmm.parrot"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+          "variable.state = query.is_dancing ? 3 : (query.is_sitting ? 2 : (!query.is_on_ground && !query.is_jumping && !query.is_riding ? 0 : 1));",
+          "variable.dance.x = Math.cos(query.life_time * 57.3 * 20.0);",
+          "variable.dance.y = -Math.sin(query.life_time * 57.3 * 20.0);",
+          "variable.wing_flap = ((math.sin(query.wing_flap_position * 57.3) + 1) * query.wing_flap_speed);"
+        ]
+      },
+      "animations": {
+        "cmm_base_pose": "animation.cmm.parrot.base_pose.v1.0",
+        "look_at_target_default": "animation.cmm.look_at_target.default.v1.0",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming.v1.0",
+        "move": "animation.cmm.move.v1.0",
+        "moving": "animation.cmm.parrot.moving.v1.0",
+        "flying": "animation.cmm.parrot.flying.v1.0",
+        "sitting": "animation.cmm.parrot.sitting.v1.0",
+        "dance": "animation.cmm.parrot.dance.v1.0",
+        "riding.arms": "animation.cmm.riding.arms.v1.0",
+        "riding.legs": "animation.cmm.riding.legs.v1.0",
+        "riding.pose": "animation.cmm.parrot.riding.pose.v1.0",
+        "brandish_spear": "animation.cmm.brandish_spear.v1.0",
+        "charging": "animation.cmm.charging.v1.0",
+        "attack.rotations": "animation.cmm.attack.rotations.v1.0",
+        "bob": "animation.cmm.bob.v1.0",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs.v1.0",
+        "swimming": "animation.cmm.swimming.v1.0",
+        "use_item_progress": "animation.cmm.use_item_progress.v1.0"
+      },
+      "animation_controllers": [
+        { "cmm_base_pose": "controller.animation.cmm.base_pose" },
+        { "look_at_target": "controller.animation.cmm.look_at_target" },
+        { "move": "controller.animation.cmm.parrot.move" },
+        { "riding": "controller.animation.cmm.riding.pose" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" }
+      ],
+      "render_controllers": [ "controller.render.cmm.parrot" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 43
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "Experimental next major update content",
+		"description": "Experimental behavior pack for next major update content",
+		"uuid": "a8a0fd53-f2a4-4a36-8f00-297b437dbd52",
+		"version": [ 0, 0, 1 ],
+		"min_engine_version": [ 1, 19, 0 ]
+	},
+	"modules": [
+		{
+			"description": "Experimental behavior pack for next major update content",
+			"type": "data",
+			"uuid": "daedd892-0a2c-4726-baef-88a7dace4eff",
+			"version": [ 0, 0, 1 ]
+		}
+	]
+}

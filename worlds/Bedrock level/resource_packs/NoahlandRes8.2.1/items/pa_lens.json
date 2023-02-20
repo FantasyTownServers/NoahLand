@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "pa:lens",
+      "category": "Equipment"
+    },
+    "components": {
+      "minecraft:icon": "pa:lens",
+      "minecraft:render_offsets": "miscellaneous"
+    }
+  }
+}

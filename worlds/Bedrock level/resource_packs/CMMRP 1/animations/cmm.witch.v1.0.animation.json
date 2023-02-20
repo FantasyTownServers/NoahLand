@@ -1,0 +1,39 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.move.drinking.v1.0": {
+      "loop": true,
+      "bones": {
+        "LeftLeg": {
+          "rotation": [ "variable.tcos0 * -1.4", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "variable.tcos0 * -1.4", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "-variable.tcos0", 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "-variable.tcos0", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "variable.tcos0 * 1.4", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "variable.tcos0 * 1.4", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.witch.drinking.v1.0": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ -50, 55, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ -50, 55, 0 ]
+        }
+      }
+    }
+  }
+}

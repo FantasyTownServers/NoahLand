@@ -1,0 +1,184 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cmm.panda.move": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            {
+              "walk": "query.modified_move_speed"
+            },
+            "look_at_target_default"
+          ],
+          "transitions": [
+            {
+              "gliding": "query.is_gliding"
+            },
+            {
+              "swimming": "query.is_swimming"
+            },
+            {
+              "adult_rolling": "!query.is_baby && query.roll_counter > 0.0"
+            },
+            {
+              "baby_rolling": "query.is_baby && query.roll_counter > 0.0"
+            },
+            {
+              "adult_sitting": "!query.is_baby && query.sit_amount > 0.0"
+            },
+            {
+              "baby_sitting": "query.is_baby && query.sit_amount > 0.0"
+            },
+            {
+              "adult_lying": "!query.is_baby && query.lie_amount > 0.0"
+            },
+            {
+              "baby_lying": "query.is_baby && query.lie_amount > 0.0"
+            }
+          ]
+        },
+        "gliding": {
+          "animations": [
+            {
+              "walk": "query.modified_move_speed"
+            },
+            "look_at_target_gliding"
+          ],
+          "transitions": [
+            {
+              "swimming": "query.is_swimming"
+            },
+            {
+              "default": "!query.is_gliding"
+            }
+          ]
+        },
+        "swimming": {
+          "animations": [
+            {
+              "walk": "query.modified_move_speed"
+            },
+            "look_at_target_swimming"
+          ],
+          "transitions": [
+            {
+              "gliding": "query.is_gliding"
+            },
+            {
+              "default": "!query.is_swimming"
+            }
+          ]
+        },
+        "adult_lying": {
+          "animations": [ "lying" ],
+          "transitions": [
+            {
+              "default": "query.is_baby || query.lie_amount <= 0.0"
+            },
+            {
+              "adult_rolling": "!query.is_baby && query.roll_counter > 0.0"
+            },
+            {
+              "adult_sitting": "!query.is_baby && query.sit_amount > 0.0"
+            }
+          ]
+        },
+        "baby_lying": {
+          "animations": [ "baby_lying" ],
+          "transitions": [
+            {
+              "default": "!query.is_baby || query.lie_amount <= 0.0"
+            },
+            {
+              "baby_rolling": "query.is_baby && query.roll_counter > 0.0"
+            },
+            {
+              "baby_sitting": "query.is_baby && query.sit_amount > 0.0"
+            }
+          ]
+        },
+        "adult_rolling": {
+          "animations": [ "rolling" ],
+          "transitions": [
+            {
+              "default": "query.is_baby || query.roll_counter <= 0.0"
+            },
+            {
+              "adult_sitting": "!query.is_baby && query.sit_amount > 0.0"
+            },
+            {
+              "adult_lying": "!query.is_baby && query.lie_amount > 0.0"
+            }
+          ]
+        },
+        "baby_rolling": {
+          "animations": [ "baby_rolling" ],
+          "transitions": [
+            {
+              "default": "!query.is_baby || query.roll_counter <= 0.0"
+            },
+            {
+              "baby_sitting": "query.is_baby && query.sit_amount > 0.0"
+            },
+            {
+              "baby_lying": "query.is_baby && query.lie_amount > 0.0"
+            }
+          ]
+        },
+        "adult_sitting": {
+          "animations": [ "look_at_target_default", "sitting" ],
+          "transitions": [
+            {
+              "default": "query.is_baby || query.sit_amount <= 0.0"
+            },
+            {
+              "adult_rolling": "!query.is_baby && query.roll_counter > 0.0"
+            },
+            {
+              "adult_lying": "!query.is_baby && query.lie_amount > 0.0"
+            }
+          ]
+        },
+        "baby_sitting": {
+          "animations": [ "look_at_target_default", "baby_sitting" ],
+          "transitions": [
+            {
+              "default": "!query.is_baby || query.sit_amount <= 0.0"
+            },
+            {
+              "baby_rolling": "query.is_baby && query.roll_counter > 0.0"
+            },
+            {
+              "baby_lying": "query.is_baby && query.lie_amount > 0.0"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.panda.sneezing": {
+      "initial_state": "baby",
+      "states": {
+        "baby": {
+          "animations": [
+            {
+              "sneezing": "query.sneeze_counter"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.panda.unhappy": {
+      "initial_state": "baby",
+      "states": {
+        "baby": {
+          "animations": [
+            {
+              "unhappy": "query.unhappy_counter"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

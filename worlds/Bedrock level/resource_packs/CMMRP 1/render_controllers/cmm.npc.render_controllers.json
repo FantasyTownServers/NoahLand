@@ -1,0 +1,70 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cmm.npc": {
+      "arrays": {
+        "geometries": {
+          "Array.geos": [
+            "Geometry.npc_1",
+            "Geometry.npc_2",
+            "Geometry.npc_3",
+            "Geometry.npc_4",
+            "Geometry.npc_5",
+            "Geometry.npc_6",
+            "Geometry.npc_7",
+            "Geometry.npc_8",
+            "Geometry.npc_9",
+            "Geometry.npc_10",
+            "Geometry.npc_11",
+            "Geometry.npc_12",
+            "Geometry.npc_13",
+            "Geometry.npc_14",
+            "Geometry.npc_15",
+            "Geometry.npc_16",
+            "Geometry.npc_17",
+            "Geometry.npc_18",
+            "Geometry.npc_19",
+            "Geometry.npc_20",
+            "Geometry.npc_21",
+            "Geometry.npc_22",
+            "Geometry.npc_23",
+            "Geometry.npc_24",
+            "Geometry.npc_25"
+          ]
+        },
+        "textures": {
+          "Array.skins": [
+            "Texture.npc_1",
+            "Texture.npc_2",
+            "Texture.npc_3",
+            "Texture.npc_4",
+            "Texture.npc_5",
+            "Texture.npc_6",
+            "Texture.npc_7",
+            "Texture.npc_8",
+            "Texture.npc_9",
+            "Texture.npc_10",
+            "Texture.npc_11",
+            "Texture.npc_12",
+            "Texture.npc_13",
+            "Texture.npc_14",
+            "Texture.npc_15",
+            "Texture.npc_16",
+            "Texture.npc_17",
+            "Texture.npc_18",
+            "Texture.npc_19",
+            "Texture.npc_20",
+            "Texture.npc_21",
+            "Texture.npc_22",
+            "Texture.npc_23",
+            "Texture.npc_24",
+            "Texture.npc_25"
+          ]
+        }
+      },
+      "geometry": "Array.geos[query.variant]",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.variant]" ]
+    }
+  }
+}

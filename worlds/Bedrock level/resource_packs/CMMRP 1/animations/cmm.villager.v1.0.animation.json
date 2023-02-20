@@ -1,0 +1,16 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.villager.raise_arms.v1.0" : {
+      "loop" : true,
+      "bones" : {
+        "RightArm" : {
+          "rotation" : [ "variable.raise_arms * -18", 0, 0 ]
+        },
+        "RightArm2" : {
+          "rotation" : [ "variable.raise_arms * -18", 0, 0 ]
+        }
+      }
+    }
+  }
+}

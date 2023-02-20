@@ -1,0 +1,20 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cmm.sheep": {
+      "arrays": {
+        "geometries": {
+          "Array.geos": [ "Geometry.default", "Geometry.sheared" ],
+          "Array.geos_baby": [ "Geometry.baby", "Geometry.baby" ]
+        },
+        "textures": {
+          "Array.skins": [ "Texture.default", "Texture.sheared" ],
+          "Array.skins_baby": [ "Texture.baby", "Texture.baby" ]
+        }
+      },
+      "geometry": "query.is_baby ? Array.geos_baby[query.is_sheared] : Array.geos[query.is_sheared]",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "query.is_baby ? Array.skins_baby[query.is_sheared] : Array.skins[query.is_sheared]" ]
+    }
+  }
+}

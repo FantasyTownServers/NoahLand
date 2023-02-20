@@ -1,0 +1,249 @@
+{
+  "materials": {
+    "version": "1.0.0",
+
+    "cmm.guardian_ghost:entity_alphablend_nocolor": {
+      "+defines": [
+        "USE_COLOR_MASK",
+        "ALPHA_TEST",
+        "USE_EMISSIVE"
+      ]
+    },
+
+    "cmm.charged_creeper:entity_static": {
+      "+defines": [ "USE_UV_ANIM", "ALPHA_TEST" ],
+      "+states": [ "Blending", "DisableCulling" ],
+      "blendSrc": "One",
+      "blendDst": "One",
+      "+samplerStates": [
+        {
+          "samplerIndex": 0,
+          "textureWrap": "Repeat"
+        }
+      ]
+    },
+
+    "entity_multitexture_multiplicative_blend_alpha:entity_alphatest": {
+      "+states": [ "DisableCulling", "DisableAlphaWrite" ],
+      "+samplerStates": [
+        {
+          "samplerIndex": 0,
+          "textureWrap": "Clamp"
+        },
+        {
+          "samplerIndex": 1,
+          "textureWrap": "Clamp"
+        }
+      ],
+      "+defines": [
+        "ALPHA_TEST",
+        "USE_COLOR_MASK",
+        "MULTIPLICATIVE_TINT",
+        "MULTIPLICATIVE_TINT_COLOR",
+        "USE_OVERLAY"
+      ]
+    },
+
+    "cmm.agent:entity_alphatest": {},
+    "cmm.arch_illager:entity_alphatest": {},
+    "cmm.armor:entity_alphatest": {},
+    "cmm.armor_leather:entity_alphatest_change_color": {},
+    "cmm.armor_enchanted:entity_alphatest_glint": {},
+    "cmm.armor_leather_enchanted:entity_alphatest_change_color_glint": {},
+    "cmm.armor_stand:entity_alphatest": {},
+    "cmm.axolotl:entity_alphatest": {},
+    "cmm.bat:entity_alphatest": {},
+    "cmm.bee:entity_alphatest": {},
+    "cmm.blaze:entity_emissive_alpha": {},
+    "cmm.cow:entity_alphatest": {},
+    "cmm.wooly_cow:entity_alphatest": {},
+    "cmm.chicken:entity_alphatest": {},
+    "cmm.cluckshroom:entity_alphatest": {},
+    "cmm.fancy_chicken:entity_alphatest": {},
+    "cmm.chillager:entity_alphatest": {},
+    "cmm.creeder:entity_alphatest": {},
+    "cmm.creeper:entity_alphatest": {},
+    "cmm.dog:entity_alphatest_change_color": {},
+    "cmm.dragon_head:entity_alphatest": {},
+    "cmm.dragon_head_glint:entity_glint": {},
+    "cmm.drowned:entity_emissive_alpha": {},
+    "cmm.ender_dragon:entity_emissive_alpha": {},
+    "cmm.enderman:entity_emissive_alpha": {},
+    "cmm.enderman_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "cmm.endermite:entity_emissive_alpha": {},
+    "cmm.endermite_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "cmm.enchanter:entity_alphatest": {},
+    "cmm.evoker:entity_alphatest": {},
+    "cmm.fox:entity_alphatest": {},
+    "cmm.cat:entity_alphatest_change_color": {},
+    "cmm.clownfish:entity_alphatest": {},
+    "cmm.cod:entity_alphatest": {},
+    "cmm.pufferfish:entity_alphatest": {},
+    "cmm.salmon:entity_alphatest": {},
+    "cmm.tropicalfish:entity_multitexture_multiplicative_blend_alpha": {},
+    "cmm.geomancer:entity_alphatest": {},
+    "cmm.ghast:entity_emissive_alpha": {},
+    "cmm.ghast_sister:entity_emissive_alpha": {},
+    "cmm.giant_ghast:entity_emissive_alpha": {},
+    "cmm.goat:entity_alphatest": {},
+    "cmm.guardian:entity_emissive_alpha": {},
+    "cmm.horse:entity_multitexture_alpha_test_color_mask": {},
+    "cmm.horse_leather_armor:entity_multitexture_alpha_test_color_mask": {},
+    "cmm.horse_saddle:entity_alphatest": {},
+    "cmm.horse_hair:entity_alphatest": {},
+    "cmm.husk:entity_alphatest": {},
+    "cmm.ravager:entity_alphatest": {},
+    "cmm.icy_ender_creeper:entity_emissive_alpha": {},
+    "cmm.icy_ender_creeper_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "cmm.icy_golem:entity_alphatest": {},
+    "cmm.illusioner:entity_alphatest": {},
+    "cmm.iron_golem:entity_alphatest": {},
+    "cmm.furnace_golem:entity_emissive_alpha": {},
+    "cmm.love_golem:entity_alphatest": {},
+    "cmm.prison_golem:entity_emissive_alpha": {},
+    "cmm.jungle_abomination:entity_emissive_alpha": {},
+    "cmm.key_golem:entity_alphatest": {},
+    "cmm.leaper:entity_emissive_alpha": {},
+    "cmm.nameless_one:entity_emissive_alpha": {},
+    "cmm.necromancer:entity_emissive_alpha": {},
+    "cmm.magma_cube:entity_emissive_alpha": {},
+    "cmm.magma_golem:entity_emissive_alpha": {},
+    "cmm.giant_magma_golem:entity_emissive_alpha": {},
+    "cmm.llama:entity_multitexture_alpha_test": {},
+    "cmm.jolly_llama:entity_alphatest": {},
+    "cmm.mob_head:entity_alphatest": {},
+    "cmm.mob_head_glint:entity_glint": {},
+    "cmm.moobloom:entity_alphatest": {},
+    "cmm.mooshroom:entity_alphatest": {},
+    "mooshroom_mushrooms:entity_alphtest": {},
+    "cmm.mountaineer:entity_alphatest": {},
+    "cmm.npc:entity_alphatest": {},
+    "cmm.ocelot:entity_alphatest": {},
+    "cmm.parrot:entity_alphatest": {},
+    "cmm.pig:entity_alphatest": {},
+    "cmm.piggy_bank:entity_alphatest": {},
+    "cmm.mud_pig:entity_alphatest": {},
+    "cmm.hoglin:entity_alphatest": {},
+    "cmm.zoglin:entity_alphatest": {},
+    "cmm.player:entity": {},
+    "cmm.player_alphatest:entity_alphatest": {},
+    "cmm.polar_bear:entity_alphatest": {},
+    "cmm.prison_golem:entity_alphatest": {},
+    "cmm.prismarine_colossus:entity_alphatest": {},
+    "cmm.prismarine_foe:entity_alphatest": {},
+    "cmm.panda:entity_alphatest": {},
+    "cmm.rabbit:entity_alphatest": {},
+    "cmm.jumbo_rabbit:entity_alphatest": {},
+    "cmm.redstone_golem:entity_emissive_alpha": {},
+    "cmm.redstone_monstrosity:entity_emissive_alpha": {},
+    "cmm.mooshroom_monstrosity:entity_emissive_alpha": {},
+    "cmm.royal_guard:entity_alphatest": {},
+    "cmm.sheep:entity_alphatest_change_color": {},
+    "cmm.horned_sheep:entity_alphatest_change_color": {},
+    "cmm.rainbow_sheep:entity_alphatest": {},
+    "cmm.shulker:entity_alphatest": {},
+    "cmm.silverfish:entity_alphatest": {},
+    "cmm.skeleton:entity_alphatest": {},
+    "cmm.skeleton_vanguard:entity_alphatest": {},
+    "cmm.mossy_skeleton:entity_alphatest": {},
+    "cmm.squall_golem:entity_alphatest": {},
+    "cmm.tempest_golem:entity_emissive_alpha": {},
+    "cmm.pillager:entity_alphatest": {},
+    "cmm.piglin:entity_alphatest": {},
+    "cmm.piglin_brute:entity_alphatest": {},
+    "cmm.slime:entity_alphatest": {},
+    "cmm.slime_outer:entity_alphatest": {
+      "+states": [ "Blending" ]
+    },
+    "cmm.cauldron_slime:entity_alphatest": {},
+    "cmm.cauldron_slime_outer:entity_alphatest": {
+      "+states": [ "Blending" ]
+    },
+    "cmm.tropical_slime:entity_alphatest": {},
+    "cmm.tropical_slime_outer:entity_alphatest": {
+      "+states": [ "Blending" ]
+    },
+    "cmm.prison_slime:entity_alphatest": {},
+    "cmm.prison_slime_outer:entity_alphatest": {
+      "+states": [ "Blending" ]
+    },
+    "cmm.snow_golem:entity_alphatest": {},
+    "cmm.melon_golem:entity_alphatest": {},
+    "cmm.spider:entity_emissive_alpha": {},
+    "cmm.spider_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "cmm.icy_spider:entity_emissive_alpha": {},
+    "cmm.icy_spider_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "cmm.bone_spider:entity_emissive_alpha": {},
+    "cmm.bone_spider_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "cmm.squid:entity_alphatest": {},
+    "cmm.glow_squid:entity_emissive_alpha": {},
+    "cmm.dolphin:entity_alphatest": {},
+    "cmm.phantom:entity_emissive_alpha": {},
+    "cmm.phantom_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "cmm.stray:entity_alphatest": {},
+    "cmm.stray_clothes:entity_alphatest": {},
+    "cmm.strider:entity_alphatest": {},
+    "cmm.turtle:entity_alphatest": {},
+    "cmm.vex:entity_alphatest": {},
+    "cmm.villager:entity_alphatest": {},
+    "cmm.villager_v2:entity_alphatest": {
+      "depthFunc": "LessEqual"
+    },
+    "cmm.villager_v2_masked:entity_multitexture_masked": {
+      "depthFunc": "LessEqual"
+    },
+    "cmm.vindicator:entity_alphatest": {},
+    "cmm.wandering_trader:entity_alphatest": {},
+    "cmm.wandermaid:entity_alphatest": {},
+    "cmm.whisperer:entity_emissive_alpha": {},
+    "cmm.windcaller:entity_alphatest": {},
+    "cmm.witch:entity_alphatest": {},
+    "cmm.viler_witch:entity_alphatest": {},
+    "cmm.wither_boss:entity_emissive_alpha": {},
+    "cmm.wither_boss_armor:cmm.charged_creeper": {},
+    "cmm.wither_skull:mob_head": {},
+    "cmm.pink_wither:entity_emissive_alpha": {},
+    "cmm.pink_wither_armor:cmm.charged_creeper": {},
+    "cmm.pink_wither_skull:mob_head": {},
+    "cmm.wolf:entity_alphatest_change_color": {},
+    "cmm.skeleton_wolf:entity_alphatest": {},
+    "cmm.wraith:entity_emissive_alpha": {},
+    "cmm.wraith_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "cmm.wicked_wraith:entity_emissive_alpha": {},
+    "cmm.wicked_wraith_invisible:entity_emissive_alpha": {
+      "+defines": [ "USE_ONLY_EMISSIVE" ]
+    },
+    "cmm.zombie:entity_alphatest": {},
+    "cmm.bouldering_zombie:entity_alphatest": {},
+    "cmm.frozen_zombie:entity_alphatest": {},
+    "cmm.jungle_zombie:entity_alphatest": {},
+    "cmm.lobber_zombie:entity_alphatest": {},
+    "cmm.prison_zombie:entity_alphatest": {},
+    "cmm.zombie_villager:entity_alphatest": {},
+    "cmm.zombie_villager_v2:entity_alphatest": {
+      "depthFunc": "LessEqual"
+    },
+    "cmm.zombie_villager_v2_masked:entity_multitexture_masked": {
+      "depthFunc": "LessEqual"
+    },
+    "cmm.player_animated:entity_alphatest": {
+      "+defines": [ "USE_UV_ANIM" ]
+    }
+  }
+}

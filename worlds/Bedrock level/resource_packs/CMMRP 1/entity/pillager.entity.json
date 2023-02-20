@@ -1,0 +1,76 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:pillager",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "cmm.pillager"
+      },
+      "textures": {
+        "default": "textures/cmm/pillager",
+        "default2": "textures/cmm/pillager/pillager2",
+        "default3": "textures/cmm/pillager/pillager3",
+        "default4": "textures/cmm/pillager/pillager4",
+        "default5": "textures/cmm/pillager/pillager5",
+        "default6": "textures/cmm/pillager/pillager6",
+        "default7": "textures/cmm/pillager/pillager7",
+        "default8": "textures/cmm/pillager/pillager8",
+        "default9": "textures/cmm/pillager/pillager9",
+        "default10": "textures/cmm/pillager/pillager10",
+        "default11": "textures/cmm/pillager/pillager11",
+        "default12": "textures/cmm/pillager/pillager12",
+        "default13": "textures/cmm/pillager/pillager13",
+        "default14": "textures/cmm/pillager/pillager14",
+        "default15": "textures/cmm/pillager/pillager15"
+      },
+      "geometry": {
+        "default": "geometry.cmm.pillager.v1.8"
+      },
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 56
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 28.65;"
+        ],
+        "scale": "0.9375"
+      },
+      "animations": {
+        "look_at_target_default": "animation.cmm.pillager.look_at_target.default",
+        "look_at_target_gliding": "animation.cmm.pillager.look_at_target.gliding",
+        "look_at_target_swimming": "animation.cmm.pillager.look_at_target.swimming",
+        "move": "animation.cmm.move",
+        "riding.arms": "animation.cmm.riding.arms",
+        "riding.legs": "animation.cmm.riding.legs",
+        "brandish_spear": "animation.cmm.brandish_spear",
+        "charging": "animation.cmm.charging",
+        "attack.rotations": "animation.cmm.attack.rotations",
+        "bob": "animation.cmm.bob",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs",
+        "swimming": "animation.cmm.swimming",
+        "use_item_progress": "animation.cmm.use_item_progress",
+        "crossbow_hold": "animation.cmm.pillager.crossbow.hold",
+        "crossbow_charge": "animation.cmm.pillager.crossbow.charge",
+        "celebrating": "animation.cmm.celebrating"
+      },
+      "animation_controllers": [
+        { "look_at_target": "controller.animation.cmm.look_at_target" },
+        { "move": "controller.animation.cmm.move" },
+        { "riding": "controller.animation.cmm.riding" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" },
+        { "pillager_attack": "controller.animation.cmm.pillager.attack" },
+        { "celebrating": "controller.animation.cmm.celebrating" }
+      ],
+      "render_controllers": [ "controller.render.cmm.pillager" ],
+      "enable_attachables": true
+    }
+  }
+}

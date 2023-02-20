@@ -1,0 +1,388 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.panda.sneezing": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation" : [ "(query.sneeze_counter < 15) ? (-45 * (query.sneeze_counter / 14)) : (-45 + (9 * (query.sneeze_counter - 15)) - this)", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.panda.rolling": {
+      "animation_length": 1.5,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.36": [ 20, 0, 0 ],
+            "0.72": [ 180, 0, 0 ],
+            "0.87": [ 180, 0, 0 ],
+            "1.5": [ 360, 0, 0 ]
+          },
+          "position": {
+            "0.0": [ 0, 0, 0 ],
+            "0.36": [ 0, -0.5, 0 ],
+            "0.42": [ 0, -4.92, 0 ],
+            "0.45": [ 0, -6.93, 0 ],
+            "0.48": [ 0, -8.83, 0 ],
+            "0.51": [ 0, -11.6, 0 ],
+            "0.54": [ 0, -15.09, 0 ],
+            "0.57": [ 0, -17.07, 0 ],
+            "0.72": [ 0, -16, 0 ],
+            "0.87": [ 0, -16, 0 ],
+            "0.99": [ 0, -11.33, 0 ],
+            "1.47": [ 0, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "RightArm": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.3": [ -150, 0, 0 ],
+            "0.57": [ -156, 0, 0 ],
+            "0.72": [ -180, 0, 0 ],
+            "0.87": [ -180, 0, 0 ],
+            "1.08": [ -200, 0, 0 ],
+            "1.32": [ -180, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "RightForeArm": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.87": [ 0, 0, 0 ],
+            "1.08": [ -32.5, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "LeftArm": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.3": [ -150, 0, 0 ],
+            "0.57": [ -156, 0, 0 ],
+            "0.72": [ -180, 0, 0 ],
+            "0.87": [ -180, 0, 0 ],
+            "1.08": [ -200, 0, 0 ],
+            "1.32": [ -180, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "LeftForeArm": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.87": [ 0, 0, 0 ],
+            "1.08": [ -32.5, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "RightLeg": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.48": [ -80, 0, 0 ],
+            "0.51": [ -99.47, 0, 0 ],
+            "0.754": [ 0, 0, 0 ],
+            "1.02": [ 32.5, 0, 0 ],
+            "1.29": [ 21, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "RightForeLeg": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.36": [ 27.5, 0, 0 ],
+            "0.51": [ 0, 0, 0 ],
+            "0.72": [ 28.71, 0, 0 ],
+            "1.29": [ 40, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "LeftLeg": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.75": [ 0, 0, 0 ],
+            "1.02": [ 32.5, 0, 0 ],
+            "1.29": [ 21, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "LeftForeLeg": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.75": [ 0, 0, 0 ],
+            "1.29": [ 40, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "Skirt1": {
+          "rotation": {
+            "1.12": [ 0, 0, 0 ],
+            "0.93": [ 6.72, 0, 0 ],
+            "0.99": [ 29.15, 0, 0 ],
+            "1.32": [ 22.5, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        }
+      }
+    },
+    "animation.cmm.panda.baby.rolling": {
+      "animation_length": 1.5,
+      "bones": {
+        "root": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.36": [ 20, 0, 0 ],
+            "0.72": [ 180, 0, 0 ],
+            "0.87": [ 180, 0, 0 ],
+            "1.5": [ 360, 0, 0 ]
+          },
+          "position": {
+            "0.0": [ 0, 0, 0 ],
+            "0.36": [ 0, -0.5, 0 ],
+            "0.39": [ 0, -1.5, 0 ],
+            "0.42": [ 0, -3, 0 ],
+            "0.45": [ 0, -4, 0 ],
+            "0.48": [ 0, -4.88, 0 ],
+            "0.51": [ 0, -6.4, 0 ],
+            "0.54": [ 0, -8.2, 0 ],
+            "0.72": [ 0, -6.11, 0 ],
+            "0.87": [ 0, -6.11, 0 ],
+            "1.47": [ 0, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "RightArm": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.3": [ -150, 0, 0 ],
+            "0.57": [ -156, 0, 0 ],
+            "0.72": [ -180, 0, 0 ],
+            "0.87": [ -180, 0, 0 ],
+            "1.08": [ -200, 0, 0 ],
+            "1.32": [ -180, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "RightForeArm": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.87": [ 0, 0, 0 ],
+            "1.08": [ -32.5, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "LeftArm": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.3": [ -150, 0, 0 ],
+            "0.57": [ -156, 0, 0 ],
+            "0.57": [ -180, 0, 0 ],
+            "0.87": [ -180, 0, 0 ],
+            "1.08": [ -200, 0, 0 ],
+            "1.32": [ -180, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "LeftForeArm": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.87": [ 0, 0, 0 ],
+            "1.08": [ -32.5, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "RightLeg": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.36": [ -80, 0, 0 ],
+            "0.51": [ -99.47, 0, 0 ],
+            "0.754": [ 0, 0, 0 ],
+            "1.02": [ 32.5, 0, 0 ],
+            "1.29": [ 21, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "RightForeLeg": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.36": [ 27.5, 0, 0 ],
+            "0.51": [ 0, 0, 0 ],
+            "0.72": [ 28.71, 0, 0 ],
+            "1.29": [ 40, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "LeftLeg": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.75": [ 0, 0, 0 ],
+            "1.02": [ 32.5, 0, 0 ],
+            "1.29": [ 21, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "LeftForeLeg": {
+          "rotation": {
+            "0.0": [ 0, 0, 0 ],
+            "0.75": [ 0, 0, 0 ],
+            "1.29": [ 40, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        },
+        "Skirt1": {
+          "rotation": {
+            "1.12": [ 0, 0, 0 ],
+            "0.93": [ 6.72, 0, 0 ],
+            "0.99": [ 29.15, 0, 0 ],
+            "1.32": [ 22.5, 0, 0 ],
+            "1.5": [ 0, 0, 0 ]
+          }
+        }
+      }
+    },
+    "animation.cmm.panda.unhappy": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ 0, "(10*math.sin(query.life_time * 750))", 0 ]
+        },
+        "RightArm": {
+          "rotation": [ -35, 0, 0 ]
+        },
+        "RightForeArm": {
+          "rotation": [ 0, 0, -90 ]
+        },
+        "LeftArm": {
+          "rotation": [ -20, 0, 0 ]
+        },
+        "LeftForeArm": {
+          "rotation": [ 0, 0, 90 ]
+        }
+      }
+    },
+    "animation.cmm.panda.sitting": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [ 0, -5.4, 0 ]
+        },
+        "Head": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "(query.is_eating ? (-30 - (5 * math.sin(query.life_time * 750))) : 0) - this", 0, 0 ]
+        },
+        "RightForeArm": {
+          "rotation": [ "(query.is_eating ? (-130 - (10 * math.sin(query.life_time * 800))) : -35) - this", 0, "(query.is_eating ? 0 : -20) - this" ]
+        },
+        "LeftArm": {
+          "rotation": [ "(query.is_eating ? (-30 - (5 * math.sin(query.life_time * 750))) : 0) - this", 0, 0 ]
+        },
+        "LeftForeArm": {
+          "rotation": [ "(query.is_eating ? (-130 - (10 * math.sin(query.life_time * 800))) : -35) - this", 0, "(query.is_eating ? 0 : 20) - this " ]
+        },
+        "RightLeg": {
+          "rotation": [ -40, 0, 0 ]
+        },
+        "RightForeLeg": {
+          "rotation": [ 130, 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -40, 0, 0 ]
+        },
+        "LeftForeLeg": {
+          "rotation": [ 130, 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.panda.baby.sitting": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [ 0, -2.35, 0 ]
+        },
+        "Head": {
+          "rotation": [ "query.is_eating ? (11.5 * math.sin(query.life_time * 750)) : (query.sit_amount * (7 - this)) - this", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "(query.is_eating ? (-30 - (5 * math.sin(query.life_time * 750))) : 0) - this", 0, 0 ]
+        },
+        "RightForeArm": {
+          "rotation": [ "(query.is_eating ? (-130 - (10 * math.sin(query.life_time * 800))) : -35) - this", 0, "(query.is_eating ? 0 : -20) - this" ]
+        },
+        "LeftArm": {
+          "rotation": [ "(query.is_eating ? (-30 - (5 * math.sin(query.life_time * 750))) : 0) - this", 0, 0 ]
+        },
+        "LeftForeArm": {
+          "rotation": [ "(query.is_eating ? (-130 - (10 * math.sin(query.life_time * 800))) : -35) - this", 0, "(query.is_eating ? 0 : 20) - this " ]
+        },
+        "RightLeg": {
+          "rotation": [ -40, 0, 0 ]
+        },
+        "RightForeLeg": {
+          "rotation": [ 130, 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -40, 0, 0 ]
+        },
+        "LeftForeLeg": {
+          "rotation": [ 130, 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.panda.lying": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [ -90, 0, 0 ],
+          "position": [ 0, -22.5, 8 ]
+        },
+        "RightArm": {
+          "rotation": [ -180, 0, 0 ]
+        },
+        "RightForeArm": {
+          "rotation": [ 0, 0, -90 ]
+        },
+        "LeftArm": {
+          "rotation": [ -180, 0, 0 ]
+        },
+        "LeftForeArm": {
+          "rotation": [ 0, 0, 90 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -35, 0, 0 ]
+        },
+        "LeftForeLeg": {
+          "rotation": [ 80, 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.panda.baby.lying": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [ -90, 0, 0 ],
+          "position": [ 0, -11.5, 3 ]
+        },
+        "RightArm": {
+          "rotation": [ -180, 0, 0 ]
+        },
+        "RightForeArm": {
+          "rotation": [ 0, 0, -90 ]
+        },
+        "LeftArm": {
+          "rotation": [ -180, 0, 0 ]
+        },
+        "LeftForeArm": {
+          "rotation": [ 0, 0, 90 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -35, 0, 0 ]
+        },
+        "LeftForeLeg": {
+          "rotation": [ 80, 0, 0 ]
+        }
+      }
+    }
+  }
+}

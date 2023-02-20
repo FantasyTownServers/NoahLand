@@ -1,0 +1,98 @@
+﻿{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.parrot.base_pose": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ 0, 0, -15 ]
+        },
+        "RightArm": {
+          "rotation": [ 0, 0, 15 ]
+        },
+        "waist": {
+          "rotation": [ 0, 0, 0 ]
+        },
+        "Tail": {
+          "position": [ "-this", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.parrot.dance": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "RightArm": {
+          "rotation": [ 0, 0, "70 + Math.cos(query.time_stamp * 40) * 10" ]
+        },
+        "LeftArm": {
+          "rotation": [ 0, 0, "-70 - Math.cos(query.time_stamp * 40) * 10" ]
+        },
+        "Body": {
+          "position": [ 0, "Math.sin(query.time_stamp * 40) * 0.35", 0 ]
+        },
+        "Tail": {
+          "rotation": [ "60.0 + math.cos(query.anim_time * 38.17) * 17.0 - this", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.parrot.flying": {
+      "loop": true,
+      "bones": {
+        "RightLeg": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) * 80.0 * query.modified_move_speed", 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) * -80.0 * query.modified_move_speed", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.parrot.moving": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [ 0, "variable.wing_flap * 0.3", 0 ]
+        },
+        "Tail": {
+          "rotation": [ "60.0 + math.cos(query.anim_time * 38.17) * 17.0 - this", 0, 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ 0, 0, "-5.0 - variable.wing_flap * 57.3" ]
+        },
+        "RightArm": {
+          "rotation": [ 0, 0, "5.0 + variable.wing_flap * 57.3" ]
+        }
+      }
+    },
+    "animation.cmm.parrot.riding.pose": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [ 0, -4, 0 ]
+        }
+      }
+    },
+    "animation.cmm.parrot.sitting": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [ 0, -2, 0 ]
+        },
+        "Tail": {
+          "rotation": [ "75.0 - this", 0.0, 0.0 ],
+          "position": [ 0, -1.5, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ -90, 0, 0 ],
+          "position": [ 0, -2, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -90, 0, 0 ],
+          "position": [ 0, -2, 0 ]
+        }
+      }
+    }
+  }
+}

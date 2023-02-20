@@ -1,0 +1,15 @@
+{
+  "resource_pack_name": "Cute Mob Models Resource Pack",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "spawn_egg_ghast_sister": {
+      "textures": "textures/items/egg_ghast_sister"
+    },
+    "spawn_egg_bowsette": {
+      "textures": "textures/items/egg_bowsette"
+    },
+    "spawn_egg_booette": {
+      "textures": "textures/items/egg_booette"
+    }
+  }
+}

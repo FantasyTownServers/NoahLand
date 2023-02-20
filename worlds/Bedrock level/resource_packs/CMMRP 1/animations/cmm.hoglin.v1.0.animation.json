@@ -1,0 +1,80 @@
+﻿{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.hoglin.attack.v1.0" : {
+      "loop": true,
+      "bones" : {
+        "RightArm" : {
+          "rotation": [ "variable.attack_arm_rot", 0, 0 ]
+        },
+        "RightArm2" : {
+          "rotation": [ "variable.attack_arm_rot", 0, 0 ]
+        },
+        "LeftArm" : {
+          "rotation": [ "variable.attack_arm_rot", 0, 0 ]
+        },
+        "LeftArm2" : {
+          "rotation": [ "variable.attack_arm_rot", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.hoglin.move.v1.0": {
+      "loop": true,
+      "bones": {
+        "LeftHoglinEar": {
+          "rotation": [ 0, 0, "variable.tcos_left_side * 0.5" ]
+        },
+        "RightHoglinEar": {
+          "rotation": [ 0, 0, "variable.tcos_right_side * 0.5" ]
+        },
+        "LeftArm": {
+          "rotation": [ "variable.tcos_left_side", 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ "variable.tcos_left_side", 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "variable.tcos_left_side * 1.4", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "variable.tcos_left_side * 1.4", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "variable.tcos_right_side", 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "variable.tcos_right_side", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "variable.tcos_right_side * 1.4", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "variable.tcos_right_side * 1.4", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.hoglin.move.legs.v1.0": {
+      "loop": true,
+      "bones": {
+        "LeftHoglinEar": {
+          "rotation": [ 0, 0, "variable.tcos_left_side * 0.5" ]
+        },
+        "RightHoglinEar": {
+          "rotation": [ 0, 0, "variable.tcos_right_side * 0.5" ]
+        },
+        "LeftLeg": {
+          "rotation": [ "variable.tcos_left_side * 1.4", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "variable.tcos_left_side * 1.4", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "variable.tcos_right_side * 1.4", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "variable.tcos_right_side * 1.4", 0, 0 ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:goat",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "cmm.goat" },
+      "textures": {
+        "default": "textures/cmm/goat/goat",
+        "baby": "textures/cmm/goat/goat_baby"
+      },
+      "geometry": {
+        "default": "geometry.cmm.goat.v1.8",
+        "baby": "geometry.cmm.goat.baby.v1.8"
+      },
+      "animations": {
+        "look_at_target_default": "animation.cmm.look_at_target.default",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming",
+        "move": "animation.cmm.move",
+        "move.legs": "animation.cmm.move.legs",
+        "jump.arms": "animation.cmm.jump.arms",
+        "riding.arms": "animation.cmm.riding.arms",
+        "riding.legs": "animation.cmm.riding.legs",
+        "brandish_spear": "animation.cmm.brandish_spear",
+        "charging": "animation.cmm.charging",
+        "attack.rotations": "animation.cmm.attack.rotations",
+        "bob": "animation.cmm.bob",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs",
+        "swimming": "animation.cmm.swimming",
+        "use_item_progress": "animation.cmm.use_item_progress",
+        "attack": "animation.cmm.goat.attack",
+        "ram_attack": "animation.cmm.goat.ram_attack",
+        "cmm_base_pose_controller": "controller.animation.cmm.baby_base_pose",
+        "look_at_target_controller": "controller.animation.cmm.look_at_target",
+        "move_controller": "controller.animation.cmm.move.jump",
+        "riding_controller": "controller.animation.cmm.riding",
+        "brandish_spear_controller": "controller.animation.cmm.brandish_spear",
+        "charging_controller": "controller.animation.cmm.charging",
+        "attack_controller": "controller.animation.cmm.attack",
+        "bob_controller": "controller.animation.cmm.bob",
+        "damage_nearby_mobs_controller": "controller.animation.cmm.damage_nearby_mobs",
+        "swimming_controller": "controller.animation.cmm.swimming",
+        "use_item_progress_controller": "controller.animation.cmm.use_item_progress"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+          "variable.attack_head_rot =  Math.sin(variable.attack_time * 180.0) * -37.3;",
+          "variable.ram_head_rot = Math.sin(variable.should_bow_head * 90.0) * 37.3;"
+        ],
+        "animate":[
+          "look_at_target_controller",
+          "move_controller",
+          "riding_controller",
+          "brandish_spear_controller",
+          "charging_controller",
+          "attack_controller",
+          "bob_controller",
+          "damage_nearby_mobs_controller",
+          "swimming_controller",
+          "use_item_progress_controller",
+          { "attack": "variable.has_target && variable.attack_time >= 0.0" },
+          "ram_attack"
+        ]
+      },
+      "render_controllers": [ "controller.render.cmm.goat" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "base_color": "#c0ac90",
+        "overlay_color": "#857261"
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cmm.fox": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.red",
+            "Texture.arctic"
+          ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "part_visibility": [
+        { "Head": "!query.is_sleeping" },
+        { "HeadSleeping": "query.is_sleeping" }
+      ],
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.variant]" ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.enderman.riding.v1.0": {
+      "loop": true,
+      "override_previous_animation": true,
+      "bones": {
+        "root": {
+          "position": [ 0, -8, 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ -36, 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ -36, 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ -36, 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ -36, 0, 0 ]
+        },
+        "Skirt2": {
+          "rotation": [ -45, 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ -72, 18, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ -72, 18, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -72, -18, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ -72, -18, 0 ]
+        }
+      }
+    },
+    "animation.cmm.enderman.carrying.v1.0" : {
+      "loop": true,
+      "bones": {
+        "LeftArm" : {
+          "rotation" : [ "-42.975 - this", 0.0, "-2.87 - this" ]
+        },
+        "LeftArm2" : {
+          "rotation" : [ "-42.975 - this", 0.0, "-2.87 - this" ]
+        },
+        "RightArm" : {
+          "rotation" : [ "-42.975 - this", 0.0, "2.87 - this" ]
+        },
+        "RightArm2" : {
+          "rotation" : [ "-42.975 - this", 0.0, "2.87 - this" ]
+        }
+      }
+    }
+  }
+}

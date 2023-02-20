@@ -1,0 +1,53 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.wolf.angry" : {
+      "loop": true,
+      "bones": {
+        "Tail" : {
+          "rotation" : [ 0.0, "query.is_angry ? -this : (math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed * 80.22 - this)", 0.0 ]
+        }
+      }
+    },
+    "animation.cmm.wolf.head_rot_z" : {
+      "loop" : true,
+      "bones" : {
+        "Head" : {
+          "rotation" : [ 0.0, 0.0, "(query.is_interested ? (query.head_roll_angle * 57.3) : 0) + (query.is_shaking_wetness ? variable.head_rot_z : 0) - this" ]
+        }
+      }
+    },
+    "animation.cmm.wolf.shaking" : {
+      "loop" : true,
+      "bones" : {
+        "Head" : {
+          "rotation" : [ 0, "variable.upper_body_rot_z - this", 0 ]
+        }
+      }
+    },
+    "animation.cmm.wolf.sitting": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [ 0, -2, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ -90, 0, 0 ],
+          "position": [ 0, -2, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -90, 0, 0 ],
+          "position": [ 0, -2, 0 ]
+        }
+      }
+    },
+    "animation.cmm.wolf.tail_default" : {
+      "loop" : true,
+      "bones" : {
+        "Tail" : {
+          "rotation" : [ "query.tail_angle * 57.3 - this", 0.0, "variable.tail_rot_z - this" ]
+        }
+      }
+    }
+  }
+}

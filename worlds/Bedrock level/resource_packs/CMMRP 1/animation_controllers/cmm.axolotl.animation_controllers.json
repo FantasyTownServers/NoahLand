@@ -1,0 +1,90 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cmm.axolotl.general": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ { "swim_angle": "variable.moving && query.is_in_water && !query.is_on_ground" } ],
+          "transitions": [
+            {
+              "play_dead": "query.is_playing_dead"
+            },
+            {
+              "jump": "!query.is_in_water && !query.is_on_ground"
+            }
+          ]
+        },
+        "play_dead": {
+          "blend_transition": 0.5,
+          "blend_via_shortest_path": true,
+          "animations": [ "play_dead" ],
+          "transitions": [
+            {
+              "default": "!query.is_playing_dead"
+            }
+          ]
+        },
+        "jump": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "jump.arms", "move.legs" ],
+          "transitions": [
+            {
+              "default": "!query.is_in_water && query.is_on_ground"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.axolotl.move": {
+      "initial_state": "idle",
+      "states": {
+        "idle": {
+          "blend_transition": 0.5,
+          "blend_via_shortest_path": true,
+          "animations": [
+            {
+              "idle_float": "query.is_in_water && !query.is_on_ground && !query.is_playing_dead"
+            },
+            {
+              "idle_floor": "!query.is_in_water && query.is_on_ground"
+            },
+            {
+              "idle_floor_water": "query.is_in_water && query.is_on_ground"
+            },
+            "look_at_target"
+          ],
+          "transitions": [
+            {
+              "moving": "variable.moving && !query.is_playing_dead"
+            }
+          ]
+        },
+        "moving": {
+          "blend_transition": 0.5,
+          "blend_via_shortest_path": true,
+          "animations": [
+            {
+              "swim": "query.is_in_water && !query.is_on_ground"
+            },
+            {
+              "walk_floor": "!query.is_in_water && query.is_on_ground"
+            },
+            {
+              "walk_floor_water": "query.is_in_water && query.is_on_ground"
+            },
+            "look_at_target"
+          ],
+          "transitions": [
+            {
+              "idle": "!variable.moving || query.is_playing_dead"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

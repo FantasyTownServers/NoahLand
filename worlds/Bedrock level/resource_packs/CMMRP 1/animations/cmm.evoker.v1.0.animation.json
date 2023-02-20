@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.evoker.casting.v1.0": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation" : [ "math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "-135.0 - this" ]
+        },
+        "LeftArm2": {
+          "rotation" : [ "math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "-135.0 - this" ]
+        },
+        "RightArm": {
+          "rotation" : [ "math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "135.0 - this" ]
+        },
+        "RightArm2": {
+          "rotation" : [ "math.cos(query.life_time * 763.4) * 14.3239 - this", "-this", "135.0 - this" ]
+        }
+      }
+    }
+  }
+}

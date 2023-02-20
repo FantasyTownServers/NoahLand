@@ -1,0 +1,59 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:wandering_trader",
+      "materials": {
+        "default": "cmm.wandering_trader"
+      },
+      "textures": {
+        "default": "textures/cmm/wandering_trader"
+      },
+      "geometry": {
+        "default": "geometry.cmm.wandering_trader"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ],
+        "scale": "0.9375"
+      },
+      "animations": {
+        "cmm_base_pose": "animation.cmm.base_pose.v1.0",
+        "look_at_target_default": "animation.cmm.look_at_target.default.v1.0",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming.v1.0",
+        "walk": "animation.cmm.walk.v1.0",
+        "raise_arms": "animation.cmm.villager.raise_arms.v1.0",
+        "riding.arms": "animation.cmm.riding.arms.v1.0",
+        "riding.legs": "animation.cmm.riding.legs.v1.0",
+        "brandish_spear": "animation.cmm.brandish_spear.v1.0",
+        "charging": "animation.cmm.charging.v1.0",
+        "attack.rotations": "animation.cmm.attack.rotations.v1.0",
+        "bob": "animation.cmm.bob.v1.0",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs.v1.0",
+        "swimming": "animation.cmm.swimming.v1.0",
+        "use_item_progress": "animation.cmm.use_item_progress.v1.0",
+        "sleep": "animation.cmm.villager.sleeping"
+      },
+      "animation_controllers": [
+        { "cmm_base_pose": "controller.animation.cmm.base_pose" },
+        { "walk": "controller.animation.cmm.villager_v2.walk" },
+        { "raise_arms": "controller.animation.cmm.villager_v2.raise_arms" },
+        { "riding": "controller.animation.cmm.riding" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" }
+      ],
+      "render_controllers": [ "controller.render.cmm.wandering_trader" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "spawn_egg_wandering_trader"
+      }
+    }
+  }
+}

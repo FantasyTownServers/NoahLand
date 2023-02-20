@@ -1,0 +1,44 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:entity": {
+    "description": {
+      "identifier": "pa:bomb_ignited",
+      "is_spawnable": false,
+      "is_summonable": true,
+      "is_experimental": false,
+      "scripts": {
+        "animate": [
+          "burning"
+        ]
+      },
+      "animations": {
+        "burning": "controller.animation.fuse"
+      }
+    },
+    "components": {
+      "minecraft:type_family": {
+        "family": [
+          "tnt"
+        ]
+      },
+      "minecraft:explode": {
+        "fuseLength": 6,
+        "fuseLit": true,
+        "power": 10,
+        "causesFire": true,
+        "destroyAffectedByGriefing": true
+      },
+      "minecraft:collision_box": {
+        "width": 0.98,
+        "height": 0.98
+      },
+      "minecraft:damage_sensor": [
+        {
+          "cause": "any",
+          "deals_damage": false
+        }
+      ],
+      "minecraft:physics": {}
+    }
+  }
+}

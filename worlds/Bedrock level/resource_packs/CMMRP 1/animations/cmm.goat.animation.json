@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.goat.attack": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.goat.ram_attack": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        }
+      }
+    }
+  }
+}

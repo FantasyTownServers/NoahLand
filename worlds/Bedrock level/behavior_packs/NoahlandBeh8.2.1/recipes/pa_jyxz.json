@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "jyxz_f761a294"
+    },
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " A ",
+      "BCD",
+      " E "
+    ],
+    "key": {
+      "A": {
+        "item": "minecraft:emerald",
+        "data": 0
+      },
+      "B": {
+        "item": "minecraft:netherite_ingot",
+        "data": 0
+      },
+      "C": {
+        "item": "minecraft:diamond_boots",
+        "data": 0
+      },
+      "D": {
+        "item": "minecraft:netherstar",
+        "data": 0
+      },
+      "E": {
+        "item": "minecraft:redstone",
+        "data": 0
+      }
+    },
+    "result": {
+      "item": "pa:jyxz",
+      "count": 1
+    }
+  }
+}

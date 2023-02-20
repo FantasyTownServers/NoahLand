@@ -1,0 +1,107 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.iron_golem.attack.v1.0" : {
+      "loop": true,
+      "bones" : {
+        "RightArm" : {
+          "rotation" : [ "-114 + ((1.5 * math.abs(math.mod(variable.attack_animation_tick - query.frame_alpha, 10) - 5) - 2.5) / 5) * 57.3", 0.0, 0.0 ]
+        },
+        "RightArm2" : {
+          "rotation" : [ "-114 + ((1.5 * math.abs(math.mod(variable.attack_animation_tick - query.frame_alpha, 10) - 5) - 2.5) / 5) * 57.3", 0.0, 0.0 ]
+        },
+        "LeftArm" : {
+          "rotation" : [ "-114 + ((1.5 * math.abs(math.mod(variable.attack_animation_tick - query.frame_alpha, 10) - 5) - 2.5) / 5) * 57.3", 0.0, 0.0 ]
+        },
+        "LeftArm2" : {
+          "rotation" : [ "-114 + ((1.5 * math.abs(math.mod(variable.attack_animation_tick - query.frame_alpha, 10) - 5) - 2.5) / 5) * 57.3", 0.0, 0.0 ]
+        }
+      }
+    },
+    "animation.cmm.iron_golem.flower.v1.0" : {
+      "loop": true,
+      "bones" : {
+        "RightArm" : {
+          "rotation" : [ "-45.8 + ((0.25 * math.abs(math.mod(variable.offer_flower_tick, 70) - 35) - 17.5) / 35)", 0.0, 0.0 ]
+        },
+        "RightArm2" : {
+          "rotation" : [ "-45.8 + ((0.25 * math.abs(math.mod(variable.offer_flower_tick, 70) - 35) - 17.5) / 35)", 0.0, 0.0 ]
+        }
+      }
+    },
+    "animation.cmm.iron_golem.move.v1.0" : {
+      "loop": true,
+      "bones" : {
+        "RightArm" : {
+          "rotation": [ "-variable.modified_tcos0 * 2", 0.0, 0.0 ]
+        },
+        "RightArm2" : {
+          "rotation": [ "-variable.modified_tcos0 * 2", 0.0, 0.0 ]
+        },
+        "LeftArm" : {
+          "rotation": [ "variable.modified_tcos0 * 2", 0.0, 0.0 ]
+        },
+        "LeftArm2" : {
+          "rotation": [ "variable.modified_tcos0 * 2", 0.0, 0.0 ]
+        }
+      }
+    },
+    "animation.cmm.iron_golem.move_to_target.v1.0" : {
+      "loop": true,
+      "bones" : {
+        "RightArm" : {
+          "rotation" : [ "((math.abs(math.mod(query.modified_distance_moved, 13) - 6.5) - 3.25) / 2.25) * 30.0", 0.0, 0.0 ]
+        },
+        "RightArm2" : {
+          "rotation" : [ "((math.abs(math.mod(query.modified_distance_moved, 13) - 6.5) - 3.25) / 2.25) * 30.0", 0.0, 0.0 ]
+        },
+        "LeftArm" : {
+          "rotation" : [ "((math.abs(math.mod(query.modified_distance_moved, 13) - 6.5) - 3.25) / 2.25) * -30.0", 0.0, 0.0 ]
+        },
+        "LeftArm2" : {
+          "rotation" : [ "((math.abs(math.mod(query.modified_distance_moved, 13) - 6.5) - 3.25) / 2.25) * -30.0", 0.0, 0.0 ]
+        }
+      }
+    },
+    "animation.cmm.iron_golem.walk.v1.0" : {
+      "loop": true,
+      "bones" : {
+        "root" : {
+          "rotation": [ 0.0, 0.0, "variable.modified_tcos0 / 1.3" ]
+        },
+        "RightLeg" : {
+          "rotation": [ "variable.modified_tcos0 * 6", 0.0, 0.0 ]
+        },
+        "RightLeg2" : {
+          "rotation": [ "variable.modified_tcos0 * 6", 0.0, 0.0 ]
+        },
+        "LeftLeg" : {
+          "rotation": [ "-variable.modified_tcos0 * 6", 0.0, 0.0 ]
+        },
+        "LeftLeg2" : {
+          "rotation": [ "-variable.modified_tcos0 * 6", 0.0, 0.0 ]
+        }
+      }
+    },
+    "animation.cmm.iron_golem.walk_to_target.v1.0" : {
+      "loop": true,
+      "bones" : {
+        "root" : {
+          "rotation" : [ 0, 0, "2 * (math.abs(math.mod(query.modified_distance_moved + 6, 13.0) - 6.5) - 3.25)" ]
+        },
+        "RightLeg" : {
+          "rotation" : [ "(math.cos(query.modified_distance_moved * 38.17) * 40)", 0.0, 0.0 ]
+        },
+        "RightLeg2" : {
+          "rotation" : [ "(math.cos(query.modified_distance_moved * 38.17) * 40)", 0.0, 0.0 ]
+        },
+        "LeftLeg" : {
+          "rotation" : [ "(math.cos(query.modified_distance_moved * 38.17 + 180) * 40)", 0.0, 0.0 ]
+        },
+        "LeftLeg2" : {
+          "rotation" : [ "(math.cos(query.modified_distance_moved * 38.17 + 180) * 40)", 0.0, 0.0 ]
+        }
+      }
+    }
+  }
+}

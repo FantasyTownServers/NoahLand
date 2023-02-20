@@ -1,0 +1,82 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cmm.wolf.angry": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [ "wolf_angry" ]
+        }
+      }
+    },
+    "controller.animation.cmm.wolf.baby_scaling": {
+      "initial_state": "default",
+      "states": {
+        "baby": {
+          "animations": [ "wolf_baby_scaling" ],
+          "transitions": [
+            {
+              "default": "!query.is_baby"
+            }
+          ]
+        },
+        "default": {
+          "transitions": [
+            {
+              "baby": "query.is_baby"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.wolf.head_rot_z": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "rot": "query.is_interested || query.is_shaking_wetness"
+            }
+          ]
+        },
+        "rot": {
+          "animations": [ "wolf_head_rot_z" ],
+          "transitions": [
+            {
+              "default": "!query.is_interested && !query.is_shaking_wetness"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.wolf.move": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [ "move" ],
+          "transitions": [
+            {
+              "sitting": "query.is_sitting"
+            }
+          ]
+        },
+        "sitting": {
+          "animations": [ "wolf_sitting" ],
+          "transitions": [
+            {
+              "default": "!query.is_sitting"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.wolf.tail_default": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [ "wolf_tail_default" ]
+        }
+      }
+    }
+  }
+}

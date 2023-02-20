@@ -1,0 +1,148 @@
+﻿{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.piglin.crossbow.charge": {
+      "bones": {
+        "LeftArm": {
+          "rotation": [ "math.lerp(-90.0 + 34.38, -90.0, variable.crossbow_charge)  -this", "math.lerp(22.92, 48.70, variable.crossbow_charge) -this", 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "-90.0 + 34.38 -this", "-45.84 -this", 0 ]
+        }
+      },
+      "loop": true
+    },
+    "animation.cmm.piglin.crossbow.hold": {
+      "bones": {
+        "LeftArm": {
+          "rotation": [ "-85.94 + query.target_x_rotation -this", "34.38 + math.clamp(query.target_y_rotation, -45, 25) -this", 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "-90.0 + 5.73 + query.target_x_rotation -this", "-17.19 + math.clamp(query.target_y_rotation, -25, 45) -this", 0 ]
+        }
+      },
+      "loop": true
+    },
+    "animation.cmm.piglin.sword.attack": {
+      "bones": {
+        "LeftArm": {
+          "rotation": [ "(math.cos(query.life_time * 20.0 * 10.89) * 28.65) + (math.sin(variable.attack_time * 180.0) * 68.76 - (math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0)) * 22.92)", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "-100 + (variable.attack2 * 2.2 - variable.attack * 0.4) + variable.x_bob - this", "variable.attack2 * 0.6 - 5.73 - this", "variable.z_bob - this" ]
+        }
+      },
+      "loop": true
+    },
+    "animation.cmm.piglin.sword.attack.java": {
+      "bones": {
+        "RightArm": {
+          "rotation": [ "-100 + (variable.attack2 * 2.2 - variable.attack * 0.4) + variable.x_bob - this", "variable.attack2 * 0.6 - 5.73 - this", "variable.z_bob - this" ]
+        }
+      },
+      "loop": true
+    },
+    "animation.cmm.piglin.hand.attack": {
+      "bones": {
+        "LeftArm": {
+          "rotation": [ "-(math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180) * 1.2 + math.sin(variable.attack_time * 180)) * 10.0", 0.0, 0.0 ]
+        },
+        "RightArm": {
+          "rotation": [ "-(math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180) * 1.2 + math.sin(variable.attack_time * 180)) * 30.0", "-(math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180) ? (-90.0 * math.sin((1 - math.pow((1 - variable.attack_time), 4)) * 180)) + 30.0 : 0.0)", 0.0 ]
+        }
+      },
+      "loop": true
+    },
+    "animation.cmm.piglin.move": {
+      "loop": true,
+      "bones": {
+        "LeftPiglinEar": {
+          "rotation": [ 0, 0, "variable.tcos0 * 0.5" ]
+        },
+        "RightPiglinEar": {
+          "rotation": [ 0, 0, "-variable.tcos0 * 0.5" ]
+        },
+        "LeftArm": {
+          "rotation": [ "variable.tcos0", 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-variable.tcos0 * 1.4", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "-variable.tcos0", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "variable.tcos0 * 1.4", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.piglin.move.java": {
+      "loop": true,
+      "bones": {
+        "LeftPiglinEar": {
+          "rotation": [ 0, 0, "((math.cos(query.life_time * 103.2) * 2.865) + 2.865) *-1.0 + variable.tcos0 * 0.5" ]
+        },
+        "RightPiglinEar": {
+          "rotation": [ 0, 0, "((math.cos(query.life_time * 113.2) * 2.865) + 2.865) *-1.0 - variable.tcos0 * 0.5" ]
+        },
+        "LeftArm": {
+          "rotation": [ "variable.tcos0", 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-variable.tcos0 * 1.4", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "-variable.tcos0", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "variable.tcos0 * 1.4", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.piglin.admire": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ 320, 25, 0 ]
+        },
+        "Head": {
+          "rotation": [ 30, 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.piglin.celebrate_hunt": {
+      "loop": true,
+      "bones": {
+        "LeftPiglinEar": {
+          "rotation": [ 0, 0, "Math.sin(query.time_stamp * 30) * 10" ]
+        },
+        "RightPiglinEar": {
+          "rotation": [ 0, 0, "Math.sin(query.time_stamp * 30) * -10" ]
+        }
+      }
+    },
+    "animation.cmm.piglin.celebrate_hunt_special": {
+      "loop": true,
+      "bones": {
+        "LeftPiglinEar": {
+          "rotation": [ 0, 0, "Math.sin(query.time_stamp * 30) * 10" ]
+        },
+        "RightPiglinEar": {
+          "rotation": [ 0, 0, "Math.sin(query.time_stamp * 30) * -10" ]
+        },
+        "Head": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "RightArm": {
+          "rotation": [ 0, 0, "70 + Math.cos(query.time_stamp * 40) * 10" ]
+        },
+        "LeftArm": {
+          "rotation": [ 0, 0, "-70 - Math.cos(query.time_stamp * 40) * 10" ]
+        },
+        "Body": {
+          "position": [ 0, "Math.sin(query.time_stamp * 40) * 0.35", 0 ]
+        }
+      }
+    }
+  }
+}

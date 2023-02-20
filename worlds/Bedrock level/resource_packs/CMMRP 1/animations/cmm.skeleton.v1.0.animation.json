@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.skeleton.attack.v1.0": {
+      "loop": true,
+      "bones": {
+        "RightArm": {
+          "rotation": [ "-68.75 * math.sin(variable.attack_time * 180.0) + 22.92 * (math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0))", "-5.73 + math.sin(variable.attack_time * 180.0) * 34.38 - this", "-this" ]
+        },
+        "RightArm2": {
+          "rotation": [ "-68.75 * math.sin(variable.attack_time * 180.0) + 22.92 * (math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0))", "-5.73 + math.sin(variable.attack_time * 180.0) * 34.38 - this", "-this" ]
+        },
+        "LeftArm": {
+          "rotation": [ "-68.75 * math.sin(variable.attack_time * 180.0) + 22.92 * (math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0))", "5.73 - math.sin(variable.attack_time * 180.0) * 34.38 - this", "-this" ]
+        },
+        "LeftArm2": {
+          "rotation": [ "-68.75 * math.sin(variable.attack_time * 180.0) + 22.92 * (math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0))", "5.73 - math.sin(variable.attack_time * 180.0) * 34.38 - this", "-this" ]
+        }
+      }
+    }
+  }
+}

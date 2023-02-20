@@ -1,0 +1,101 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:npc",
+      "materials": { "default": "cmm.npc" },
+      "textures": {
+        "npc_1": "textures/cmm/npc/npc_1",
+        "npc_2": "textures/cmm/npc/npc_2",
+        "npc_3": "textures/cmm/npc/npc_3",
+        "npc_4": "textures/cmm/npc/npc_4",
+        "npc_5": "textures/cmm/npc/npc_5",
+        "npc_6": "textures/cmm/npc/npc_6",
+        "npc_7": "textures/cmm/npc/npc_7",
+        "npc_8": "textures/cmm/npc/npc_8",
+        "npc_9": "textures/cmm/npc/npc_9",
+        "npc_10": "textures/cmm/npc/npc_10",
+        "npc_11": "textures/cmm/npc/npc_11",
+        "npc_12": "textures/cmm/npc/npc_12",
+        "npc_13": "textures/cmm/npc/npc_13",
+        "npc_14": "textures/cmm/npc/npc_14",
+        "npc_15": "textures/cmm/npc/npc_15",
+        "npc_16": "textures/cmm/npc/npc_16",
+        "npc_17": "textures/cmm/npc/npc_17",
+        "npc_18": "textures/cmm/npc/npc_18",
+        "npc_19": "textures/cmm/npc/npc_19",
+        "npc_20": "textures/cmm/npc/npc_20",
+        "npc_21": "textures/cmm/npc/npc_21",
+        "npc_22": "textures/cmm/npc/npc_22",
+        "npc_23": "textures/cmm/npc/npc_23",
+        "npc_24": "textures/cmm/npc/npc_24",
+        "npc_25": "textures/cmm/npc/npc_25"
+      },
+      "geometry": {
+        "npc_1": "geometry.cmm.npc_1.v1.8",
+        "npc_2": "geometry.cmm.npc_2.v1.8",
+        "npc_3": "geometry.cmm.npc_3.v1.8",
+        "npc_4": "geometry.cmm.npc_4.v1.8",
+        "npc_5": "geometry.cmm.npc_5.v1.8",
+        "npc_6": "geometry.cmm.npc_6.v1.8",
+        "npc_7": "geometry.cmm.npc_7.v1.8",
+        "npc_8": "geometry.cmm.npc_8.v1.8",
+        "npc_9": "geometry.cmm.npc_9.v1.8",
+        "npc_10": "geometry.cmm.npc_10.v1.8",
+        "npc_11": "geometry.cmm.npc_11.v1.8",
+        "npc_12": "geometry.cmm.npc_12.v1.8",
+        "npc_13": "geometry.cmm.npc_13.v1.8",
+        "npc_14": "geometry.cmm.npc_14.v1.8",
+        "npc_15": "geometry.cmm.npc_15.v1.8",
+        "npc_16": "geometry.cmm.npc_16.v1.8",
+        "npc_17": "geometry.cmm.npc_17.v1.8",
+        "npc_18": "geometry.cmm.npc_18.v1.8",
+        "npc_19": "geometry.cmm.npc_19.v1.8",
+        "npc_20": "geometry.cmm.npc_20.v1.8",
+        "npc_21": "geometry.cmm.npc_21.v1.8",
+        "npc_22": "geometry.cmm.npc_22.v1.8",
+        "npc_23": "geometry.cmm.npc_23.v1.8",
+        "npc_24": "geometry.cmm.npc_24.v1.8",
+        "npc_25": "geometry.cmm.npc_25.v1.8"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 28.65;"
+        ]
+      },
+      "animations": {
+        "look_at_target_default": "animation.cmm.look_at_target.default",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming",
+        "move": "animation.cmm.move",
+        "riding.arms": "animation.cmm.riding.arms",
+        "riding.legs": "animation.cmm.riding.legs",
+        "brandish_spear": "animation.cmm.brandish_spear",
+        "charging": "animation.cmm.charging",
+        "attack.rotations": "animation.cmm.attack.rotations",
+        "bob": "animation.cmm.bob",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs",
+        "swimming": "animation.cmm.swimming",
+        "use_item_progress": "animation.cmm.use_item_progress"
+      },
+      "animation_controllers": [
+        { "look_at_target": "controller.animation.cmm.look_at_target" },
+        { "move": "controller.animation.cmm.move" },
+        { "riding": "controller.animation.cmm.riding" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" }
+      ],
+      "render_controllers": [ "controller.render.cmm.npc" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 35
+      }
+    }
+  }
+}

@@ -1,0 +1,161 @@
+{
+	"format_version": "1.8.0",
+	"geometry.cmm.zombie_piglin.baby.v1.8": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [0, 0.5, 0],
+		"bones": [
+			{
+				"name": "root",
+				"pivot": [0, 13, 0]
+			},
+			{
+				"name": "waist",
+				"parent": "root",
+				"pivot": [0, 6, 0]
+			},
+			{
+				"name": "Body",
+				"parent": "waist",
+				"pivot": [0, 13, 0],
+				"cubes": [
+					{"origin": [-2.5, 6, -1.5], "size": [5, 7, 3], "uv": [0, 40]}
+				]
+			},
+			{
+				"name": "Head",
+				"parent": "Body",
+				"pivot": [0, 13, 0],
+				"cubes": [
+					{"origin": [-3.5, 13, -3], "size": [7, 7, 6], "uv": [0, 0]}
+				]
+			},
+			{
+				"name": "Hair",
+				"parent": "Head",
+				"pivot": [0, 13, 0],
+				"cubes": [
+					{"origin": [-4, 13, -3.5], "size": [8, 7, 7], "uv": [0, 13]},
+					{"origin": [-3.5, 18, -4], "size": [2, 2, 1], "uv": [29, 13], "inflate": -0.25},
+					{"origin": [-4.5, 13, -3], "size": [9, 5, 6], "uv": [20, 45], "inflate": 0.1875}
+				]
+			},
+			{
+				"name": "HTop",
+				"parent": "Hair",
+				"pivot": [0, 13, 0],
+				"cubes": [
+					{"origin": [-3.5, 20, -3], "size": [7, 1, 6], "uv": [0, 27]}
+				]
+			},
+			{
+				"name": "Hat",
+				"parent": "Hair",
+				"pivot": [1.5, 19, 0],
+				"rotation": [0, 0, 27.5],
+				"cubes": [
+					{"origin": [-2, 19, -3.5], "size": [7, 3, 7], "uv": [36, 28], "inflate": 0.1},
+					{"origin": [-1.5, 21.7, -3], "size": [6, 1, 6], "uv": [40, 38], "inflate": 0.1}
+				]
+			},
+			{
+				"name": "HatEar",
+				"parent": "Hat",
+				"pivot": [5, 20.5, 0],
+				"rotation": [0, 0, -42.5],
+				"cubes": [
+					{"origin": [4.5, 18, -1.5], "size": [1, 4, 3], "uv": [44, 14]}
+				]
+			},
+			{
+				"name": "Ahoge",
+				"parent": "Hair",
+				"pivot": [-2.5, 21, -2.5],
+				"rotation": [0, -30, 0],
+				"cubes": [
+					{"origin": [-3.5, 21, -2.5], "size": [3, 2, 0], "uv": [0, 3]}
+				]
+			},
+			{
+				"name": "RightPiglinHorn",
+				"parent": "Hair",
+				"pivot": [-4, 15.75, -2],
+				"rotation": [-20, 2.5, 5],
+				"cubes": [
+					{"origin": [-5, 12.75, -3], "size": [2, 3, 2], "uv": [8, 35]},
+					{"origin": [-4.5, 11.25, -2.5], "size": [1, 2, 1], "uv": [0, 35]}
+				]
+			},
+			{
+				"name": "LeftPiglinHorn",
+				"parent": "Hair",
+				"pivot": [4, 15.75, -2],
+				"rotation": [-20, -2.5, -5],
+				"cubes": [
+					{"origin": [3, 12.75, -3], "size": [2, 3, 2], "uv": [16, 35]},
+					{"origin": [3.5, 11.25, -2.5], "size": [1, 2, 1], "uv": [4, 35]}
+				]
+			},
+			{
+				"name": "Neck",
+				"parent": "Body",
+				"pivot": [0, 13, 0],
+				"cubes": [
+					{"origin": [-1.5, 13, -1.5], "size": [3, 1, 3], "uv": [16, 40]}
+				]
+			},
+			{
+				"name": "RightArm",
+				"parent": "Body",
+				"pivot": [-2.5, 12, 0],
+				"cubes": [
+					{"origin": [-4.5, 6, -1], "size": [2, 7, 2], "uv": [32, 0]}
+				]
+			},
+			{
+				"name": "rightItem",
+				"parent": "RightArm",
+				"pivot": [-3.5, 10, 1]
+			},
+			{
+				"name": "LeftArm",
+				"parent": "Body",
+				"pivot": [2.5, 12, 0],
+				"cubes": [
+					{"origin": [2.5, 6, -1], "size": [2, 7, 2], "uv": [40, 0]}
+				]
+			},
+			{
+				"name": "leftItem",
+				"parent": "LeftArm",
+				"pivot": [3.5, 10, 1]
+			},
+			{
+				"name": "Skirt",
+				"parent": "Body",
+				"pivot": [0, 7, 0],
+				"cubes": [
+					{"origin": [-3, 3, -2], "size": [6, 4, 4], "uv": [0, 50]}
+				]
+			},
+			{
+				"name": "RightLeg",
+				"parent": "Body",
+				"pivot": [-1.5, 6, 0],
+				"cubes": [
+					{"origin": [-2.5, 0, -1], "size": [2, 6, 2], "uv": [48, 0]}
+				]
+			},
+			{
+				"name": "LeftLeg",
+				"parent": "Body",
+				"pivot": [1.5, 6, 0],
+				"cubes": [
+					{"origin": [0.5, 0, -1], "size": [2, 6, 2], "uv": [56, 0]}
+				]
+			}
+		]
+	}
+}

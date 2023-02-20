@@ -1,0 +1,36 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cmm.turtle.swimming": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "adult_swimming": "!query.is_baby && variable.swim_amount > 0.0"
+            },
+            {
+              "baby_swimming": "query.is_baby && variable.swim_amount > 0.0"
+            }
+          ]
+        },
+        "adult_swimming": {
+          "animations": [ "swimming" ],
+          "transitions": [
+            {
+              "default": "query.is_baby || variable.swim_amount <= 0.0"
+            }
+          ]
+        },
+        "baby_swimming": {
+          "animations": [ "baby_swimming" ],
+          "transitions": [
+            {
+              "default": "!query.is_baby || variable.swim_amount <= 0.0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

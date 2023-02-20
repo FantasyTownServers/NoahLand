@@ -1,0 +1,14 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cmm.axolotl": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [ "Texture.lucy", "Texture.cyan", "Texture.gold", "Texture.wild", "Texture.blue" ]
+        }
+      },
+      "geometry": "Geometry.default",
+      "textures": [ "Array.skins[query.variant]" ]
+    }
+  }
+}

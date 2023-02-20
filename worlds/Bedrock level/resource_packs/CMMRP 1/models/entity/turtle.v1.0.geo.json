@@ -1,0 +1,208 @@
+{
+	"format_version": "1.8.0",
+	"geometry.cmm.turtle": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 0, 0],
+		"bones": [{
+			"name": "root",
+			"pivot": [0, 22, 0],
+			"neverRender": true
+		}, {
+			"name": "HTop",
+			"parent": "root",
+			"pivot": [0, 22, 0],
+			"cubes": [{
+				"origin": [-3.5, 29, -3],
+				"size": [7, 1, 6],
+				"uv": [0, 28]
+			}]
+		}, {
+			"name": "Ponytail",
+			"parent": "root",
+			"pivot": [0, 22, 0],
+			"bind_pose_rotation": [7.5, 0, 0],
+			"cubes": [{
+				"origin": [-1.5, 23.5, 4],
+				"size": [3, 6, 3],
+				"uv": [20, 35],
+				"inflate": -0.25
+			}]
+		}, {
+			"name": "HRibbon",
+			"parent": "Hair",
+			"pivot": [0, 29.5, 3.25],
+			"rotation": [-12, 0, 0],
+			"cubes": [{
+				"origin": [-3.75, 29.5, 3.25],
+				"size": [3, 3, 0],
+				"uv": [28, 3],
+				"inflate": 0.05
+			}, {
+				"origin": [0.75, 29.5, 3.25],
+				"size": [3, 3, 0],
+				"uv": [28, 9],
+				"inflate": 0.05
+			}]
+		}, {
+			"name": "Hair",
+			"parent": "root",
+			"pivot": [0, 22, 0],
+			"cubes": [{
+				"origin": [-4, 21, -3.5],
+				"size": [8, 8, 7],
+				"uv": [0, 13]
+			}, {
+				"origin": [-1, 28.5, 3],
+				"size": [2, 2, 1],
+				"uv": [20, 0]
+			}]
+		}, {
+			"name": "Head",
+			"parent": "root",
+			"pivot": [0, 22, 0],
+			"cubes": [{
+				"origin": [-3.5, 22, -3],
+				"size": [7, 7, 6],
+				"uv": [0, 0]
+			}]
+		}, {
+			"name": "Neck",
+			"parent": "root",
+			"pivot": [0, 22, 0],
+			"cubes": [{
+				"origin": [-1.5, 21, -1.5],
+				"size": [3, 2, 3],
+				"uv": [52, 47]
+			}]
+		}, {
+			"name": "RightArm",
+			"parent": "root",
+			"pivot": [-3.5, 20, 0],
+			"cubes": [{
+				"origin": [-5.5, 10, -1],
+				"size": [2, 11, 2],
+				"uv": [36, 0]
+			}]
+		}, {
+			"name": "rightItem",
+			"pivot": [-4.5, 14, 1],
+			"neverRender": true,
+			"parent": "RightArm"
+		}, {
+			"name": "LeftArm",
+			"parent": "root",
+			"pivot": [3.5, 20, 0],
+			"cubes": [{
+				"origin": [3.5, 10, -1],
+				"size": [2, 11, 2],
+				"uv": [44, 0]
+			}]
+		}, {
+			"name": "leftItem",
+			"pivot": [4.5, 14, 1],
+			"neverRender": true,
+			"parent": "LeftArm"
+		}, {
+			"name": "Body",
+			"parent": "root",
+			"pivot": [0, 22, 0],
+			"cubes": [{
+				"origin": [-3.5, 16, -1.5],
+				"size": [7, 5, 3],
+				"uv": [0, 48]
+			}]
+		}, {
+			"name": "BustTop",
+			"parent": "root",
+			"pivot": [0, 20.15, -1.4],
+			"rotation": [-45, 0, 0],
+			"cubes": [{
+				"origin": [-3, 18, -1.5],
+				"size": [6, 2, 2],
+				"uv": [48, 52]
+			}]
+		}, {
+			"name": "BustFront",
+			"parent": "root",
+			"pivot": [0, 22, 0],
+			"cubes": [{
+				"origin": [-3, 16.7, -3],
+				"size": [6, 2, 2],
+				"uv": [48, 56],
+				"inflate": 0.02
+			}]
+		}, {
+			"name": "BustBottom",
+			"parent": "root",
+			"pivot": [0, 18.8, -2.1],
+			"rotation": [-25, 0, 0],
+			"cubes": [{
+				"origin": [-3, 16.5, -2],
+				"size": [6, 2, 2],
+				"uv": [48, 60]
+			}]
+		}, {
+			"name": "Shell",
+			"parent": "root",
+			"pivot": [0, 22, 0],
+			"cubes": [{
+				"origin": [-3.5, 11, 1.5],
+				"size": [7, 10, 2],
+				"uv": [46, 26]
+			}]
+		}, {
+			"name": "waist",
+			"parent": "root",
+			"pivot": [0, 10, 0],
+			"neverRender": true
+		}, {
+			"name": "Body2",
+			"parent": "root",
+			"pivot": [0, 22, 0],
+			"cubes": [{
+				"origin": [-3, 12, -1.5],
+				"size": [6, 4, 3],
+				"uv": [0, 56]
+			}]
+		}, {
+			"name": "PregnantBody",
+			"parent": "root",
+			"pivot": [0, 22, 0],
+			"cubes": [{
+				"origin": [-3, 11, -2.5],
+				"size": [6, 5, 1],
+				"uv": [20, 58]
+			}]
+		}, {
+			"name": "Skirt1",
+			"parent": "root",
+			"pivot": [0, 13, 0],
+			"cubes": [{
+				"origin": [-3.5, 9, -1.5],
+				"size": [7, 3, 3],
+				"uv": [0, 35]
+			}]
+		}, {
+			"name": "RightLeg",
+			"parent": "root",
+			"pivot": [-2, 10, 0],
+			"cubes": [{
+				"origin": [-3.5, 0, -1.5],
+				"size": [3, 10, 3],
+				"uv": [52, 0]
+			}]
+		}, {
+			"name": "LeftLeg",
+			"parent": "root",
+			"pivot": [2, 10, 0],
+			"cubes": [{
+				"origin": [0.5, 0, -1.5],
+				"size": [3, 10, 3],
+				"uv": [52, 13]
+			}]
+		}]
+	}
+}

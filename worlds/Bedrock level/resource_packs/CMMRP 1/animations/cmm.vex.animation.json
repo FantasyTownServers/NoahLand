@@ -1,0 +1,21 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.vex.move": {
+      "loop": true,
+      "bones": {
+        "RightWing": {
+          "rotation": [ "27.0 - this", "27.0 + math.cos(query.life_time * 916.8) * 9.0 - this", "27.0 - this" ],
+          "position": [ -0.5, -2, 1 ]
+        },
+        "LeftWing": {
+          "rotation": [ "27.0 - this", "-(27.0 + math.cos(query.life_time * 916.8) * 9.0) - this", "-27.0 - this" ],
+          "position": [ 0.5, -2, 1 ]
+        },
+        "RightArm": {
+          "rotation": [ "query.is_charging ? (216.0 - this) : 0.0", 0, 0 ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:phantom",
+      "materials": {
+        "default": "cmm.phantom",
+        "invisible": "cmm.phantom_invisible"
+      },
+      "textures": {
+        "default": "textures/cmm/phantom"
+      },
+      "geometry": {
+        "default": "geometry.cmm.phantom"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.runtimeid = 0;",
+          "variable.tailrotx = -5.0;",
+          "variable.wingrotz = 0.0;",
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 28.65;"
+        ]
+      },
+      "animations": {
+        "phantom_base_pose": "animation.cmm.phantom.base_pose.v1.0",
+        "move": "animation.cmm.phantom.move.v1.0",
+        "attack.rotations": "animation.cmm.attack.rotations.v1.0",
+        "bob": "animation.cmm.bob.v1.0",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs.v1.0",
+        "use_item_progress": "animation.cmm.use_item_progress.v1.0"
+      },
+      "animation_controllers": [
+        { "phantom_base_pose": "controller.animation.cmm.phantom.base_pose" },
+        { "move": "controller.animation.cmm.phantom.move" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" }
+      ],
+      "particle_effects": {
+        "wing_dust": "minecraft:phantom_trail_particle"
+      },
+      "sound_effects": {
+        "flap": "mob.phantom.flap"
+      },
+      "render_controllers": [ "controller.render.cmm.phantom" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 51
+      }
+    }
+  }
+}

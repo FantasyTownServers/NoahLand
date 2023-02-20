@@ -1,0 +1,18 @@
+{
+   "format_version": 2,
+   "header": {
+      "description": "Outline ores and glow ores For MCPE 1.17 - 1.18++",
+      "name": "Outline Glow Ores v1.0",
+      "uuid": "32d459bd-82af-4a59-a47f-ed9ae3b5fdb8",
+      "version": [3, 0, 0],
+      "min_engine_version": [1, 17, 0]
+   },    
+   "modules": [
+      {
+         "description": "Outline ores and glow ores For MCPE 1.17 - 1.18++",
+            "type": "resources",
+            "uuid": "83baf64b-c7c9-4cff-ab30-bdbeb9c4b0c7",
+            "version": [3, 0, 0]
+      }
+   ]
+}

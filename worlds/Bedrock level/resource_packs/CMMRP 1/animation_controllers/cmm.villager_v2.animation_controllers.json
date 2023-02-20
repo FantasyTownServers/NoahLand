@@ -1,0 +1,147 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cmm.villager_v2.move": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [ "look_at_target_default", "move" ],
+          "transitions": [
+            {
+              "gliding": "query.is_gliding"
+            },
+            {
+              "swimming": "query.is_swimming"
+            },
+            {
+              "get_in_bed": "query.is_sleeping"
+            }
+          ]
+        },
+        "gliding": {
+          "animations": [ "look_at_target_gliding", "move" ],
+          "transitions": [
+            {
+              "swimming": "query.is_swimming"
+            },
+            {
+              "get_in_bed": "query.is_sleeping"
+            },
+            {
+              "default": "!query.is_gliding"
+            }
+          ]
+        },
+        "swimming": {
+          "animations": [ "look_at_target_swimming", "move" ],
+          "transitions": [
+            {
+              "gliding": "query.is_gliding"
+            },
+            {
+              "get_in_bed": "query.is_sleeping"
+            },
+            {
+              "default": "!query.is_swimming"
+            }
+          ]
+        },
+        "get_in_bed": {
+          "animations": [ "get_in_bed" ],
+          "transitions": [
+            {
+              "default": "!query.is_sleeping"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.villager_v2.walk": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [ "look_at_target_default",
+            {
+              "walk": "query.modified_move_speed"
+            }
+          ],
+          "transitions": [
+            {
+              "gliding": "query.is_gliding"
+            },
+            {
+              "swimming": "query.is_swimming"
+            },
+            {
+              "sleeping": "query.is_sleeping"
+            }
+          ]
+        },
+        "gliding": {
+          "animations": [ "look_at_target_gliding",
+            {
+              "walk": "query.modified_move_speed"
+            }
+          ],
+          "transitions": [
+            {
+              "swimming": "query.is_swimming"
+            },
+            {
+              "sleeping": "query.is_sleeping"
+            },
+            {
+              "default": "!query.is_gliding"
+            }
+          ]
+        },
+        "swimming": {
+          "animations": [ "look_at_target_swimming",
+            {
+              "walk": "query.modified_move_speed"
+            }
+          ],
+          "transitions": [
+            {
+              "gliding": "query.is_gliding"
+            },
+            {
+              "sleeping": "query.is_sleeping"
+            },
+            {
+              "default": "!query.is_swimming"
+            }
+          ]
+        },
+        "sleeping": {
+          "animations": [ "sleep" ],
+          "transitions": [
+            {
+              "default": "!query.is_sleeping"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.villager_v2.raise_arms": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "raising": "variable.raise_arms > 0.0"
+            }
+          ]
+        },
+        "raising": {
+          "animations": [ "raise_arms" ],
+          "transitions": [
+            {
+              "default": "variable.raise_arms == 0.0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

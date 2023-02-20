@@ -1,0 +1,71 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.turtle.swimming": {
+      "loop": true,
+      "override_previous_animation": true,
+      "animation_length": 1.3,
+      "bones": {
+        "root": {
+          "position" : [ 0.0, "variable.swim_amount * -11.0 - this", "variable.swim_amount * -4.5 - this" ],
+          "rotation" : [ "variable.swim_amount * (90.0 + query.target_x_rotation)", 0.0, 0.0 ]
+        },
+        "LeftArm": {
+          "rotation": {
+            "0": [ 0, 180, 180 ],
+            "0.7": [ 0, 180, 287.2 ],
+            "1.1": [ 90, 180, 180 ],
+            "1.3": [ 0, 180, 180 ]
+          }
+        },
+        "RightArm": {
+          "rotation": {
+            "0": [ 0, 180, -180 ],
+            "0.7": [ 0, 180, -287.2 ],
+            "1.1": [ 90, 180, -180 ],
+            "1.3": [ 0, 180, -180 ]
+          }
+        },
+        "LeftLeg": {
+          "rotation": [ "math.lerp(0.0, math.cos(query.life_time * 390.0 + 180.0) * 17.2, variable.swim_amount)", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "math.lerp(0.0, math.cos(query.life_time * 390.0) * 17.2, variable.swim_amount)", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.turtle.baby.swimming": {
+      "loop": true,
+      "override_previous_animation": true,
+      "animation_length": 1.3,
+      "bones": {
+        "root": {
+          "position" : [ 0.0, "variable.swim_amount * -16.5 - this", "variable.swim_amount * -4.5 - this" ],
+          "rotation" : [ "variable.swim_amount * (90.0 + query.target_x_rotation)", 0.0, 0.0 ]
+        },
+        "LeftArm": {
+          "rotation": {
+            "0": [ 0, 180, 180 ],
+            "0.7": [ 0, 180, 287.2 ],
+            "1.1": [ 90, 180, 180 ],
+            "1.3": [ 0, 180, 180 ]
+          }
+        },
+        "RightArm": {
+          "rotation": {
+            "0": [ 0, 180, -180 ],
+            "0.7": [ 0, 180, -287.2 ],
+            "1.1": [ 90, 180, -180 ],
+            "1.3": [ 0, 180, -180 ]
+          }
+        },
+        "LeftLeg": {
+          "rotation": [ "math.lerp(0.0, math.cos(query.life_time * 390.0 + 180.0) * 17.2, variable.swim_amount)", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "math.lerp(0.0, math.cos(query.life_time * 390.0) * 17.2, variable.swim_amount)", 0, 0 ]
+        }
+      }
+    }
+  }
+}

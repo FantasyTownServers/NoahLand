@@ -1,0 +1,33 @@
+{
+  "format_version": "1.13.0",
+  "minecraft:geode_feature": {
+    "description": {
+      "identifier": "pa:bigplan"
+    },
+    "filler": "minecraft:air",
+    "inner_layer": "minecraft:air",
+    "alternate_inner_layer": "minecraft:diamond_block",
+    "middle_layer": "minecraft:gold_block",
+    "outer_layer": "minecraft:iron_block",
+    "inner_placements": [
+      {
+        "name": "minecraft:air"
+      }
+    ],
+    "min_outer_wall_distance": 2,
+    "max_outer_wall_distance": 7,
+    "min_distribution_points": 3,
+    "max_distribution_points": 4,
+    "min_point_offset": 0,
+    "max_point_offset": 2,
+    "max_radius": 6,
+    "crack_point_offset": 2,
+    "generate_crack_chance": 0.95,
+    "base_crack_size": 1,
+    "noise_multiplier": 0.025,
+    "use_potential_placements_chance": 0.35,
+    "use_alternate_layer0_chance": 0.083,
+    "placements_require_layer0_alternate": true,
+    "invalid_blocks_threshold": 64
+  }
+}

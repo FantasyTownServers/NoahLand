@@ -1,0 +1,23 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "Adds in the Ghast Sister to your game and improves hitboxes from mobs",
+        "name": "Cute Mob Models Behavior Pack 1.17.40 1.2.1",
+        "uuid": "7c094808-58aa-11e9-8647-d663bd873d93",
+        "version": [1, 4, 1]
+    },
+    "modules": [
+        {
+            "description": "Adds in the Ghast Sister to your game and improves hitboxes from mobs",
+            "type": "data",
+            "uuid": "7c094e34-58aa-11e9-8647-d663bd873d93",
+            "version": [1, 4, 1]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "5d25d49c-58aa-11e9-8647-d663bd873d93",
+            "version": [1, 4, 1]
+        }
+    ]
+}

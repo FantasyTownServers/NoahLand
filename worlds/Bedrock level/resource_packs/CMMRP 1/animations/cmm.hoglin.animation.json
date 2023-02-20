@@ -1,0 +1,56 @@
+﻿{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.hoglin.attack" : {
+      "loop": true,
+      "bones" : {
+        "RightArm" : {
+          "rotation": [ "variable.attack_arm_rot", 0, 0 ]
+        },
+        "LeftArm" : {
+          "rotation": [ "variable.attack_arm_rot", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.hoglin.move": {
+      "loop": true,
+      "bones": {
+        "LeftHoglinEar": {
+          "rotation": [ 0, 0, "variable.tcos0 * 0.5" ]
+        },
+        "RightHoglinEar": {
+          "rotation": [ 0, 0, "-variable.tcos0 * 0.5" ]
+        },
+        "LeftArm": {
+          "rotation": [ "variable.tcos_left_side", 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "variable.tcos_left_side * 1.4", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "variable.tcos_right_side", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "variable.tcos_right_side * 1.4", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.hoglin.move.legs": {
+      "loop": true,
+      "bones": {
+        "LeftHoglinEar": {
+          "rotation": [ 0, 0, "variable.tcos0 * 0.5" ]
+        },
+        "RightHoglinEar": {
+          "rotation": [ 0, 0, "-variable.tcos0 * 0.5" ]
+        },
+        "LeftLeg": {
+          "rotation": [ "variable.tcos_left_side * 1.4", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "variable.tcos_right_side * 1.4", 0, 0 ]
+        }
+      }
+    }
+  }
+}

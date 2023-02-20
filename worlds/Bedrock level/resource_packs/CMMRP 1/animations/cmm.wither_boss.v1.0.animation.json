@@ -1,0 +1,183 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.wither_boss.look_at_target.v1.0" : {
+      "loop": true,
+      "bones": {
+        "Head" : {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "Hair": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "Hat": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "Hat1": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "Hat2": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "Hat3": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "Hat4": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HTop": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HSide": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "BHair": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "Ponytail": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HBack": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HBack1": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HBack2": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "RHair": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HRight": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HRight2": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HRight3": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "LHair": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HLeft": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HLeft2": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HLeft3": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HFront": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HFront2": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HFront3": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "Hood1": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "Hood2": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "Hood3": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HBun": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "RightAntenna": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "LeftAntenna": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "RightEar": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "LeftEar": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "RightEarMule": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "LeftEarMule": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "RightHorn": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "LeftHorn": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "RightEye": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "LeftEye": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "HighTwinTails": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "LowTwinTails": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "PonyTail": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "ThickPonyTail": {
+          "rotation" : [ "query.head_x_rotation(0) - this", "query.head_y_rotation(0) - this", "-this" ]
+        },
+        "Neck": {
+          "rotation": [ 0, "query.head_x_rotation(0) * 0.5 - this", 0 ]
+        },
+        "Neck1": {
+          "rotation": [ 0, "query.head_x_rotation(0) * 0.5 - this", 0 ]
+        },
+        "Neck2": {
+          "rotation": [ 0, "query.head_x_rotation(0) * 0.5 - this", 0 ]
+        },
+        "Head2" : {
+          "rotation" : [ "query.head_x_rotation(1) - this", "query.head_y_rotation(1) - this", "-this" ]
+        },
+        "Head3" : {
+          "rotation" : [ "query.head_x_rotation(2) - this", "query.head_y_rotation(2) - this", "-this" ]
+        }
+      }
+    },
+    "animation.cmm.wither_boss.move.v1.0" : {
+      "loop": true,
+      "bones": {
+        "RightArm" : {
+          "rotation" : [ "variable.upper_body_rotation - this", "-this", "-this" ]
+        },
+        "RightArm2" : {
+          "rotation" : [ "variable.upper_body_rotation - this", "-this", "-this" ]
+        },
+        "LeftArm" : {
+          "rotation" : [ "variable.upper_body_rotation - this", "-this", "-this" ]
+        },
+        "LeftArm2" : {
+          "rotation" : [ "variable.upper_body_rotation - this", "-this", "-this" ]
+        },
+        "RightLeg" : {
+          "rotation" : [ "((0.2 + 0.1 * variable.body_base_rotation) * 180) - this", "-this", "-this" ]
+        },
+        "RightLeg2" : {
+          "rotation" : [ "((0.2 + 0.1 * variable.body_base_rotation) * 180) - this", "-this", "-this" ]
+        },
+        "LeftLeg" : {
+          "rotation" : [ "((0.2 + 0.1 * variable.body_base_rotation) * 180) - this", "-this", "-this" ]
+        },
+        "LeftLeg2" : {
+          "rotation" : [ "((0.2 + 0.1 * variable.body_base_rotation) * 180) - this", "-this", "-this" ]
+        }
+      }
+    }
+  }
+}

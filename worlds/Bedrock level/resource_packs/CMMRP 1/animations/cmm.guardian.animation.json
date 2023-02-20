@@ -1,0 +1,49 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.guardian.swim": {
+      "loop": true,
+      "bones": {
+        "RightArm": {
+          "rotation": [ "math.sin(query.life_time * 360.0 + 0) * 4.5 + 9", 0, 20.05 ]
+        },
+        "LeftArm": {
+          "rotation": [ "math.sin(query.life_time * 360.0 + 0) * 4.5 + 9", 0, -20.05 ]
+        },
+        "Skirt1": {
+          "rotation": [ "math.sin(query.life_time * 360.0 + 0) * 3 + 6", 0, 0 ]
+        },
+        "Skirt2": {
+          "rotation": [ "math.sin(query.life_time * 360.0 + 0) * 4 + 8", 0, 0 ]
+        },
+        "Skirt3": {
+          "rotation": [ "math.sin(query.life_time * 360.0 + 0) * 5.25 + 10.5", 0, 0 ]
+        },
+        "Skirt4": {
+          "rotation": [ "math.sin(query.life_time * 360.0 + 0) * 5.5 + 11", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "math.sin(query.life_time * 360.0 + 0) * 8.5 + 17", 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "math.sin(query.life_time * 360.0 + 0) * 8.5 + 17", 0, 0 ]
+        },
+        "Tail1": {
+          "rotation": [ 0, "variable.tail_base_angle * 11.6 - this", 0 ]
+        },
+        "Tail2": {
+          "rotation": [ 0, "variable.tail_base_angle * 22.8 - this", 0 ],
+          "position": [ "-1.5 - this", "-0.5 - this", "14.0 - this" ]
+        },
+        "Tail3": {
+          "rotation": [ 0, "variable.tail_base_angle * 34.4 - this", 0 ],
+          "position": [ "0.5 - this", "-0.5 - this", "6.0 - this" ]
+        },
+        "Tail4": {
+          "rotation": [ 0, "variable.tail_base_angle * 45.6 - this", 0 ],
+          "position": [ "1 - this", "-0.5 - this", "4 - this" ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:tropicalfish",
+      "materials": { "default": "cmm.tropicalfish" },
+      "textures": {
+        "typeA": "textures/cmm/fish/tropical_a",
+        "typeB": "textures/cmm/fish/tropical_b",
+        "aPattern1": "textures/cmm/fish/tropical_a_pattern_1",
+        "aPattern2": "textures/cmm/fish/tropical_a_pattern_2",
+        "aPattern3": "textures/cmm/fish/tropical_a_pattern_3",
+        "aPattern4": "textures/cmm/fish/tropical_a_pattern_4",
+        "aPattern5": "textures/cmm/fish/tropical_a_pattern_5",
+        "aPattern6": "textures/cmm/fish/tropical_a_pattern_6",
+        "bPattern1": "textures/cmm/fish/tropical_b_pattern_1",
+        "bPattern2": "textures/cmm/fish/tropical_b_pattern_2",
+        "bPattern3": "textures/cmm/fish/tropical_b_pattern_3",
+        "bPattern4": "textures/cmm/fish/tropical_b_pattern_4",
+        "bPattern5": "textures/cmm/fish/tropical_b_pattern_5",
+        "bPattern6": "textures/cmm/fish/tropical_b_pattern_6"
+      },
+      "geometry": {
+        "typeA": "geometry.cmm.tropicalfish_a",
+        "typeB": "geometry.cmm.tropicalfish_b"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+          "variable.ZRot = !query.is_in_water ? Math.cos((query.time_stamp + query.frame_alpha) * 0.25) * 90 : 0.0;",
+          "variable.AnimationAmountBlend = Math.lerp(variable.AnimationAmountPrev, variable.AnimationAmount, query.frame_alpha);"
+        ]
+      },
+      "animations": {
+        "look_at_target_default": "animation.cmm.look_at_target.default.v1.0",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming.v1.0",
+        "riding.arms": "animation.cmm.riding.arms.v1.0",
+        "riding.legs": "animation.cmm.riding.legs.v1.0",
+        "brandish_spear": "animation.cmm.brandish_spear.v1.0",
+        "charging": "animation.cmm.charging.v1.0",
+        "attack.rotations": "animation.cmm.attack.rotations.v1.0",
+        "bob": "animation.cmm.bob.v1.0",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs.v1.0",
+        "swimming": "animation.cmm.swimming.v1.0",
+        "use_item_progress": "animation.cmm.use_item_progress.v1.0",
+        "flop": "animation.cmm.tropicalfish.flop.v1.0",
+        "swim": "animation.cmm.tropicalfish.swim.v1.0"
+      },
+      "animation_controllers": [
+        { "general": "controller.animation.cmm.fish.general" },
+        { "look_at_target": "controller.animation.cmm.look_at_target" },
+        { "riding": "controller.animation.cmm.riding" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" }
+      ],
+      "render_controllers": [ "controller.render.cmm.tropicalfish" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 44
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.dolphin.move": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [ "90 + query.target_x_rotation", "query.target_y_rotation", 0.0 ],
+          "position": [ 0, -22, -6 ]
+        },
+        "Tail1": {
+          "rotation": [ "-2.865 * math.cos(query.life_time * 343.8)", 0, 0 ]
+        },
+        "Tail2": {
+          "rotation": [ "-5.73 * math.cos(query.life_time * 343.8)", 0, 0 ]
+        },
+        "Tail3": {
+          "rotation": [ "-11.46 * math.cos(query.life_time * 343.8)", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.dolphin.swimming": {
+      "loop": true,
+      "override_previous_animation": true,
+      "animation_length": 1.3,
+      "bones": {
+        "RightArm": {
+          "rotation": {
+            "0": [ 0, 180, -180 ],
+            "0.7": [ 0, 180, -287.2 ],
+            "1.1": [ 90, 180, -180 ],
+            "1.3": [ 0, 180, -180 ]
+          }
+        },
+        "LeftArm": {
+          "rotation": {
+            "0": [ 0, 180, 180 ],
+            "0.7": [ 0, 180, 287.2 ],
+            "1.1": [ 90, 180, 180 ],
+            "1.3": [ 0, 180, 180 ]
+          }
+        }
+      }
+    }
+  }
+}

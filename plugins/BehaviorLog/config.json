@@ -1,0 +1,242 @@
+{
+    "ShowLogInConsole": 1,
+    "Settings": {
+        "onPreJoin": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onJoin": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onLeft": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onRespawn": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onPlayerDie": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onPlayerCmd": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onChat": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": [
+                "{\"rawtext\":[{"
+            ]
+        },
+        "onChangeDim": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onJump": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onSneak": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onAttack": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onUseItem": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onUseItemOn": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onTakeItem": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onDropItem": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onEat": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onStartDestroyBlock": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onDestroyBlock": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onPlaceBlock": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onOpenContainer": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onCloseContainer": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onInventoryChange": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onSetArmor": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onUseRespawnAnchor": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onOpenContainerScreen": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onMobDie": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onMobHurt": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onExplode": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onProjectileHitEntity": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onWitherBossDestroy": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onRide": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onStepOnPressurePlate": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onBlockInteracted": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onBedExplode": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onRespawnAnchorExplode": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onBlockExploded": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onCmdBlockExecute": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onContainerChange": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onProjectileHitBlock": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onRedStoneUpdate": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onHopperPushOut": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onPistonPush": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onFarmLandDecay": {
+            "LogToFile": 1,
+            "LogToConsole": 1,
+            "NoOutputContent": []
+        },
+        "onUseFrameBlock": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onScoreChanged": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onFireSpread": {
+            "LogToFile": 0,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        },
+        "onConsoleCmd": {
+            "LogToFile": 1,
+            "LogToConsole": 0,
+            "NoOutputContent": []
+        }
+    }
+}

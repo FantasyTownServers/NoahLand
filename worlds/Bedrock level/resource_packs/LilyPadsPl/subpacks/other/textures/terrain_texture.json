@@ -1,0 +1,54 @@
+{
+  "num_mip_levels": 4,
+  "padding": 8,
+  "resource_pack_name": "vanilla",
+  "texture_data": {
+    "waterlily": {
+      "textures": {
+        "variations": [
+          { "path": "textures/blocks/waterlily", "tint_color": "#208030" }
+        ]
+      }
+    },
+    "none" : {
+       "textures" : [
+          "textures/blocks/none"
+       ]
+    },
+    "lily_flower": {
+      "textures": {
+        "variations": [
+          {
+            "path": "textures/blocks/waterlily/flower1",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/waterlily/flower2",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/waterlily/flower3",
+            "weight": 1
+          },
+          {
+            "path": "textures/blocks/none",
+            "weight": 2
+          },
+          {
+            "path": "textures/blocks/waterlily/flower4",
+            "weight": 0.5
+          },
+          {
+            "path": "textures/blocks/waterlily/flower5",
+            "weight": 0.5
+          },
+          {
+            "path": "textures/blocks/waterlily/flower6",
+            "weight": 0.5
+          }
+        ]
+      }
+    }
+  },
+  "texture_name": "atlas.terrain"
+}

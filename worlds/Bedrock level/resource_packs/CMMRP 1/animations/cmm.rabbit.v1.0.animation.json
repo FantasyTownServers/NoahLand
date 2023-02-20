@@ -1,0 +1,152 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.rabbit.base_pose.v1.0": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Mask": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat4": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HTop": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HSide": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "BHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Ponytail": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBun": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEar": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEar": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightHorn": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEye": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEye": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftArm": {
+          "position": [ "2.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "LeftArm2": {
+          "position": [ "2.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "RightArm": {
+          "position": [ "-2.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "RightArm2": {
+          "position": [ "-2.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "RightLeg": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "waist": {
+          "rotation": [ "-this", "-this", "-this" ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "这是诺亚大陆服务器专用的自制资源包 by RichLi4307",
+    "name": "诺亚大陆服务器资源包8.1.2",
+    "uuid": "bd201918-047f-432b-89b5-add641b5942b",
+    "version": [
+      8,
+      1,
+      2
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "这是诺亚大陆服务器专用的自制资源包 by RichLi4307",
+      "type": "resources",
+      "uuid": "33d5fffc-20ee-48d2-a566-c5ad3a5d1520",
+      "version": [
+        8,
+        1,
+        2
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "c8ba9394-c483-4b7b-acac-c53685113b6d",
+      "version": [
+        8,
+        1,
+        2
+      ]
+    }
+  ]
+}

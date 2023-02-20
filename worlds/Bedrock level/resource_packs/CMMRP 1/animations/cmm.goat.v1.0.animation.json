@@ -1,0 +1,279 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.goat.attack.v1.0": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "Mask": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "Hair": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "Hat": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "Hat1": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "Hat2": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "Hat3": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "Hat4": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HTop": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HSide": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "BHair": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "Ponytail": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HBack": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HBack1": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HBack2": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "RHair": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HRight": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HRight2": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HRight3": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "LHair": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HLeft": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HLeft2": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HLeft3": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HFront": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HFront2": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HFront3": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "Hood1": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "Hood2": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "Hood3": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HBun": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "RightEar": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "LeftEar": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "RightHorn": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "RightEye": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "LeftEye": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "HighTwinTails": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "LowTwinTails": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "PonyTail": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        },
+        "ThickPonyTail": {
+          "rotation": [ "variable.attack_head_rot", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.goat.ram_attack.v1.0": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "Mask": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "Hair": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "Hat": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "Hat1": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "Hat2": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "Hat3": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "Hat4": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HTop": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HSide": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "BHair": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "Ponytail": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HBack": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HBack1": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HBack2": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "RHair": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HRight": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HRight2": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HRight3": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "LHair": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HLeft": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HLeft2": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HLeft3": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HFront": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HFront2": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HFront3": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "Hood1": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "Hood2": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "Hood3": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HBun": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "RightEar": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "LeftEar": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "RightHorn": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "RightEye": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "LeftEye": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "HighTwinTails": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "LowTwinTails": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "PonyTail": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        },
+        "ThickPonyTail": {
+          "rotation": [ "variable.ram_head_rot", 0, 0 ]
+        }
+      }
+    }
+  }
+}

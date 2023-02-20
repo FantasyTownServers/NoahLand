@@ -1,0 +1,38 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cmm.panda": {
+      "arrays": {
+        "textures": {
+          "Array.skins": [
+            "Texture.default",
+            "Texture.lazy",
+            "Texture.worried",
+            "Texture.playful",
+            "Texture.brown",
+            "Texture.weak",
+            "Texture.aggressive"
+          ],
+          "Array.baby": [
+            "Texture.default_baby",
+            "Texture.lazy_baby",
+            "Texture.worried_baby",
+            "Texture.playful_baby",
+            "Texture.brown_baby",
+            "Texture.weak_baby",
+            "Texture.aggressive_baby"
+          ]
+        },
+        "geometries": {
+          "Array.geos": [
+            "Geometry.default",
+            "Geometry.baby"
+          ]
+        }
+      },
+      "geometry": "Array.geos[query.is_baby]",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "query.is_baby ? Array.baby[query.variant] : Array.skins[query.variant]" ]
+    }
+  }
+}

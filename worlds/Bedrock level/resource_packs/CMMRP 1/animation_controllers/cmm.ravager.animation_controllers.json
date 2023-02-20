@@ -1,0 +1,94 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cmm.ravager.move": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "look_at_target_default", "move" ],
+          "transitions": [
+            {
+              "gliding": "query.is_gliding"
+            },
+            {
+              "swimming": "query.is_swimming"
+            },
+            {
+              "celebrating": "query.is_celebrating"
+            },
+            {
+              "roaring": "query.is_roaring == 1"
+            },
+            {
+              "stunned": "query.is_stunned == 1"
+            }
+          ]
+        },
+        "gliding": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "look_at_target_gliding", "move" ],
+          "transitions": [
+            {
+              "swimming": "query.is_swimming"
+            },
+            {
+              "default": "!query.is_gliding"
+            }
+          ]
+        },
+        "swimming": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "look_at_target_swimming", "move" ],
+          "transitions": [
+            {
+              "gliding": "query.is_gliding"
+            },
+            {
+              "default": "!query.is_swimming"
+            }
+          ]
+        },
+        "celebrating": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "look_at_target_default", "celebrating", "move.legs" ],
+          "transitions": [
+            {
+              "default": "!query.is_celebrating"
+            }
+          ]
+        },
+        "roaring": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "roaring" ],
+          "transitions": [
+            {
+              "default" : "query.is_roaring == 0"
+            }
+          ]
+        },
+        "stunned": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "stunned" ],
+          "particle_effects": [
+            {
+              "effect": "stun_particles",
+              "locator": "stun"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "query.is_stunned == 0"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

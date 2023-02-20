@@ -1,0 +1,38 @@
+{
+    "en": {
+        "money.add.succ": "Balance successfully increased.",
+        "money.dontuseinconsole": "Don't use this command in console.",
+        "money.invalid.arg": "Invalid command argument, or unknown error.",
+        "money.no.perm": "You do not have the required permissions to execute this command.",
+        "money.no.target": "Can not find target player.",
+        "money.not.enough": "You have insufficient balance.",
+        "money.pay.succ": "Transfer successful.",
+        "money.reduce.succ": "Balance successfully reduced.",
+        "money.set.succ": "Balance successfully set.",
+        "money.succ": "Command successfully executed."
+    },
+    "zh_CN": {
+        "money.add.succ": "添加成功",
+        "money.dontuseinconsole": "不要在控制台使用这个指令",
+        "money.invalid.arg": "参数错误或未知错误",
+        "money.no.perm": "你无权执行",
+        "money.no.target": "找不到目标",
+        "money.not.enough": "金钱不足",
+        "money.pay.succ": "支付成功",
+        "money.reduce.succ": "移除成功",
+        "money.set.succ": "设置成功",
+        "money.succ": "执行成功"
+    },
+    "zh_TW": {
+        "money.add.succ": "添加成功",
+        "money.dontuseinconsole": "不要在控制台使用這個指令",
+        "money.invalid.arg": "參數錯誤或未知錯誤",
+        "money.no.perm": "你沒有權限使用此指令!",
+        "money.no.target": "找不到目標",
+        "money.not.enough": "金錢不足",
+        "money.pay.succ": "支付成功",
+        "money.reduce.succ": "移除成功",
+        "money.set.succ": "設置成功",
+        "money.succ": "執行成功"
+    }
+}

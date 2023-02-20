@@ -1,0 +1,44 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.pa_menu": {
+      "initial_state": "preshoot",
+      "states": {
+        "preshoot": {
+          "transitions": [
+            {
+              "shoot": "q.get_equipped_item_name(0) == 'menu' && q.is_using_item"
+            }
+          ]
+        },
+        "shooting": {
+          "on_entry": [
+            "v.delaytime = q.life_time;"
+          ],
+          "transitions": [
+            {
+              "preshoot": "q.get_equipped_item_name(0) != 'menu' || !q.is_using_item"
+            },
+            {
+              "shoot": "q.get_equipped_item_name(0) != 'menu' || !q.is_using_item"
+            }
+          ]
+        },
+        "shoot": {
+          "on_entry": [
+            "@s pa:menu_fire",
+            "/playsound pa_menu_shot"
+          ],
+          "transitions": [
+            {
+              "shooting": "1.0"
+            }
+          ],
+          "on_exit": [
+            "v.bullet_fire = q.life_time;"
+          ]
+        }
+      }
+    }
+  }
+}

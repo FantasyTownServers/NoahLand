@@ -1,0 +1,205 @@
+{
+	"format_version": "1.8.0",
+	"geometry.cmm.pillager": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 2,
+		"visible_bounds_offset": [0, 1, 0],
+		"bones": [{
+			"name": "root",
+			"pivot": [ 0, 24, 0 ],
+			"neverRender": true
+		}, {
+			"name": "Hat",
+			"parent": "root",
+			"pivot": [0, 24, 0],
+			"bind_pose_rotation": [-5, 0, -10],
+			"cubes": [{
+				"origin": [-3.2, 31.6, -3.1],
+				"size": [7, 2, 7],
+				"uv": [36, 55]
+			}, {
+				"origin": [0.2, 33.1, -0.1],
+				"size": [1, 1, 1],
+				"uv": [43, 53]
+			}]
+		}, {
+			"name": "HTop",
+			"parent": "root",
+			"pivot": [0, 24, 0],
+			"cubes": [{
+				"origin": [-3.5, 31, -3],
+				"size": [7, 1, 6],
+				"uv": [0, 30]
+			}]
+		}, {
+			"name": "BHair",
+			"parent": "root",
+			"pivot": [0, 24, 0],
+			"cubes": [{
+				"origin": [-4, 20, 2.5],
+				"size": [8, 5, 1],
+				"uv": [30, 14]
+			}, {
+				"origin": [-4, 15, 2.5],
+				"size": [8, 5, 1],
+				"uv": [30, 20]
+			}]
+		}, {
+			"name": "HBack",
+			"parent": "root",
+			"pivot": [0, 24, 0],
+			"cubes": [{
+				"origin": [-1, 22, 3],
+				"size": [2, 7, 2],
+				"uv": [40, 41]
+			}, {
+				"origin": [-0.5, 21, 3.5],
+				"size": [1, 1, 1],
+				"uv": [36, 41]
+			}, {
+				"origin": [-0.7, 19, 3.5],
+				"size": [1, 2, 1],
+				"uv": [36, 43],
+				"inflate": 0.15
+			}]
+		}, {
+			"name": "Hair",
+			"parent": "root",
+			"pivot": [0, 24, 0],
+			"cubes": [{
+				"origin": [-4, 21, -3.5],
+				"size": [8, 10, 7],
+				"uv": [0, 13]
+			}]
+		}, {
+			"name": "Head",
+			"parent": "root",
+			"pivot": [0, 24, 0],
+			"cubes": [{
+				"origin": [-3.5, 24, -3],
+				"size": [7, 7, 6],
+				"uv": [0, 0]
+			}]
+		}, {
+			"name": "Neck",
+			"parent": "root",
+			"pivot": [0, 24, 0],
+			"cubes": [{
+				"origin": [-1.5, 23, -1.5],
+				"size": [3, 2, 3],
+				"uv": [20, 49]
+			}]
+		}, {
+			"name": "RightArm",
+			"parent": "root",
+			"pivot": [-3.5, 22, 0],
+			"cubes": [{
+				"origin": [-5.5, 11, -1],
+				"size": [2, 12, 2],
+				"uv": [36, 0]
+			}]
+		}, {
+			"name": "rightItem",
+			"pivot": [ -4.5, 15, 1 ],
+			"neverRender": true,
+			"parent": "RightArm"
+		}, {
+			"name": "LeftArm",
+			"parent": "root",
+			"pivot": [3.5, 22, 0],
+			"cubes": [{
+				"origin": [3.5, 11, -1],
+				"size": [2, 12, 2],
+				"uv": [44, 0]
+			}]
+		}, {
+			"name": "leftItem",
+			"pivot": [ 4.5, 15, 1 ],
+			"neverRender": true,
+			"parent": "LeftArm"
+		}, {
+			"name": "Body",
+			"parent": "root",
+			"pivot": [0, 24, 0],
+			"cubes": [{
+				"origin": [-3.5, 18, -1.5],
+				"size": [7, 5, 3],
+				"uv": [0, 47]
+			}]
+		}, {
+			"name": "waist",
+			"parent": "root",
+			"pivot": [ 0, 12, 0 ],
+			"neverRender": true
+		}, {
+			"name": "BustTop",
+			"parent": "root",
+			"pivot": [0, 22.15, -1.4],
+			"rotation": [-45, 0, 0],
+			"cubes": [{
+				"origin": [-3, 20, -1.5],
+				"size": [6, 2, 2],
+				"uv": [20, 37]
+			}]
+		}, {
+			"name": "BustFront",
+			"parent": "root",
+			"pivot": [0, 24, 0],
+			"cubes": [{
+				"origin": [-3, 18.7, -3],
+				"size": [6, 2, 2],
+				"uv": [20, 41],
+				"inflate": 0.01
+			}]
+		}, {
+			"name": "BustBottom",
+			"parent": "root",
+			"pivot": [0, 20.8, -2.1],
+			"rotation": [-25, 0, 0],
+			"cubes": [{
+				"origin": [-3, 18.5, -2],
+				"size": [6, 2, 2],
+				"uv": [20, 45]
+			}]
+		}, {
+			"name": "Body2",
+			"parent": "root",
+			"pivot": [0, 24, 0],
+			"cubes": [{
+				"origin": [-3, 12, -1.5],
+				"size": [6, 6, 3],
+				"uv": [0, 55]
+			}]
+		}, {
+			"name": "Skirt1",
+			"parent": "root",
+			"pivot": [0, 15, 0],
+			"cubes": [{
+				"origin": [-4, 8.5, -2.5],
+				"size": [8, 6, 5],
+				"uv": [38, 30],
+				"inflate": -0.4
+			}]
+		}, {
+			"name": "RightLeg",
+			"parent": "root",
+			"pivot": [-2, 12, 0],
+			"cubes": [{
+				"origin": [-3.5, 0, -1.5],
+				"size": [3, 12, 3],
+				"uv": [52, 0]
+			}]
+		}, {
+			"name": "LeftLeg",
+			"parent": "root",
+			"pivot": [2, 12, 0],
+			"cubes": [{
+				"origin": [0.5, 0, -1.5],
+				"size": [3, 12, 3],
+				"uv": [52, 15]
+			}]
+		}]
+	}
+}

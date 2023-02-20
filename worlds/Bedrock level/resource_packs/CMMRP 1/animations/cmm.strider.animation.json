@@ -1,0 +1,51 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.strider.move": {
+      "loop": true,
+      "bones": {
+        "RightBristle3": {
+          "rotation": [ 0, 0, "variable.bristle_flow * 74.4845" ]
+        },
+        "RightBristle2": {
+          "rotation": [ 0, 0, "variable.bristle_flow * 68.7549" ]
+        },
+        "RightBristle1": {
+          "rotation": [ 0, 0, "variable.bristle_flow * 34.3775" ]
+        },
+        "LeftBristle3": {
+          "rotation": [ 0, 0, "variable.bristle_flow * 34.3775" ]
+        },
+        "LeftBristle2": {
+          "rotation": [ 0, 0, "variable.bristle_flow * 68.7549" ]
+        },
+        "LeftBristle1": {
+          "rotation": [ 0, 0, "variable.bristle_flow * 74.4845" ]
+        }
+      }
+    },
+    "animation.cmm.strider.bristle_flow": {
+      "loop": true,
+      "bones": {
+        "RightBristle3": {
+          "rotation": [ 0, 0, "2.864789 * variable.bristle_range_mod * Math.sin(query.life_time * 20 * variable.bristle_speed_mod * -22.9183)" ]
+        },
+        "RightBristle2": {
+          "rotation": [ 0, 0, "5.72958 * variable.bristle_range_mod * Math.sin(query.life_time * 20 * variable.bristle_speed_mod * 11.4592)" ]
+        },
+        "RightBristle1": {
+          "rotation": [ 0, 0, "5.72958 * variable.bristle_range_mod * Math.sin(query.life_time * 20 * variable.bristle_speed_mod * 22.9183)" ]
+        },
+        "LeftBristle3": {
+          "rotation": [ 0, 0, "5.72958 * variable.bristle_range_mod * Math.sin(query.life_time * 20 * variable.bristle_speed_mod * 22.9183)" ]
+        },
+        "LeftBristle2": {
+          "rotation": [ 0, 0, "5.72958 * variable.bristle_range_mod * Math.sin(query.life_time * 20 * variable.bristle_speed_mod * 11.4592)" ]
+        },
+        "LeftBristle1": {
+          "rotation": [ 0, 0, "2.864789 * variable.bristle_range_mod * Math.sin(query.life_time * 20 * variable.bristle_speed_mod * -22.9183)" ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:ocelot",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "cmm.ocelot" },
+      "textures": {
+        "default": "textures/cmm/cat/ocelot",
+        "shadow": "textures/cmm/cat/shadow_ocelot"
+      },
+      "geometry": {
+        "default": "geometry.cmm.ocelot.v1.8"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 28.65;"
+        ]
+      },
+      "animations": {
+        "cmm_big_head": "animation.cmm.big_head",
+        "look_at_target_default": "animation.cmm.look_at_target.default",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming",
+        "walk": "animation.cmm.walk",
+        "walking": "animation.cmm.ocelot.walk",
+        "sprint": "animation.cmm.ocelot.sprint",
+        "riding.arms": "animation.cmm.riding.arms",
+        "riding.legs": "animation.cmm.riding.legs",
+        "sit": "animation.cmm.ocelot.sit",
+        "sneak": "animation.cmm.ocelot.sneak",
+        "brandish_spear": "animation.cmm.brandish_spear",
+        "charging": "animation.cmm.charging",
+        "attack.rotations": "animation.cmm.attack.rotations",
+        "bob": "animation.cmm.bob",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs",
+        "swimming": "animation.cmm.swimming",
+        "use_item_progress": "animation.cmm.use_item_progress"
+      },
+      "animation_controllers": [
+        { "cmm_baby_big_head": "controller.animation.cmm.baby_big_head" },
+        { "look_at_target": "controller.animation.cmm.look_at_target" },
+        { "walk": "controller.animation.cmm.ocelot.walk" },
+        { "riding": "controller.animation.cmm.riding" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" }
+      ],
+      "render_controllers": [ "controller.render.cmm.ocelot" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 16
+      }
+    }
+  }
+}

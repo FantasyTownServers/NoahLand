@@ -1,0 +1,29 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.pa_jyht": {
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "walking": "(1.0)"
+            }
+          ],
+          "on_entry": [
+            "/function pa_jyht"
+          ]
+        },
+        "walking": {
+          "transitions": [
+            {
+              "default": "query.is_item_name_any=='jyht' && query.is_using_item"
+            }
+          ],
+          "on_entry": [
+            "/function pa_jyht"
+          ]
+        }
+      }
+    }
+  }
+}

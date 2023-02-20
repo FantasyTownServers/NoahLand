@@ -1,0 +1,392 @@
+﻿{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.parrot.base_pose.v1.0": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Mask": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat4": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HTop": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HSide": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "BHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Ponytail": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBun": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEar": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEar": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightHorn": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEye": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEye": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftArm": {
+          "position": [ "2.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-15.0-this" ]
+        },
+        "LeftArm2": {
+          "position": [ "2.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-15.0-this" ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "RightArm": {
+          "position": [ "-2.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "15.0-this" ]
+        },
+        "RightArm2": {
+          "position": [ "-2.5 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "15.0-this" ]
+        },
+        "RightLeg": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "waist": {
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "Tail": {
+          "position": [ "-this", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.parrot.dance.v1.0": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "Mask": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "Hair": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "Hat": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "Hat1": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "Hat2": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "Hat3": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "Hat4": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "HTop": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "HSide": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "BHair": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "PonyTail": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "HBack": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "HBack1": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "HBack2": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "RHair": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "HRight": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "HRight2": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "HRight3": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "LHair": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "HLeft": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "HLeft2": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "HLeft3": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "Hood1": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "Hood2": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "Hood3": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "HBun": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "RightAntenna": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "LeftAntenna": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "RightEar": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "LeftEar": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "RightEarMule": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "LeftEarMule": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "RightHorn": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "LeftHorn": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "RightEye": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "LeftEye": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "HighTwinTails": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "LowTwinTails": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "PonyTail": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "ThickPonyTail": {
+          "position": [ "Math.sin(query.time_stamp * 10)", "Math.sin(query.time_stamp * 40)", 0 ]
+        },
+        "RightArm": {
+          "rotation": [ 0, 0, "70 + Math.cos(query.time_stamp * 40) * 10" ]
+        },
+        "RightArm2": {
+          "rotation": [ 0, 0, "70 + Math.cos(query.time_stamp * 40) * 10" ]
+        },
+        "LeftArm": {
+          "rotation": [ 0, 0, "-70 - Math.cos(query.time_stamp * 40) * 10" ]
+        },
+        "LeftArm2": {
+          "rotation": [ 0, 0, "-70 - Math.cos(query.time_stamp * 40) * 10" ]
+        },
+        "Neck": {
+          "position": [ 0, "Math.sin(query.time_stamp * 40) * 0.35", 0 ]
+        },
+        "Neck1": {
+          "position": [ 0, "Math.sin(query.time_stamp * 40) * 0.35", 0 ]
+        },
+        "Neck2": {
+          "position": [ 0, "Math.sin(query.time_stamp * 40) * 0.35", 0 ]
+        },
+        "Body": {
+          "position": [ 0, "Math.sin(query.time_stamp * 40) * 0.35", 0 ]
+        },
+        "Tail": {
+          "rotation": [ "60.0 + math.cos(query.anim_time * 38.17) * 17.0 - this", 0, 0 ]
+        },
+        "Skirt1": {
+          "position": [ 0, "Math.sin(query.time_stamp * 40) * 0.35", 0 ]
+        },
+        "Skirt2": {
+          "position": [ 0, "Math.sin(query.time_stamp * 40) * 0.35", 0 ]
+        }
+      }
+    },
+    "animation.cmm.parrot.flying.v1.0": {
+      "loop": true,
+      "bones": {
+        "RightLeg": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) * 80.0 * query.modified_move_speed", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) * 80.0 * query.modified_move_speed", 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) * -80.0 * query.modified_move_speed", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "math.cos(query.anim_time * 38.17) * -80.0 * query.modified_move_speed", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.parrot.moving.v1.0": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [ 0, "variable.wing_flap * 0.3", 0 ]
+        },
+        "Tail": {
+          "rotation": [ "60.0 + math.cos(query.anim_time * 38.17) * 17.0 - this", 0, 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ 0, 0, "-5.0 - variable.wing_flap * 57.3" ]
+        },
+        "LeftArm2": {
+          "rotation": [ 0, 0, "-5.0 - variable.wing_flap * 57.3" ]
+        },
+        "RightArm": {
+          "rotation": [ 0, 0, "5.0 + variable.wing_flap * 57.3" ]
+        },
+        "RightArm2": {
+          "rotation": [ 0, 0, "5.0 + variable.wing_flap * 57.3" ]
+        }
+      }
+    },
+    "animation.cmm.parrot.riding.pose.v1.0": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [ 0, -4, 0 ]
+        }
+      }
+    },
+    "animation.cmm.parrot.sitting.v1.0": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [ 0, -2, 0 ]
+        },
+        "Tail": {
+          "rotation": [ "75.0 - this", 0.0, 0.0 ],
+          "position": [ 0, -1.5, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ -90, 0, 0 ],
+          "position": [ 0, -2, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ -90, 0, 0 ],
+          "position": [ 0, -2, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -90, 0, 0 ],
+          "position": [ 0, -2, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ -90, 0, 0 ],
+          "position": [ 0, -2, 0 ]
+        }
+      }
+    }
+  }
+}

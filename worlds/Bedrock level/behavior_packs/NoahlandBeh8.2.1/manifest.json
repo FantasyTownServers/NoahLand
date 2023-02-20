@@ -1,0 +1,40 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "这是诺亚大陆服务器专用的自制行为包 by RichLi4307",
+    "name": "诺亚大陆服务器行为包8.2.1",
+    "uuid": "c8ba9394-c483-4b7b-acac-c53685113b6d",
+    "version": [
+      8,
+      2,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "description": "这是诺亚大陆服务器专用的自制行为包 by RichLi4307",
+      "type": "data",
+      "uuid": "63eae018-97f2-4f99-9799-8017f5c23e76",
+      "version": [
+        8,
+        2,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "bd201918-047f-432b-89b5-add641b5942b",
+      "version": [
+        8,
+        2,
+        1
+      ]
+    }
+  ]
+}

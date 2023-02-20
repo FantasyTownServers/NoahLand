@@ -1,0 +1,895 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.fox.base_pose.v1.0": {
+      "loop": true,
+      "bones": {
+        "Head": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hat4": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HTop": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HSide": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "BHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Ponytail": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBack2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HRight3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LHair": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HLeft3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood1": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood2": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "Hood3": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "HBun": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEar": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEar": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightHorn": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "RightEye": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftEye": {
+          "rotation": [ 0.0, "-this", 0.0 ]
+        },
+        "LeftArm": {
+          "position": [ "4 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "LeftArm2": {
+          "position": [ "4 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "RightArm": {
+          "position": [ "-4 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "RightArm2": {
+          "position": [ "-4 - this", 0, "-this" ],
+          "rotation": [ "-this", "-this", "-this" ]
+        },
+        "RightLeg": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "-this", "-this", 0 ]
+        },
+        "waist": {
+          "rotation": [ "-this", "-this", "-this" ]
+        }
+      }
+    },
+    "animation.cmm.fox.crouch.v1.0": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [ "15.0  - this", 0, 0 ],
+          "position": [ 0, -1.5, 0 ]
+        },
+        "Head": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "Mask": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "Hair": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "Hat": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "Hat1": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "Hat2": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "Hat3": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "Hat4": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HTop": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HSide": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "BHair": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "Ponytail": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HBack": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HBack1": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HBack2": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "RHair": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HRight": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HRight2": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HRight3": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "LHair": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HLeft": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HLeft2": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HLeft3": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HFront": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HFront2": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HFront3": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "Hood1": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "Hood2": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "Hood3": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HBun": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "RightEar": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "LeftEar": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "RightHorn": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "RightEye": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "LeftEye": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "HighTwinTails": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "LowTwinTails": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "PonyTail": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "ThickPonyTail": {
+          "rotation": [ "-15.0 - this", 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "-10.0 - this", 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "-10.0 - this", 0, 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ "-10.0 - this", 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ "-10.0 - this", 0, 0 ]
+        },
+        "Tail": {
+          "rotation": [ "120.0 - this", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "-13.0 - this", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "-13.0 - this", 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-13.0 - this", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "-13.0 - this", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.fox.pounce.v1.0": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [ "90 + query.vertical_speed * -7.0", 0, 0 ],
+          "position": [ 0, -6.5, -3.25 ]
+        },
+        "Head": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Mask": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hair": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hat": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hat1": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hat2": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hat3": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hat4": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HTop": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HSide": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "BHair": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Ponytail": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HBack": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HBack1": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HBack2": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "RHair": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HRight": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HRight2": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HRight3": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "LHair": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HLeft": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HLeft2": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HLeft3": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HFront": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HFront2": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HFront3": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hood1": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hood2": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "Hood3": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HBun": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "RightEar": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "LeftEar": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "RightHorn": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "RightEye": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "LeftEye": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "HighTwinTails": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "LowTwinTails": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "PonyTail": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "ThickPonyTail": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "RightArm": {
+          "rotation": [ -190, 0, -20 ]
+        },
+        "RightArm2": {
+          "rotation": [ -190, 0, -20 ]
+        },
+        "LeftArm": {
+          "rotation": [ -190, 0, 20 ]
+        },
+        "LeftArm2": {
+          "rotation": [ -190, 0, 20 ]
+        },
+        "Tail": {
+          "rotation": [ 40, 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ 10, 0, 5 ]
+        },
+        "RightLeg2": {
+          "rotation": [ 10, 0, 5 ]
+        },
+        "LeftLeg": {
+          "rotation": [ 10, 0, -5 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ 10, 0, -5 ]
+        }
+      }
+    },
+    "animation.cmm.fox.sit.v1.0": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [ 0, -5.5, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ -15, 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ -15, 0, 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ -15, 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ -15, 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ -90, 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ -90, 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -90, 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ -90, 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.fox.sleep.v1.0": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [ 0, 0, -90 ],
+          "position": [ -1, -9, 0 ]
+        },
+        "Head": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "Mask": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "Hair": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "Hat": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "Hat1": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "Hat2": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "Hat3": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "Hat4": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HTop": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HSide": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "BHair": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "Ponytail": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HBack": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HBack1": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HBack2": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "RHair": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HRight": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HRight2": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HRight3": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "LHair": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HLeft": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HLeft2": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HLeft3": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HFront": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HFront2": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HFront3": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "Hood1": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "Hood2": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "Hood3": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HBun": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "RightAntenna": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "LeftAntenna": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "RightEar": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "LeftEar": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "RightEarMule": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "LeftEarMule": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "RightHorn": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "LeftHorn": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "RightEye": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "LeftEye": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "HighTwinTails": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "LowTwinTails": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "PonyTail": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "ThickPonyTail": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ -75, 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ -75, 0, 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ -57.5, 50, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ -57.5, 50, 0 ]
+        },
+        "Tail": {
+          "rotation": [ -12.5, 0, 0 ]
+        },
+        "TailTip": {
+          "rotation": [ -20, 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ -60, 20, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ -60, 20, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -57.5, 35, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ -57.5, 35, 0 ]
+        }
+      }
+    },
+    "animation.cmm.fox.stuck.v1.0": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [ 180, 0, 0 ],
+          "position": [ 0, -10, -0.25 ]
+        },
+        "RightArm": {
+          "rotation": [ -180, 0, -20 ]
+        },
+        "RightArm2": {
+          "rotation": [ -180, 0, -20 ]
+        },
+        "LeftArm": {
+          "rotation": [ -180, 0, 20 ]
+        },
+        "LeftArm2": {
+          "rotation": [ -180, 0, 20 ]
+        },
+        "Tail": {
+          "rotation": [ 35, 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "math.sin(query.life_time * 572.55) *  57.3 * 1.4", 0, 5 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "math.sin(query.life_time * 572.55) *  57.3 * 1.4", 0, 5 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "math.sin(query.life_time * 572.55) *  57.3 * -1.4", 0, -5 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "math.sin(query.life_time * 572.55) *  57.3 * -1.4", 0, -5 ]
+        }
+      }
+    },
+    "animation.cmm.fox.wiggle.v1.0": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [ "15.0  - this", 0, 0 ],
+          "position": [ 0, -1.5, 0 ]
+        },
+        "Head": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "Mask": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "Hair": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "Hat": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "Hat1": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "Hat2": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "Hat3": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "Hat4": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HTop": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HSide": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "BHair": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "Ponytail": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HBack": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HBack1": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HBack2": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "RHair": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HRight": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HRight2": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HRight3": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "LHair": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HLeft": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HLeft2": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HLeft3": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HFront": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HFront2": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HFront3": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "Hood1": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "Hood2": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "Hood3": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HBun": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "RightAntenna": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "LeftAntenna": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "RightEar": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "LeftEar": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "RightEarMule": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "LeftEarMule": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "RightHorn": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "LeftHorn": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "RightEye": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "LeftEye": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "HighTwinTails": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "LowTwinTails": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "PonyTail": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "ThickPonyTail": {
+          "rotation": [ "-15.0 + math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "RightArm": {
+          "rotation": [ "-10.0 - this", 0, 0 ]
+        },
+        "RightArm2": {
+          "rotation": [ "-10.0 - this", 0, 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ "-10.0 - this", 0, 0 ]
+        },
+        "LeftArm2": {
+          "rotation": [ "-10.0 - this", 0, 0 ]
+        },
+        "Tail": {
+          "rotation": [ 130, "math.cos(query.life_time * 20.0 * 53.7) * 10.0 -this", "math.cos(query.life_time * 20.0 * 53.7) * 10.0 -this" ]
+        },
+        "TailTip": {
+          "rotation": [ 0, 0, "-math.cos(query.life_time * 20.0 * 53.7) * 20.0 -this" ]
+        },
+        "RightLeg": {
+          "rotation": [ "-13.0 - this", 0, 0 ]
+        },
+        "RightLeg2": {
+          "rotation": [ "-13.0 - this", 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-13.0 - this", 0, 0 ]
+        },
+        "LeftLeg2": {
+          "rotation": [ "-13.0 - this", 0, 0 ]
+        }
+      }
+    }
+  }
+}

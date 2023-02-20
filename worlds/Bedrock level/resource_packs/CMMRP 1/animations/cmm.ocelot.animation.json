@@ -1,0 +1,79 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.ocelot.sit": {
+      "loop": true,
+      "bones": {
+        "Tail1": {
+          "rotation": [ "45 - this", 0, 0 ],
+          "position": [ 0, -0.5, 1 ]
+        },
+        "Tail2": {
+          "rotation": [ "45 - this", 0, 0 ]
+        },
+        "Skirt1": {
+          "rotation": [ -60, 0, 0 ],
+          "position": [ 0, 0.5, 1 ]
+        },
+        "RightLeg": {
+          "rotation": [ -90, 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -90, 0, 0 ]
+        },
+        "root": {
+          "position": [ 0, -6, 0 ]
+        }
+      }
+    },
+    "animation.cmm.ocelot.sneak": {
+      "loop": true,
+      "bones": {
+        "RightArm": {
+          "rotation": [ "-10 - this", 0, 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ "-10 - this", 0, 0 ]
+        },
+        "Tail2": {
+          "rotation": [ "62.0 + math.cos(query.modified_distance_moved * 57.3) * 27.0 * query.modified_move_speed - this", 0, 0 ]
+        },
+        "Skirt1": {
+          "rotation": [ "-13 - this", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "-13 - this", 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-13 - this", 0, 0 ]
+        },
+        "root": {
+          "rotation": [ "15.0 - this", 0, 0 ],
+          "position": [ 0, "-10.5 - this", 0 ]
+        }
+      }
+    },
+    "animation.cmm.ocelot.sprint" : {
+      "loop": true,
+      "bones": {
+        "Tail1": {
+          "rotation": [ "-this", 0, 0 ]
+        },
+        "Tail2": {
+          "rotation" : [ "62.0 + math.cos(query.modified_distance_moved * 57.3) * 18.0 * query.modified_move_speed - this", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.ocelot.walk": {
+      "loop": true,
+      "bones": {
+        "tail1" : {
+          "rotation" : [ "-51.57 - this", 0, 0 ]
+        },
+        "Tail2": {
+          "rotation" : [ "62.0 + math.cos(query.modified_distance_moved * 57.3) * 45.0 * query.modified_move_speed - this", 0, 0 ]
+        }
+      }
+    }
+  }
+}
