@@ -1,0 +1,24 @@
+[2023-02-22 13:43:54 INFO][LiteLoader] 加载原生插件...
+[2023-02-22 13:43:54 INFO][LiteLoader] 原生插件 <LLMoney.dll> 已加载
+[2023-02-22 13:43:54 INFO][LiteLoader] * Js 脚本引擎已加载
+[2023-02-22 13:43:54 INFO][LiteLoader] * Lua 脚本引擎已加载
+[2023-02-22 13:43:57 INFO][LiteLoader] * NodeJs 脚本引擎已加载
+[2023-02-22 13:43:57 INFO][LiteLoader] 已加载 1 个原生插件
+[2023-02-22 13:43:57 INFO][bStats] ll.main.bstats.enabled
+[2023-02-22 13:43:58 INFO][Server] Starting Server
+[2023-02-22 13:43:58 INFO][Server] Version 1.19.62.01(ProtocolVersion 567) with [1m[3m[38;2;135;206;250mLiteLoaderBDS 2.10.0+[0m
+[2023-02-22 13:43:58 INFO][Server] Session ID 971678cd-1397-4da5-b5a5-42b1680dd6a3
+[2023-02-22 13:43:58 INFO][Server] Level Name: Bedrock level
+[2023-02-22 13:43:58 INFO][Server] Game mode: 0 Survival
+[2023-02-22 13:43:58 INFO][Server] Difficulty: 2 NORMAL
+[2023-02-22 13:43:58 INFO][Server] Experiment(s) active: ddi_, biom, ucft, gtst, mola, CnC_, wld_, spct, VE__, scpt
+[2023-02-22 13:43:58 INFO][Server] opening worlds/Bedrock level/db
+[2023-02-22 13:44:29 INFO][Server] IPv4 supported, port: 27061: Used for gameplay and LAN discovery
+[2023-02-22 13:44:29 INFO][Server] IPv6 supported, port: 27061: Used for gameplay
+[2023-02-22 13:44:31 INFO][LiteLoader] LiteLoader采用 LGPLv3 许可证开源
+[2023-02-22 13:44:31 INFO][LiteLoader] 我们的新论坛上线了啦! -> https://forum.litebds.com
+[2023-02-22 13:44:31 INFO][LiteLoader] 帮助我们翻译&改进翻译 -> https://crowdin.com/project/liteloaderbds
+[2023-02-22 13:44:31 INFO][LiteLoader] Thanks to RhyMC(rhymc.com) for the support
+[2023-02-22 13:44:31 INFO][Server] To enable Server Telemetry, add the line 'emit-server-telemetry=true' to the server.properties file in the bds directory
+[2023-02-22 18:25:18 INFO][Server] Server stop requested.
+[2023-02-22 18:25:18 INFO][Server] Stopping server...
