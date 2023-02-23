@@ -19,6 +19,9 @@
             "enabled": true,
             "path": "plugins\\LiteLoader\\CrashLogger_Daemon.exe"
         },
+        "DisableAutoCompactionLog": {
+            "enabled": true
+        },
         "EconomyCore": {
             "enabled": true
         },
@@ -32,7 +35,7 @@
         "FixBDSCrash": {
             "enabled": true
         },
-        "FixDisconnectBug": {
+        "FixBroadcastBug": {
             "enabled": true
         },
         "FixListenPort": {
