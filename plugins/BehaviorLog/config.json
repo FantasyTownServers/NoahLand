@@ -55,32 +55,32 @@
         },
         "onAttack": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onUseItem": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onUseItemOn": {
-            "LogToFile": 0,
+            "LogToFile": 1,
             "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onTakeItem": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onDropItem": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onEat": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onStartDestroyBlock": {
@@ -90,22 +90,22 @@
         },
         "onDestroyBlock": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onPlaceBlock": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onOpenContainer": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onCloseContainer": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onInventoryChange": {
@@ -120,7 +120,7 @@
         },
         "onUseRespawnAnchor": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onOpenContainerScreen": {
@@ -130,7 +130,7 @@
         },
         "onMobDie": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onMobHurt": {
@@ -140,17 +140,17 @@
         },
         "onExplode": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onProjectileHitEntity": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onWitherBossDestroy": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onRide": {
@@ -165,17 +165,17 @@
         },
         "onBlockInteracted": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onBedExplode": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onRespawnAnchorExplode": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onBlockExploded": {
@@ -190,7 +190,7 @@
         },
         "onContainerChange": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onProjectileHitBlock": {
@@ -210,12 +210,12 @@
         },
         "onPistonPush": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onFarmLandDecay": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onUseFrameBlock": {

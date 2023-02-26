@@ -20,3 +20,20 @@
 [2023-02-24 16:35:06 INFO][LiteLoader] 帮助我们翻译&改进翻译 -> https://crowdin.com/project/liteloaderbds
 [2023-02-24 16:35:06 INFO][LiteLoader] Thanks to RhyMC(rhymc.com) for the support
 [2023-02-24 16:35:06 INFO][Server] To enable Server Telemetry, add the line 'emit-server-telemetry=true' to the server.properties file in the bds directory
+[2023-02-25 13:00:05 INFO][Server] Player added to allowlist
+[2023-02-25 13:04:40 INFO][Server] Player connected: wlingshuang, xuid: 2535406233269757
+[2023-02-25 13:07:24 INFO][Server] Player connected: wlingshuang, xuid: 2535406233269757
+[2023-02-25 13:07:28 INFO][Server] Player Spawned: wlingshuang xuid: 2535406233269757
+[2023-02-25 13:28:15 INFO][Server] Player disconnected: wlingshuang, xuid: 2535406233269757
+[2023-02-25 13:37:20 INFO][Server] Player connected: wlingshuang, xuid: 2535406233269757
+[2023-02-25 16:43:33 INFO][Server] Player connected: LodgedSphinx459, xuid: 2535407922359972
+[2023-02-25 16:43:36 INFO][Server] Player Spawned: LodgedSphinx459 xuid: 2535407922359972
+[2023-02-25 16:46:19 INFO][Server] Player disconnected: LodgedSphinx459, xuid: 2535407922359972
+[2023-02-25 16:47:22 INFO][Server] Player connected: LodgedSphinx459, xuid: 2535407922359972
+[2023-02-25 16:47:24 INFO][Server] Player Spawned: LodgedSphinx459 xuid: 2535407922359972
+[2023-02-25 18:00:25 INFO][Server] Player disconnected: LodgedSphinx459, xuid: 2535407922359972
+[2023-02-25 18:00:44 INFO][Server] Player connected: LodgedSphinx459, xuid: 2535407922359972
+[2023-02-25 18:00:47 INFO][Server] Player Spawned: LodgedSphinx459 xuid: 2535407922359972
+[2023-02-25 18:26:59 INFO][Server] Player disconnected: LodgedSphinx459, xuid: 2535407922359972
+[2023-02-25 23:16:47 INFO][Server] Server stop requested.
+[2023-02-25 23:16:47 INFO][Server] Stopping server...
