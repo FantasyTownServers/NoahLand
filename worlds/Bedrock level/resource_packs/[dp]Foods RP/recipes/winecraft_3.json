@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:winecraft_3"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01 ",
+      "345",
+      " 78"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:yellowpepers"
+      },
+      "1": {
+        "item": "dp_foods_plus:green_grapes"
+      },
+      "3": {
+        "item": "minecraft:sugar"
+      },
+      "4": {
+        "item": "dp_foods_plus:blue_barrys"
+      },
+      "5": {
+        "item": "minecraft:sugar"
+      },
+      "7": {
+        "item": "dp_foods_plus:green_grapes"
+      },
+      "8": {
+        "item": "dp_foods_plus:yellowpepers"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:bottle_of_white_wine",
+      "count": 1
+    }
+  }
+}

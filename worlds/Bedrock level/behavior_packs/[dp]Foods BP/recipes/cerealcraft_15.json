@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:cerealcraft_15"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1 ",
+      "345",
+      " 7 "
+    ],
+    "key": {
+      "1": {
+        "item": "dp_foods_plus:suger_cubes"
+      },
+      "3": {
+        "item": "minecraft:wheat"
+      },
+      "4": {
+        "item": "dp_foods_plus:suger_cubes"
+      },
+      "5": {
+        "item": "minecraft:sugar"
+      },
+      "7": {
+        "item": "dp_foods_plus:suger_cubes"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:box_of_suger_cubes_cereal",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:eelcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0 ",
+      " 3"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:salmon"
+      },
+      "3": {
+        "item": "minecraft:mutton"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:uncooked_eel",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,27 @@
+//bridge-file-version: #0
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:stripped_mangrove_barricade"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "minecraft:stripped_mangrove_log"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:stripped_mangrove_barricade",
+				"count": 4
+			}
+		]
+	}
+}

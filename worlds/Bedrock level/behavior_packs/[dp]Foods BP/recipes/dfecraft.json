@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:dfecraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0 ",
+      "23"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:chocolate"
+      },
+      "2": {
+        "item": "dp_foods_plus:baked_choclate_eclair"
+      },
+      "3": {
+        "item": "dp_foods_plus:eclair"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:double_fudge_eclair",
+      "count": 1
+    }
+  }
+}

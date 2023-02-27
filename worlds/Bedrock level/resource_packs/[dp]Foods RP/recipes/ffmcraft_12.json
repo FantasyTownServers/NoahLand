@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:ffmcraft_12"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:rotten_flesh"
+      },
+      "1": {
+        "item": "dp_foods_plus:ham_burger"
+      },
+      "2": {
+        "item": "dp_foods_plus:frys"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:benders_fast_food_meal",
+      "count": 1
+    }
+  }
+}

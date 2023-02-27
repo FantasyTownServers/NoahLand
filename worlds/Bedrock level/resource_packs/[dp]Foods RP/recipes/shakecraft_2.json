@@ -1,0 +1,39 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:shakecraft_2"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 12",
+      "345"
+    ],
+    "key": {
+      "1": {
+        "item": "dp_foods_plus:chocolate"
+      },
+      "2": {
+        "item": "dp_foods_plus:cherry"
+      },
+      "3": {
+        "item": "dp_foods_plus:vanilla"
+      },
+      "4": {
+        "item": "minecraft:milk_bucket"
+      },
+      "5": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:choclate_milk_shake",
+      "count": 1
+    }
+  }
+}

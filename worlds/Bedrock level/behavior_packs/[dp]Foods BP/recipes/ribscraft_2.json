@@ -1,0 +1,29 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:ribscraft_2"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:beef"
+      },
+      "1": {
+        "item": "minecraft:bone"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:raw_ribs",
+      "count": 1
+    }
+  }
+}

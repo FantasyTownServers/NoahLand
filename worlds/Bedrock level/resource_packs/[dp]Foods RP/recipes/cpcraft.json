@@ -1,0 +1,39 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:cpcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 45"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:butter"
+      },
+      "1": {
+        "item": "minecraft:sugar"
+      },
+      "2": {
+        "item": "dp_foods_plus:syrup"
+      },
+      "4": {
+        "item": "dp_foods_plus:tortilla"
+      },
+      "5": {
+        "item": "dp_foods_plus:chocolate"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:choclate_chip_pancake",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "seared_tank_lava_100",
+		"metalness_emissive_roughness": "seared_tank_100_mer"
+	}
+}

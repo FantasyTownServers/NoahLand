@@ -1,0 +1,49 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:gegcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 12",
+      "345",
+      "678"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:pink_dye"
+      },
+      "2": {
+        "item": "minecraft:stick"
+      },
+      "3": {
+        "item": "minecraft:pink_dye"
+      },
+      "4": {
+        "item": "minecraft:purple_dye"
+      },
+      "5": {
+        "item": "minecraft:pink_dye"
+      },
+      "6": {
+        "item": "minecraft:purple_dye"
+      },
+      "7": {
+        "item": "minecraft:pink_dye"
+      },
+      "8": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:purple_grapes",
+      "count": 1
+    }
+  }
+}

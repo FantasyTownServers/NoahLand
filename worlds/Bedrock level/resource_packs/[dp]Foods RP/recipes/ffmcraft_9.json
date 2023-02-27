@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:ffmcraft_9"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1 ",
+      "345"
+    ],
+    "key": {
+      "1": {
+        "item": "dp_foods_plus:pretzel"
+      },
+      "3": {
+        "item": "dp_foods_plus:double_burger"
+      },
+      "4": {
+        "item": "dp_foods_plus:double_burger"
+      },
+      "5": {
+        "item": "dp_foods_plus:frys"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:p_and_n_fast_food_meal",
+      "count": 1
+    }
+  }
+}

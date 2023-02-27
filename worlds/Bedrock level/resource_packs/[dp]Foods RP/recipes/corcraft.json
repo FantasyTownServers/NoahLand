@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:corcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      "23",
+      "4 "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:bread"
+      },
+      "1": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "2": {
+        "item": "minecraft:cooked_beef"
+      },
+      "3": {
+        "item": "minecraft:sugar"
+      },
+      "4": {
+        "item": "minecraft:bread"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:corned_beef_sandwich",
+      "count": 1
+    }
+  }
+}

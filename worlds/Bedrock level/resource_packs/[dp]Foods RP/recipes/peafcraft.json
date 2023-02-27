@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:peafcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0 ",
+      "23"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:icing"
+      },
+      "2": {
+        "item": "dp_foods_plus:peach"
+      },
+      "3": {
+        "item": "dp_foods_plus:peach"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:peach_float",
+      "count": 1
+    }
+  }
+}

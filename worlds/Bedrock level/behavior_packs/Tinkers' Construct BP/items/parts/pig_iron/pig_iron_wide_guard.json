@@ -1,0 +1,21 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:pig_iron_wide_guard"
+		},
+		"components": {
+			"minecraft:display_name": {
+				"value": "Pig Iron Wide Guard"
+			},
+			"minecraft:icon": {
+				"texture": "pig_iron_wide_guard"
+			},
+			"minecraft:creative_category": {
+				"parent": "items"
+			}
+		},
+		"events": {}
+	}
+}

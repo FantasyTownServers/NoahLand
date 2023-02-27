@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:instacraft_2"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01 ",
+      "345",
+      " 7 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:spicy_pepper"
+      },
+      "1": {
+        "item": "minecraft:sugar"
+      },
+      "3": {
+        "item": "dp_foods_plus:salt"
+      },
+      "4": {
+        "item": "dp_foods_plus:ramen_noodles"
+      },
+      "5": {
+        "item": "minecraft:paper"
+      },
+      "7": {
+        "item": "minecraft:paper"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:spicy_instant_ramen",
+      "count": 1
+    }
+  }
+}

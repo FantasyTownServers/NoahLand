@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:tunacraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      "23",
+      "4 "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:salmon"
+      },
+      "1": {
+        "item": "dp_foods_plus:salt"
+      },
+      "2": {
+        "item": "minecraft:cooked_salmon"
+      },
+      "3": {
+        "item": "minecraft:pufferfish"
+      },
+      "4": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:tuna",
+      "count": 1
+    }
+  }
+}

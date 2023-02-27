@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:yogurtcraft_3"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:jelly"
+      },
+      "1": {
+        "item": "dp_foods_plus:vanilla"
+      },
+      "2": {
+        "item": "dp_foods_plus:cinnamon"
+      },
+      "3": {
+        "item": "minecraft:sugar"
+      },
+      "4": {
+        "item": "dp_foods_plus:peppermint"
+      },
+      "5": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:mint_yogurt",
+      "count": 1
+    }
+  }
+}

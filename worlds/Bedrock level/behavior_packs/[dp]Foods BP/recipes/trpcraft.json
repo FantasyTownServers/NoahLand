@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:trpcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      "23"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:mango"
+      },
+      "1": {
+        "item": "dp_foods_plus:blue_fruit"
+      },
+      "2": {
+        "item": "dp_foods_plus:punch"
+      },
+      "3": {
+        "item": "dp_foods_plus:bannana"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:tropic_punch",
+      "count": 1
+    }
+  }
+}

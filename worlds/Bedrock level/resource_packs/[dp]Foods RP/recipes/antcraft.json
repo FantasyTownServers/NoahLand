@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:antcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0 ",
+      "23"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:black_pepper"
+      },
+      "2": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "3": {
+        "item": "dp_foods_plus:cheese"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:ants_on_a_log",
+      "count": 1
+    }
+  }
+}

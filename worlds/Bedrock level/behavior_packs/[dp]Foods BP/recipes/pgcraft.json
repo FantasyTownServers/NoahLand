@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:pgcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1 ",
+      " 4 ",
+      "678"
+    ],
+    "key": {
+      "1": {
+        "item": "dp_foods_plus:pink_jello"
+      },
+      "4": {
+        "item": "minecraft:pink_dye"
+      },
+      "6": {
+        "item": "dp_foods_plus:pink_milk"
+      },
+      "7": {
+        "item": "dp_foods_plus:pink_gummy_bear"
+      },
+      "8": {
+        "item": "dp_foods_plus:pink_bubble_tea"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:pink_goo",
+      "count": 1
+    }
+  }
+}

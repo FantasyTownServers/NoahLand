@@ -1,0 +1,28 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shapeless": {
+		"description": {
+			"identifier": "strat:pickaxe_128_18_2"
+		},
+		"tags": [
+			"tool_station"
+		],
+		"ingredients": [
+			{
+				"item": "strat:pickaxe_128_15",
+				"count": 1
+			},
+			{
+				"item": "minecraft:quartz_block",
+				"count": 2
+			}
+		],
+		"result": [
+			{
+				"item": "strat:pickaxe_128_18",
+				"count": 1
+			}
+		]
+	}
+}

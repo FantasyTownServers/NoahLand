@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "dp_foods_plus:frfcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "campfire"
+    ],
+    "input": {
+      "item": "dp_foods_plus:cooked_fish_steak"
+    },
+    "output": {
+      "item": "dp_foods_plus:fried_fish"
+    }
+  }
+}

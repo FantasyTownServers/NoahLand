@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:frypcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01 ",
+      "34 ",
+      "  8"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:iron_ingot"
+      },
+      "1": {
+        "item": "minecraft:iron_ingot"
+      },
+      "3": {
+        "item": "minecraft:iron_ingot"
+      },
+      "4": {
+        "item": "minecraft:stick"
+      },
+      "8": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:frying_pan",
+      "count": 1
+    }
+  }
+}

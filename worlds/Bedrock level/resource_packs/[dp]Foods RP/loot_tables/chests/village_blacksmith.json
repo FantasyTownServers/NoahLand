@@ -1,0 +1,250 @@
+{
+  "pools": [
+    {
+      "rolls": {
+        "min": 3,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:gold_ingot",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bread",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "minecraft:apple",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 15
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_pickaxe",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_helmet",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_leggings",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_boots",
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:obsidian",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 7
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:sapling",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 3,
+                "max": 7
+              }
+            }
+          ],
+          "weight": 5
+        },
+        {
+          "type": "item",
+          "name": "minecraft:saddle",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "minecraft:horsearmoriron",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "minecraft:horsearmorgold",
+          "weight": 1
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:asparagus_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:blackberry_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:blackpepper_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:blueberry_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:bluefruit_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:cabbage_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:corn_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:grape_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:greenbellpepper_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:greengrape_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:greenpepper_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:minipalmtree_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:onion_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:pepper_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:pineapple_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:strawberry_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:tomato_seeds",
+          "weight": 10
+        },
+		{
+          "type": "item",
+          "name": "dp_foods_plus:yellowbellpepper_seeds",
+          "weight": 10
+        },
+        {
+          "type": "item",
+          "name": "minecraft:horsearmordiamond",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:crabcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0 2",
+      " 4 ",
+      "6 8"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:red_dye"
+      },
+      "2": {
+        "item": "minecraft:red_dye"
+      },
+      "4": {
+        "item": "minecraft:red_dye"
+      },
+      "6": {
+        "item": "dp_foods_plus:raw_fish_fillet"
+      },
+      "8": {
+        "item": "dp_foods_plus:raw_fish_fillet"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:crab",
+      "count": 1
+    }
+  }
+}

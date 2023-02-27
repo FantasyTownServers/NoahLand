@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:kitcnicraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "  2",
+      " 45",
+      "67 "
+    ],
+    "key": {
+      "2": {
+        "item": "minecraft:iron_ingot"
+      },
+      "4": {
+        "item": "minecraft:iron_ingot"
+      },
+      "5": {
+        "item": "minecraft:iron_ingot"
+      },
+      "6": {
+        "item": "minecraft:stick"
+      },
+      "7": {
+        "item": "minecraft:iron_nugget"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:kitchen_knife",
+      "count": 1
+    }
+  }
+}

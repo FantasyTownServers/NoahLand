@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:snowccraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 4 ",
+      " 7 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:syrup"
+      },
+      "1": {
+        "item": "minecraft:snowball"
+      },
+      "2": {
+        "item": "dp_foods_plus:vanilla"
+      },
+      "4": {
+        "item": "minecraft:frosted_ice"
+      },
+      "7": {
+        "item": "dp_foods_plus:cone"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:snow_cone",
+      "count": 1
+    }
+  }
+}

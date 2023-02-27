@@ -1,0 +1,39 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:picocraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "34 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:spicy_pepper"
+      },
+      "1": {
+        "item": "dp_foods_plus:tomato"
+      },
+      "2": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "3": {
+        "item": "dp_foods_plus:black_pepper"
+      },
+      "4": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:pico_de_gallo",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:rbcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      " 7 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:butter"
+      },
+      "1": {
+        "item": "dp_foods_plus:syrup"
+      },
+      "2": {
+        "item": "dp_foods_plus:vanilla"
+      },
+      "3": {
+        "item": "minecraft:sugar"
+      },
+      "4": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "5": {
+        "item": "dp_foods_plus:cinnamon"
+      },
+      "7": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:rootbeer",
+      "count": 1
+    }
+  }
+}

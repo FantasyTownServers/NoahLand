@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:bbqsaucecraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0 ",
+      "23",
+      "4 "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:sugar"
+      },
+      "2": {
+        "item": "dp_foods_plus:cooked_ground_beef"
+      },
+      "3": {
+        "item": "dp_foods_plus:rice"
+      },
+      "4": {
+        "item": "minecraft:paper"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:bbq_sauce",
+      "count": 1
+    }
+  }
+}

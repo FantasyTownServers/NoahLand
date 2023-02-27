@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:husk_head_item",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "husk_head"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.skull"
+			},
+			"minecraft:display_name": {
+				"value": "Husk Head"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head"
+			},
+			"minecraft:armor": {
+				"protection": 0
+			},
+			"minecraft:block_placer": {
+				"block": "strat:husk_head",
+				"use_block_description": true
+			}
+		},
+		"events": {}
+	}
+}

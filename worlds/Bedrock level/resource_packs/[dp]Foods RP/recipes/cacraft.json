@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:cacraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 4 "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:pufferfish"
+      },
+      "1": {
+        "item": "minecraft:egg"
+      },
+      "2": {
+        "item": "minecraft:cooked_salmon"
+      },
+      "4": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:caviar",
+      "count": 1
+    }
+  }
+}

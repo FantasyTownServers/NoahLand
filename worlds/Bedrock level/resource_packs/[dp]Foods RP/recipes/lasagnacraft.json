@@ -1,0 +1,52 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:lasagnacraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "1": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "2": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "3": {
+        "item": "dp_foods_plus:cooked_ground_beef"
+      },
+      "4": {
+        "item": "minecraft:cooked_beef"
+      },
+      "5": {
+        "item": "dp_foods_plus:cooked_ground_beef"
+      },
+      "6": {
+        "item": "minecraft:iron_ingot"
+      },
+      "7": {
+        "item": "minecraft:iron_ingot"
+      },
+      "8": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:lasagna",
+      "count": 2
+    }
+  }
+}

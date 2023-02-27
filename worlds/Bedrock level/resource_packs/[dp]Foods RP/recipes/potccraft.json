@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:potccraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1 ",
+      "345",
+      "678"
+    ],
+    "key": {
+      "1": {
+        "item": "dp_foods_plus:kitchen_knife"
+      },
+      "3": {
+        "item": "minecraft:potato"
+      },
+      "4": {
+        "item": "minecraft:potato"
+      },
+      "5": {
+        "item": "dp_foods_plus:salt"
+      },
+      "6": {
+        "item": "minecraft:potato"
+      },
+      "7": {
+        "item": "minecraft:potato"
+      },
+      "8": {
+        "item": "minecraft:potato"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:potato_chips",
+      "count": 3
+    }
+  }
+}

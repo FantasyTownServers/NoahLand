@@ -1,0 +1,39 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:grjcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 12",
+      "345"
+    ],
+    "key": {
+      "1": {
+        "item": "dp_foods_plus:purple_grapes"
+      },
+      "2": {
+        "item": "dp_foods_plus:syrup"
+      },
+      "3": {
+        "item": "minecraft:sugar"
+      },
+      "4": {
+        "item": "dp_foods_plus:jelly"
+      },
+      "5": {
+        "item": "dp_foods_plus:green_grapes"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:grape_jam",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:pineappclcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:pineapple"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:pineapple_slice",
+      "count": 6
+    }
+  }
+}

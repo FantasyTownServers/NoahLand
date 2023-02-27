@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:butchcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0 ",
+      "23",
+      "4 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:butter"
+      },
+      "2": {
+        "item": "minecraft:milk_bucket"
+      },
+      "3": {
+        "item": "dp_foods_plus:flour"
+      },
+      "4": {
+        "item": "dp_foods_plus:stick_of_butter"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:butter_cheese",
+      "count": 1
+    }
+  }
+}

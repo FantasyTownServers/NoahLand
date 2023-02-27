@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "dp_foods_plus:spacraft_2"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "furnace"
+    ],
+    "input": {
+      "item": "dp_foods_plus:spaghetti"
+    },
+    "output": {
+      "item": "dp_foods_plus:cookedspaghetti"
+    }
+  }
+}

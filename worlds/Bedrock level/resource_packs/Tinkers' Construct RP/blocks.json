@@ -1,0 +1,444 @@
+//bridge-file-version: #0
+{
+	"format_version": [
+		1,
+		1,
+		0
+	],
+	"strat:crafting_station": {
+		"textures": "bridge_crafting station",
+		"sound": "wood"
+	},
+	"strat:pattern_chest": {
+		"sound": "wood"
+	},
+	"strat:stencil_table_oak": {
+		"sound": "wood"
+	},
+	"strat:part_builder_oak": {
+		"sound": "wood"
+	},
+	"strat:stencil_table_warped": {
+		"sound": "wood"
+	},
+	"strat:part_builder_warped": {
+		"sound": "stem"
+	},
+	"strat:stencil_table_crimson": {
+		"sound": "wood"
+	},
+	"strat:part_builder_crimson": {
+		"sound": "stem"
+	},
+	"strat:stencil_table_mangrove": {
+		"sound": "wood"
+	},
+	"strat:part_builder_mangrove": {
+		"sound": "wood"
+	},
+	"strat:tool_station": {
+		"textures": "bridge_tool station",
+		"sound": "wood"
+	},
+	"strat:drying_rack": {
+		"textures": "strat_drying rack",
+		"sound": "wood"
+	},
+	"strat:grout": {
+		"textures": "strat_grout",
+		"sound": "gravel"
+	},
+	"strat:seared_bricks": {
+		"textures": "strat_seared bricks",
+		"sound": "stone"
+	},
+	"strat:ardite_ore": {
+		"textures": "ardite_ore",
+		"sound": "netherrack"
+	},
+	"strat:cobalt_ore": {
+		"textures": "tinkers_cobalt_ore",
+		"sound": "netherrack"
+	},
+	"strat:cobalt_block": {
+		"textures": "tinkers_cobalt_block",
+		"sound": "metal"
+	},
+	"strat:ardite_block": {
+		"textures": {
+			"side": "ardite_block",
+			"up": "ardite_block_top",
+			"down": "ardite_block_top"
+		},
+		"sound": "metal"
+	},
+	"strat:pig_iron_block": {
+		"sound": "metal"
+	},
+	"strat:raw_cobalt_block": {
+		"textures": "tinkers_raw_cobalt_block",
+		"sound": "stone"
+	},
+	"strat:raw_ardite_block": {
+		"textures": "raw_ardite_block",
+		"sound": "stone"
+	},
+	"strat:manyullyn_block": {
+		"textures": "manyullyn_block",
+		"sound": "metal"
+	},
+	"strat:cracked_seared_bricks": {
+		"textures": "cracked_seared_bricks",
+		"sound": "stone"
+	},
+	"strat:fancy_seared_bricks": {
+		"textures": "fancy_seared_bricks",
+		"sound": "stone"
+	},
+	"strat:square_seared_bricks": {
+		"textures": "square_seared_bricks",
+		"sound": "stone"
+	},
+	"strat:triangle_seared_bricks": {
+		"textures": "triangle_seared_bricks",
+		"sound": "stone"
+	},
+	"strat:seared_creeperface": {
+		"textures": {
+			"up": "seared_paver",
+			"down": "seared_paver",
+			"side": "seared_creeperface"
+		},
+		"sound": "stone"
+	},
+	"strat:small_seared_bricks": {
+		"textures": "small_seared_bricks",
+		"sound": "stone"
+	},
+	"strat:seared_tiles": {
+		"textures": "seared_tiles",
+		"sound": "stone"
+	},
+	"strat:seared_road": {
+		"textures": "seared_road",
+		"sound": "stone"
+	},
+	"strat:seared_paver": {
+		"textures": "seared_paver",
+		"sound": "stone"
+	},
+	"strat:seared_stone": {
+		"textures": "seared_stone",
+		"sound": "stone"
+	},
+	"strat:seared_cobblestone": {
+		"textures": "seared_cobblestone",
+		"sound": "stone"
+	},
+	"strat:stone_torch": {
+		"sound": "stone"
+	},
+	"strat:stencil_table_spruce": {
+		"sound": "wood"
+	},
+	"strat:stencil_table_birch": {
+		"sound": "wood"
+	},
+	"strat:stencil_table_jungle": {
+		"sound": "wood"
+	},
+	"strat:stencil_table_acacia": {
+		"sound": "wood"
+	},
+	"strat:stencil_table_dark_oak": {
+		"sound": "wood"
+	},
+	"strat:stencil_table_maple": {
+		"sound": "wood"
+	},
+	"strat:part_builder_spruce": {
+		"sound": "wood"
+	},
+	"strat:part_builder_birch": {
+		"sound": "wood"
+	},
+	"strat:part_builder_jungle": {
+		"sound": "wood"
+	},
+	"strat:part_builder_acacia": {
+		"sound": "wood"
+	},
+	"strat:part_builder_dark_oak": {
+		"sound": "wood"
+	},
+	"strat:part_builder_maple": {
+		"sound": "wood"
+	},
+	"strat:part_builder_oak_stripped": {
+		"sound": "wood"
+	},
+	"strat:part_builder_spruce_stripped": {
+		"sound": "wood"
+	},
+	"strat:part_builder_birch_stripped": {
+		"sound": "wood"
+	},
+	"strat:part_builder_jungle_stripped": {
+		"sound": "wood"
+	},
+	"strat:part_builder_acacia_stripped": {
+		"sound": "wood"
+	},
+	"strat:part_builder_dark_oak_stripped": {
+		"sound": "wood"
+	},
+	"strat:part_builder_warped_stripped": {
+		"sound": "stem"
+	},
+	"strat:part_builder_crimson_stripped": {
+		"sound": "stem"
+	},
+	"strat:part_builder_mangrove_stripped": {
+		"sound": "wood"
+	},
+	"strat:lavawood": {
+		"textures": "lavawood",
+		"sound": "wood"
+	},
+	"strat:firewood": {
+		"textures": "firewood",
+		"sound": "wood"
+	},
+	"strat:stencil_table_lavawood": {
+		"sound": "wood"
+	},
+	"strat:part_builder_firewood": {
+		"sound": "wood"
+	},
+	"strat:mud_bricks": {
+		"textures": "mud_bricks",
+		"sound": "gravel"
+	},
+	"strat:dried_bricks": {
+		"textures": "dried_bricks",
+		"sound": "stone"
+	},
+	"strat:dried_clay": {
+		"textures": "dried_clay",
+		"sound": "stone"
+	},
+	"strat:clear_glass": {
+		"sound": "glass"
+	},
+	"strat:mud_bricks_slab": {
+		"sound": "gravel"
+	},
+	"strat:lavawood_slab": {
+		"sound": "wood"
+	},
+	"strat:firewood_slab": {
+		"sound": "wood"
+	},
+	"strat:congealed_slime_block": {
+		"textures": "congealed_slime",
+		"sound": "slime"
+	},
+	"strat:congealed_sky_slime_block": {
+		"textures": "congealed_sky_slime",
+		"sound": "slime"
+	},
+	"strat:congealed_blood_block": {
+		"textures": "congealed_blood",
+		"sound": "slime"
+	},
+	"strat:nether_grout": {
+		"textures": "nether_grout",
+		"sound": "gravel"
+	},
+	"strat:oak_barricade": {
+		"sound": "wood"
+	},
+	"strat:spruce_barricade": {
+		"sound": "wood"
+	},
+	"strat:birch_barricade": {
+		"sound": "wood"
+	},
+	"strat:jungle_barricade": {
+		"sound": "wood"
+	},
+	"strat:acacia_barricade": {
+		"sound": "wood"
+	},
+	"strat:dark_oak_barricade": {
+		"sound": "wood"
+	},
+	"strat:crimson_barricade": {
+		"sound": "stem"
+	},
+	"strat:warped_barricade": {
+		"sound": "stem"
+	},
+	"strat:mangrove_barricade": {
+		"sound": "wood"
+	},
+	"strat:stripped_oak_barricade": {
+		"sound": "wood"
+	},
+	"strat:stripped_spruce_barricade": {
+		"sound": "wood"
+	},
+	"strat:stripped_birch_barricade": {
+		"sound": "wood"
+	},
+	"strat:stripped_jungle_barricade": {
+		"sound": "wood"
+	},
+	"strat:stripped_acacia_barricade": {
+		"sound": "wood"
+	},
+	"strat:stripped_dark_oak_barricade": {
+		"sound": "wood"
+	},
+	"strat:stripped_crimson_barricade": {
+		"sound": "stem"
+	},
+	"strat:stripped_warped_barricade": {
+		"sound": "stem"
+	},
+	"strat:stripped_mangrove_barricade": {
+		"sound": "wood"
+	},
+	"strat:behead_zombie": {
+		"textures": "blank"
+	},
+	"strat:behead_creeper": {
+		"textures": "blank"
+	},
+	"strat:behead_skeleton": {
+		"textures": "blank"
+	},
+	"strat:behead_wither_skeleton": {
+		"textures": "blank"
+	},
+	"strat:behead_enderman": {
+		"textures": "blank"
+	},
+	"strat:behead_blaze": {
+		"textures": "blank"
+	},
+	"strat:behead_spider": {
+		"textures": "blank"
+	},
+	"strat:behead_drowned": {
+		"textures": "blank"
+	},
+	"strat:behead_husk": {
+		"textures": "blank"
+	},
+	"strat:behead_cave_spider": {
+		"textures": "blank"
+	},
+	"strat:behead_piglin": {
+		"textures": "blank"
+	},
+	"strat:behead_piglin_brute": {
+		"textures": "blank"
+	},
+	"strat:behead_stray": {
+		"textures": "blank"
+	},
+	"strat:behead_zombified_piglin": {
+		"textures": "blank"
+	},
+	"strat:pattern_chest": {
+		"sound": "wood"
+	},
+	"strat:punji_sticks": {
+		"sound": "grass"
+	},
+	"strat:rough_brownstone": {
+		"textures": "rough_brownstone",
+		"sound": "stone"
+	},
+	"strat:smooth_brownstone": {
+		"textures": "smooth_brownstone",
+		"sound": "stone"
+	},
+	"strat:brownstone_bricks": {
+		"textures": "brownstone_bricks",
+		"sound": "stone"
+	},
+	"strat:fancy_brownstone_bricks": {
+		"textures": "fancy_brownstone_bricks",
+		"sound": "stone"
+	},
+	"strat:cracked_brownstone_bricks": {
+		"textures": "cracked_brownstone_bricks",
+		"sound": "stone"
+	},
+	"strat:square_brownstone_bricks": {
+		"textures": "square_brownstone_bricks",
+		"sound": "stone"
+	},
+	"strat:triangle_brownstone_bricks": {
+		"textures": "triangle_brownstone_bricks",
+		"sound": "stone"
+	},
+	"strat:brownstone_creeperface": {
+		"textures": {
+			"up": "brownstone_paver",
+			"down": "brownstone_paver",
+			"side": "brownstone_creeperface"
+		},
+		"sound": "stone"
+	},
+	"strat:small_brownstone_bricks": {
+		"textures": "small_brownstone_bricks",
+		"sound": "stone"
+	},
+	"strat:brownstone_tiles": {
+		"textures": "brownstone_tiles",
+		"sound": "stone"
+	},
+	"strat:brownstone_road": {
+		"textures": "brownstone_road",
+		"sound": "stone"
+	},
+	"strat:brownstone_paver": {
+		"textures": "brownstone_paver",
+		"sound": "stone"
+	},
+	"strat:earth_slime_dirt": {
+		"textures": "earth_slime_dirt",
+		"sound": "slime"
+	},
+	"strat:earth_slime_grass": {
+		"textures": {
+			"up": "earth_slime_grass_top",
+			"down": "earth_slime_dirt",
+			"side": "earth_slime_grass"
+		},
+		"sound": "slime"
+	},
+	"strat:earth_slime_grass2": {
+		"textures": {
+			"up": "earth_slime_grass_top",
+			"down": "dirt",
+			"side": "earth_slime_grass2"
+		},
+		"sound": "slime"
+	},
+	"strat:earth_slimy_leaves": {
+		"sound": "grass"
+	},
+	"strat:earth_slimy_fern": {
+		"sound": "grass"
+	},
+	"strat:earth_tall_slimy_grass": {
+		"sound": "grass"
+	},
+	"strat:greenheart_sapling": {
+		"sound": "grass"
+	}
+}

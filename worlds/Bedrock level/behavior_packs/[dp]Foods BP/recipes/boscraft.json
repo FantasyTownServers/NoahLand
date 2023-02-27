@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:boscraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      " 7 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:cooked_boar_meat"
+      },
+      "1": {
+        "item": "dp_foods_plus:cooked_boar_meat"
+      },
+      "2": {
+        "item": "dp_foods_plus:cooked_boar_meat"
+      },
+      "3": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "4": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "5": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "7": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:boar_stew",
+      "count": 1
+    }
+  }
+}

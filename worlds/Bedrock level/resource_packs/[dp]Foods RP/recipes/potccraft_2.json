@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:potccraft_2"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1 ",
+      "345",
+      "678"
+    ],
+    "key": {
+      "1": {
+        "item": "dp_foods_plus:kitchen_knife"
+      },
+      "3": {
+        "item": "minecraft:potato"
+      },
+      "4": {
+        "item": "dp_foods_plus:salt"
+      },
+      "5": {
+        "item": "minecraft:potato"
+      },
+      "6": {
+        "item": "dp_foods_plus:salt"
+      },
+      "7": {
+        "item": "minecraft:potato"
+      },
+      "8": {
+        "item": "dp_foods_plus:salt"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:potato_chips_sea_salt_and_vingor_flavor",
+      "count": 3
+    }
+  }
+}

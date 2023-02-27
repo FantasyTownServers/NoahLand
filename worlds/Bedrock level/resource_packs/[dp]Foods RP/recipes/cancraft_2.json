@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:cancraft_2"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 12",
+      "34 "
+    ],
+    "key": {
+      "1": {
+        "item": "dp_foods_plus:pasta"
+      },
+      "2": {
+        "item": "minecraft:cooked_chicken"
+      },
+      "3": {
+        "item": "minecraft:sugar"
+      },
+      "4": {
+        "item": "dp_foods_plus:can"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:can_of_chicken_noodle_soup",
+      "count": 1
+    }
+  }
+}

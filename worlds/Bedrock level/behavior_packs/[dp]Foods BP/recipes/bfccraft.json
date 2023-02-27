@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:bfccraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      "23"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:icing"
+      },
+      "1": {
+        "item": "minecraft:sugar"
+      },
+      "2": {
+        "item": "dp_foods_plus:chocolate"
+      },
+      "3": {
+        "item": "dp_foods_plus:raspberry_lemon_meringue_pie"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:black_forest_cake",
+      "count": 1
+    }
+  }
+}

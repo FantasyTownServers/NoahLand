@@ -1,0 +1,25 @@
+
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "dp_foods_plus:mower",
+			"materials": {
+				"default": "bat"
+			},
+			"textures": {
+				"default": "textures/entity/mower"
+			},
+			"geometry": {
+				"default": "geometry.mower"
+			},
+			"render_controllers": [
+				"controller.render.mower"
+			],
+			"spawn_egg": {
+				"texture": "mower",
+				"texture_index": 0
+			}
+		}
+	}
+}

@@ -1,0 +1,49 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:cerealcraft_4"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01 ",
+      "345",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:wheat"
+      },
+      "1": {
+        "item": "minecraft:magenta_dye"
+      },
+      "3": {
+        "item": "minecraft:orange_dye"
+      },
+      "4": {
+        "item": "minecraft:light_blue_dye"
+      },
+      "5": {
+        "item": "minecraft:yellow_dye"
+      },
+      "6": {
+        "item": "dp_foods_plus:brown_sugar"
+      },
+      "7": {
+        "item": "minecraft:light_gray_dye"
+      },
+      "8": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:box_of_tricks_cereal",
+      "count": 1
+    }
+  }
+}

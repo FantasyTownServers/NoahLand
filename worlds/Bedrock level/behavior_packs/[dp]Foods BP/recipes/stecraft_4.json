@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "dp_foods_plus:stecraft_4"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "furnace"
+    ],
+    "input": {
+      "item": "dp_foods_plus:high_class_steak"
+    },
+    "output": {
+      "item": "dp_foods_plus:high_class_cooked_steak"
+    }
+  }
+}

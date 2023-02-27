@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:hotdogcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      "2 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:spicy_pepper"
+      },
+      "1": {
+        "item": "dp_foods_plus:beans"
+      },
+      "2": {
+        "item": "dp_foods_plus:hotdog"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:chili_hotdog",
+      "count": 1
+    }
+  }
+}

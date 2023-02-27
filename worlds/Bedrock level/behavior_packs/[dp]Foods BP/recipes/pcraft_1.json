@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:pcraft_1"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0 ",
+      "23"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:bone_meal"
+      },
+      "2": {
+        "item": "minecraft:red_dye"
+      },
+      "3": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:peppermint",
+      "count": 1
+    }
+  }
+}

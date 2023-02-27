@@ -1,0 +1,30 @@
+//bridge-file-version: #11
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:part_builder_acacia_stripped"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#",
+			"~"
+		],
+		"key": {
+			"#": {
+				"item": "strat:blank_pattern"
+			},
+			"~": {
+				"item": "minecraft:stripped_acacia_log"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:part_builder_acacia_stripped",
+				"count": 1
+			}
+		]
+	}
+}

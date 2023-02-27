@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "dp_foods_plus:cookedtortilla"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "furnace"
+    ],
+    "input": {
+      "item": "dp_foods_plus:rawtortilla"
+    },
+    "output": {
+      "item": "dp_foods_plus:tortilla"
+    }
+  }
+}

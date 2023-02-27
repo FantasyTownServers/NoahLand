@@ -1,0 +1,35 @@
+//bridge-file-version: #35
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:longsword_129"
+		},
+		"tags": [
+			"tool_station"
+		],
+		"pattern": [
+			"#",
+			"~",
+			"o"
+		],
+		"key": {
+			"#": {
+				"item": "strat:pig_iron_sword_blade"
+			},
+			"~": {
+				"item": "strat:pig_iron_hand_guard"
+			},
+			"o": {
+				"item": "strat:pig_iron_tool_rod"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:longsword_129",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

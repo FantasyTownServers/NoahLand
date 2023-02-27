@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:radcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 12",
+      "3  "
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:red_dye"
+      },
+      "2": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "3": {
+        "item": "minecraft:bone_meal"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:radish",
+      "count": 1
+    }
+  }
+}

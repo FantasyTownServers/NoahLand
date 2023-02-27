@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:cerbowcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 4 "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:milk_bucket"
+      },
+      "1": {
+        "item": "dp_foods_plus:box_of_cereal"
+      },
+      "2": {
+        "item": "minecraft:stick"
+      },
+      "4": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:bowel_of_cereal",
+      "count": 2
+    }
+  }
+}

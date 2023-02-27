@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:arucraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "1": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "2": {
+        "item": "minecraft:carrot"
+      },
+      "3": {
+        "item": "dp_foods_plus:blue_barrys"
+      },
+      "4": {
+        "item": "minecraft:bowl"
+      },
+      "5": {
+        "item": "dp_foods_plus:tomato"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:arugula_blackberry_salad",
+      "count": 1
+    }
+  }
+}

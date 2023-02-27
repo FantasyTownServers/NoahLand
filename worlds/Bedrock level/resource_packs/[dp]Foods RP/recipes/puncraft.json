@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:puncraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1 ",
+      "345",
+      "678"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:sugar"
+      },
+      "3": {
+        "item": "dp_foods_plus:purple_grapes"
+      },
+      "4": {
+        "item": "dp_foods_plus:blue_barrys"
+      },
+      "5": {
+        "item": "dp_foods_plus:green_grapes"
+      },
+      "6": {
+        "item": "dp_foods_plus:orange"
+      },
+      "7": {
+        "item": "dp_foods_plus:yellowpepers"
+      },
+      "8": {
+        "item": "dp_foods_plus:bannana"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:punch",
+      "count": 1
+    }
+  }
+}

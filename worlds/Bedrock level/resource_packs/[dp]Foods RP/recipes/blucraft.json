@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:blucraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0 ",
+      "23",
+      "4 "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "2": {
+        "item": "minecraft:sugar"
+      },
+      "3": {
+        "item": "dp_foods_plus:icing"
+      },
+      "4": {
+        "item": "dp_foods_plus:cone"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:blue_moon_ice_cream",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:bteacraft_5"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1 ",
+      "345"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "3": {
+        "item": "dp_foods_plus:orange"
+      },
+      "4": {
+        "item": "minecraft:glass_bottle"
+      },
+      "5": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:orange_bubble_tea",
+      "count": 1
+    }
+  }
+}

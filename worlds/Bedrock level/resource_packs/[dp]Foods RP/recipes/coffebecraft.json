@@ -1,0 +1,52 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:coffebecraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "1": {
+        "item": "dp_foods_plus:coffee_bean"
+      },
+      "2": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "3": {
+        "item": "dp_foods_plus:coffee_bean"
+      },
+      "4": {
+        "item": "dp_foods_plus:coffee_bean"
+      },
+      "5": {
+        "item": "dp_foods_plus:coffee_bean"
+      },
+      "6": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "7": {
+        "item": "dp_foods_plus:coffee_bean"
+      },
+      "8": {
+        "item": "minecraft:cocoa_beans"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:coffeebeans",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:cerealcraft_7"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0 ",
+      "23",
+      "4 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:peanut"
+      },
+      "2": {
+        "item": "dp_foods_plus:peanut_butter"
+      },
+      "3": {
+        "item": "minecraft:wheat"
+      },
+      "4": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:box_of_peanut_butter_cereal",
+      "count": 1
+    }
+  }
+}

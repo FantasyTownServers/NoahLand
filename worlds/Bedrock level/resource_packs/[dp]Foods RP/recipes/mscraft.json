@@ -1,0 +1,52 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:mscraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:rice"
+      },
+      "1": {
+        "item": "dp_foods_plus:cooked_ground_beef"
+      },
+      "2": {
+        "item": "minecraft:baked_potato"
+      },
+      "3": {
+        "item": "dp_foods_plus:cooked_ground_beef"
+      },
+      "4": {
+        "item": "dp_foods_plus:swedish_meatballs"
+      },
+      "5": {
+        "item": "dp_foods_plus:cooked_ground_beef"
+      },
+      "6": {
+        "item": "minecraft:potato"
+      },
+      "7": {
+        "item": "dp_foods_plus:cooked_ground_beef"
+      },
+      "8": {
+        "item": "dp_foods_plus:rice"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:meatball_soup",
+      "count": 1
+    }
+  }
+}

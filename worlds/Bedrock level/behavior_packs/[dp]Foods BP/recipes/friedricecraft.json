@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:friedricecraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01 ",
+      "345",
+      " 7 "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:stick"
+      },
+      "1": {
+        "item": "minecraft:cooked_chicken"
+      },
+      "3": {
+        "item": "minecraft:paper"
+      },
+      "4": {
+        "item": "dp_foods_plus:rice"
+      },
+      "5": {
+        "item": "minecraft:paper"
+      },
+      "7": {
+        "item": "minecraft:paper"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:fried_rice",
+      "count": 1
+    }
+  }
+}

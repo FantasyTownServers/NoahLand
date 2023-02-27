@@ -1,0 +1,52 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:bucketchickcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:fried_chicken"
+      },
+      "1": {
+        "item": "dp_foods_plus:fried_chicken"
+      },
+      "2": {
+        "item": "dp_foods_plus:fried_chicken"
+      },
+      "3": {
+        "item": "dp_foods_plus:fried_chicken"
+      },
+      "4": {
+        "item": "minecraft:bucket"
+      },
+      "5": {
+        "item": "dp_foods_plus:fried_chicken"
+      },
+      "6": {
+        "item": "dp_foods_plus:fried_chicken"
+      },
+      "7": {
+        "item": "dp_foods_plus:fried_chicken"
+      },
+      "8": {
+        "item": "dp_foods_plus:fried_chicken"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:bucket_of_fried_chicken",
+      "count": 1
+    }
+  }
+}

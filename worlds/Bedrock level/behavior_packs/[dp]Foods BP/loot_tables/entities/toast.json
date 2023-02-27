@@ -1,0 +1,15 @@
+
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "dp_foods_plus:toast",
+					"weight": 30
+				}
+			]
+		}
+	]
+}

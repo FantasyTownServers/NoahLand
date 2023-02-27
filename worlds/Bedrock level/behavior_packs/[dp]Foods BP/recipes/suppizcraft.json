@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:suppizcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      "6  "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "1": {
+        "item": "dp_foods_plus:spicy_pepper"
+      },
+      "2": {
+        "item": "dp_foods_plus:tomato"
+      },
+      "3": {
+        "item": "dp_foods_plus:pineapple_slice"
+      },
+      "4": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "5": {
+        "item": "minecraft:bread"
+      },
+      "6": {
+        "item": "dp_foods_plus:cooked_meatball"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:supreme_pizza",
+      "count": 1
+    }
+  }
+}

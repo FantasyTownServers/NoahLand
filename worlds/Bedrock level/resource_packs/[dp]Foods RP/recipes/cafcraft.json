@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:cafcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      "2 "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:cooked_chicken"
+      },
+      "1": {
+        "item": "dp_foods_plus:pasta"
+      },
+      "2": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:chicken_alfredo",
+      "count": 1
+    }
+  }
+}

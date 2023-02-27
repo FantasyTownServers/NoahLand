@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:supwcraft_3"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      "23"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:chesse_pizza"
+      },
+      "1": {
+        "item": "dp_foods_plus:pineapple_pizza"
+      },
+      "2": {
+        "item": "dp_foods_plus:pineapple_pizza"
+      },
+      "3": {
+        "item": "dp_foods_plus:supreme_pizza"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:veggie_pizza_whole",
+      "count": 1
+    }
+  }
+}

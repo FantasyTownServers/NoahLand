@@ -1,0 +1,8 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "dried_bricks",
+		"metalness_emissive_roughness": [0, 0, 150],
+		"heightmap": "dried_bricks_heightmap"
+	}
+}

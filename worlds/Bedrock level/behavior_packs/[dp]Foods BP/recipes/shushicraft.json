@@ -1,0 +1,39 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:shushicraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 12",
+      "345"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:cooked_salmon"
+      },
+      "2": {
+        "item": "minecraft:dried_kelp"
+      },
+      "3": {
+        "item": "dp_foods_plus:rice"
+      },
+      "4": {
+        "item": "dp_foods_plus:rice"
+      },
+      "5": {
+        "item": "dp_foods_plus:rice"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:sushi",
+      "count": 1
+    }
+  }
+}

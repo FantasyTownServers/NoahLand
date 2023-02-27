@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:mopcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0 ",
+      "23"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:moon_cookies"
+      },
+      "2": {
+        "item": "dp_foods_plus:moon_cookies"
+      },
+      "3": {
+        "item": "dp_foods_plus:moon_cookies"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:moon_pattys",
+      "count": 1
+    }
+  }
+}

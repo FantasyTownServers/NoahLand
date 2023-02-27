@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:pcraft_0"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      "2 ",
+      "4 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:peppermint"
+      },
+      "1": {
+        "item": "dp_foods_plus:peppermint"
+      },
+      "2": {
+        "item": "dp_foods_plus:peppermint"
+      },
+      "4": {
+        "item": "dp_foods_plus:peppermint"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:candy_cane",
+      "count": 3
+    }
+  }
+}

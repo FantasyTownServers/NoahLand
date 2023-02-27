@@ -1,0 +1,38 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:grenpepcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1",
+      "23",
+      "4 "
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:stick"
+      },
+      "2": {
+        "item": "minecraft:leaves",
+        "data": 0
+      },
+      "3": {
+        "item": "minecraft:lime_dye"
+      },
+      "4": {
+        "item": "minecraft:green_dye"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:green_peppers",
+      "count": 1
+    }
+  }
+}

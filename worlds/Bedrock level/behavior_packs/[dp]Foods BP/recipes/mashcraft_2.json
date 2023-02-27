@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "dp_foods_plus:mashcraft_2"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "furnace"
+    ],
+    "input": {
+      "item": "dp_foods_plus:uncooked_mashed_potatos"
+    },
+    "output": {
+      "item": "dp_foods_plus:mashed_potatos"
+    }
+  }
+}

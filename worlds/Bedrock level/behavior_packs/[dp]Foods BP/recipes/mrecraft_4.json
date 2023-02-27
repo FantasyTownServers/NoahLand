@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:mrecraft_4"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 4 "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:paper"
+      },
+      "1": {
+        "item": "dp_foods_plus:burger"
+      },
+      "2": {
+        "item": "minecraft:paper"
+      },
+      "4": {
+        "item": "minecraft:paper"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:mre_burger",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:grencraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0",
+      "1",
+      "2"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:leaves",
+        "data": 0
+      },
+      "1": {
+        "item": "minecraft:sugar"
+      },
+      "2": {
+        "item": "dp_foods_plus:coffeebeans"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:green_tea",
+      "count": 1
+    }
+  }
+}

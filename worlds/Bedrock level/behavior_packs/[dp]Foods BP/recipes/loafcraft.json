@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:loafcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      " 7 "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:wheat"
+      },
+      "1": {
+        "item": "minecraft:bread"
+      },
+      "2": {
+        "item": "minecraft:wheat"
+      },
+      "3": {
+        "item": "minecraft:bread"
+      },
+      "4": {
+        "item": "minecraft:bread"
+      },
+      "5": {
+        "item": "minecraft:bread"
+      },
+      "7": {
+        "item": "minecraft:bread"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:loaf",
+      "count": 3
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:sugarcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:sugar"
+      },
+      "1": {
+        "item": "minecraft:sugar"
+      },
+      "2": {
+        "item": "minecraft:sugar"
+      },
+      "3": {
+        "item": "minecraft:sugar"
+      },
+      "4": {
+        "item": "minecraft:sugar"
+      },
+      "5": {
+        "item": "minecraft:sugar"
+      },
+      "6": {
+        "item": "minecraft:sugar"
+      },
+      "7": {
+        "item": "minecraft:paper"
+      },
+      "8": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:bag_of_suger",
+      "count": 1
+    }
+  }
+}

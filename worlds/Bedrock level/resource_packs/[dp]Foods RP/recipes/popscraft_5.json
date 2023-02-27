@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:popscraft_5"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01 ",
+      "34 ",
+      "  8"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:pink_dye"
+      },
+      "1": {
+        "item": "minecraft:sugar"
+      },
+      "3": {
+        "item": "minecraft:sugar"
+      },
+      "4": {
+        "item": "minecraft:pink_dye"
+      },
+      "8": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:pink_popsicle",
+      "count": 1
+    }
+  }
+}

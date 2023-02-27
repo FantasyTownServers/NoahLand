@@ -1,0 +1,16 @@
+{
+  "format_version": "1.12",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dp_foods_plus:pico_de_gallo",
+      "category": "Items",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:icon": "pico_de_gallo",
+      "minecraft:render_offsets": "apple",
+      "minecraft:use_animation": "eat",
+      "minecraft:creative_category": "Items"
+    }
+  }
+}

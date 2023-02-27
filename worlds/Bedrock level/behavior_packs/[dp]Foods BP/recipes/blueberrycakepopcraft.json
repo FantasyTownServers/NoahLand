@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:blueberrycakepopcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 4 ",
+      " 7 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:icing"
+      },
+      "1": {
+        "item": "dp_foods_plus:blue_barrys"
+      },
+      "2": {
+        "item": "dp_foods_plus:sprinkles"
+      },
+      "4": {
+        "item": "minecraft:stick"
+      },
+      "7": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:blueberrycakepop",
+      "count": 1
+    }
+  }
+}

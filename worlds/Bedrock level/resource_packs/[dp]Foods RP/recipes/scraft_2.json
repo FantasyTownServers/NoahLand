@@ -1,0 +1,39 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:scraft_2"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 45"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:sugar"
+      },
+      "1": {
+        "item": "dp_foods_plus:bannana"
+      },
+      "2": {
+        "item": "minecraft:sugar"
+      },
+      "4": {
+        "item": "minecraft:glass_bottle"
+      },
+      "5": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:bannana_blast",
+      "count": 1
+    }
+  }
+}

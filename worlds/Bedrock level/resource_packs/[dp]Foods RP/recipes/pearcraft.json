@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:pearcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0",
+      "1"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:lime_dye"
+      },
+      "1": {
+        "item": "minecraft:apple"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:pear",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:fisachipcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      " 3"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:cod"
+      },
+      "1": {
+        "item": "dp_foods_plus:frys"
+      },
+      "3": {
+        "item": "minecraft:paper"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:fish_and_chips",
+      "count": 1
+    }
+  }
+}

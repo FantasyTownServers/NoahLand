@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:ffmcraft_5"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:corned_beef_sandwich"
+      },
+      "1": {
+        "item": "dp_foods_plus:ham"
+      },
+      "2": {
+        "item": "dp_foods_plus:sandwich"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:amys_fast_food_meal",
+      "count": 1
+    }
+  }
+}

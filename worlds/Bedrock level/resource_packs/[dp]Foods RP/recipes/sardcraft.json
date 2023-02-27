@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:sardcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      " 3"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:salmon"
+      },
+      "1": {
+        "item": "minecraft:tropical_fish"
+      },
+      "3": {
+        "item": "minecraft:iron_ingot"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:sardines",
+      "count": 1
+    }
+  }
+}

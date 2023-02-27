@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:spascraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      "2 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:pasta"
+      },
+      "1": {
+        "item": "minecraft:sugar"
+      },
+      "2": {
+        "item": "dp_foods_plus:corn"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:spaghetti_squash",
+      "count": 1
+    }
+  }
+}

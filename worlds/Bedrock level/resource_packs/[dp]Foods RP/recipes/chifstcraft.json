@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:chifstcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1 ",
+      "345"
+    ],
+    "key": {
+      "1": {
+        "item": "dp_foods_plus:corn"
+      },
+      "3": {
+        "item": "minecraft:potato"
+      },
+      "4": {
+        "item": "dp_foods_plus:cooked_steak"
+      },
+      "5": {
+        "item": "dp_foods_plus:bbq_sauce"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:chicken_fried_steak",
+      "count": 1
+    }
+  }
+}

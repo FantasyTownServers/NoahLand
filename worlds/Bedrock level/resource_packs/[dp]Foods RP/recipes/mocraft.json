@@ -1,0 +1,42 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:mocraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:marshmellow"
+      },
+      "1": {
+        "item": "dp_foods_plus:marshmellow"
+      },
+      "2": {
+        "item": "dp_foods_plus:marshmellow"
+      },
+      "3": {
+        "item": "minecraft:sugar"
+      },
+      "4": {
+        "item": "dp_foods_plus:coffeebeans"
+      },
+      "5": {
+        "item": "dp_foods_plus:suger_cubes"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:mocha_coffee",
+      "count": 1
+    }
+  }
+}

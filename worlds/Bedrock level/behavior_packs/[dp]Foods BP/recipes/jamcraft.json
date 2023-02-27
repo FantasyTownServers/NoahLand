@@ -1,0 +1,32 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:jamcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:blue_barrys"
+      },
+      "1": {
+        "item": "dp_foods_plus:strawberrys"
+      },
+      "2": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:strawberry_jam",
+      "count": 1
+    }
+  }
+}

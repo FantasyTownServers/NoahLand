@@ -1,0 +1,36 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "为我的世界添加了数百种新食物，此模组已上传到 MCPEDL！ 任何其他拥有它的网站都在抄袭，加入我们的discord。 邀请：TTYgSMR",
+    "name": "[dp] 食品plus 汉化by 鱼子",
+    "uuid": "d158d7e3-87b2-383a-a90b-f1437b40027c",
+    "version": [
+      1,
+      1,
+      5
+    ],
+    "min_engine_version": [
+      1,
+      17,
+      3
+    ]
+  },
+  "modules": [
+    {
+      "description": "adds hundreds of new food to minecraft, This mod was uploaded to MCPEDL! any other websites that have it, are in an act of plagiarizing. join us on discord. invite:TTYgSMR",
+      "type": "resources",
+      "uuid": "31c6a5d8-a72e-3a30-9f74-f2c7736150fb",
+      "version": [
+        1,
+        1,
+        5
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "pumped"
+    ],
+    "url": "https://mcreator.net"
+  }
+}

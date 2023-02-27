@@ -74,6 +74,9 @@
             "enabled": true
         }
     },
+    "ResourcePackEncryption": {
+        "UUID": "KEY"
+    },
     "ScriptEngine": {
         "alwaysLaunch": false,
         "enabled": true

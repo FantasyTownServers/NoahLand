@@ -1,0 +1,32 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:drowned_head_item",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:icon": {
+				"texture": "drowned_head"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.skull"
+			},
+			"minecraft:display_name": {
+				"value": "Drowned Head"
+			},
+			"minecraft:wearable": {
+				"slot": "slot.armor.head"
+			},
+			"minecraft:armor": {
+				"protection": 0
+			},
+			"minecraft:block_placer": {
+				"block": "strat:drowned_head",
+				"use_block_description": true
+			}
+		},
+		"events": {}
+	}
+}

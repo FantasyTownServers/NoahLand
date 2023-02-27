@@ -1,0 +1,16 @@
+{
+  "format_version": "1.12",
+  "minecraft:item": {
+    "description": {
+      "identifier": "dp_foods_plus:peanut_butter_bananaand_bacon_tennessee",
+      "category": "Items",
+      "register_to_creative_menu": true
+    },
+    "components": {
+      "minecraft:icon": "peanut_butter_bananaand_bacon_tennessee",
+      "minecraft:render_offsets": "apple",
+      "minecraft:use_animation": "eat",
+      "minecraft:creative_category": "Items"
+    }
+  }
+}

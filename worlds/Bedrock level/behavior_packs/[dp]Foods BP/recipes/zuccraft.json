@@ -1,0 +1,35 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:zuccraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0",
+      "1",
+      "2"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:carrot"
+      },
+      "1": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "2": {
+        "item": "minecraft:red_flower",
+        "data": 5
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:zucchini_flowers",
+      "count": 1
+    }
+  }
+}

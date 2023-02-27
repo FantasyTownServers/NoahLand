@@ -1,0 +1,52 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:pizzacraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:bread"
+      },
+      "1": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "2": {
+        "item": "minecraft:bread"
+      },
+      "3": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "4": {
+        "item": "dp_foods_plus:cooked_ground_beef"
+      },
+      "5": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "6": {
+        "item": "minecraft:bread"
+      },
+      "7": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "8": {
+        "item": "minecraft:bread"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:pizza",
+      "count": 1
+    }
+  }
+}

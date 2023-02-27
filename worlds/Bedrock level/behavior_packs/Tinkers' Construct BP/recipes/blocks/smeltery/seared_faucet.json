@@ -1,0 +1,28 @@
+//bridge-file-version: #5
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:seared_faucet"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"# #",
+			" #"
+		],
+		"key": {
+			"#": {
+				"item": "strat:seared_brick"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:seared_faucet",
+				"count": 2
+			}
+		],
+		"priority": 0
+	}
+}

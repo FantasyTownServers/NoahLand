@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:esccraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      " 3"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:spicy_pepper"
+      },
+      "1": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "3": {
+        "item": "minecraft:nautilus_shell"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:escargots",
+      "count": 1
+    }
+  }
+}

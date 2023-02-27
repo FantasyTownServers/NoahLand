@@ -1,0 +1,46 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:winecraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 12",
+      "345",
+      " 78"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:red_dye"
+      },
+      "2": {
+        "item": "dp_foods_plus:green_grapes"
+      },
+      "3": {
+        "item": "dp_foods_plus:purple_grapes"
+      },
+      "4": {
+        "item": "minecraft:sweet_berries"
+      },
+      "5": {
+        "item": "minecraft:sugar"
+      },
+      "7": {
+        "item": "minecraft:sugar"
+      },
+      "8": {
+        "item": "dp_foods_plus:yellowpepers"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:bottle_of_red_wine",
+      "count": 1
+    }
+  }
+}

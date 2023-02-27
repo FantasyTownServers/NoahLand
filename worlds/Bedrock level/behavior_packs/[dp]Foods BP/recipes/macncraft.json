@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:macncraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1 ",
+      "345",
+      " 7 "
+    ],
+    "key": {
+      "1": {
+        "item": "dp_foods_plus:macaroni"
+      },
+      "3": {
+        "item": "dp_foods_plus:macaroni"
+      },
+      "4": {
+        "item": "dp_foods_plus:macaroni"
+      },
+      "5": {
+        "item": "dp_foods_plus:macaroni"
+      },
+      "7": {
+        "item": "dp_foods_plus:macaroni"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:box_of_mac_n_cheese",
+      "count": 1
+    }
+  }
+}

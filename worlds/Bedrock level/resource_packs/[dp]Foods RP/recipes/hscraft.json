@@ -1,0 +1,39 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:hscraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 45"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:bbq_sauce"
+      },
+      "1": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "2": {
+        "item": "dp_foods_plus:tomato"
+      },
+      "4": {
+        "item": "minecraft:bread"
+      },
+      "5": {
+        "item": "dp_foods_plus:ham"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:ham_sub",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:guaccraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 4 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:spicy_pepper"
+      },
+      "1": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "2": {
+        "item": "dp_foods_plus:tomato"
+      },
+      "4": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:guacamole",
+      "count": 1
+    }
+  }
+}

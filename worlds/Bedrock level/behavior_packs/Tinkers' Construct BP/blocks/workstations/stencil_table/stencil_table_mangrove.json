@@ -1,0 +1,548 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:block": {
+		"description": {
+			"identifier": "strat:stencil_table_mangrove",
+			"properties": {
+				"bridge:block_rotation": [
+					2,
+					3,
+					4,
+					5
+				],
+				"strat:pattern": [
+					0,
+					1,
+					2,
+					3,
+					4,
+					5,
+					6,
+					7,
+					8,
+					9,
+					10,
+					11,
+					12,
+					13,
+					14,
+					15
+				],
+				"strat:pattern2": [
+					0,
+					1,
+					2
+				]
+			}
+		},
+		"components": {
+			"minecraft:on_player_placing": {
+				"event": "bridge:update_rotation"
+			},
+			"minecraft:destroy_time": 1,
+			"minecraft:geometry": "geometry.stencil_table",
+			"minecraft:material_instances": {
+				"*": {
+					"texture": "stencil_table_mangrove",
+					"render_method": "alpha_test"
+				}
+			},
+			"minecraft:block_light_filter": 0,
+			"minecraft:map_color": "#6D2B15",
+			"tag:wood": {},
+			"minecraft:creative_category": {
+				"group": "itemGroup.name.Items",
+				"category": "Items"
+			},
+			"minecraft:part_visibility": {
+				"conditions": {
+					"pattern": "query.block_property('strat:pattern') == 1",
+					"pattern1": "query.block_property('strat:pattern') == 2",
+					"pattern2": "query.block_property('strat:pattern') == 3",
+					"pattern3": "query.block_property('strat:pattern') == 4",
+					"pattern4": "query.block_property('strat:pattern') == 5",
+					"pattern5": "query.block_property('strat:pattern') == 6",
+					"pattern6": "query.block_property('strat:pattern') == 7",
+					"pattern7": "query.block_property('strat:pattern') == 8",
+					"pattern8": "query.block_property('strat:pattern') == 9",
+					"pattern9": "query.block_property('strat:pattern') == 10",
+					"pattern10": "query.block_property('strat:pattern') == 11",
+					"pattern11": "query.block_property('strat:pattern') == 12",
+					"pattern12": "query.block_property('strat:pattern') == 13",
+					"pattern13": "query.block_property('strat:pattern') == 14",
+					"pattern14": "query.block_property('strat:pattern') == 15",
+					"pattern15": "query.block_property('strat:pattern2') == 1",
+					"pattern16": "query.block_property('strat:pattern2') == 2"
+				}
+			},
+			"minecraft:on_interact": {
+				"event": "strat:pattern"
+			},
+			"minecraft:on_player_destroyed": {
+				"event": "strat:drop_pattern"
+			}
+		},
+		"events": {
+			"bridge:update_rotation": {
+				"set_block_property": {
+					"bridge:block_rotation": "query.cardinal_facing_2d"
+				}
+			},
+			"strat:pattern": {
+				"sequence": [
+					{
+						"condition": "query.block_property('strat:pattern') == 0 && query.get_equipped_item_name('main_hand') == 'blank_pattern'",
+						"decrement_stack": {},
+						"set_block_property": {
+							"strat:pattern": "query.block_property('strat:pattern') + 1"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') > 0 && query.block_property('strat:pattern') < 15 && query.is_sneaking == 0.0",
+						"set_block_property": {
+							"strat:pattern": "query.block_property('strat:pattern') + 1"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') == 15 && query.is_sneaking == 0.0",
+						"set_block_property": {
+							"strat:pattern": 0,
+							"strat:pattern2": 1
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern2') == 1 && query.is_sneaking == 0.0",
+						"set_block_property": {
+							"strat:pattern2": 2
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern2') == 2 && query.is_sneaking == 0.0",
+						"set_block_property": {
+							"strat:pattern": 2,
+							"strat:pattern2": 0
+						}
+					},
+					{
+						"condition": "query.is_sneaking == 1.0",
+						"sequence": [
+							{
+								"set_block_property": {
+									"strat:pattern": 0,
+									"strat:pattern2": 0
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern') == 1",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/blank_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern') == 2",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/tool_rod_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern') == 3",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/tool_binding_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern') == 4",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/wide_guard_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern') == 5",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/hand_guard_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern') == 6",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/sword_blade_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern') == 7",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/pickaxe_head_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern') == 8",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/axe_head_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern') == 9",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/shovel_head_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern') == 10",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/pan_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern') == 11",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/tough_tool_rod_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern') == 12",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/tough_binding_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern') == 13",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/large_sword_blade_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern') == 14",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/hammer_head_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern') == 15",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/broad_axe_head_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern2') == 1",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/excavator_head_pattern.json"
+								}
+							},
+							{
+								"condition": "query.block_property('strat:pattern2') == 2",
+								"spawn_loot": {
+									"table": "loot_tables/patterns/large_plate_pattern.json"
+								}
+							}
+						]
+					},
+					{
+						"sequence": [
+							{
+								"condition": "query.block_property('strat:pattern') == 0 && query.get_equipped_item_name('main_hand') != 'blank_pattern'",
+								"run_command": {
+									"command": [
+										"title @s actionbar Blank Pattern Required."
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && (query.block_property('strat:pattern') == 1 || query.block_property('strat:pattern2') == 2)",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Tool Rod Pattern"
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && query.block_property('strat:pattern') == 2",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Tool Binding Pattern"
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && query.block_property('strat:pattern') == 3",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Wide Guard Pattern"
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && query.block_property('strat:pattern') == 4",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Hand Guard Pattern"
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && query.block_property('strat:pattern') == 5",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Small Blade Pattern"
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && query.block_property('strat:pattern') == 6",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Pick Head Pattern"
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && query.block_property('strat:pattern') == 7",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Small Axe Head Pattern"
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && query.block_property('strat:pattern') == 8",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Shovel Head Pattern"
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && query.block_property('strat:pattern') == 9",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Pan Pattern"
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && query.block_property('strat:pattern') == 10",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Tough Tool Rod Pattern"
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && query.block_property('strat:pattern') == 11",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Tough Binding Pattern"
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && query.block_property('strat:pattern') == 12",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Broad Blade Pattern"
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && query.block_property('strat:pattern') == 13",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Hammer Head Pattern"
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && query.block_property('strat:pattern') == 14",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Broad Axe Head Pattern"
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && query.block_property('strat:pattern') == 15",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Excavator Head Pattern"
+									],
+									"target": "player"
+								}
+							},
+							{
+								"condition": "query.is_sneaking == 0.0 && query.block_property('strat:pattern2') == 1",
+								"run_command": {
+									"command": [
+										"title @s actionbar Selected: Large Plate Pattern"
+									],
+									"target": "player"
+								}
+							}
+						]
+					}
+				]
+			},
+			"strat:drop_pattern": {
+				"sequence": [
+					{
+						"condition": "query.block_property('strat:pattern') == 1",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/blank_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') == 2",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/tool_rod_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') == 3",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/tool_binding_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') == 4",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/wide_guard_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') == 5",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/hand_guard_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') == 6",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/sword_blade_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') == 7",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/pickaxe_head_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') == 8",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/axe_head_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') == 9",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/shovel_head_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') == 10",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/pan_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') == 11",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/tough_tool_rod_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') == 12",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/tough_binding_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') == 13",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/large_sword_blade_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') == 14",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/hammer_head_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern') == 15",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/broad_axe_head_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern2') == 1",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/excavator_head_pattern.json"
+						}
+					},
+					{
+						"condition": "query.block_property('strat:pattern2') == 2",
+						"spawn_loot": {
+							"table": "loot_tables/patterns/large_plate_pattern.json"
+						}
+					}
+				]
+			}
+		},
+		"permutations": [
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 2",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						0,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 3",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						180,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 4",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						90,
+						0
+					]
+				}
+			},
+			{
+				"condition": "query.block_property('bridge:block_rotation') == 5",
+				"components": {
+					"minecraft:rotation": [
+						0,
+						270,
+						0
+					]
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,20 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_furnace": {
+    "description": {
+      "identifier": "dp_foods_plus:cinnacraft_2"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "furnace"
+    ],
+    "input": {
+      "item": "dp_foods_plus:cinnamon_bun"
+    },
+    "output": {
+      "item": "dp_foods_plus:baked_cinnamon_bun"
+    }
+  }
+}

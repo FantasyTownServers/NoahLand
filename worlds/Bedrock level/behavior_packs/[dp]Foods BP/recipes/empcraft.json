@@ -1,0 +1,39 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:empcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 12",
+      "345"
+    ],
+    "key": {
+      "1": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "2": {
+        "item": "minecraft:sugar"
+      },
+      "3": {
+        "item": "minecraft:bread"
+      },
+      "4": {
+        "item": "dp_foods_plus:dough"
+      },
+      "5": {
+        "item": "dp_foods_plus:dough"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:empanada",
+      "count": 1
+    }
+  }
+}

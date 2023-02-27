@@ -1,0 +1,26 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:articraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:broccoli"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:artichoke",
+      "count": 1
+    }
+  }
+}

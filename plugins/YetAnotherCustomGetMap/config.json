@@ -1,0 +1,6 @@
+{
+  "mainCommand": "yacgm",
+  "pageLimit": 15,
+  "mainPageOP": false,
+  "getPageOP": false
+}

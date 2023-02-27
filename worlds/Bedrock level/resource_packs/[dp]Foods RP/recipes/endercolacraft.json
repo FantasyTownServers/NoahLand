@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:endercolacraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      "23",
+      "4 "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:sugar"
+      },
+      "1": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "2": {
+        "item": "minecraft:water_bucket"
+      },
+      "3": {
+        "item": "minecraft:paper"
+      },
+      "4": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:ender_cola",
+      "count": 1
+    }
+  }
+}

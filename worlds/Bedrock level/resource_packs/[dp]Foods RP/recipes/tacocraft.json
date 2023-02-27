@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:tacocraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1 ",
+      "345",
+      " 7 "
+    ],
+    "key": {
+      "1": {
+        "item": "dp_foods_plus:onion"
+      },
+      "3": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "4": {
+        "item": "dp_foods_plus:tomato"
+      },
+      "5": {
+        "item": "dp_foods_plus:cooked_ground_beef"
+      },
+      "7": {
+        "item": "dp_foods_plus:tortilla"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:taco",
+      "count": 1
+    }
+  }
+}

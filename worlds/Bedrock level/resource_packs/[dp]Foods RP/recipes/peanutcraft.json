@@ -1,0 +1,30 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:peanutcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0",
+      "1"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:salt"
+      },
+      "1": {
+        "item": "dp_foods_plus:acorn"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:peanut",
+      "count": 1
+    }
+  }
+}

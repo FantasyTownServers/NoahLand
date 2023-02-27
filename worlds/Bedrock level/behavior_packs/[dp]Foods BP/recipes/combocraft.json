@@ -1,0 +1,52 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:combocraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      "678"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:sausage"
+      },
+      "1": {
+        "item": "dp_foods_plus:cooked_shrimp"
+      },
+      "2": {
+        "item": "dp_foods_plus:tomato"
+      },
+      "3": {
+        "item": "dp_foods_plus:spicy_pepper"
+      },
+      "4": {
+        "item": "minecraft:bowl"
+      },
+      "5": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "6": {
+        "item": "dp_foods_plus:cooked_ground_beef"
+      },
+      "7": {
+        "item": "minecraft:cooked_chicken"
+      },
+      "8": {
+        "item": "dp_foods_plus:butter"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:combo",
+      "count": 1
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:mtcraft_3"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 4 "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:green_dye"
+      },
+      "1": {
+        "item": "minecraft:milk_bucket"
+      },
+      "2": {
+        "item": "minecraft:sugar"
+      },
+      "4": {
+        "item": "minecraft:flower_pot"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:green_milk_tea",
+      "count": 1
+    }
+  }
+}

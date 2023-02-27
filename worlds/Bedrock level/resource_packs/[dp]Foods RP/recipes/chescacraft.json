@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:chescacraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1 ",
+      "345",
+      " 7 "
+    ],
+    "key": {
+      "1": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "3": {
+        "item": "dp_foods_plus:stick_of_butter"
+      },
+      "4": {
+        "item": "dp_foods_plus:butter"
+      },
+      "5": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "7": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:chesse_cake",
+      "count": 1
+    }
+  }
+}

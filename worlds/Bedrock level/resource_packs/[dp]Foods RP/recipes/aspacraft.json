@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:aspacraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0",
+      "1",
+      "2"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:leaves",
+        "data": 0
+      },
+      "1": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "2": {
+        "item": "minecraft:leaves",
+        "data": 1
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:asparagus",
+      "count": 1
+    }
+  }
+}

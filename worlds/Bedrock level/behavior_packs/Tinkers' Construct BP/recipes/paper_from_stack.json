@@ -1,0 +1,25 @@
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:paper_from_stack"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"#"
+		],
+		"key": {
+			"#": {
+				"item": "strat:paper_stack"
+			}
+		},
+		"result": [
+			{
+				"item": "minecraft:paper",
+				"count": 4
+			}
+		]
+	}
+}

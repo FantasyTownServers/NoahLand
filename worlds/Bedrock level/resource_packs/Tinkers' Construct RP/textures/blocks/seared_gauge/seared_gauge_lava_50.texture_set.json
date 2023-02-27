@@ -1,0 +1,7 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:texture_set": {
+		"color": "seared_gauge_lava_50",
+		"metalness_emissive_roughness": "seared_gauge_50_mer"
+	}
+}

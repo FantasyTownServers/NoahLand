@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:flancraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 4 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:chocolate"
+      },
+      "1": {
+        "item": "dp_foods_plus:vanilla"
+      },
+      "2": {
+        "item": "minecraft:sugar"
+      },
+      "4": {
+        "item": "minecraft:bread"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:flan",
+      "count": 1
+    }
+  }
+}

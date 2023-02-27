@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:ypcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1 ",
+      " 4 ",
+      "6 8"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:cocoa_beans"
+      },
+      "4": {
+        "item": "minecraft:yellow_dye"
+      },
+      "6": {
+        "item": "minecraft:yellow_dye"
+      },
+      "8": {
+        "item": "minecraft:yellow_dye"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:yellowpepers",
+      "count": 1
+    }
+  }
+}

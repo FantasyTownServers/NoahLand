@@ -1,0 +1,35 @@
+//bridge-file-version: #24
+{
+	"format_version": "1.17.0",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "strat:hatchet_130"
+		},
+		"tags": [
+			"tool_station"
+		],
+		"pattern": [
+			"#",
+			"~",
+			"o"
+		],
+		"key": {
+			"#": {
+				"item": "strat:bone_axe_head"
+			},
+			"~": {
+				"item": "strat:bone_binding"
+			},
+			"o": {
+				"item": "strat:bone_tool_rod"
+			}
+		},
+		"result": [
+			{
+				"item": "strat:hatchet_130",
+				"count": 1
+			}
+		],
+		"priority": 0
+	}
+}

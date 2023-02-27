@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:latcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 12",
+      "34 "
+    ],
+    "key": {
+      "1": {
+        "item": "dp_foods_plus:coffeebeans"
+      },
+      "2": {
+        "item": "dp_foods_plus:suger_cubes"
+      },
+      "3": {
+        "item": "dp_foods_plus:coffeebeans"
+      },
+      "4": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:latte_coffee",
+      "count": 1
+    }
+  }
+}

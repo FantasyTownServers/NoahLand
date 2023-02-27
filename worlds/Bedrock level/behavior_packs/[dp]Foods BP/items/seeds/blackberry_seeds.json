@@ -1,0 +1,24 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "dp_foods_plus:blackberry_seeds",
+            "category": "nature"
+        },
+        "components": {
+            "minecraft:creative_category": {
+                "parent": "itemGroup.name.seed"
+            },
+            "minecraft:block_placer": {
+                "block": "dp_foods_plus:blackberry_crop"
+            },
+			"minecraft:icon": {
+                "texture": "dp_foods_plus:blackberry_seeds"
+			},
+			"minecraft:display_name": {
+				"value": "黑莓种子"
+			},
+            "minecraft:render_offsets": "seeds"
+        }
+    }
+}

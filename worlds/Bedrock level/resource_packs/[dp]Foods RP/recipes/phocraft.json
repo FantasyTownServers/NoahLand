@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:phocraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      "23"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:pasta"
+      },
+      "1": {
+        "item": "dp_foods_plus:cooked_steak"
+      },
+      "2": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "3": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:pho",
+      "count": 1
+    }
+  }
+}

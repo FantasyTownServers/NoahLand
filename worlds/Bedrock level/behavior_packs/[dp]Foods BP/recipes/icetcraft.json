@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:icetcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "01",
+      "2 "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:ice"
+      },
+      "1": {
+        "item": "minecraft:sugar"
+      },
+      "2": {
+        "item": "dp_foods_plus:tea"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:iced_tea",
+      "count": 1
+    }
+  }
+}

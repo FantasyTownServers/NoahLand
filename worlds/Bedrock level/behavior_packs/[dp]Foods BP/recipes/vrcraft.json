@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:vrcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0 2",
+      "345",
+      " 7 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:corn"
+      },
+      "2": {
+        "item": "dp_foods_plus:black_pepper"
+      },
+      "3": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "4": {
+        "item": "dp_foods_plus:pasta"
+      },
+      "5": {
+        "item": "dp_foods_plus:tomato"
+      },
+      "7": {
+        "item": "minecraft:bowl"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:vegan_ramen",
+      "count": 1
+    }
+  }
+}

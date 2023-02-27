@@ -1,0 +1,1 @@
+fill ~~-1~~~-1~ strat:casting_table ["strat:part2":5,"strat:stage":1] replace strat:casting_table ["strat:stage":0]

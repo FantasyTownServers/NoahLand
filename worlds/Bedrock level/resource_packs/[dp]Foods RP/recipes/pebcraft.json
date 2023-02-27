@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:pebcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 45",
+      " 7 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "1": {
+        "item": "minecraft:bread"
+      },
+      "2": {
+        "item": "dp_foods_plus:cooked_ground_beef"
+      },
+      "4": {
+        "item": "dp_foods_plus:spicy_pepper"
+      },
+      "5": {
+        "item": "minecraft:cooked_mutton"
+      },
+      "7": {
+        "item": "minecraft:bread"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:peanut_butter_bananaand_bacon_tennessee",
+      "count": 1
+    }
+  }
+}

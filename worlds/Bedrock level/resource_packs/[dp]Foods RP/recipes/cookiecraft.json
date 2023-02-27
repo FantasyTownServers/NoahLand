@@ -1,0 +1,39 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:cookiecraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "3 5"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:icing"
+      },
+      "1": {
+        "item": "minecraft:pink_dye"
+      },
+      "2": {
+        "item": "dp_foods_plus:sprinkles"
+      },
+      "3": {
+        "item": "dp_foods_plus:dough"
+      },
+      "5": {
+        "item": "dp_foods_plus:dough"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:sweet_cookies",
+      "count": 3
+    }
+  }
+}

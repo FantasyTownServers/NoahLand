@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:tbpcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 4 "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:orange_dye"
+      },
+      "1": {
+        "item": "minecraft:yellow_dye"
+      },
+      "2": {
+        "item": "minecraft:orange_dye"
+      },
+      "4": {
+        "item": "minecraft:orange_dye"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:yellow_bell_pepper",
+      "count": 1
+    }
+  }
+}

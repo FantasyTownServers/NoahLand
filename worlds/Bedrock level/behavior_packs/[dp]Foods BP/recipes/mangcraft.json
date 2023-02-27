@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:mangcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 4 "
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:sugar"
+      },
+      "1": {
+        "item": "dp_foods_plus:orange"
+      },
+      "2": {
+        "item": "minecraft:stick"
+      },
+      "4": {
+        "item": "minecraft:glass"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:mango_lassi",
+      "count": 1
+    }
+  }
+}

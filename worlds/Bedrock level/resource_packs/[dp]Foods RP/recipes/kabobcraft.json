@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:kabobcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0  ",
+      "34 ",
+      " 78"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:cooked_salmon"
+      },
+      "3": {
+        "item": "minecraft:cooked_beef"
+      },
+      "4": {
+        "item": "minecraft:stick"
+      },
+      "7": {
+        "item": "minecraft:cooked_porkchop"
+      },
+      "8": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:kabob",
+      "count": 1
+    }
+  }
+}

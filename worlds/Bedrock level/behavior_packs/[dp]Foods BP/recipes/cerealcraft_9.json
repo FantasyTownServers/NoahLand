@@ -1,0 +1,40 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:cerealcraft_9"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1 ",
+      "345",
+      " 7 "
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:wheat"
+      },
+      "3": {
+        "item": "minecraft:sugar"
+      },
+      "4": {
+        "item": "dp_foods_plus:chocolate"
+      },
+      "5": {
+        "item": "minecraft:sugar"
+      },
+      "7": {
+        "item": "minecraft:wheat"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:box_of_choclate_cereal",
+      "count": 1
+    }
+  }
+}

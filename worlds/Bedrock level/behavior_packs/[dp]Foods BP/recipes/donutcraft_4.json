@@ -1,0 +1,33 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:donutcraft_4"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1",
+      "23"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:sugar"
+      },
+      "2": {
+        "item": "dp_foods_plus:dough"
+      },
+      "3": {
+        "item": "dp_foods_plus:bagel"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:glazed_donut",
+      "count": 1
+    }
+  }
+}

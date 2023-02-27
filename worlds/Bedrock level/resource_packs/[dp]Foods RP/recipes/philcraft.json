@@ -1,0 +1,43 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:philcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 45",
+      " 7 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:cheese"
+      },
+      "1": {
+        "item": "minecraft:bread"
+      },
+      "2": {
+        "item": "dp_foods_plus:cooked_steak"
+      },
+      "4": {
+        "item": "dp_foods_plus:lettuce"
+      },
+      "5": {
+        "item": "dp_foods_plus:cooked_meatball"
+      },
+      "7": {
+        "item": "minecraft:bread"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:philly_cheese_steak",
+      "count": 1
+    }
+  }
+}

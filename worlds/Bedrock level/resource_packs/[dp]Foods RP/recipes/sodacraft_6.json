@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:sodacraft_6"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      " 4 "
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:blue_barrys"
+      },
+      "1": {
+        "item": "minecraft:sugar"
+      },
+      "2": {
+        "item": "dp_foods_plus:blue_barrys"
+      },
+      "4": {
+        "item": "dp_foods_plus:can"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:grape_soda",
+      "count": 1
+    }
+  }
+}

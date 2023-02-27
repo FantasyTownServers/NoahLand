@@ -1,0 +1,1848 @@
+{
+	"resource_pack_name": "bridgeRP",
+	"texture_name": "atlas.terrain",
+	"padding": 8,
+	"num_mip_levels": 4,
+	"texture_data": {
+		"crafting_station": {
+			"textures": [
+				"textures/blocks/table/crafting_station"
+			]
+		},
+		"bridge_part builder oak": {
+			"textures": [
+				"textures/blocks/table/part_builder"
+			]
+		},
+		"stencil_table_oak": {
+			"textures": [
+				"textures/blocks/table/stencil_table"
+			]
+		},
+		"bridge_tool station": {
+			"textures": [
+				"textures/blocks/table/tool_station"
+			]
+		},
+		"strat_tool forge": {
+			"textures": [
+				"textures/blocks/table/tool_forge"
+			]
+		},
+		"strat_drying rack": {
+			"textures": [
+				"textures/blocks/drying_rack/rack"
+			]
+		},
+		"strat_drying rack 1": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_flesh"
+			]
+		},
+		"strat_drying rack 2": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_leather"
+			]
+		},
+		"strat_grout": {
+			"textures": [
+				"textures/blocks/grout"
+			]
+		},
+		"strat_seared bricks": {
+			"textures": [
+				"textures/blocks/smeltery/seared/seared_bricks"
+			]
+		},
+		"casting_table": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_v2"
+			]
+		},
+		"casting_table_wooden_parts": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_wooden_parts"
+			]
+		},
+		"casting_table_stone_parts": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_stone_parts"
+			]
+		},
+		"casting_table_flint_parts": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_flint_parts"
+			]
+		},
+		"casting_table_iron_parts": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_iron_parts"
+			]
+		},
+		"casting_table_copper_parts": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_copper_parts"
+			]
+		},
+		"casting_table_cobalt_parts": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_cobalt_parts"
+			]
+		},
+		"casting_table_ardite_parts": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_ardite_parts"
+			]
+		},
+		"casting_table_manyullyn_parts": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_manyullyn_parts"
+			]
+		},
+		"casting_table_gold_parts": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_gold_parts"
+			]
+		},
+		"casting_table_seared_parts": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_seared_parts"
+			]
+		},
+		"casting_table_pig_iron_parts": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_pig_iron_parts"
+			]
+		},
+		"casting_table_bone_parts": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_bone_parts"
+			]
+		},
+		"casting_table_iron": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_iron"
+			]
+		},
+		"casting_table_iron2": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_iron2"
+			]
+		},
+		"casting_table_copper": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_copper"
+			]
+		},
+		"casting_table_copper2": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_copper2"
+			]
+		},
+		"casting_table_cobalt": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_cobalt"
+			]
+		},
+		"casting_table_cobalt2": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_cobalt2"
+			]
+		},
+		"casting_table_ardite": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_ardite"
+			]
+		},
+		"casting_table_ardite2": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_ardite2"
+			]
+		},
+		"casting_table_manyullyn": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_manyullyn"
+			]
+		},
+		"casting_table_manyullyn2": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_manyullyn2"
+			]
+		},
+		"casting_table_gold": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_gold"
+			]
+		},
+		"casting_table_gold2": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_gold2"
+			]
+		},
+		"casting_table_seared": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_seared"
+			]
+		},
+		"casting_table_seared2": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_seared2"
+			]
+		},
+		"casting_table_pig_iron": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_pig_iron"
+			]
+		},
+		"casting_table_pig_iron2": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_pig_iron2"
+			]
+		},
+		"casting_table_blood": {
+			"textures": [
+				"textures/blocks/casting_table/casting_table_blood"
+			]
+		},
+		"casting_basin": {
+			"textures": [
+				"textures/blocks/casting_basin/casting_basin"
+			]
+		},
+		"casting_basin_iron": {
+			"textures": [
+				"textures/blocks/casting_basin/casting_basin_iron"
+			]
+		},
+		"casting_basin_gold": {
+			"textures": [
+				"textures/blocks/casting_basin/casting_basin_gold"
+			]
+		},
+		"casting_basin_copper": {
+			"textures": [
+				"textures/blocks/casting_basin/casting_basin_copper"
+			]
+		},
+		"casting_basin_cobalt": {
+			"textures": [
+				"textures/blocks/casting_basin/casting_basin_cobalt"
+			]
+		},
+		"casting_basin_ardite": {
+			"textures": [
+				"textures/blocks/casting_basin/casting_basin_ardite"
+			]
+		},
+		"casting_basin_manyullyn": {
+			"textures": [
+				"textures/blocks/casting_basin/casting_basin_manyullyn"
+			]
+		},
+		"casting_basin_seared_stone": {
+			"textures": [
+				"textures/blocks/casting_basin/casting_basin_seared_stone"
+			]
+		},
+		"casting_basin_pig_iron": {
+			"textures": [
+				"textures/blocks/casting_basin/casting_basin_pig_iron"
+			]
+		},
+		"casting_basin_glass": {
+			"textures": [
+				"textures/blocks/casting_basin/casting_basin_glass"
+			]
+		},
+		"casting_basin_obsidian": {
+			"textures": [
+				"textures/blocks/casting_basin/casting_basin_obsidian"
+			]
+		},
+		"casting_basin_seared_cobblestone": {
+			"textures": [
+				"textures/blocks/casting_basin/casting_basin_seared_cobblestone"
+			]
+		},
+		"casting_basin_lavawood": {
+			"textures": [
+				"textures/blocks/casting_basin/casting_basin_lavawood"
+			]
+		},
+		"casting_basin_blood": {
+			"textures": [
+				"textures/blocks/casting_basin/casting_basin_blood"
+			]
+		},
+		"tinkers_cobalt_ore": {
+			"textures": [
+				"textures/blocks/tinkers_cobalt_ore"
+			]
+		},
+		"ardite_ore": {
+			"textures": [
+				"textures/blocks/ardite_ore"
+			]
+		},
+		"tinkers_cobalt_block": {
+			"textures": [
+				"textures/blocks/storage/tinkers_cobalt_block"
+			]
+		},
+		"ardite_block": {
+			"textures": [
+				"textures/blocks/storage/ardite_block"
+			]
+		},
+		"ardite_block_top": {
+			"textures": [
+				"textures/blocks/storage/ardite_block_top"
+			]
+		},
+		"manyullyn_block": {
+			"textures": [
+				"textures/blocks/storage/manyullyn_block"
+			]
+		},
+		"tool_forge_ardite": {
+			"textures": [
+				"textures/blocks/table/tool_forge_ardite"
+			]
+		},
+		"tool_forge_cobalt": {
+			"textures": [
+				"textures/blocks/table/tool_forge_cobalt"
+			]
+		},
+		"tool_forge_manyullyn": {
+			"textures": [
+				"textures/blocks/table/tool_forge_manyullyn"
+			]
+		},
+		"tool_forge_gold": {
+			"textures": [
+				"textures/blocks/table/tool_forge_gold"
+			]
+		},
+		"tool_forge_copper": {
+			"textures": [
+				"textures/blocks/table/tool_forge_copper"
+			]
+		},
+		"tool_forge_pig_iron": {
+			"textures": [
+				"textures/blocks/table/tool_forge_pig_iron"
+			]
+		},
+		"cracked_seared_bricks": {
+			"textures": [
+				"textures/blocks/smeltery/seared/cracked_seared_brick"
+			]
+		},
+		"fancy_seared_bricks": {
+			"textures": [
+				"textures/blocks/smeltery/seared/fancy_seared_bricks"
+			]
+		},
+		"square_seared_bricks": {
+			"textures": [
+				"textures/blocks/smeltery/seared/square_seared_brick"
+			]
+		},
+		"triangle_seared_bricks": {
+			"textures": [
+				"textures/blocks/smeltery/seared/triangle_seared_brick"
+			]
+		},
+		"seared_creeperface": {
+			"textures": [
+				"textures/blocks/smeltery/seared/seared_creeperface"
+			]
+		},
+		"small_seared_bricks": {
+			"textures": [
+				"textures/blocks/smeltery/seared/small_seared_brick"
+			]
+		},
+		"seared_tiles": {
+			"textures": [
+				"textures/blocks/smeltery/seared/seared_tile"
+			]
+		},
+		"seared_road": {
+			"textures": [
+				"textures/blocks/smeltery/seared/seared_road"
+			]
+		},
+		"seared_paver": {
+			"textures": [
+				"textures/blocks/smeltery/seared/seared_paver"
+			]
+		},
+		"seared_stone": {
+			"textures": [
+				"textures/blocks/smeltery/seared/seared_stone"
+			]
+		},
+		"seared_cobblestone": {
+			"textures": [
+				"textures/blocks/smeltery/seared/seared_cobblestone"
+			]
+		},
+		"tool_forge_copper_exposed": {
+			"textures": [
+				"textures/blocks/table/tool_forge_copper_exposed"
+			]
+		},
+		"tool_forge_copper_weathered": {
+			"textures": [
+				"textures/blocks/table/tool_forge_copper_weathered"
+			]
+		},
+		"tool_forge_copper_oxidized": {
+			"textures": [
+				"textures/blocks/table/tool_forge_copper_oxidized"
+			]
+		},
+		"rack_monster_jerky": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_monster_jerky"
+			]
+		},
+		"rack_raw_beef": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_beef"
+			]
+		},
+		"rack_beef_jerky": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_beef_jerky"
+			]
+		},
+		"rack_raw_porkchop": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_pork"
+			]
+		},
+		"rack_bacon_jerky": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_bacon_jerky"
+			]
+		},
+		"rack_raw_chicken": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_chicken"
+			]
+		},
+		"rack_chicken_jerky": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_chicken_jerky"
+			]
+		},
+		"rack_raw_mutton": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_mutton"
+			]
+		},
+		"rack_mutton_jerky": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_mutton_jerky"
+			]
+		},
+		"stone_torch": {
+			"textures": [
+				"textures/blocks/stone_torch"
+			]
+		},
+		"stone_ladder": {
+			"textures": [
+				"textures/blocks/stone_ladder"
+			]
+		},
+		"stencil_table_spruce": {
+			"textures": [
+				"textures/blocks/table/stencil_table_spruce"
+			]
+		},
+		"stencil_table_birch": {
+			"textures": [
+				"textures/blocks/table/stencil_table_birch"
+			]
+		},
+		"stencil_table_jungle": {
+			"textures": [
+				"textures/blocks/table/stencil_table_jungle"
+			]
+		},
+		"stencil_table_acacia": {
+			"textures": [
+				"textures/blocks/table/stencil_table_acacia"
+			]
+		},
+		"stencil_table_dark_oak": {
+			"textures": [
+				"textures/blocks/table/stencil_table_dark_oak"
+			]
+		},
+		"stencil_table_maple": {
+			"textures": [
+				"textures/blocks/table/stencil_table_maple"
+			]
+		},
+		"stencil_table_warped": {
+			"textures": [
+				"textures/blocks/table/stencil_table_warped"
+			]
+		},
+		"stencil_table_crimson": {
+			"textures": [
+				"textures/blocks/table/stencil_table_crimson"
+			]
+		},
+		"part_builder_spruce": {
+			"textures": [
+				"textures/blocks/table/part_builder_spruce"
+			]
+		},
+		"part_builder_birch": {
+			"textures": [
+				"textures/blocks/table/part_builder_birch"
+			]
+		},
+		"part_builder_jungle": {
+			"textures": [
+				"textures/blocks/table/part_builder_jungle"
+			]
+		},
+		"part_builder_acacia": {
+			"textures": [
+				"textures/blocks/table/part_builder_acacia"
+			]
+		},
+		"part_builder_dark_oak": {
+			"textures": [
+				"textures/blocks/table/part_builder_dark_oak"
+			]
+		},
+		"part_builder_maple": {
+			"textures": [
+				"textures/blocks/table/part_builder_maple"
+			]
+		},
+		"part_builder_warped": {
+			"textures": [
+				"textures/blocks/table/part_builder_warped"
+			]
+		},
+		"part_builder_crimson": {
+			"textures": [
+				"textures/blocks/table/part_builder_crimson"
+			]
+		},
+		"lavawood": {
+			"textures": [
+				"textures/blocks/lavawood"
+			]
+		},
+		"firewood": {
+			"textures": [
+				"textures/blocks/firewood"
+			]
+		},
+		"stencil_table_lavawood": {
+			"textures": [
+				"textures/blocks/table/stencil_table_lavawood"
+			]
+		},
+		"part_builder_firewood": {
+			"textures": [
+				"textures/blocks/table/part_builder_firewood"
+			]
+		},
+		"stencil_table_mangrove": {
+			"textures": [
+				"textures/blocks/table/stencil_table_mangrove"
+			]
+		},
+		"part_builder_mangrove": {
+			"textures": [
+				"textures/blocks/table/part_builder_mangrove"
+			]
+		},
+		"rack_raw_rabbit": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_rabbit"
+			]
+		},
+		"rack_rabbit_jerky": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_rabbit_jerky"
+			]
+		},
+		"rack_raw_fish": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_fish"
+			]
+		},
+		"rack_fish_jerky": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_fish_jerky"
+			]
+		},
+		"rack_raw_salmon": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_salmon"
+			]
+		},
+		"rack_salmon_jerky": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_salmon_jerky"
+			]
+		},
+		"rack_tropical_fish": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_tropical_fish"
+			]
+		},
+		"rack_tropical_fish_jerky": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_clownfish_jerky"
+			]
+		},
+		"rack_pufferfish": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_pufferfish"
+			]
+		},
+		"rack_fugu_jerky": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_fugu_jerky"
+			]
+		},
+		"rack_leather": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_leather"
+			]
+		},
+		"rack_cooked_beef": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_beef_cooked"
+			]
+		},
+		"rack_cooked_porkchop": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_pork_cooked"
+			]
+		},
+		"rack_cooked_chicken": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_chicken_cooked"
+			]
+		},
+		"rack_cooked_mutton": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_mutton_cooked"
+			]
+		},
+		"rack_cooked_rabbit": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_rabbit_cooked"
+			]
+		},
+		"rack_cooked_fish": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_fish_cooked"
+			]
+		},
+		"rack_cooked_salmon": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_salmon_cooked"
+			]
+		},
+		"rack_clay_ball": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_clay_ball"
+			]
+		},
+		"rack_dried_brick": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_dried_brick"
+			]
+		},
+		"dried_bricks": {
+			"textures": [
+				"textures/blocks/dried_bricks"
+			]
+		},
+		"rack_clay": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_clay"
+			]
+		},
+		"rack_terracotta": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_terracotta"
+			]
+		},
+		"smeltery_controller": {
+			"textures": [
+				"textures/blocks/smeltery/controller/smeltery_controller"
+			]
+		},
+		"smeltery_controller_on": {
+			"textures": [
+				"textures/blocks/smeltery/controller/smeltery_controller_on"
+			]
+		},
+		"seared_tank": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank"
+			]
+		},
+		"seared_tank_lava_25": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_lava_25"
+			]
+		},
+		"seared_tank_lava_50": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_lava_50"
+			]
+		},
+		"seared_tank_lava_75": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_lava_75"
+			]
+		},
+		"seared_tank_lava_100": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_lava_100"
+			]
+		},
+		"seared_tank_iron_25": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_iron_25"
+			]
+		},
+		"seared_tank_iron_50": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_iron_50"
+			]
+		},
+		"seared_tank_iron_75": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_iron_75"
+			]
+		},
+		"seared_tank_iron_100": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_iron_100"
+			]
+		},
+		"seared_tank_gold_25": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_gold_25"
+			]
+		},
+		"seared_tank_gold_50": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_gold_50"
+			]
+		},
+		"seared_tank_gold_75": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_gold_75"
+			]
+		},
+		"seared_tank_gold_100": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_gold_100"
+			]
+		},
+		"seared_tank_copper_25": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_copper_25"
+			]
+		},
+		"seared_tank_copper_50": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_copper_50"
+			]
+		},
+		"seared_tank_copper_75": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_copper_75"
+			]
+		},
+		"seared_tank_copper_100": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_copper_100"
+			]
+		},
+		"seared_tank_cobalt_25": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_cobalt_25"
+			]
+		},
+		"seared_tank_cobalt_50": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_cobalt_50"
+			]
+		},
+		"seared_tank_cobalt_75": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_cobalt_75"
+			]
+		},
+		"seared_tank_cobalt_100": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_cobalt_100"
+			]
+		},
+		"seared_tank_ardite_25": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_ardite_25"
+			]
+		},
+		"seared_tank_ardite_50": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_ardite_50"
+			]
+		},
+		"seared_tank_ardite_75": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_ardite_75"
+			]
+		},
+		"seared_tank_ardite_100": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_ardite_100"
+			]
+		},
+		"seared_tank_manyullyn_25": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_manyullyn_25"
+			]
+		},
+		"seared_tank_manyullyn_50": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_manyullyn_50"
+			]
+		},
+		"seared_tank_manyullyn_75": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_manyullyn_75"
+			]
+		},
+		"seared_tank_manyullyn_100": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_manyullyn_100"
+			]
+		},
+		"seared_tank_glass_25": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_glass_25"
+			]
+		},
+		"seared_tank_glass_50": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_glass_50"
+			]
+		},
+		"seared_tank_glass_75": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_glass_75"
+			]
+		},
+		"seared_tank_glass_100": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_glass_100"
+			]
+		},
+		"seared_tank_seared_25": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_seared_25"
+			]
+		},
+		"seared_tank_seared_50": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_seared_50"
+			]
+		},
+		"seared_tank_seared_75": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_seared_75"
+			]
+		},
+		"seared_tank_seared_100": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_seared_100"
+			]
+		},
+		"seared_tank_obsidian_25": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_obsidian_25"
+			]
+		},
+		"seared_tank_obsidian_50": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_obsidian_50"
+			]
+		},
+		"seared_tank_obsidian_75": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_obsidian_75"
+			]
+		},
+		"seared_tank_obsidian_100": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_obsidian_100"
+			]
+		},
+		"congealed_slime": {
+			"textures": [
+				"textures/blocks/slime/storage/congealed_slime"
+			]
+		},
+		"congealed_sky_slime": {
+			"textures": [
+				"textures/blocks/slime/storage/congealed_sky_slime"
+			]
+		},
+		"congealed_blood": {
+			"textures": [
+				"textures/blocks/slime/storage/congealed_blood"
+			]
+		},
+		"glow": {
+			"textures": [
+				"textures/blocks/glow"
+			]
+		},
+		"seared_gauge": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge"
+			]
+		},
+		"seared_gauge_lava_25": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_lava_25"
+			]
+		},
+		"seared_gauge_lava_50": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_lava_50"
+			]
+		},
+		"seared_gauge_lava_75": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_lava_75"
+			]
+		},
+		"seared_gauge_lava_100": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_lava_100"
+			]
+		},
+		"seared_gauge_iron_25": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_iron_25"
+			]
+		},
+		"seared_gauge_iron_50": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_iron_50"
+			]
+		},
+		"seared_gauge_iron_75": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_iron_75"
+			]
+		},
+		"seared_gauge_iron_100": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_iron_100"
+			]
+		},
+		"seared_gauge_gold_25": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_gold_25"
+			]
+		},
+		"seared_gauge_gold_50": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_gold_50"
+			]
+		},
+		"seared_gauge_gold_75": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_gold_75"
+			]
+		},
+		"seared_gauge_gold_100": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_gold_100"
+			]
+		},
+		"seared_gauge_copper_25": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_copper_25"
+			]
+		},
+		"seared_gauge_copper_50": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_copper_50"
+			]
+		},
+		"seared_gauge_copper_75": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_copper_75"
+			]
+		},
+		"seared_gauge_copper_100": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_copper_100"
+			]
+		},
+		"seared_gauge_cobalt_25": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_cobalt_25"
+			]
+		},
+		"seared_gauge_cobalt_50": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_cobalt_50"
+			]
+		},
+		"seared_gauge_cobalt_75": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_cobalt_75"
+			]
+		},
+		"seared_gauge_cobalt_100": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_cobalt_100"
+			]
+		},
+		"seared_gauge_ardite_25": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_ardite_25"
+			]
+		},
+		"seared_gauge_ardite_50": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_ardite_50"
+			]
+		},
+		"seared_gauge_ardite_75": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_ardite_75"
+			]
+		},
+		"seared_gauge_ardite_100": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_ardite_100"
+			]
+		},
+		"seared_gauge_manyullyn_25": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_manyullyn_25"
+			]
+		},
+		"seared_gauge_manyullyn_50": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_manyullyn_50"
+			]
+		},
+		"seared_gauge_manyullyn_75": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_manyullyn_75"
+			]
+		},
+		"seared_gauge_manyullyn_100": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_manyullyn_100"
+			]
+		},
+		"seared_gauge_glass_25": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_glass_25"
+			]
+		},
+		"seared_gauge_glass_50": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_glass_50"
+			]
+		},
+		"seared_gauge_glass_75": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_glass_75"
+			]
+		},
+		"seared_gauge_glass_100": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_glass_100"
+			]
+		},
+		"seared_gauge_seared_25": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_seared_25"
+			]
+		},
+		"seared_gauge_seared_50": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_seared_50"
+			]
+		},
+		"seared_gauge_seared_75": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_seared_75"
+			]
+		},
+		"seared_gauge_seared_100": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_seared_100"
+			]
+		},
+		"seared_gauge_obsidian_25": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_obsidian_25"
+			]
+		},
+		"seared_gauge_obsidian_50": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_obsidian_50"
+			]
+		},
+		"seared_gauge_obsidian_75": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_obsidian_75"
+			]
+		},
+		"seared_gauge_obsidian_100": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_obsidian_100"
+			]
+		},
+		"seared_heater": {
+			"textures": [
+				"textures/blocks/seared_heater/seared_heater"
+			]
+		},
+		"seared_heater_on": {
+			"textures": [
+				"textures/blocks/seared_heater/seared_heater_on"
+			]
+		},
+		"seared_melter": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter"
+			]
+		},
+		"seared_melter_on": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_on"
+			]
+		},
+		"seared_melter_iron0": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_iron0"
+			]
+		},
+		"seared_melter_gold0": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_gold0"
+			]
+		},
+		"seared_melter_copper0": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_copper0"
+			]
+		},
+		"seared_melter_cobalt0": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_cobalt0"
+			]
+		},
+		"seared_melter_ardite0": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_ardite0"
+			]
+		},
+		"seared_melter_manyullyn0": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_manyullyn0"
+			]
+		},
+		"seared_melter_seared0": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_seared0"
+			]
+		},
+		"seared_melter_glass0": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_glass0"
+			]
+		},
+		"seared_melter_obsidian0": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_obsidian0"
+			]
+		},
+		"seared_melter_blood0": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_blood0"
+			]
+		},
+		"seared_melter_iron1": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_iron1"
+			]
+		},
+		"seared_melter_gold1": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_gold1"
+			]
+		},
+		"seared_melter_copper1": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_copper1"
+			]
+		},
+		"seared_melter_cobalt1": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_cobalt1"
+			]
+		},
+		"seared_melter_ardite1": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_ardite1"
+			]
+		},
+		"seared_melter_manyullyn1": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_manyullyn1"
+			]
+		},
+		"seared_melter_seared1": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_seared1"
+			]
+		},
+		"seared_melter_glass1": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_glass1"
+			]
+		},
+		"seared_melter_obsidian1": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_obsidian1"
+			]
+		},
+		"seared_melter_blood1": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_blood1"
+			]
+		},
+		"seared_melter_iron2": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_iron2"
+			]
+		},
+		"seared_melter_gold2": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_gold2"
+			]
+		},
+		"seared_melter_copper2": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_copper2"
+			]
+		},
+		"seared_melter_cobalt2": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_cobalt2"
+			]
+		},
+		"seared_melter_ardite2": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_ardite2"
+			]
+		},
+		"seared_melter_manyullyn2": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_manyullyn2"
+			]
+		},
+		"seared_melter_seared2": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_seared2"
+			]
+		},
+		"seared_melter_glass2": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_glass2"
+			]
+		},
+		"seared_melter_obsidian2": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_obsidian2"
+			]
+		},
+		"seared_melter_blood2": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_blood2"
+			]
+		},
+		"seared_melter_iron3": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_iron3"
+			]
+		},
+		"seared_melter_gold3": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_gold3"
+			]
+		},
+		"seared_melter_copper3": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_copper3"
+			]
+		},
+		"seared_melter_cobalt3": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_cobalt3"
+			]
+		},
+		"seared_melter_ardite3": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_ardite3"
+			]
+		},
+		"seared_melter_manyullyn3": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_manyullyn3"
+			]
+		},
+		"seared_melter_seared3": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_seared3"
+			]
+		},
+		"seared_melter_glass3": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_glass3"
+			]
+		},
+		"seared_melter_obsidian3": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_obsidian3"
+			]
+		},
+		"seared_melter_blood3": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_blood3"
+			]
+		},
+		"tinkers_raw_cobalt_block": {
+			"textures": [
+				"textures/blocks/storage/tinkers_raw_cobalt_block"
+			]
+		},
+		"raw_ardite_block": {
+			"textures": [
+				"textures/blocks/storage/raw_ardite_block"
+			]
+		},
+		"nether_grout": {
+			"textures": [
+				"textures/blocks/nether_grout"
+			]
+		},
+		"rack_slime": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_slime"
+			]
+		},
+		"rack_sky_slime": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_sky_slime"
+			]
+		},
+		"rack_blood": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_blood"
+			]
+		},
+		"rack_slime_drop": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_slime_drop"
+			]
+		},
+		"rack_sky_slime_drop": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_sky_slime_drop"
+			]
+		},
+		"rack_blood_drop": {
+			"textures": [
+				"textures/blocks/drying_rack/rack_blood_drop"
+			]
+		},
+		"oak_barricade": {
+			"textures": [
+				"textures/blocks/log_oak"
+			]
+		},
+		"spruce_barricade": {
+			"textures": [
+				"textures/blocks/log_spruce"
+			]
+		},
+		"birch_barricade": {
+			"textures": [
+				"textures/blocks/log_birch"
+			]
+		},
+		"jungle_barricade": {
+			"textures": [
+				"textures/blocks/log_jungle"
+			]
+		},
+		"acacia_barricade": {
+			"textures": [
+				"textures/blocks/log_acacia"
+			]
+		},
+		"dark_oak_barricade": {
+			"textures": [
+				"textures/blocks/log_big_oak"
+			]
+		},
+		"crimson_barricade": {
+			"textures": [
+				"textures/blocks/huge_fungus/crimson_log_side"
+			]
+		},
+		"warped_barricade": {
+			"textures": [
+				"textures/blocks/huge_fungus/warped_stem_side"
+			]
+		},
+		"mangrove_barricade": {
+			"textures": [
+				"textures/blocks/mangrove_log_side"
+			]
+		},
+		"enderman_head": {
+			"textures": [
+				"textures/blocks/head/enderman_head"
+			]
+		},
+		"blaze_head": {
+			"textures": [
+				"textures/blocks/head/blaze_head"
+			]
+		},
+		"spider_head": {
+			"textures": [
+				"textures/blocks/head/spider_head"
+			]
+		},
+		"cave_spider_head": {
+			"textures": [
+				"textures/blocks/head/cave_spider_head"
+			]
+		},
+		"stray_skull": {
+			"textures": [
+				"textures/blocks/head/stray_skull"
+			]
+		},
+		"husk_head": {
+			"textures": [
+				"textures/blocks/head/husk_head"
+			]
+		},
+		"drowned_head": {
+			"textures": [
+				"textures/blocks/head/drowned_head"
+			]
+		},
+		"piglin_head": {
+			"textures": [
+				"textures/blocks/head/piglin_head"
+			]
+		},
+		"piglin_brute_head": {
+			"textures": [
+				"textures/blocks/head/piglin_brute_head"
+			]
+		},
+		"zombified_piglin_head": {
+			"textures": [
+				"textures/blocks/head/zombified_piglin_head"
+			]
+		},
+		"blank": {
+			"textures": [
+				"textures/blocks/blank"
+			]
+		},
+		"pattern_chest": {
+			"textures": [
+				"textures/blocks/chest/pattern_chest"
+			]
+		},
+		"molten_iron": {
+			"textures": [
+				"textures/blocks/molten/molten_iron"
+			]
+		},
+		"molten_gold": {
+			"textures": [
+				"textures/blocks/molten/molten_gold"
+			]
+		},
+		"molten_copper": {
+			"textures": [
+				"textures/blocks/molten/molten_copper"
+			]
+		},
+		"molten_cobalt": {
+			"textures": [
+				"textures/blocks/molten/molten_cobalt"
+			]
+		},
+		"molten_ardite": {
+			"textures": [
+				"textures/blocks/molten/molten_ardite"
+			]
+		},
+		"molten_manyullyn": {
+			"textures": [
+				"textures/blocks/molten/molten_manyullyn"
+			]
+		},
+		"molten_glass": {
+			"textures": [
+				"textures/blocks/molten/molten_glass"
+			]
+		},
+		"molten_obsidian": {
+			"textures": [
+				"textures/blocks/molten/molten_obsidian"
+			]
+		},
+		"seared_stone_liquid": {
+			"textures": [
+				"textures/blocks/molten/seared_stone_liquid"
+			]
+		},
+		"blood": {
+			"textures": [
+				"textures/blocks/molten/blood"
+			]
+		},
+		"molten_iron_blood": {
+			"textures": [
+				"textures/blocks/molten/molten_iron_blood"
+			]
+		},
+		"molten_pig_iron": {
+			"textures": [
+				"textures/blocks/molten/molten_pig_iron"
+			]
+		},
+		"punji_sticks": {
+			"textures": [
+				"textures/blocks/punji_sticks"
+			]
+		},
+		"rough_brownstone": {
+			"textures": [
+				"textures/blocks/brownstone/rough_brownstone"
+			]
+		},
+		"smooth_brownstone": {
+			"textures": [
+				"textures/blocks/brownstone/smooth_brownstone"
+			]
+		},
+		"brownstone_bricks": {
+			"textures": [
+				"textures/blocks/brownstone/brownstone_bricks"
+			]
+		},
+		"fancy_brownstone_bricks": {
+			"textures": [
+				"textures/blocks/brownstone/fancy_brownstone_bricks"
+			]
+		},
+		"cracked_brownstone_bricks": {
+			"textures": [
+				"textures/blocks/brownstone/cracked_brownstone_brick"
+			]
+		},
+		"square_brownstone_bricks": {
+			"textures": [
+				"textures/blocks/brownstone/square_brownstone_brick"
+			]
+		},
+		"triangle_brownstone_bricks": {
+			"textures": [
+				"textures/blocks/brownstone/triangle_brownstone_brick"
+			]
+		},
+		"brownstone_creeperface": {
+			"textures": [
+				"textures/blocks/brownstone/brownstone_creeperface"
+			]
+		},
+		"small_brownstone_bricks": {
+			"textures": [
+				"textures/blocks/brownstone/small_brownstone_brick"
+			]
+		},
+		"brownstone_tiles": {
+			"textures": [
+				"textures/blocks/brownstone/brownstone_tile"
+			]
+		},
+		"brownstone_road": {
+			"textures": [
+				"textures/blocks/brownstone/brownstone_road"
+			]
+		},
+		"brownstone_paver": {
+			"textures": [
+				"textures/blocks/brownstone/brownstone_paver"
+			]
+		},
+		"earth_slime_dirt": {
+			"textures": [
+				"textures/blocks/slime/dirt/earth_slime_dirt"
+			]
+		},
+		"earth_slime_grass": {
+			"textures": [
+				"textures/blocks/slime/dirt/earth_slime_grass"
+			]
+		},
+		"earth_slime_grass2": {
+			"textures": [
+				"textures/blocks/slime/dirt/earth_slime_grass2"
+			]
+		},
+		"earth_slime_grass_top": {
+			"textures": [
+				"textures/blocks/slime/dirt/earth_slime_grass_top"
+			]
+		},
+		"earth_slimy_leaves": {
+			"textures": [
+				"textures/blocks/slime/foliage/earth_slimy_leaves"
+			]
+		},
+		"earth_tall_slimy_grass": {
+			"textures": [
+				"textures/blocks/slime/foliage/earth_tall_slimy_grass"
+			]
+		},
+		"earth_slimy_fern": {
+			"textures": [
+				"textures/blocks/slime/foliage/earth_slimy_fern"
+			]
+		},
+		"greenheart_sapling": {
+			"textures": [
+				"textures/blocks/slime/sapling/greenheart_sapling"
+			]
+		},
+		"part_builder_oak_stripped": {
+			"textures": [
+				"textures/blocks/table/part_builder_oak_stripped"
+			]
+		},
+		"part_builder_spruce_stripped": {
+			"textures": [
+				"textures/blocks/table/part_builder_spruce_stripped"
+			]
+		},
+		"part_builder_birch_stripped": {
+			"textures": [
+				"textures/blocks/table/part_builder_birch_stripped"
+			]
+		},
+		"part_builder_jungle_stripped": {
+			"textures": [
+				"textures/blocks/table/part_builder_jungle_stripped"
+			]
+		},
+		"part_builder_acacia_stripped": {
+			"textures": [
+				"textures/blocks/table/part_builder_acacia_stripped"
+			]
+		},
+		"part_builder_dark_oak_stripped": {
+			"textures": [
+				"textures/blocks/table/part_builder_dark_oak_stripped"
+			]
+		},
+		"part_builder_warped_stripped": {
+			"textures": [
+				"textures/blocks/table/part_builder_warped_stripped"
+			]
+		},
+		"part_builder_crimson_stripped": {
+			"textures": [
+				"textures/blocks/table/part_builder_crimson_stripped"
+			]
+		},
+		"part_builder_mangrove_stripped": {
+			"textures": [
+				"textures/blocks/table/part_builder_mangrove_stripped"
+			]
+		},
+		"pig_iron_block": {
+			"textures": [
+				"textures/blocks/storage/pig_iron_block"
+			]
+		},
+		"pig_iron_block_top": {
+			"textures": [
+				"textures/blocks/storage/pig_iron_block_top"
+			]
+		},
+		"seared_melter_pig_iron0": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_pig_iron0"
+			]
+		},
+		"seared_melter_pig_iron1": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_pig_iron1"
+			]
+		},
+		"seared_melter_pig_iron2": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_pig_iron2"
+			]
+		},
+		"seared_melter_pig_iron3": {
+			"textures": [
+				"textures/blocks/seared_melter/seared_melter_pig_iron3"
+			]
+		},
+		"seared_gauge_pig_iron_25": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_pig_iron_25"
+			]
+		},
+		"seared_gauge_pig_iron_50": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_pig_iron_50"
+			]
+		},
+		"seared_gauge_pig_iron_75": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_pig_iron_75"
+			]
+		},
+		"seared_gauge_pig_iron_100": {
+			"textures": [
+				"textures/blocks/seared_gauge/seared_gauge_pig_iron_100"
+			]
+		},
+		"seared_tank_pig_iron_25": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_pig_iron_25"
+			]
+		},
+		"seared_tank_pig_iron_50": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_pig_iron_50"
+			]
+		},
+		"seared_tank_pig_iron_75": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_pig_iron_75"
+			]
+		},
+		"seared_tank_pig_iron_100": {
+			"textures": [
+				"textures/blocks/seared_tank/seared_tank_pig_iron_100"
+			]
+		},
+		"seared_drain_front": {
+			"textures": [
+				"textures/blocks/smeltery/seared_drain_front"
+			]
+		},
+		"seared_drain_back": {
+			"textures": [
+				"textures/blocks/smeltery/seared_drain_back"
+			]
+		},
+		"seared_faucet": {
+			"textures": [
+				"textures/blocks/smeltery/faucet/faucet"
+			]
+		},
+		"seared_faucet_iron": {
+			"textures": [
+				"textures/blocks/smeltery/faucet/faucet_iron"
+			]
+		},
+		"seared_faucet_gold": {
+			"textures": [
+				"textures/blocks/smeltery/faucet/faucet_gold"
+			]
+		},
+		"seared_faucet_copper": {
+			"textures": [
+				"textures/blocks/smeltery/faucet/faucet_copper"
+			]
+		},
+		"seared_faucet_cobalt": {
+			"textures": [
+				"textures/blocks/smeltery/faucet/faucet_cobalt"
+			]
+		},
+		"seared_faucet_ardite": {
+			"textures": [
+				"textures/blocks/smeltery/faucet/faucet_ardite"
+			]
+		},
+		"seared_faucet_manyullyn": {
+			"textures": [
+				"textures/blocks/smeltery/faucet/faucet_manyullyn"
+			]
+		},
+		"seared_faucet_seared_stone": {
+			"textures": [
+				"textures/blocks/smeltery/faucet/faucet_seared_stone"
+			]
+		},
+		"seared_faucet_glass": {
+			"textures": [
+				"textures/blocks/smeltery/faucet/faucet_glass"
+			]
+		},
+		"seared_faucet_obsidian": {
+			"textures": [
+				"textures/blocks/smeltery/faucet/faucet_obsidian"
+			]
+		},
+		"seared_faucet_blood": {
+			"textures": [
+				"textures/blocks/smeltery/faucet/faucet_blood"
+			]
+		},
+		"seared_faucet_pig_iron": {
+			"textures": [
+				"textures/blocks/smeltery/faucet/faucet_pig_iron"
+			]
+		}
+	}
+}

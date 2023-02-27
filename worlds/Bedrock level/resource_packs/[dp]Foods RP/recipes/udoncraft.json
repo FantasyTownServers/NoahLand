@@ -1,0 +1,36 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:udoncraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      " 1 ",
+      "345"
+    ],
+    "key": {
+      "1": {
+        "item": "minecraft:sugar"
+      },
+      "3": {
+        "item": "minecraft:stick"
+      },
+      "4": {
+        "item": "dp_foods_plus:pasta"
+      },
+      "5": {
+        "item": "dp_foods_plus:tomato"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:udon",
+      "count": 1
+    }
+  }
+}

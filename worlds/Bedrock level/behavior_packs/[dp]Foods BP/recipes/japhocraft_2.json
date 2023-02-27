@@ -1,0 +1,37 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:japhocraft_2"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "0  ",
+      " 45",
+      "  8"
+    ],
+    "key": {
+      "0": {
+        "item": "minecraft:sugar"
+      },
+      "4": {
+        "item": "minecraft:honey_bottle"
+      },
+      "5": {
+        "item": "dp_foods_plus:chocolate"
+      },
+      "8": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:japanese_candy",
+      "count": 1
+    }
+  }
+}

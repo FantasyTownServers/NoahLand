@@ -1,0 +1,9 @@
+{
+    "CONFIG": "此为CustomGetMap的配置文件 | by Wn1027",
+    "onlyOP": false,
+    "onlyMyMap": true,
+    "tips": true,
+    "setInterval": 50,
+    "maxMapNum": 10000,
+    "python": "python"
+}

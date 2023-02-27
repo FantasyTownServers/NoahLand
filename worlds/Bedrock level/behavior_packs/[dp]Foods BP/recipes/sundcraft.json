@@ -1,0 +1,49 @@
+{
+  "format_version": "1.12",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "dp_foods_plus:sundcraft"
+    },
+    "groups": [
+      "dp_foods_plus"
+    ],
+    "tags": [
+      "crafting_table"
+    ],
+    "pattern": [
+      "012",
+      "345",
+      " 78"
+    ],
+    "key": {
+      "0": {
+        "item": "dp_foods_plus:sprinkles"
+      },
+      "1": {
+        "item": "dp_foods_plus:cherry"
+      },
+      "2": {
+        "item": "minecraft:sugar"
+      },
+      "3": {
+        "item": "minecraft:milk_bucket"
+      },
+      "4": {
+        "item": "dp_foods_plus:vanilla_yogurt"
+      },
+      "5": {
+        "item": "minecraft:sugar"
+      },
+      "7": {
+        "item": "dp_foods_plus:strawberrys"
+      },
+      "8": {
+        "item": "dp_foods_plus:chocolate"
+      }
+    },
+    "result": {
+      "item": "dp_foods_plus:strawberry_sundae",
+      "count": 1
+    }
+  }
+}

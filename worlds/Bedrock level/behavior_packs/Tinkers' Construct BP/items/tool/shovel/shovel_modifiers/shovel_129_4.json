@@ -1,0 +1,292 @@
+//bridge-file-version: #15
+{
+	"format_version": "1.17.0",
+	"minecraft:item": {
+		"description": {
+			"identifier": "strat:shovel_129_4",
+			"category": "commands"
+		},
+		"components": {
+			"minecraft:max_stack_size": 1,
+			"minecraft:hand_equipped": true,
+			"minecraft:durability": {
+				"max_durability": 1160,
+				"damage_chance": {
+					"min": 1,
+					"max": 1
+				}
+			},
+			"minecraft:mining_speed": 6,
+			"minecraft:damage": 8,
+			"minecraft:digger": {
+				"use_efficiency": true,
+				"destroy_speeds": [
+					{
+						"block": {
+							"tags": "q.any_tag('dirt', 'sand', 'gravel', 'grass', 'snow')"
+						},
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "strat:grout",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "strat:nether_grout",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:farmland",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:grass",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:grass_path",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:gravel",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:podzol",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:dirt",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:sand",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:concrete_powder",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:snow_layer",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:clay",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:snow",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:mycelium",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:soul_sand",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					},
+					{
+						"block": "minecraft:soul_soil",
+						"speed": 6,
+						"on_dig": {
+							"event": "hurt"
+						}
+					}
+				],
+				"on_dig": {
+					"event": "hurt"
+				}
+			},
+			"minecraft:icon": {
+				"texture": "shovel_129_4"
+			},
+			"minecraft:display_name": {
+				"value": "Pig Iron Shovel\n§cTasty III\n§bDiamond\n§7Sharp§r"
+			},
+			"minecraft:creative_category": {
+				"parent": "itemGroup.name.shovel"
+			},
+			"minecraft:weapon": {
+				"on_hurt_entity": {
+					"event": "hurt_2"
+				},
+				"on_hit_block": {
+					"event": "hurt"
+				}
+			},
+			"tag:minecraft:is_shovel": {},
+			"minecraft:use_animation": "eat",
+			"minecraft:use_duration": 0.8,
+			"minecraft:chargeable": {
+				"on_complete": {
+					"event": "eat"
+				},
+				"movement_modifier": 0.5
+			}
+		},
+		"events": {
+			"eat": {
+				"sequence": [
+					{
+						"condition": "query.remaining_durability < 45",
+						"decrement_stack": {},
+						"run_command": {
+							"command": [
+								"effect @s saturation 1 1 true",
+								"playsound random.break @a ~~~",
+								"gamerule sendcommandfeedback false",
+								"give @s strat:shovel_129_broken",
+								"gamerule sendcommandfeedback true"
+							],
+							"target": "holder"
+						}
+					},
+					{
+						"condition": "query.remaining_durability > 44",
+						"damage": {
+							"type": "none",
+							"amount": 45,
+							"target": "self"
+						},
+						"run_command": {
+							"command": [
+								"effect @s saturation 1 2 true",
+								"playsound random.burp @a ~~~"
+							]
+						}
+					}
+				]
+			},
+			"hurt": {
+				"sequence": [
+					{
+						"condition": "query.remaining_durability == 0",
+						"decrement_stack": {},
+						"run_command": {
+							"command": [
+								"playsound random.break @a ~~~",
+								"gamerule sendcommandfeedback false",
+								"give @s strat:shovel_129_broken",
+								"gamerule sendcommandfeedback true"
+							],
+							"target": "holder"
+						}
+					},
+					{
+						"condition": "query.remaining_durability > 0",
+						"damage": {
+							"type": "none",
+							"amount": 1,
+							"target": "self"
+						}
+					}
+				]
+			},
+			"hurt_2": {
+				"sequence": [
+					{
+						"condition": "query.remaining_durability < 2",
+						"decrement_stack": {},
+						"run_command": {
+							"command": [
+								"playsound random.break @a ~~~",
+								"gamerule sendcommandfeedback false",
+								"give @s strat:shovel_129_broken",
+								"gamerule sendcommandfeedback true"
+							],
+							"target": "holder"
+						}
+					},
+					{
+						"condition": "query.remaining_durability > 1",
+						"damage": {
+							"type": "none",
+							"amount": 2,
+							"target": "self"
+						}
+					}
+				]
+			},
+			"on_tool_used": {
+				"sequence": [
+					{
+						"condition": "query.remaining_durability > 0",
+						"damage": {
+							"type": "durability",
+							"amount": 1
+						},
+						"run_command": {
+							"command": [
+								"playsound use.grass @a ~ ~ ~"
+							]
+						},
+						"swing": {}
+					},
+					{
+						"condition": "query.remaining_durability == 0",
+						"transform_item": {
+							"transform": "strat:shovel_129_broken"
+						},
+						"run_command": {
+							"command": [
+								"playsound use.grass @a ~ ~ ~",
+								"playsound random.break @a ~~~"
+							]
+						},
+						"swing": {}
+					}
+				]
+			}
+		}
+	}
+}
