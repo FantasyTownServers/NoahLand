@@ -4,17 +4,5 @@
             "desc": "Access to /perm commands"
         }
     },
-    "roles": {
-        "admin": {
-            "displayName": "§cadmin",
-            "members": [],
-            "permissions": {},
-            "priority": 2147483647
-        },
-        "everyone": {
-            "displayName": "§7everyone",
-            "permissions": {},
-            "priority": 0
-        }
-    }
+    "roles": null
 }

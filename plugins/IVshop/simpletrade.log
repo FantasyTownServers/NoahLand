@@ -1,0 +1,12 @@
+[2023-02-28 23:06:44 ERROR][Inventoryshop] Can't find direct,try create:plugins/IVshop/log/ 
+[2023-02-28 23:06:44 INFO][Inventoryshop] create plugins/IVshop/log/ success!
+[2023-02-28 23:06:45 INFO][Inventoryshop] Latest version.
+[2023-02-28 23:09:59 WARN][Inventoryshop] Can't find direct,try create:plugins/IVshop/data/ 
+[2023-02-28 23:09:59 INFO][Inventoryshop] create plugins/IVshop/data/ success!
+[2023-02-28 23:09:59 WARN][Inventoryshop] Can't open file systemshop.json,try load default json...
+[2023-02-28 23:09:59 INFO][debuglogger] total query time:0s at ??R<lambda_bbbeecf77fbaa7765db5d736d381a8ab>@@QEBA@XZ
+[2023-02-28 23:10:20 INFO][debuglogger] total query time:0s at ??R<lambda_bbbeecf77fbaa7765db5d736d381a8ab>@@QEBA@XZ
+[2023-02-28 23:36:28 WARN][Inventoryshop] Can't open file 2535424276910358.json,try load default json...
+[2023-02-28 23:37:38 INFO][debuglogger] detect recycle from creativeitem
+[2023-02-28 23:37:41 INFO][debuglogger] detect recycle from creativeitem
+[2023-02-28 23:37:46 INFO][debuglogger] detect recycle from creativeitem

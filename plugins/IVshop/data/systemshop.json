@@ -1,0 +1,28 @@
+{
+    "recycles": {
+        "describe": "",
+        "isopshop": false,
+        "ownerlang": "",
+        "ownername": "",
+        "recycleamount": 0,
+        "recyclecost": 0,
+        "recycleitems": null,
+        "shopitemicon": "",
+        "shopname": "",
+        "shopstate": 0
+    },
+    "sell": {
+        "biditems": null,
+        "describe": "",
+        "isopshop": false,
+        "items": null,
+        "ownerlang": "",
+        "ownername": "",
+        "salesvolume": 0,
+        "sellcount": 0,
+        "shopdiscount": null,
+        "shopitemicon": "",
+        "shopname": "",
+        "shopstate": 0
+    }
+}

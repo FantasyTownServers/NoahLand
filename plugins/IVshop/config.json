@@ -1,0 +1,12 @@
+{
+    "banshopitem": [
+        "minecraft:clock"
+    ],
+    "debugmode": 0,
+    "enablesystemshopinglobalshop": false,
+    "extraslotcost": 500,
+    "maxfreeslot": 36,
+    "moneymode": 1,
+    "scoremoneyname": "money",
+    "tax": 0
+}
