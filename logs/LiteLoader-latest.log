@@ -1,0 +1,31 @@
+[2023-02-28 23:42:28 INFO][LiteLoader] 加载原生插件...
+[2023-02-28 23:42:28 INFO][LiteLoader] 原生插件 <BanExplosion.dll> 已加载
+[2023-02-28 23:42:28 INFO][LiteLoader] 原生插件 <BetterStop.dll> 已加载
+[2023-02-28 23:42:28 INFO][LiteLoader] 原生插件 <CustomMap.dll> 已加载
+[2023-02-28 23:42:29 INFO][LiteLoader] 原生插件 <IVshop.dll> 已加载
+[2023-02-28 23:42:29 INFO][LiteLoader] 原生插件 <LLMoney.dll> 已加载
+[2023-02-28 23:42:29 INFO][LiteLoader] 原生插件 <MovingLight.dll> 已加载
+[2023-02-28 23:42:29 INFO][LiteLoader] * Js 脚本引擎已加载
+[2023-02-28 23:42:29 INFO][LiteLoader] * Lua 脚本引擎已加载
+[2023-02-28 23:42:29 INFO][LiteLoader] * NodeJs 脚本引擎已加载
+[2023-02-28 23:42:29 INFO][LiteLoader] 已加载 6 个原生插件
+[2023-02-28 23:42:29 INFO][bStats] bStats已启用，你可以通过编辑 plugins/bStats/config.json 来禁用它
+[2023-02-28 23:42:29 INFO][Server] Starting Server
+[2023-02-28 23:42:29 INFO][Server] Version 1.19.63.01(ProtocolVersion 568) with [1m[3m[38;2;135;206;250mLiteLoaderBDS 2.11.0+[0m
+[2023-02-28 23:42:29 INFO][Server] Session ID b16d1630-2c19-433c-a256-99f9c48bf202
+[2023-02-28 23:42:29 INFO][Server] Level Name: Bedrock level
+[2023-02-28 23:42:29 INFO][Server] Game mode: 0 Survival
+[2023-02-28 23:42:29 INFO][Server] Difficulty: 3 HARD
+[2023-02-28 23:42:29 INFO][Server] Content logging enabled. Writing log to: ContentLog__Tuesday__2023_February_28__23_42_29
+[2023-02-28 23:42:29 INFO][Server] Experiment(s) active: ddi_, biom, ucft, gtst, mola, CnC_, wld_, spct, VE__, scpt
+[2023-02-28 23:42:29 INFO][Server] opening worlds/Bedrock level/db
+[2023-02-28 23:42:35 INFO][Server] IPv4 supported, port: 34091: Used for gameplay and LAN discovery
+[2023-02-28 23:42:35 INFO][Server] IPv6 supported, port: 34091: Used for gameplay
+[2023-02-28 23:42:38 INFO][LiteLoader] LiteLoader采用 LGPLv3 许可证开源
+[2023-02-28 23:42:38 INFO][LiteLoader] 我们的新论坛上线了啦! -> https://forum.litebds.com
+[2023-02-28 23:42:38 INFO][LiteLoader] 帮助我们翻译&改进翻译 -> https://crowdin.com/project/liteloaderbds
+[2023-02-28 23:42:38 INFO][LiteLoader] Thanks to RhyMC(rhymc.com) for the support
+[2023-02-28 23:42:38 INFO][Server] To enable Server Telemetry, add the line 'emit-server-telemetry=true' to the server.properties file in the bds directory
+[2023-02-28 23:43:43 INFO][Server] Player connected: ABCD12335, xuid: 2535463779281280
+[2023-02-28 23:44:12 INFO][Server] Player Spawned: ABCD12335 xuid: 2535463779281280
+[2023-03-01 00:23:31 INFO][Server] Player disconnected: ABCD12335, xuid: 2535463779281280
