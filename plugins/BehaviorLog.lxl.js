@@ -263,7 +263,7 @@ var conf = JSON.parse(confFile.read());
 
 //日志文件
 function GetTodayLogPath() {
-    return './logs/BehaviorLog-' + system.getTimeStr().substr(0, 10) + '.csv';
+    return './logs/BehaviorLog/BehaviorLog-' + system.getTimeStr().substr(0, 10) + '.csv';
 }
 
 var logFile;

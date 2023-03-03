@@ -3,17 +3,17 @@
     "Settings": {
         "onPreJoin": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onJoin": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onLeft": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onRespawn": {
@@ -28,12 +28,12 @@
         },
         "onPlayerCmd": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": []
         },
         "onChat": {
             "LogToFile": 1,
-            "LogToConsole": 1,
+            "LogToConsole": 0,
             "NoOutputContent": [
                 "{\"rawtext\":[{"
             ]
