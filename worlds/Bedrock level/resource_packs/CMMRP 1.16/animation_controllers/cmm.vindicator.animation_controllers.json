@@ -1,0 +1,64 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cmm.vindicator.base": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [ "vindicator_base" ]
+        }
+      }
+    },
+    "controller.animation.cmm.vindicator.move": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "move" ],
+          "transitions": [
+            {
+              "celebrating": "query.is_celebrating"
+            },
+            {
+              "hand_attack": "!query.is_item_equipped && variable.has_target && variable.attack_time >= 0.0"
+            },
+            {
+              "melee_attack": "query.is_item_equipped && variable.has_target && variable.attack_time >= 0.0"
+            }
+          ]
+        },
+        "hand_attack": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "vindicator_hand_attack", "move.legs" ],
+          "transitions": [
+            {
+              "default": "query.is_item_equipped || !variable.has_target || variable.attack_time < 0.0 || query.is_celebrating"
+            }
+          ]
+        },
+        "melee_attack": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "vindicator_attack", "move.legs" ],
+          "transitions": [
+            {
+              "default": "!query.is_item_equipped || !variable.has_target || variable.attack_time < 0.0 || query.is_celebrating"
+            }
+          ]
+        },
+        "celebrating": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "celebrating", "move.legs" ],
+          "transitions": [
+            {
+              "default": "!query.is_celebrating"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,467 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cmm.attack": {
+      "initial_state": "default",
+      "states": {
+        "attacking": {
+          "animations": [ "attack.rotations" ],
+          "transitions": [
+            {
+              "default": "variable.attack_time < 0.0"
+            }
+          ]
+        },
+        "default": {
+          "transitions": [
+            {
+              "attacking": "variable.attack_time >= 0.0"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.baby_big_head": {
+      "initial_state": "default",
+      "states": {
+        "baby": {
+          "animations": [ "cmm_big_head" ],
+          "transitions": [
+            {
+              "default": "!query.is_baby"
+            }
+          ]
+        },
+        "default": {
+          "transitions": [
+            {
+              "baby": "query.is_baby"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.baby_base_pose": {
+      "initial_state": "default",
+      "states": {
+        "baby": {
+          "animations": [ "baby_base_pose" ],
+          "transitions": [
+            {
+              "default": "!query.is_baby"
+            }
+          ]
+        },
+        "default": {
+          "animations": [ "cmm_base_pose" ],
+          "transitions": [
+            {
+              "baby": "query.is_baby"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.base_pose": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [ "cmm_base_pose" ]
+        }
+      }
+    },
+    "controller.animation.cmm.bob": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [ "bob" ]
+        }
+      }
+    },
+    "controller.animation.cmm.bow_and_arrow": {
+      "initial_state": "default",
+      "states": {
+        "bow_and_arrow": {
+          "animations": [ "bow_and_arrow" ],
+          "transitions": [
+            {
+              "default": "!query.has_target"
+            }
+          ]
+        },
+        "default": {
+          "transitions": [
+            {
+              "bow_and_arrow": "query.has_target"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.brandish_spear": {
+      "initial_state": "default",
+      "states": {
+        "brandish_spear": {
+          "animations": [ "brandish_spear" ],
+          "transitions": [
+            {
+              "default": "!variable.is_brandishing_spear"
+            }
+          ]
+        },
+        "default": {
+          "transitions": [
+            {
+              "brandish_spear": "variable.is_brandishing_spear"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.celebrating": {
+      "initial_state": "default",
+      "states": {
+        "celebrating": {
+          "animations": [ "celebrating" ],
+          "transitions": [
+            {
+              "default": "!query.is_celebrating"
+            }
+          ]
+        },
+        "default": {
+          "transitions": [
+            {
+              "celebrating": "query.is_celebrating"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.charging": {
+      "initial_state": "default",
+      "states": {
+        "charging": {
+          "animations": [ "charging" ],
+          "transitions": [
+            {
+              "default": "!query.is_charging"
+            }
+          ]
+        },
+        "default": {
+          "transitions": [
+            {
+              "charging": "query.is_charging"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.damage_nearby_mobs": {
+      "initial_state": "default",
+      "states": {
+        "damage_nearby_mobs": {
+          "animations": [ "damage_nearby_mobs" ],
+          "transitions": [
+            {
+              "default": "!variable.damage_nearby_mobs"
+            }
+          ]
+        },
+        "default": {
+          "transitions": [
+            {
+              "damage_nearby_mobs": "variable.damage_nearby_mobs"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.holding": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [ "holding" ]
+        }
+      }
+    },
+    "controller.animation.cmm.look_at_target": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [ "look_at_target_default" ],
+          "transitions": [
+            {
+              "gliding": "query.is_gliding"
+            },
+            {
+              "swimming": "query.is_swimming"
+            }
+          ]
+        },
+        "gliding": {
+          "animations": [ "look_at_target_gliding" ],
+          "transitions": [
+            {
+              "swimming": "query.is_swimming"
+            },
+            {
+              "default": "!query.is_gliding"
+            }
+          ]
+        },
+        "swimming": {
+          "animations": [ "look_at_target_swimming" ],
+          "transitions": [
+            {
+              "gliding": "query.is_gliding"
+            },
+            {
+              "default": "!query.is_swimming"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.move": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [ "move" ]
+        }
+      }
+    },
+    "controller.animation.cmm.walk": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [
+            {
+              "walk": "query.modified_move_speed"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.move.jump": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "move" ],
+          "transitions": [
+            {
+              "jump": "!query.is_on_ground"
+            }
+          ]
+        },
+        "jump": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "jump.arms", "move.legs" ],
+          "transitions": [
+            {
+              "default": "query.is_on_ground"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.walk.jump": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [
+            {
+              "walk": "query.modified_move_speed"
+            }
+          ],
+          "transitions": [
+            {
+              "jump": "!query.is_on_ground"
+            }
+          ]
+        },
+        "jump": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "jump.arms",
+            {
+              "walk.legs": "query.modified_move_speed"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "query.is_on_ground"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.move.jump.sit": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "move" ],
+          "transitions": [
+            {
+              "sitting": "query.is_sitting"
+            },
+            {
+              "jump": "!query.is_on_ground"
+            }
+          ]
+        },
+        "sitting": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "sitting" ],
+          "transitions": [
+            {
+              "default": "!query.is_sitting"
+            }
+          ]
+        },
+        "jump": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "jump.arms", "move.legs" ],
+          "transitions": [
+            {
+              "gliding": "query.is_on_ground"
+            },
+            {
+              "default": "query.is_sitting"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.riding": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "riding": "query.is_riding"
+            }
+          ]
+        },
+        "riding": {
+          "animations": [ "riding.arms", "riding.legs" ],
+          "transitions": [
+            {
+              "default": "!query.is_riding"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.riding.v2": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "riding": "query.is_riding"
+            }
+          ]
+        },
+        "riding": {
+          "animations": [ "riding" ],
+          "transitions": [
+            {
+              "default": "!query.is_riding"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.riding.pose": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "riding": "query.is_riding"
+            }
+          ]
+        },
+        "riding": {
+          "animations": [ "riding.arms", "riding.legs", "riding.pose" ],
+          "transitions": [
+            {
+              "default": "!query.is_riding"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.sneaking": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "sneaking": "query.is_sneaking"
+            }
+          ]
+        },
+        "sneaking": {
+          "animations": [ "sneaking" ],
+          "transitions": [
+            {
+              "default": "!query.is_sneaking"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.swimming": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "swimming": "variable.swim_amount > 0.0"
+            }
+          ]
+        },
+        "swimming": {
+          "animations": [ "swimming" ],
+          "transitions": [
+            {
+              "default": "variable.swim_amount <= 0.0"
+            }
+          ]
+        }
+      }
+    },
+    "controller.animation.cmm.use_item_progress": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "use_item_progress": "( variable.use_item_interval_progress > 0.0 ) || ( variable.use_item_startup_progress > 0.0 )"
+            }
+          ]
+        },
+        "use_item_progress": {
+          "animations": [ "use_item_progress" ],
+          "transitions": [
+            {
+              "default": "( variable.use_item_interval_progress <= 0.0 ) && ( variable.use_item_startup_progress <= 0.0 )"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

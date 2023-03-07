@@ -1,4 +1,0 @@
-fill ~-2~~-2~+2~~+2 strat:seared_faucet ["strat:rotation":2,"strat:material":10,"strat:material_count":1,"strat:authorise":4] replace strat:seared_faucet ["strat:rotation":2,"strat:material_count":1,"strat:authorise":3]
-fill ~-2~~-2~+2~~+2 strat:seared_faucet ["strat:rotation":3,"strat:material":10,"strat:material_count":1,"strat:authorise":4] replace strat:seared_faucet ["strat:rotation":3,"strat:material_count":1,"strat:authorise":3]
-fill ~-2~~-2~+2~~+2 strat:seared_faucet ["strat:rotation":4,"strat:material":10,"strat:material_count":1,"strat:authorise":4] replace strat:seared_faucet ["strat:rotation":4,"strat:material_count":1,"strat:authorise":3]
-fill ~-2~~-2~+2~~+2 strat:seared_faucet ["strat:rotation":5,"strat:material":10,"strat:material_count":1,"strat:authorise":4] replace strat:seared_faucet ["strat:rotation":5,"strat:material_count":1,"strat:authorise":3]

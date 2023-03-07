@@ -1,7 +1,0 @@
-{
-	"format_version": "1.16.100",
-	"minecraft:texture_set": {
-		"color": "seared_heater_on",
-		"metalness_emissive_roughness": "seared_heater_on_mer"
-	}
-}

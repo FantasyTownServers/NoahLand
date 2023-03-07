@@ -1,13 +1,27 @@
 Item Info+
-Version 1.9 (March 24, 2022)
-Made by HonKit26113. Do not distribute.
+VERSION 1.8 (STABLE RELEASE)
+Released Dec 24, 2021
 
-This pack is licensed under CC BY-ND 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by-nd/4.0/
-This add-on is only available on MCPEDL.
+==========================================================================
+CREDITS
 
-====================
+Creator: HonKit26113 (@HonKit1103)
+
+Feature Suggestions:
+ - Time to consume an item: Koton Bads (@Koton_Bads)
+ - Armor Points: Zach Marc (@NotDaRealZach)
+ - Half hunger bars before full bars: Ftere
+ - Banner Pattern Icons: DiamondGamerAsh (@DiamondGamerAsh)
+ - Light Level Icons: DiamondGamerAsh (@DiamondGamerAsh)
+ - Better Banner Pattern Icon Designs: ChilRx (@chill_vireak)
+ - Enchantment Icons: TheMCGuy213
+ - Saturation Points: ECKOSOLDIER (@eckoxsoldier)
+
+Special thanks to NetherNinja for the special settings panel!
+
+==========================================================================
 IMPORTANT
-As of Version 1.9, this pack has only been released on MCPEDL.
+As of Version 1.8, this pack has only been released on MCPEDL.
 For your safety, please do not download this pack from anywhere else.
 
 You must NOT share the MediaFire link to the download directly.
@@ -17,62 +31,16 @@ If you plan on including this pack in your own public pack,
 please DM me on Twitter @HonKit1103 or Discord at HonKit26113#7442 to get my permission first.
 You must leave credit, or else your pack may be taken down for copyright reasons.
 
-====================
+==========================================================================
 CHANGELOG
-The Changelog below may not be 100% identical to the one on MCPEDL. In that case, the MCPEDL version shall prevail.
-
-More Supported Languages!
- - Bulgarian [ Български (България) ]
- - Czech [ Čeština (Česko) ]
- - German [ Deutsch (Deutschland) ]
- - Greek [ Ελληνικά (Ελλάδα) ]
- - Finnish [ Suomi (Suomi) ]
- - French (Canada) [ Français (Canada) ]
- - Hungarian [ Magyar (Magyarország) ]
- - Indonesian
- - Dutch [ Nederlands (Nederland) ]
- - Polish [ Polski (Polska) ]
- - Portuguese (Portugal) [ Português (Portugal) ]
- - Slovene [ Slovenčina (Slovensko) ]
- - Swedish [ Svenska (Sverige) ]
- - Turkish [ Türkçe (Türkiye) ]
-
+Version 1.8 (December 24, 2021)
 Changes and Additions:
- - There are now icons for each Firework pattern! These will appear on the item names of Firework Rockets and Firework Stars.
- - Added support for the new blocks and items in 1.19.
- - Added support for the Globe banner pattern.
- - Icons are now shown on Banner Pattern items.
- - Banner Pattern Icons are now shown on the left of the pattern name.
- - Changed the design of Gradient and Base Gradient banner pattern icons.
- - There is now a welcome image in the Item Info+ settings section.
- - The subpack chooser menu has been updated.
- - Added support for new items from the Beyond The Underground add-on.
+ - Light Level information will now be shown on names of blocks & items that emit light!
+ - The duration of music discs will now be shown on the name of the respective song!
+ - The subpack chooser menu has been updated to highlight important information.
 
 Bug Fixes:
- - Light Level icons now appear correctly in the Minecraft Earth mode.
- - The decimal separator is now a comma "," for some languages.
- - The "seconds" abbreviation for some languages is now correct.
- - The pack icon no longer appears blurry in the updated create new world UI.
- - Wandering Traders are now shown as passive in English (US).
- - "Invalid lang file format" errors no longer appear in English (UK).
- - The duration of the Pigstep music disc now appears correctly in Traditional Chinese.
- - The light level of the Soul Campfire and Shroomlight now appears correctly in Traditional Chinese.
- - Fixed some incorrect translations in Simplified Chinese.
-
-====================
-CREDITS
-
-Creator: HonKit26113 (@HonKit1103)
-
-Feature Suggestions:
- - Time to consume an item: Koton Bads (@Koton_Bads)
- - Armor Points: Zach Marc
- - Half hunger bars before full bars: Ftere
- - Banner Pattern Icons: DiamondGamerAsh (@DiamondGamerAsh)
- - Light Level Icons: DiamondGamerAsh (@DiamondGamerAsh)
- - Firework Charge Icons: DiamondGamerAsh (@DiamondGamerAsh)
- - Better Banner Pattern Icon Designs: ChilRx (@chilrx)
- - Enchantment Icons: TheMCGuy213
- - Saturation Points: ECKOSOLDIER (@eckoxsoldier)
-
-Special thanks to NetherNinja for the special settings panel!
+ - Icons no longer appear over-saturated and distorted.
+ - The Leather, Chain, Iron, Gold, and Diamond Boots item names are now translated correctly in Mexican Spanish.
+ - The Raw Chicken item name now contains the correct amount of hunger given.
+ - "Invalid lang file format" errors no longer appear.

@@ -1,0 +1,69 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "storymode:dog",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "cmm.dog" },
+      "textures": {
+        "default": "textures/cmm_story_mode/dog/black",
+        "angry": "textures/cmm_story_mode/dog/black_angry",
+        "tame": "textures/cmm_story_mode/dog/black_tame"
+      },
+      "geometry": {
+        "default": "geometry.cmm.dog.v1.8"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+          "variable.tail_roll_progress = Math.clamp((variable.body_shake_angle - 0.2) / 1.8, 0, 1);",
+          "variable.tail_rot_z = (Math.sin(variable.tail_roll_progress * 180) * Math.sin(variable.tail_roll_progress * 1980) * 27) - variable.body_rot_z;",
+          "variable.head_roll_progress = Math.clamp(variable.body_shake_angle / 1.8, 0, 1);",
+          "variable.head_rot_z = (Math.sin(variable.head_roll_progress * 180) * Math.sin(variable.head_roll_progress * 1980) * 27) - variable.body_rot_z;"
+        ]
+      },
+      "animations": {
+        "cmm_big_head": "animation.cmm.big_head",
+        "look_at_target_default": "animation.cmm.look_at_target.default",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming",
+        "wolf_head_rot_z": "animation.cmm.wolf.head_rot_z",
+        "move": "animation.cmm.move",
+        "riding.arms": "animation.cmm.riding.arms",
+        "riding.legs": "animation.cmm.riding.legs",
+        "brandish_spear": "animation.cmm.brandish_spear",
+        "charging": "animation.cmm.charging",
+        "attack.rotations": "animation.cmm.attack.rotations",
+        "bob": "animation.cmm.bob",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs",
+        "swimming": "animation.cmm.swimming",
+        "use_item_progress": "animation.cmm.use_item_progress",
+        "wolf_tail_default": "animation.wolf.tail_default",
+        "wolf_angry": "animation.wolf.angry",
+        "wolf_sitting": "animation.cmm.wolf.sitting"
+      },
+      "animation_controllers": [
+        { "cmm_baby_big_head": "controller.animation.cmm.baby_big_head" },
+        { "look_at_target": "controller.animation.cmm.look_at_target" },
+        { "wolf_head_rot_z": "controller.animation.cmm.wolf.head_rot_z" },
+        { "move": "controller.animation.cmm.wolf.move" },
+        { "riding": "controller.animation.cmm.riding" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" },
+        { "wolf_tail_default": "controller.animation.cmm.wolf.tail_default" },
+        { "wolf_angry": "controller.animation.cmm.wolf.angry" }
+      ],
+      "render_controllers": [ "controller.render.cmm.dog" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "custom_spawn_egg",
+        "texture_index": 3
+      }
+    }
+  }
+}

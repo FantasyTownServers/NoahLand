@@ -1,0 +1,17 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "awwwwman整合",
+        "name": "老婆材质-画包",
+        "uuid": "1af08977-f01b-43d3-832b-7354309ea488",
+        "version": [1, 6, 0]
+    },
+    "modules": [
+        {
+            "description": "awwwwman整合",
+            "type": "resources",
+            "uuid": "0d2dacba-4529-460b-aca0-f8defc9e6c9a",
+            "version": [1, 6, 0]
+        }
+    ]
+}

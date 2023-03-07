@@ -1,0 +1,67 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "storymode:icy_ender_creeper",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "cmm.icy_ender_creeper",
+        "charged": "charged_creeper"
+      },
+      "textures": {
+        "default": "textures/cmm_story_mode/icy_ender_creeper/icy_ender_creeper",
+        "charged": "textures/cmm/creeper/creeper_armor"
+      },
+      "geometry": {
+        "default": "geometry.cmm.icy_ender_creeper.v1.8",
+        "charged": "geometry.cmm.icy_ender_creeper.charged.v1.8"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+          "variable.wobble = Math.sin(query.swell_amount * 5730) * query.swell_amount * 0.01 + 1.0;",
+          "variable.swelling_scale1 = Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.4 + 1.0;",
+          "variable.swelling_scale2 = Math.pow(Math.clamp(query.swell_amount, 0.0, 1.0), 4.0) * 0.1 + 1.0;",
+          "variable.flash = Math.mod(Math.Round(query.swell_amount * 10.0), 2.0);"
+        ]
+      },
+      "animations": {
+        "look_at_target_default": "animation.cmm.look_at_target.default",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming",
+        "move": "animation.cmm.move",
+        "riding.arms": "animation.cmm.riding.arms",
+        "riding.legs": "animation.cmm.riding.legs",
+        "brandish_spear": "animation.cmm.brandish_spear",
+        "charging": "animation.cmm.charging",
+        "attack.rotations": "animation.cmm.attack.rotations",
+        "bob": "animation.cmm.bob",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs",
+        "swimming": "animation.cmm.swimming",
+        "use_item_progress": "animation.cmm.use_item_progress",
+        "carrying": "animation.cmm.enderman.carrying",
+        "icy_ender_creeper_swelling": "animation.cmm.icy_ender_creeper.swelling"
+      },
+      "animation_controllers": [
+        { "look_at_target": "controller.animation.cmm.look_at_target" },
+        { "move": "controller.animation.cmm.move" },
+        { "riding": "controller.animation.cmm.riding" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" },
+        { "carrying": "controller.animation.cmm.enderman.carrying" },
+        { "icy_ender_creeper_swelling": "controller.animation.cmm.icy_ender_creeper.swelling" }
+      ],
+      "render_controllers": [ "controller.render.cmm.icy_ender_creeper" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "custom_spawn_egg",
+        "texture_index": 4
+      }
+    }
+  }
+}

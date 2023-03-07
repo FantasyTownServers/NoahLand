@@ -1,0 +1,80 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:evocation_illager",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "default": "cmm.evoker"
+      },
+      "textures": {
+        "default": "textures/cmm/illager/evoker",
+        "default2": "textures/cmm/illager/evoker/evoker2",
+        "default3": "textures/cmm/illager/evoker/evoker3",
+        "default4": "textures/cmm/illager/evoker/evoker4",
+        "default5": "textures/cmm/illager/evoker/evoker5",
+        "default6": "textures/cmm/illager/evoker/evoker6",
+        "default7": "textures/cmm/illager/evoker/evoker7",
+        "default8": "textures/cmm/illager/evoker/evoker8",
+        "default9": "textures/cmm/illager/evoker/evoker9",
+        "default10": "textures/cmm/illager/evoker/evoker10",
+        "default11": "textures/cmm/illager/evoker/evoker11",
+        "default12": "textures/cmm/illager/evoker/evoker12",
+        "default13": "textures/cmm/illager/evoker/evoker13",
+        "default14": "textures/cmm/illager/evoker/evoker14",
+        "default15": "textures/cmm/illager/evoker/evoker15",
+        "default16": "textures/cmm/illager/evoker/evoker16",
+        "default17": "textures/cmm/illager/evoker/evoker17",
+        "default18": "textures/cmm/illager/evoker/evoker18"
+      },
+      "geometry": {
+        "default": "geometry.cmm.evoker.v1.8"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ],
+        "scale": "0.9375"
+      },
+      "animations": {
+        "look_at_target_default": "animation.cmm.evoker.look_at_target.default",
+        "look_at_target_gliding": "animation.cmm.evoker.look_at_target.gliding",
+        "look_at_target_swimming": "animation.cmm.evoker.look_at_target.swimming",
+        "move": "animation.cmm.move",
+        "move.legs": "animation.cmm.move.legs",
+        "riding.arms": "animation.cmm.riding.arms",
+        "riding.legs": "animation.cmm.riding.legs",
+        "brandish_spear": "animation.cmm.brandish_spear",
+        "charging": "animation.cmm.charging",
+        "attack.rotations": "animation.cmm.attack.rotations",
+        "bob": "animation.cmm.bob",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs",
+        "swimming": "animation.cmm.swimming",
+        "use_item_progress": "animation.cmm.use_item_progress",
+        "casting": "animation.cmm.evoker.casting",
+        "celebrating": "animation.cmm.celebrating"
+      },
+      "animation_controllers": [
+        { "look_at_target": "controller.animation.cmm.look_at_target" },
+        { "move": "controller.animation.cmm.evoker.move" },
+        { "riding": "controller.animation.cmm.riding" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" }
+      ],
+      "particle_effects": {
+        "spell": "minecraft:evoker_spell"
+      },
+      "render_controllers": [ "controller.render.cmm.evoker" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 40
+      }
+    }
+  }
+}

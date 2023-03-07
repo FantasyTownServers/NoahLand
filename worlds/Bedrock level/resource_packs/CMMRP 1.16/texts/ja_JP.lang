@@ -1,0 +1,5 @@
+﻿## Item names
+item.spawn_egg.entity.cmm:ghast_sister.name=シスターガストを出現させる	#
+
+## Entity names
+entity.cmm:ghast_sister.name=シスターガスト	#

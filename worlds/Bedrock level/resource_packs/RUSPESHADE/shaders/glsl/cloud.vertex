@@ -1,0 +1,74 @@
+// __multiversion__
+// This signals the loading code to prepend either #version 100 or #version 300 es as apropriate.
+
+// To use centroid sampling we need to have version 300 es shaders, which requires changing:
+// attribute to in
+// varying to out when in vertex shaders or in when in fragment shaders
+// defining an out vec4 FragColor and replacing uses of gl_FragColor with FragColor
+// texture2D to texture
+
+
+#if __VERSION__ >= 300
+#define attribute in
+#define varying out
+
+#else
+
+
+#endif
+
+uniform MAT4 WORLDVIEWPROJ;
+uniform MAT4 WORLD;
+uniform float RENDER_DISTANCE;
+uniform vec4 FOG_COLOR;
+uniform vec4 CURRENT_COLOR;
+uniform highp float TIME;
+
+attribute mediump vec4 POSITION;
+attribute vec4 COLOR;
+
+varying vec4 color;
+
+const float fogNear = 9999.0;
+const float fogNear2 = 3.0;
+const float fogNear3 = 2.0;
+
+const vec3 inverseLightDirection = vec3(0.502, 1.88, 0.700);
+
+float optimal = -0.26;
+
+float height = 23.0;
+
+mat3 extension = mat3(1.7001, -0.6, 0.721, 5.0, 12.0, 9.0, 3.0, 9.0, 5.0);
+
+
+void main()
+{
+   
+	  POS4 worldPos = WORLD * POSITION;
+    POS4 SSPE1 = POSITION;
+    POS4 SSPE2 = POSITION;
+    SSPE1.y += height;
+    POS4 pos = WORLDVIEWPROJ * POSITION;
+ 	   gl_Position = WORLDVIEWPROJ * POSITION;
+
+    vec3 cpos = SSPE2.xyz * optimal;
+    cpos *= extension;
+
+   	float cloudWav = 1.0;
+    cloudWav = sin((TIME * 0.01) + cpos.x * 2.0) + sin((TIME * 0.01) + cpos.z * 0.5) + sin((TIME * 0.01) + cpos.x * 8.9) + sin((TIME * 0.01) + cpos.z * 0.01) + sin((TIME * 0.3) + cpos.x * 0.65) + sin((TIME * 0.01) + cpos.z * 0.25) + sin((TIME * 0.01) + (cpos.x * 1.990) * (cpos.x * 3.1)) + sin((TIME * 0.01) + cpos.x * 0.14) + sin((TIME * 0.01) + cpos.x * 1.9) + sin((TIME * 0.01) + cpos.x * 2.3);
+
+
+   vec4 dayColor = vec4( 0.8, 0.7, 1.0, CURRENT_COLOR.a);
+   vec4 nightColor = CURRENT_COLOR + vec4(0.2, 0.4, 0.4, CURRENT_COLOR.a);
+ 	  color = mix(nightColor * dayColor, FOG_COLOR, COLOR.r );
+
+
+ 	float depth = length(worldPos.xyz) / 700.0;
+ 	float fog = max(depth - fogNear, 0.400);
+
+ 	color.a *= cloudWav;
+  color.a *= 0.2 - fog;
+
+  if(depth < 100.0 && depth > 95.0){color *= vec4(25.0, 5.0, 4.0, 1.35);}
+}

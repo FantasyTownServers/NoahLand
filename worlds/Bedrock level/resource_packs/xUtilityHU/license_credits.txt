@@ -1,0 +1,28 @@
+If you intend on using this pack or elements of this pack for public use or in your own public
+resource pack/client, you MUST ask me for permission first and credit me! My contacts can be found on
+my mcpedl profile; there is a discord icon next to my MCPEDL username. Consider the possibility
+of copyright strikes (yes, really).
+
+----------------------------------------------------------------------------------
+
+Important notes about intellectual property of some assets in this pack, consider
+giving the following people some attention:
+
+original armor HUD concept: Elwaer M
+https://www.youtube.com/channel/UC3tpoagrvn6HIvDxdrSK3NA
+
+original HUD offhand slot concept: Chainsketch
+https://www.youtube.com/channel/UClnVmLyI1bDAxTEjDpmz8CA
+https://mcpedl.com/user/chainsketch/
+
+The chunk border concept was an original project by MaddHatter, but we worked together to improve upon it
+https://www.youtube.com/channel/UCKHWmRRTGUc0Ssgd3SarD5g
+
+Additional thanks to LukasPAH for helping to optimize the UI code
+https://www.youtube.com/channel/UCqcXHkZw7R_VUgj5YAgdpCg
+https://mcpedl.com/user/lukasplaysgames/
+
+----------------------------------------------------------------------------------
+
+consider subscribing to my youtube channel as well:
+https://www.youtube.com/channel/UC6DhG0JGXaE8HaijzyTbyIQ

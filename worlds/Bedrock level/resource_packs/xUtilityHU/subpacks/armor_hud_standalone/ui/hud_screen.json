@@ -1,0 +1,24 @@
+{
+  "root_panel": {
+    "modifications": [
+      {
+        "array_name": "controls",
+        "operation": "insert_front",
+        "value": {
+          "armor_hud_renderer@hud.armor_hud_renderer": {}
+        }
+      }
+    ]
+  },
+  "armor_hud_renderer": {
+    //player renderer is moved off screen so it is not visible, but stil needed to render models in the HUD 
+    "renderer": "live_player_renderer",
+    "size": [ 17.5, 17.5 ],
+    "anchor_from": "left_middle",
+    "anchor_to": "left_middle",
+    "offset": [ 6, 500 ],//position on screen in x-y sphere, origin is at bottom left but signs are flipped for some reason
+    "layer": 2,
+    "type": "custom"
+  }
+}
+//thanks LukasPAH for the code optimizations!

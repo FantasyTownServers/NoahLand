@@ -1,0 +1,40 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.bat.flying" : {
+      "loop": true,
+      "bones": {
+        "root" : {
+          "position" : [ 0.0, "math.cos(query.life_time * 343.774) * 1.6", 0.0 ],
+          "rotation" : [ "45.0 - math.cos(query.life_time * 1489.6) * 8.59", 0.0, 0.0 ]
+        },
+        "LeftWing" : {
+          "position" : [ "-this", "-this", "-this" ],
+          "rotation" : [ 0.0, "math.cos(query.life_time * 1489.6) * -45.0", 0.0 ]
+        },
+        "RightWing" : {
+          "position" : [ "-this", "-this", "-this" ],
+          "rotation" : [ 0.0, "math.cos(query.life_time * 1489.6) * 45.0", 0.0 ]
+        }
+      }
+    },
+    "animation.cmm.bat.resting": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position" : [ 0, -6, 0 ],
+          "rotation": [ 180, 0, 0 ]
+        },
+        "Head": {
+          "rotation": [ 180, 0, 0 ]
+        },
+        "RightWing": {
+          "rotation": [ 0, 0, -45 ]
+        },
+        "LeftWing": {
+          "rotation": [ 0, 0, 45 ]
+        }
+      }
+    }
+  }
+}

@@ -1,1 +1,0 @@
-fill ~~-1~~~-1~ strat:casting_table_ingot_cast ["strat:material":6,"strat:stage":1] replace strat:casting_table_ingot_cast ["strat:material":0]

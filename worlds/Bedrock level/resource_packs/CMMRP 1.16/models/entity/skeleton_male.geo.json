@@ -1,0 +1,121 @@
+{
+	"format_version": "1.8.0",
+	"geometry.cmm.skeleton.male.v1.8": {
+		"texturewidth": 64,
+		"textureheight": 64,
+		"visible_bounds_width": 2,
+		"visible_bounds_height": 3,
+		"visible_bounds_offset": [0, 1.5, 0],
+		"bones": [{
+			"name": "root",
+			"pivot": [0, 24, 0],
+			"neverRender": true
+		}, {
+			"name": "Hat2",
+			"parent": "Hat1",
+			"pivot": [0, 24, 0],
+			"cubes": [{
+				"origin": [-3.5, 33, -3],
+				"size": [7, 1, 6],
+				"uv": [0, 36]
+			}]
+		}, {
+			"name": "Hat1",
+			"parent": "Hair",
+			"pivot": [0, 24, 0],
+			"cubes": [{
+				"origin": [-4, 30, -3.5],
+				"size": [8, 3, 7],
+				"uv": [0, 26]
+			}]
+		}, {
+			"name": "Hair",
+			"parent": "Head",
+			"pivot": [0, 24, 0],
+			"cubes": [{
+				"origin": [-4, 23, -3.5],
+				"size": [8, 7, 7],
+				"uv": [0, 12]
+			}]
+		}, {
+			"name": "Head",
+			"parent": "Body",
+			"pivot": [0, 24, 0],
+			"cubes": [{
+				"origin": [-3.5, 24, -3],
+				"size": [7, 6, 6],
+				"uv": [0, 0]
+			}]
+		}, {
+			"name": "Neck",
+			"parent": "Body",
+			"pivot": [0, 24, 0],
+			"cubes": [{
+				"origin": [-2, 23, -2],
+				"size": [4, 2, 4],
+				"uv": [48, 58]
+			}]
+		}, {
+			"name": "RightArm",
+			"parent": "Body",
+			"pivot": [-3.5, 22, 0],
+			"cubes": [{
+				"origin": [-6.5, 11, -1.5],
+				"size": [3, 12, 3],
+				"uv": [28, 0]
+			}]
+		}, {
+			"name": "rightItem",
+			"pivot": [-5.5, 15, 1],
+			"neverRender": true,
+			"parent": "RightArm"
+		}, {
+			"name": "LeftArm",
+			"parent": "Body",
+			"pivot": [4.5, 22, 0],
+			"cubes": [{
+				"origin": [3.5, 11, -1.5],
+				"size": [3, 12, 3],
+				"uv": [40, 0]
+			}]
+		}, {
+			"name": "leftItem",
+			"pivot": [5.5, 15, 1],
+			"neverRender": true,
+			"parent": "LeftArm"
+		}, {
+			"name": "Body",
+			"parent": "waist",
+			"pivot": [0, 24, 0],
+			"cubes": [{
+				"origin": [-3.5, 11, -2],
+				"size": [7, 12, 4],
+				"uv": [0, 48],
+				"inflate": 0.01
+			}]
+		}, {
+			"name": "waist",
+			"parent": "root",
+			"pivot": [0, 12, 0],
+			"neverRender": true
+		}, {
+			"name": "RightLeg",
+			"parent": "Body",
+			"pivot": [-2, 12, 0],
+			"cubes": [{
+				"origin": [-3.25, 0, -1.5],
+				"size": [3, 11, 3],
+				"uv": [52, 0]
+			}]
+		}, {
+			"name": "LeftLeg",
+			"parent": "Body",
+			"pivot": [2, 12, 0],
+			"cubes": [{
+				"origin": [0.25, 0, -1.5],
+				"size": [3, 11, 3],
+				"uv": [52, 14]
+			}]
+		}]
+	}
+}

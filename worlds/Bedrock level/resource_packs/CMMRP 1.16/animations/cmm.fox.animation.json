@@ -1,0 +1,174 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.fox.tail_default": {
+      "loop": true,
+      "bones": {
+        "Tail": {
+          "rotation": [ "math.sin(query.life_time * 384.0 + 0) * 10 + 20", "math.sin(query.life_time * 384.0) * 16", "180+math.sin(query.life_time * 192.0) * 50" ]
+        },
+        "TailTip": {
+          "rotation": [ 0, 0, "Math.sin(query.life_time * 192.0) * 10" ]
+        }
+      }
+    },
+    "animation.cmm.fox.crouch": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [ "15.0  - this", 0, 0 ],
+          "position": [ 0, -1.5, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ "-10.0 - this", 0, 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ "-10.0 - this", 0, 0 ]
+        },
+        "Tail": {
+          "rotation": [ "120.0 - this", 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "-13.0 - this", 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-13.0 - this", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.fox.pounce": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [ "90 + query.vertical_speed * -7.0", 0, 0 ],
+          "position": [ 0, -6.5, -3.25 ]
+        },
+        "Head": {
+          "rotation": [ -60.0, "query.target_y_rotation", 0.0 ]
+        },
+        "RightArm": {
+          "rotation": [ -190, 0, -20 ]
+        },
+        "LeftArm": {
+          "rotation": [ -190, 0, 20 ]
+        },
+        "Tail": {
+          "rotation": [ 40, 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ 10, 0, 5 ]
+        },
+        "LeftLeg": {
+          "rotation": [ 10, 0, -5 ]
+        }
+      }
+    },
+    "animation.cmm.fox.sit": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "position": [ 0, -5.5, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ -15, 0, 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ -15, 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ -90, 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -90, 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.fox.sleep": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [ 0, 0, -90 ],
+          "position": [ -1, -9, 0 ]
+        },
+        "Head": {
+          "rotation": [ "math.cos(query.anim_time * 160.0) + -5.0 -this", 15, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ -75, 0, 0 ]
+        },
+        "LeftArm": {
+          "rotation": [ -57.5, 50, 0 ]
+        },
+        "Tail": {
+          "rotation": [ -12.5, 0, 0 ]
+        },
+        "TailTip": {
+          "rotation": [ -20, 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ -60, 20, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -57.5, 35, 0 ]
+        }
+      }
+    },
+    "animation.cmm.fox.stuck": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [ 180, 0, 0 ],
+          "position": [ 0, -10, -0.25 ]
+        },
+        "RightArm": {
+          "rotation": [ -180, 0, -20 ]
+        },
+        "LeftArm": {
+          "rotation": [ -180, 0, 20 ]
+        },
+        "Tail": {
+          "rotation": [ 35, 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ "math.sin(query.life_time * 572.55) *  57.3 * 1.4", 0, 5 ]
+        },
+        "LeftLeg": {
+          "rotation": [ "math.sin(query.life_time * 572.55) *  57.3 * -1.4", 0, -5 ]
+        }
+      }
+    },
+    "animation.cmm.fox.wiggle": {
+      "loop": true,
+      "bones": {
+        "Body": {
+          "position": [ 0, -2, 0 ]
+        },
+        "Head": {
+          "rotation": [ "math.clamp(-5.0 * (query.anim_time / 2.0), -5.0, 0)", 0.0, "math.clamp(25.0 * (query.anim_time / 2.0), 0, 25.0)" ]
+        },
+        "LeftArm": {
+          "rotation": [ -5.7, 0, 0 ]
+        },
+        "LeftLeg": {
+          "rotation": [ -28, 0, 0 ]
+        },
+        "RightArm": {
+          "rotation": [ -5.7, 0, 0 ]
+        },
+        "RightLeg": {
+          "rotation": [ -28, 0, 0 ]
+        },
+        "Tail": {
+          "rotation": [ 130, "math.cos(query.life_time * 20.0 * 53.7) * 10.0 -this", "math.cos(query.life_time * 20.0 * 53.7) * 10.0 -this" ]
+        },
+        "TailTip": {
+          "rotation": [ 0, 0, "-math.cos(query.life_time * 20.0 * 53.7) * 20.0 -this" ]
+        },
+        "root": {
+          "position": [ 0, 0.5, -4.5 ],
+          "rotation": [ "28.0 - this", 0, 0 ]
+        }
+      }
+    }
+  }
+}

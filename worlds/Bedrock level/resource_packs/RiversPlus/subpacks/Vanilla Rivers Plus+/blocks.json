@@ -1,0 +1,44 @@
+{
+  "format_version": [
+    1,
+    1,
+    0
+  ],
+  "waterlily": {
+    "blockshape" : "azalea",
+    "textures": {
+      "up": "lily_pad",
+      "east": "lily_flower",
+      "north": "none",
+      "down": "none",
+      "west": "none",
+      "south": "none"
+    }
+  },
+  "kelp" : {
+     "sound" : "grass",
+     "textures" : {
+        "down" : "kelp_d",
+        "east" : "sea_kelp",
+        "north" : "kelp_a",
+        "south" : "kelp_b",
+        "up" : "kelp_c",
+        "west" : "sea_kelp"
+    }
+  },
+  "reeds": {
+    "blockshape" : "azalea",
+    "textures": {
+      "up": "reeds_top",
+      "east": "reeds",
+      "north": "reeds_side",
+      "down": "none",
+      "west": "none",
+      "south": "none"
+    }
+  },
+  "seagrass": {
+  "blockshape": "fire",
+    "textures": "sea_cattail"
+  }
+}

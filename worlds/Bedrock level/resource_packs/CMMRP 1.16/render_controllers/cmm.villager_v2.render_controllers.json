@@ -1,0 +1,120 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cmm.villager_v2_base": {
+      "arrays": {
+        "geometries": {
+          "Array.geos": [ "Geometry.default", "Geometry.baby" ]
+        },
+        "textures": {
+          "Array.skins": [
+            "Texture.base",
+            "Texture.base2",
+            "Texture.base3",
+            "Texture.base4",
+            "Texture.base5",
+            "Texture.base6"
+          ],
+          "Array.baby": [
+            "Texture.base_baby",
+            "Texture.base_baby2",
+            "Texture.base_baby3",
+            "Texture.base_baby4",
+            "Texture.base_baby5",
+            "Texture.base_baby6"
+          ]
+        }
+      },
+      "geometry": "Array.geos[query.is_baby]",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "query.is_baby ? Array.baby[query.skin_id] : Array.skins[query.skin_id]"
+      ]
+    },
+    "controller.render.cmm.villager_v2_biomes": {
+      "arrays": {
+        "geometries": {
+          "Array.geos": [ "Geometry.default", "Geometry.baby" ]
+        },
+        "textures": {
+          "Array.biomes": [
+            "Texture.plains",
+            "Texture.desert",
+            "Texture.jungle",
+            "Texture.savanna",
+            "Texture.snow",
+            "Texture.swamp",
+            "Texture.taiga"
+          ],
+          "Array.biomes_baby": [
+            "Texture.plains_baby",
+            "Texture.desert_baby",
+            "Texture.jungle_baby",
+            "Texture.savanna_baby",
+            "Texture.snow_baby",
+            "Texture.swamp_baby",
+            "Texture.taiga_baby"
+          ]
+        }
+      },
+      "geometry": "Array.geos[query.is_baby]",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "query.is_baby ? Array.biomes_baby[query.mark_variant] : Array.biomes[query.mark_variant]"
+      ]
+    },
+    "controller.render.cmm.villager_v2_professions": {
+      "arrays": {
+        "geometries": {
+          "Array.geos": [ "Geometry.default", "Geometry.baby" ]
+        },
+        "textures": {
+          "Array.professions": [
+            "Texture.unskilled",
+            "Texture.farmer",
+            "Texture.fisherman",
+            "Texture.shepherd",
+            "Texture.fletcher",
+            "Texture.librarian",
+            "Texture.cartographer",
+            "Texture.cleric",
+            "Texture.armorer",
+            "Texture.weapon_smith",
+            "Texture.tool_smith",
+            "Texture.butcher",
+            "Texture.leatherworker",
+            "Texture.stonemason",
+            "Texture.nitwit"
+          ]
+        }
+      },
+      "geometry": "Array.geos[query.is_baby]",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [
+        "Array.professions[variable.profession_index]"
+      ]
+    },
+    "controller.render.cmm.villager_v2_level": {
+      "arrays": {
+        "geometries": {
+          "Array.geos": [ "Geometry.default", "Geometry.baby" ]
+        },
+        "textures": {
+          "Array.levels": [
+            "Texture.level_stone",
+            "Texture.level_iron",
+            "Texture.level_gold",
+            "Texture.level_emerald",
+            "Texture.level_diamond"
+          ]
+        }
+      },
+      "geometry": "Array.geos[query.is_baby]",
+      "part_visibility": [ { "*": "!query.is_baby && variable.profession_index != 0 && variable.profession_index != 14" } ],
+      "materials": [
+        { "*": "Material.default" }
+      ],
+      "textures": [
+        "Array.levels[variable.level_index]"
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+    "format_version": "1.8.0",
+    "render_controllers": {
+      "controller.render.cmm.bee": {
+        "arrays": {
+            "geometries": {
+              "array.geos": [
+                "Geometry.default",
+                "Geometry.baby"
+              ]
+           },
+            "textures": {
+              "array.skins": [
+                "texture.default",
+                "texture.nectar",
+                "texture.angry",
+                "texture.angry_nectar"
+              ],
+              "array.baby": [
+                "texture.baby",
+                "texture.nectar_baby",
+                "texture.angry_baby",
+                "texture.angry_nectar_baby"
+              ]
+           }
+        },
+        "geometry": "array.geos[query.is_baby]",
+        "part_visibility": [ { "Stinger": "!query.mark_variant == 1" } ],
+        "materials": [ { "*": "Material.default" } ],
+        "textures": [ "query.is_baby ? array.baby[query.is_powered + query.is_angry * 2] : array.skins[query.is_powered + query.is_angry * 2]" ]
+      }
+    }
+  }

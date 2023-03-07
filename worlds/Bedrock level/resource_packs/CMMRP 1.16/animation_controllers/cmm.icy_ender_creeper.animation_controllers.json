@@ -1,0 +1,13 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cmm.icy_ender_creeper.swelling": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "animations": [ "icy_ender_creeper_swelling" ]
+        }
+      }
+    }
+  }
+}

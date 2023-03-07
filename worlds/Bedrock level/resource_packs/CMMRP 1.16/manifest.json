@@ -1,0 +1,24 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Original Mob Talker Designs by AT2. Original Cute Mob Models Mod by Yarrmateys. Mod/Resource Pack Ported by LugiaGamerYT. New Mob Designs by LugiaGamerYT, Kyubi, Shingel42, Emmi, TwikeySi, Rokuyon, and RandomRaven.",
+        "name": "Cute Mob Models Resource Pack 1.16.200 1.1.5",
+        "uuid": "5d25d49c-58aa-11e9-8647-d663bd873d93",
+        "version": [1, 3, 0],
+        "min_engine_version": [ 1, 13, 0 ]
+    },
+    "modules": [
+        {
+            "description": "Original Mob Talker Designs by AT2. Original Cute Mob Models Mod by Yarrmateys. Mod/Resource Pack Ported by LugiaGamerYT. New Mob Designs by LugiaGamerYT, Kyubi, Shingel42, Emmi, TwikeySi, Rokuyon, and RandomRaven.",
+            "type": "resources",
+            "uuid": "5d25d776-58aa-11e9-8647-d663bd873d93",
+            "version": [1, 3, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "7c094808-58aa-11e9-8647-d663bd873d93",
+            "version": [1, 3, 0]
+        }
+    ]
+}

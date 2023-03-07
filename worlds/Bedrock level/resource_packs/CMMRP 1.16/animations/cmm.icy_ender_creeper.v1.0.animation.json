@@ -1,0 +1,85 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.icy_ender_creeper.swelling.v1.0": {
+      "loop": true,
+      "bones": {
+        "HTop": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        },
+        "Hat": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        },
+        "Hair": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        },
+        "BHair": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        },
+        "Head": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        },
+        "Neck1": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        },
+        "Neck2": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        },
+        "RightArm": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        },
+        "LeftArm": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        },
+        "Body": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        },
+        "Body2": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        },
+        "Skirt1": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        },
+        "Skirt2": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        },
+        "RightLeg": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        },
+        "LeftLeg": {
+          "scale": [ "variable.swelling_scale1 * variable.wobble", 
+                     "variable.swelling_scale2 / variable.wobble",
+                     "variable.swelling_scale1 * variable.wobble" ]
+        }
+      }
+    }
+  }
+}

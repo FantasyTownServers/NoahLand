@@ -1,0 +1,30 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "Simply enhances rivers.Made by §4Fused §8Bolt §r.Tap on the GEAR icon for more options",
+        "name": "Rivers Plus+",
+        "uuid": "e2e52da4-8db9-4ee0-a1dc-d0a3360890c1",
+        "version": [1, 1, 0],
+        "min_engine_version": [1, 2, 6]
+    },
+    "modules": [
+        {
+            "description": "Rivers Plus By Fused Bolt",
+            "type": "resources",
+            "uuid": "b9bc6d83-f0f6-4939-975d-f7b7ad95bb8e",
+            "version": [1, 1, 0]
+      }
+   ],
+   "subpacks": [
+   {
+      "folder_name": "Vanilla Rivers Plus+",
+      "name": "Vanilla Rivers Plus+",
+      "memory_tier": 1
+      },
+   {
+      "folder_name": "Fused's Rivers Plus+",
+      "name": "Fused's Rivers Plus+",
+      "memory_tier": 1
+      }
+   ]
+}

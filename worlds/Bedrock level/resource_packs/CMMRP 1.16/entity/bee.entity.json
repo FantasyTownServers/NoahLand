@@ -1,0 +1,64 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:bee",
+      "min_engine_version": "1.8.0",
+      "materials": { "default": "cmm.bee" },
+      "textures": {
+        "default": "textures/cmm/bee/bee",
+        "baby": "textures/cmm/bee/bee_baby",
+        "angry": "textures/cmm/bee/bee_angry",
+        "angry_baby": "textures/cmm/bee/bee_angry_baby",
+        "nectar": "textures/cmm/bee/bee_nectar",
+        "nectar_baby": "textures/cmm/bee/bee_nectar_baby",
+        "angry_nectar": "textures/cmm/bee/bee_angry_nectar",
+        "angry_nectar_baby": "textures/cmm/bee/bee_angry_nectar_baby"
+      },
+      "geometry": {
+        "default": "geometry.cmm.bee.v1.8",
+        "baby": "geometry.cmm.bee.baby.v1.8"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ],
+        "scale": "0.65"
+      },
+      "animations": {
+        "look_at_target_default": "animation.cmm.look_at_target.default",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming",
+        "flying": "animation.cmm.bee.flying",
+        "brandish_spear": "animation.cmm.brandish_spear",
+        "charging": "animation.cmm.charging",
+        "attack.rotations": "animation.cmm.attack.rotations",
+        "bob": "animation.cmm.bee.bob",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs",
+        "swimming": "animation.cmm.swimming",
+        "use_item_progress": "animation.cmm.use_item_progress"
+      },
+      "animation_controllers": [
+        { "flying": "controller.animation.cmm.bee.flying" },
+        { "look_at_target": "controller.animation.cmm.look_at_target" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" },
+        { "drip": "controller.animation.cmm.bee.drip" }
+      ],
+      "particle_effects": {
+        "nectar_dripping": "minecraft:nectar_drip_particle"
+      },
+      "render_controllers": [ "controller.render.cmm.bee" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "egg_bee",
+        "texture_index": 0
+      }
+    }
+  }
+}

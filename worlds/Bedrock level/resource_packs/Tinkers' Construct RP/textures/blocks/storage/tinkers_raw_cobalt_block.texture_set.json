@@ -1,7 +1,0 @@
-{
-	"format_version": "1.16.100",
-	"minecraft:texture_set": {
-		"color": "tinkers_raw_cobalt_block",
-		"metalness_emissive_roughness": [100, 0, 128]
-	}
-}

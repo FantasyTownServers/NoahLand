@@ -1,0 +1,74 @@
+[Crashed!]
+-- Unhandled Exception in -> bedrock_server_mod.exe
+-- Exception Code: 0xC0000005
+-- C++ STL Exception detected!
+
+[StackTrace] Function Dimension::init at 0x7FF74CCFE030  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74CCFE1B2  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function Level::getOrCreateDimension at 0x7FF74CA275C0  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74CA27902  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function onPostInit at 0x7FFB1E9E3FA0  [MovingLight.dll]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FFB1E9E4904  [MovingLight.dll]
+[StackTrace] Function onPostInit at 0x7FFB1E9E3FA0  [MovingLight.dll]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FFB1E9E4CEA  [MovingLight.dll]
+[StackTrace] Function onPostInit at 0x7FFB1E9E3FA0  [MovingLight.dll]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FFB1E9E42DF  [MovingLight.dll]
+[StackTrace] Function entt::basic_storage<ActorOwnerComponent,EntityId,std::allocator<ActorOwnerComponent>,void>::pop at 0x7FF74B985EB0  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74B985F74  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function entt::basic_registry<EntityId,std::allocator<EntityId> >::destroy at 0x7FF74BCCBA80  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74BCCBBC4  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function EntityRegistry::_destroyEntity at 0x7FF74BCCBA40  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74BCCBA71  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function OwnerStorageEntity::~OwnerStorageEntity at 0x7FF74BB7FED0  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74BB7FEFA  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function std::vector<OwnerPtrT<EntityRefTraits>,std::allocator<OwnerPtrT<EntityRefTraits> > >::~vector<OwnerPtrT<EntityRefTraits>,std::allocator<OwnerPtrT<EntityRefTraits> > > at 0x7FF74C03D9D0  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74C03D9FF  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function Level::~Level at 0x7FF74CA18C10  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74CA192D0  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function ServerLevel::`vector deleting destructor' at 0x7FF74C029700  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74C029714  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function entt::basic_storage<LevelComponent,EntityId,std::allocator<LevelComponent>,void>::pop at 0x7FF74BC2C2B0  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74BC2C374  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function entt::basic_registry<EntityId,std::allocator<EntityId> >::destroy at 0x7FF74BCCBA80  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74BCCBBC4  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function EntityRegistry::_destroyEntity at 0x7FF74BCCBA40  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74BCCBA71  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function OwnerStorageEntity::~OwnerStorageEntity at 0x7FF74BB7FED0  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74BB7FEFA  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function Minecraft::~Minecraft at 0x7FF74C712580  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74C7125BB  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function Minecraft::`vector deleting destructor' at 0x7FF74C7127C0  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74C7127D4  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function <lambda_eea4b55ce73e04688a1edc3fabfb52cb>::operator() at 0x7FF74BFA85F0  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74BFA902F  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function std::thread::_Invoke<std::tuple<<lambda_eea4b55ce73e04688a1edc3fabfb52cb> >,0> at 0x7FF74BFA4AB0  [bedrock_server_mod.exe<1.19.63.01>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FF74BFA4ABE  [bedrock_server_mod.exe<1.19.63.01>]
+[StackTrace] Function o_exp at 0x7FFB2FA32630  [ucrtbase.dll<6.2.17763.1490>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FFB2FA3268A  [ucrtbase.dll<6.2.17763.1490>]
+[StackTrace] Function BaseThreadInitThunk at 0x7FFB32847AC0  [KERNEL32.DLL<6.2.17763.3887>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FFB32847AD4  [KERNEL32.DLL<6.2.17763.3887>]
+[StackTrace] Function RtlUserThreadStart at 0x7FFB32A6A350  [ntdll.dll<6.2.17763.3887>]
+-- At File (null) : Line 0 
+[StackTrace] Function ???????? at 0x7FFB32A6A371  [ntdll.dll<6.2.17763.3887>]

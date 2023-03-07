@@ -1,0 +1,62 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.wither_boss.look_at_target" : {
+      "loop": true,
+      "bones": {
+        "Head" : {
+          "rotation" : [ "query.head_x_rotation(0) * 1.0 - this", "query.head_y_rotation(0) * 1.0 - this", "-this" ]
+        },
+        "Neck": {
+          "rotation": [ 0, "query.head_x_rotation(0) * 0.5 - this", 0 ]
+        },
+        "Neck1": {
+          "rotation": [ 0, "query.head_x_rotation(0) * 0.5 - this", 0 ]
+        },
+        "Head2" : {
+          "rotation" : [ "query.head_x_rotation(1) - this", "query.head_y_rotation(1) - this", "-this" ]
+        },
+        "Head3" : {
+          "rotation" : [ "query.head_x_rotation(2) - this", "query.head_y_rotation(2) - this", "-this" ]
+        }
+      }
+    },
+    "animation.cmm.wither.bob": {
+      "loop": true,
+      "bones": {
+        "LeftArm": {
+          "rotation": [ "-Math.sin(query.life_time * 154.8) * 5.73", 0, "((15+math.cos(query.life_time * 154.8) * 11.46) + 11.46) *-1.0" ]
+        },
+        "RightArm": {
+          "rotation": [ "-Math.sin(query.life_time * 154.8) * 5.73", 0, "(15+math.cos(query.life_time * 154.8) * 11.46) + 11.46" ]
+        },
+        "RightLeg": {
+          "rotation": [ "-Math.sin(query.life_time * 115.2) * 5.73", "Math.sin(query.life_time * 115.2) * 5.73", "(math.cos(query.life_time * 115.2) * 5.73) + 5.73" ]
+        },
+        "LeftLeg": {
+          "rotation": [ "-Math.sin(query.life_time * 115.2) * 5.73", "-Math.sin(query.life_time * 115.2) * 5.73", "((math.cos(query.life_time * 115.2) * 5.73) + 5.73) *-1.0" ]
+        },
+        "BHair": {
+          "rotation": [ "(math.cos(query.life_time * 116.1) * 7.19) + 7.19", 0, 0 ]
+        }
+      }
+    },
+    "animation.cmm.wither_boss.move" : {
+      "loop": true,
+      "bones": {
+        "RightArm" : {
+          "rotation" : [ "variable.upper_body_rotation - this", "-this", "-this" ]
+        },
+        "LeftArm" : {
+          "rotation" : [ "variable.upper_body_rotation - this", "-this", "-this" ]
+        },
+        "RightLeg" : {
+          "rotation" : [ "((0.2 + 0.1 * variable.body_base_rotation) * 180) - this", "-this", "-this" ]
+        },
+        "LeftLeg" : {
+          "rotation" : [ "((0.2 + 0.1 * variable.body_base_rotation) * 180) - this", "-this", "-this" ]
+        }
+      }
+    }
+  }
+}

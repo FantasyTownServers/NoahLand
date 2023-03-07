@@ -1,0 +1,86 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "By §3ambient§r\n\n§cADDITIONAL INFORMATION:§r\n-Original Armor HUD concept by §bElwaer M§r\n-Original HUD offhand slot concept by §bChainsketch§r\n-Chunk border display co-created with §bMaddHatter§r\n\n-Chunk border display is only compatible with version 1.16.100 or newer\n-To activate the chunk border display, equip any item besides a shield in your offhand\n-If you experience performance issues with this pack, consider selecting a subpack with less modules activated\n-The health module may not work on The Hive or Cubecraft, and the item eating HUD module may not work on The Hive; it is recommended to select a subpack which has the health module disabled if you are playing on either of these servers",
+    "name": "§k§8x§r §dUtility HUD§r §k§8x§r",
+    "uuid": "3971dfda-876e-4a2f-90b1-7fe2ea5346b4",
+    "version": [ 1, 0, 0 ],
+    "min_engine_version": [ 1, 16, 0 ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "resources",
+      "uuid": "0f1c6506-450b-4a62-b645-0cced2c0cee2",
+      "version": [ 1, 0, 0 ]
+    }
+  ],
+  //cb = chunk border display, ah = armor hud, hp = health display
+  "subpacks":[
+      {
+         "folder_name":"ah_only_no_cb_no_hp_no_hitbox",
+         "name":"§3Only armor HUD in HUD + §cno §3chunk borders + §cno §3health + §cno §3hitbox §a(1.16.0+)§r",
+         "memory_tier":0
+      },
+      {
+         "folder_name":"ah_only_no_cb_no_hp",
+         "name":"§3Only armor HUD in HUD + §cno §3chunk borders + §cno §3health §a(1.16.0+)§r",
+         "memory_tier":0
+      },
+      {
+         "folder_name":"ah_only_no_hp",
+         "name":"§3Only armor HUD in HUD + §cno §3health §e(1.16.100+)§r",
+         "memory_tier":0
+      },
+      {
+         "folder_name":"ah_only_no_cb",
+         "name":"§3Only armor HUD in HUD + §cno §3chunk borders §a(1.16.0+)§r",
+         "memory_tier":0
+      },
+      {
+         "folder_name":"ah_only",
+         "name":"§3Only armor HUD in HUD §e(1.16.100+)§r",
+         "memory_tier":0
+      },
+      {
+         "folder_name":"hud_modules_only",
+         "name":"§3HUD modules only §e(1.16.100+)§r",
+         "memory_tier":0
+      },
+      {
+         "folder_name":"no_cb_no_hp",
+         "name":"§cNo §3chunk borders + §cno §3health §a(1.16.0+)§r",
+         "memory_tier":0
+      },
+      {
+         "folder_name":"armor_hud_standalone",
+         "name":"§6Armor HUD (standalone module) §a(1.16.0+)§r",
+         "memory_tier":0
+      },
+      {
+         "folder_name":"no_cb_no_hitbox",
+         "name":"§cNo §3chunk borders + §r§cno §3hitbox§r §a(1.16.0+)§r",
+         "memory_tier":0
+      },
+      {
+         "folder_name":"no_hitbox",
+         "name":"§cNo §3hitbox §e(1.16.100+)§r",
+         "memory_tier":0
+      },
+      {
+         "folder_name":"no_cb",
+         "name":"§cNo §3chunk borders §a(1.16.0+)§r",
+         "memory_tier":0
+      },
+      {
+         "folder_name":"no_hp",
+         "name":"§cNo §3health §e(1.16.100+)§r",
+         "memory_tier":0
+      },
+      {
+         "folder_name":"default",
+         "name":"§3Default §e(1.16.100+)§r",
+         "memory_tier":0
+      }
+   ]
+}

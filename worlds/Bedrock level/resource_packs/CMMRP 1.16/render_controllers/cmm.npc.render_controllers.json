@@ -1,0 +1,30 @@
+{
+  "format_version": "1.8.0",
+  "render_controllers": {
+    "controller.render.cmm.npc": {
+      "arrays": {
+        "geometries": {
+          "Array.geos": [
+            "Geometry.npc_1",
+            "Geometry.npc_2",
+            "Geometry.npc_3",
+            "Geometry.npc_4",
+            "Geometry.npc_5"
+          ]
+        },
+        "textures": {
+          "Array.skins": [
+            "Texture.npc_1",
+            "Texture.npc_2",
+            "Texture.npc_3",
+            "Texture.npc_4",
+            "Texture.npc_5"
+          ]
+        }
+      },
+      "geometry": "Array.geos[query.variant]",
+      "materials": [ { "*": "Material.default" } ],
+      "textures": [ "Array.skins[query.variant]" ]
+    }
+  }
+}

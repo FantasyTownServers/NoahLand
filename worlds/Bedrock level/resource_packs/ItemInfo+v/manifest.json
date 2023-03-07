@@ -2,12 +2,12 @@
 {
     "format_version": 2,
     "header": {
-        "description": "Pack made by HonKit26113.\nVersion 1.9 released March 24, 2022.",
-        "name": "Item Info+ v1.9",
+        "description": "Pack made by HonKit26113.\nVersion 1.8 released December 24, 2021.",
+        "name": "Item Info+ v1.8",
         "uuid": "1f487343-bb10-455a-9c37-3177c125a1d5",
         "version": [
             1,
-            9,
+            8,
             0
         ],
         "min_engine_version": [
@@ -22,7 +22,7 @@
             "uuid": "e6fc5ce3-c31d-4709-9c22-71796c38587a",
             "version": [
                 1,
-                9,
+                8,
                 0
             ]
         }
@@ -30,32 +30,18 @@
     "subpacks": [
     	{
     		"folder_name": "lessdetails",
-    		"name": "\n§6Hunger & Saturation Points Only§r\n§oOnly Shows Hunger & Saturation Points Given On Food Items.§r\n\nNote: All Saturation bars are rounded to the nearest multiple of 0.5.",
+    		"name": "\n§6Hunger & Saturation Points Only§r\n§oOnly Shows Hunger & Saturation Points Given On Food Items.§r\n\nNote: All Saturation bars are rounded to the nearest multiple of 0.5.\n\nYou must restart Minecraft for the changes to take effect. ",
     		"memory_tier": 1
     	},
     	{
     		"folder_name": "mceicons",
-    		"name": "§bMinecraft Earth Style Icons§r \n§6Detailed Item Names§r\n§oShows Hunger, Saturation & Armor Points, Time To Use Consumables, Max Item Durability, Tools Default Attack Damage, Mob HP & Hostility on Spawn Eggs, Duration of Music Discs, and Banner & Firework Pattern, Enchantment & Light Level Icons.§r",
+    		"name": "§bMinecraft Earth Style Icons§r \n§6Detailed Item Names§r\n§oShows Hunger, Saturation & Armor Points, Time To Use Consumables, Max Item Durability, Tools Default Attack Damage, Mob HP & Hostility on Spawn Eggs, Duration of Music Discs, and Banner Pattern, Enchantment & Light Level Icons.§r\n\nYou must restart Minecraft for the changes to take effect. ",
     		"memory_tier": 2
     	},
     	{
     		"folder_name": "newpack",
-    		"name": "§aVanilla Style Icons§r \n§6Detailed Item Names§r\n§oShows Hunger, Saturation & Armor Points, Time To Use Consumables, Max Item Durability, Tools Default Attack Damage, Mob HP & Hostility on Spawn Eggs, Duration of Music Discs, and Banner & Firework Pattern, Enchantment & Light Level Icons.§r",
+    		"name": "§aVanilla Style Icons§r \n§6Detailed Item Names§r\n§oShows Hunger, Saturation & Armor Points, Time To Use Consumables, Max Item Durability, Tools Default Attack Damage, Mob HP & Hostility on Spawn Eggs, Duration of Music Discs, and Banner Pattern, Enchantment & Light Level Icons.§r\n\nYou must restart Minecraft for the changes to take effect. ",
     		"memory_tier": 3
     	}
-    ],
-    "settings": [
-        {
-            "type": "label",
-            "text": " You must restart Minecraft for the changes to take effect! " // space is deliberate
-        },
-        {
-            "type": "label",
-            "text": " Subpacks can only be changed while in the main menu." // space is deliberate
-        },
-        {
-            "type": "label",
-            "text": " Follow §b@HonKit1103§r on Twitter for update news and announcements!" // space is deliberate
-        }
     ]
 }

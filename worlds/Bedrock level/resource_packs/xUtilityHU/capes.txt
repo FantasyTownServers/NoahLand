@@ -1,0 +1,9 @@
+If you wish to add a *client-side* custom cape to this pack, follow these steps:
+
+-navigate to ..\entity\player.entity.json of your desired subpack (if you use the default subpack, go to the player entity file at the root of the pack)
+-at line 244, remove the 2 forward slashes at the beginning of the line to uncomment the "controller.render.player.cape" line
+-navigate to ..\textures\entity\cape_invisible.png and replace the turtle cape texture with your desired cape
+
+
+Please don't contact me or leave rude comments about capes being invisible, this is the best it's going to get for now.
+-ambient

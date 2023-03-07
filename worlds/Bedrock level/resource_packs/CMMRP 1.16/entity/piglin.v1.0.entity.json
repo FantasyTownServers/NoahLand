@@ -1,0 +1,67 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:piglin",
+      "materials": {
+        "default": "cmm.piglin"
+      },
+      "textures": {
+        "default": "textures/cmm/piglin/piglin",
+        "baby": "textures/cmm/piglin/piglin_baby"
+      },
+      "geometry": {
+        "default": "geometry.cmm.piglin",
+        "baby": "geometry.cmm.piglin.baby"
+      },
+      "spawn_egg": {
+        "base_color": "#995f40",
+        "overlay_color": "#f9f3a4"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;",
+          "variable.attack = Math.sin((1.0 - (1.0 - variable.attack_time) * (1.0 - variable.attack_time)) * 180.0) * 57.3;",
+          "variable.attack2 = Math.sin(variable.attack_time * 180.0) * 57.3;",
+          "variable.z_bob = Math.cos(query.life_time * 103.13244) * 2.865 + 2.865;",
+          "variable.x_bob = Math.sin(query.life_time * 76.776372) * 2.865;"
+        ]
+      },
+      "animations": {
+        "cmm_base_pose": "animation.cmm.base_pose.v1.0",
+        "baby_base_pose": "animation.cmm.baby_base_pose.v1.0",
+        "look_at_target_default": "animation.cmm.look_at_target.default.v1.0",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming.v1.0",
+        "move": "animation.cmm.piglin.move.v1.0",
+        "riding.arms": "animation.cmm.riding.arms.v1.0",
+        "riding.legs": "animation.cmm.riding.legs.v1.0",
+        "holding": "animation.cmm.holding.v1.0",
+        "attack.rotations": "animation.cmm.attack.rotations.v1.0",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs.v1.0",
+        "bob": "animation.cmm.bob.v1.0",
+        "crossbow_hold": "animation.cmm.piglin.crossbow.hold.v1.0",
+        "crossbow_charge": "animation.cmm.piglin.crossbow.charge.v1.0",
+        "melee_attack": "animation.cmm.piglin.sword.attack.v1.0",
+        "hand_attack": "animation.cmm.piglin.hand.attack.v1.0",
+        "admire": "animation.cmm.piglin.admire.v1.0",
+        "celebrate_hunt": "animation.cmm.piglin.celebrate_hunt.v1.0",
+        "celebrate_hunt_special": "animation.cmm.piglin.celebrate_hunt_special.v1.0"
+      },
+      "animation_controllers": [
+        { "cmm_base_pose": "controller.animation.cmm.baby_base_pose" },
+        { "look_at_target": "controller.animation.cmm.look_at_target" },
+        { "move": "controller.animation.cmm.piglin.move" },
+        { "riding": "controller.animation.cmm.riding" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "piglin_attack": "controller.animation.cmm.piglin.attack" },
+        { "pigln_admire": "controller.animation.cmm.piglin.admire" },
+        { "piglin_celebrate_hunt": "controller.animation.cmm.piglin.celebrate" }
+      ],
+      "render_controllers": [ "controller.render.cmm.piglin" ],
+      "enable_attachables": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cmm.enderman.carrying": {
+      "initial_state": "default",
+      "states": {
+        "carry": {
+          "animations": [ "carrying" ],
+          "transitions": [
+            {
+              "default": "!query.is_carrying_block"
+            }
+          ]
+        },
+        "default": {
+          "transitions": [
+            {
+              "carry": "query.is_carrying_block"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

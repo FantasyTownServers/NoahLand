@@ -1,0 +1,30 @@
+{
+  "format_version": 1,
+  "header": {
+    "description": "It's pronounced  \"Arr yoo es pee ee shey ders\" ",
+    "name": "RUSPE SHADERS (1.4.3)",
+    "uuid": "f0bed800-148c-4891-a737-ef85634e7d11",
+    "version": [
+      0,
+      0,
+      1
+    ],
+    "min_engine_version": [
+      1,
+      2,
+      6
+    ]
+  },
+  "modules": [
+    {
+      "description": "Realistic but not laggy",
+      "version": [
+        0,
+        0,
+        1
+      ],
+      "uuid": "3b61ce84-ad0c-4c8b-8d2d-86522101c920",
+      "type": "resources"
+    }
+  ]
+}

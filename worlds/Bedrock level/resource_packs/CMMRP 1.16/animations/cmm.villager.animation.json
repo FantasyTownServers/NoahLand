@@ -1,0 +1,22 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.cmm.villager.sleeping": {
+      "loop": true,
+      "bones": {
+        "root": {
+          "rotation": [ "-90 -this", 0, 0 ],
+          "position": [ 0, "-23 -this", "10 -this" ]
+        }
+      }
+    },
+    "animation.cmm.villager.raise_arms" : {
+      "loop" : true,
+      "bones" : {
+        "RightArm" : {
+          "rotation" : [ "variable.raise_arms * -18", 0, 0 ]
+        }
+      }
+    }
+  }
+}

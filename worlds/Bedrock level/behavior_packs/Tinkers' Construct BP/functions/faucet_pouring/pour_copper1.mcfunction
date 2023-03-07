@@ -1,5 +1,0 @@
-fill ~~-1~~~-1~ strat:casting_table_ingot_cast ["strat:material":2,"strat:stage":1] replace strat:casting_table_ingot_cast ["strat:material":0]
-fill ~~-1~~~-1~ strat:casting_table_tool_rod_cast ["strat:material":2,"strat:stage":1] replace strat:casting_table_tool_rod_cast ["strat:material":0]
-fill ~~-1~~~-1~ strat:casting_table_tool_binding_cast ["strat:material":2,"strat:stage":1] replace strat:casting_table_tool_binding_cast ["strat:material":0]
-fill ~~-1~~~-1~ strat:casting_table_wide_guard_cast ["strat:material":2,"strat:stage":1] replace strat:casting_table_wide_guard_cast ["strat:material":0]
-fill ~~-1~~~-1~ strat:casting_table_hand_guard_cast ["strat:material":2,"strat:stage":1] replace strat:casting_table_hand_guard_cast ["strat:material":0]

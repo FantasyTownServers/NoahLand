@@ -1,0 +1,83 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:llama",
+      "materials": { "default": "cmm.llama" },
+      "textures": {
+        "creamy": "textures/cmm/llama/llama_creamy",
+        "creamy_baby": "textures/cmm/llama/llama_baby_creamy",
+        "white": "textures/cmm/llama/llama_white",
+        "white_baby": "textures/cmm/llama/llama_baby_white",
+        "brown": "textures/cmm/llama/llama_brown",
+        "brown_baby": "textures/cmm/llama/llama_baby_brown",
+        "gray": "textures/cmm/llama/llama_gray",
+        "gray_baby": "textures/cmm/llama/llama_baby_gray",
+        "decor_none": "textures/cmm/llama/decor/decor_none",
+        "decor_white": "textures/cmm/llama/decor/decor_white",
+        "decor_orange": "textures/cmm/llama/decor/decor_orange",
+        "decor_magenta": "textures/cmm/llama/decor/decor_magenta",
+        "decor_light_blue": "textures/cmm/llama/decor/decor_light_blue",
+        "decor_yellow": "textures/cmm/llama/decor/decor_yellow",
+        "decor_lime": "textures/cmm/llama/decor/decor_lime",
+        "decor_pink": "textures/cmm/llama/decor/decor_pink",
+        "decor_gray": "textures/cmm/llama/decor/decor_gray",
+        "decor_silver": "textures/cmm/llama/decor/decor_silver",
+        "decor_cyan": "textures/cmm/llama/decor/decor_cyan",
+        "decor_purple": "textures/cmm/llama/decor/decor_purple",
+        "decor_blue": "textures/cmm/llama/decor/decor_blue",
+        "decor_brown": "textures/cmm/llama/decor/decor_brown",
+        "decor_green": "textures/cmm/llama/decor/decor_green",
+        "decor_red": "textures/cmm/llama/decor/decor_red",
+        "decor_black": "textures/cmm/llama/decor/decor_black",
+        "decor_wandering_trader": "textures/cmm/llama/decor/trader_llama_decor"
+      },
+      "geometry": {
+        "default": "geometry.cmm.llama"
+      },
+      "scripts": {
+        "pre_animation": [
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17) * query.modified_move_speed / variable.gliding_speed_value) * 57.3;"
+        ]
+      },
+      "animations": {
+        "cmm_base_pose": "animation.cmm.base_pose.v1.0",
+        "baby_base_pose": "animation.cmm.baby_base_pose.v1.0",
+        "look_at_target_default": "animation.cmm.look_at_target.default.v1.0",
+        "look_at_target_gliding": "animation.cmm.look_at_target.gliding.v1.0",
+        "look_at_target_swimming": "animation.cmm.look_at_target.swimming.v1.0",
+        "walk": "animation.cmm.walk.v1.0",
+        "walk.legs": "animation.cmm.walk.legs.v1.0",
+        "jump.arms": "animation.cmm.jump.arms.v1.0",
+        "riding.arms": "animation.cmm.riding.arms.v1.0",
+        "riding.legs": "animation.cmm.riding.legs.v1.0",
+        "brandish_spear": "animation.cmm.brandish_spear.v1.0",
+        "charging": "animation.cmm.charging.v1.0",
+        "attack.rotations": "animation.cmm.attack.rotations.v1.0",
+        "bob": "animation.cmm.bob.v1.0",
+        "damage_nearby_mobs": "animation.cmm.damage_nearby_mobs.v1.0",
+        "swimming": "animation.cmm.swimming.v1.0",
+        "use_item_progress": "animation.cmm.use_item_progress.v1.0"
+      },
+      "animation_controllers": [
+        { "cmm_base_pose": "controller.animation.cmm.baby_base_pose" },
+        { "look_at_target": "controller.animation.cmm.look_at_target" },
+        { "walk": "controller.animation.cmm.walk.jump" },
+        { "riding": "controller.animation.cmm.riding" },
+        { "brandish_spear": "controller.animation.cmm.brandish_spear" },
+        { "charging": "controller.animation.cmm.charging" },
+        { "attack": "controller.animation.cmm.attack" },
+        { "bob": "controller.animation.cmm.bob" },
+        { "damage_nearby_mobs": "controller.animation.cmm.damage_nearby_mobs" },
+        { "swimming": "controller.animation.cmm.swimming" },
+        { "use_item_progress": "controller.animation.cmm.use_item_progress" }
+      ],
+      "render_controllers": [ "controller.render.cmm.llama" ],
+      "enable_attachables": true,
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 38
+      }
+    }
+  }
+}

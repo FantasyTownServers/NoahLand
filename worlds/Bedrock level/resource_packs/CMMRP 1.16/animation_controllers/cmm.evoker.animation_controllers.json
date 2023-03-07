@@ -1,0 +1,53 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.cmm.evoker.move": {
+      "initial_state": "default",
+      "states": {
+        "casting": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "casting", "move.legs" ],
+          "particle_effects": [
+            {
+              "effect": "spell",
+              "locator": "left_hand"
+            },
+            {
+              "effect": "spell",
+              "locator": "right_hand"
+            }
+          ],
+          "transitions": [
+            {
+              "default": "!query.is_casting"
+            }
+          ]
+        },
+        "celebrating": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "celebrating", "move.legs" ],
+          "transitions": [
+            {
+              "default": "!query.is_celebrating"
+            }
+          ]
+        },
+        "default": {
+          "blend_transition": 0.2,
+          "blend_via_shortest_path": true,
+          "animations": [ "move" ],
+          "transitions": [
+            {
+              "casting": "query.is_casting"
+            },
+            {
+              "celebrating": "query.is_celebrating"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
